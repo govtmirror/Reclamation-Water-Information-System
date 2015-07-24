@@ -1,0 +1,12 @@
+
+
+
+# Sites
+
+
+
+/v0/sites   -- returns a list of sites
+/v0/sites/LakeMohave    -- returns info for LakeMohave
+
+
+/v0/
