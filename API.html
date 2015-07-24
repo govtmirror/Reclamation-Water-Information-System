@@ -1,7 +1,17 @@
-## Sites
 
-/v0/sites   -- returns a list of sites
-/v0/sites/LakeMohave    -- returns info for LakeMohave
+/v0/reservoir   -- returns a list of sites that have property( reservoir=true)
+/v0/river       -- returns a list of sites that have property( river=true)
+/v0/weather     -- returns a list of sites that have property( weather=true)
+
+/v0/reservoir/LakeMohave  -- returns list of series available for Lake Mohave
+/v0/reservoir/LakeMohave/lchdb2_daily_2163  --series info for (daily average inflow at Lake Mohave)
 
 
-/v0/
+** Time Series Data **
+
+/v0/ts?id=lchdb2_daily_2163&t1=2015-07-22&t2=2015-01-01&format=csv   --series data in csv format.
+
+
+
+
+Reference:
