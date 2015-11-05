@@ -22,6 +22,48 @@
         "install": "01-SEP-1981 12:00:00.00"
       },
       "type": "Feature"
+    },
+     {
+      "geometry": {
+        "coordinates": [
+          -110.668866712,
+          44.1334287124
+        ],
+        "type": "Point"
+      },
+      "id": "42",
+      "properties": {
+        "program": "hydromet",
+        "public_visible": "true",
+        "siteid": "skry",
+        "title": "Snake River Station, WY",
+        "state": "WY",
+        "type": "weather station",
+        "region": "",
+        "install": "......................."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -110.689539428597,
+          44.0459043185943
+        ],
+        "type": "Point"
+      },
+      "id": "24",
+      "properties": {
+        "program": "hydromet",
+        "public_visible": "true",
+        "siteid": "hkby",
+        "title": "Huckleberry Divide, WY",
+        "state": "WY",
+        "type": "hydromet",
+        "region": "",
+        "install": "01-SEP-1981 12:00:00.00"
+      },
+      "type": "Feature"
     }
     
       ], 
