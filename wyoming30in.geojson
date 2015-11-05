@@ -1,0 +1,29 @@
+{
+  "features": [
+
+
+{
+      "geometry": {
+        "coordinates": [
+          -110.736900778,
+          44.0998184686
+        ],
+        "type": "Point"
+      },
+      "id": "18",
+      "properties": {
+        "program": "hydromet",
+        "public_visible": "true",
+        "siteid": "gcky",
+        "title": "Glade Creek",
+        "state": "WY",
+        "type": "weather station",
+        "region": "",
+        "install": "01-SEP-1981 12:00:00.00"
+      },
+      "type": "Feature"
+    },
+    
+      ],
+  "type": "FeatureCollection"
+}
