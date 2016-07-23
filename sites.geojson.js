@@ -1,6125 +1,1734 @@
-var geojsondata = {
-  "features": [
-    {
-      "id": "1",
-      "geometry": {
-        "coordinates": [
-          -112.82667,
-          42.953333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "abei",
-        "title": "Aberdeen, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/20/1991"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "2",
-      "geometry": {
-        "coordinates": [
-          -112.3332,
-          43.18985
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "acki",
-        "title": "INL - Blackfoot,  Idaho  Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "3",
-      "geometry": {
-        "coordinates": [
-          -110.93583,
-          42.73333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "afty",
-        "title": "Afton, Wyoming AgriMet Weather Station",
-        "state": "WY",
-        "type": "agrimet",
-        "install": "11/1/1980"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "4",
-      "geometry": {
-        "coordinates": [
-          -121.9825,
-          42.56527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "agko",
-        "title": "Agency Lake Ranch, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/3/2000"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "5",
-      "geometry": {
-        "coordinates": [
-          -103.4383,
-          43.3433
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "agr",
-        "title": "Angostura Reservoir",
-        "state": "SD",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "6",
-      "geometry": {
-        "coordinates": [
-          -111.46666,
-          44.025
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ahti",
-        "title": "Ashton, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "6/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "7",
-      "geometry": {
-        "coordinates": [
-          -106.7206,
-          42.5489
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "alcr",
-        "title": "Alcova Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "8",
-      "geometry": {
-        "coordinates": [
-          -110.88956823763,
-          43.1962707294061
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "alpy",
-        "title": "Snake River above Reservoir near Alpine, WY",
-        "state": "WY",
-        "type": "hydromet",
-        "install": "01-JUL-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "9",
-      "geometry": {
-        "coordinates": [
-          -99.2964,
-          34.8875
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "altus",
-        "title": "Altus Dam",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "10",
-      "geometry": {
-        "coordinates": [
-          -112.87917,
-          42.77916
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "amf",
-        "title": "American Falls Reservoir at American Falls, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-AUG-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "11",
-      "geometry": {
-        "coordinates": [
-          -112.879473994251,
-          42.7675180027447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "amfi",
-        "title": "Snake River at Neeley, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "......................."
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "12",
-      "geometry": {
-        "coordinates": [
-          -108.8242,
-          43.6639
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ancr",
-        "title": "Anchor  Dam",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "13",
-      "geometry": {
-        "coordinates": [
-          -117.168889,
-          40.093889
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "anvn",
-        "title": "DRI - Antelope Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "6/11/2011"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "14",
-      "geometry": {
-        "coordinates": [
-          -122.75027,
-          45.28194
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "arao",
-        "title": "Aurora, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "10/22/1998"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "15",
-      "geometry": {
-        "coordinates": [
-          -97.0306,
-          34.4306
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "arbuck",
-        "title": "Lake of the Arbuckles",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "16",
-      "geometry": {
-        "coordinates": [
-          -103.6322,
-          41.9867
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "arne",
-        "title": "Lake Alice",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "17",
-      "geometry": {
-        "coordinates": [
-          -124.41722,
-          43.09111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bano",
-        "title": "Bandon, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1985"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "18",
-      "geometry": {
-        "coordinates": [
-          -121.27388,
-          42.47805
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bato",
-        "title": "Beatty, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "10/19/2004"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "19",
-      "geometry": {
-        "coordinates": [
-          -103.0667,
-          42.4583
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bbne",
-        "title": "Box Butte Reservoir",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "20",
-      "geometry": {
-        "coordinates": [
-          -109.1833,
-          44.5014
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bbr",
-        "title": "Buffalo Bill Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": "2/10/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "21",
-      "geometry": {
-        "coordinates": [
-          -121.32027,
-          44.0475
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bewo",
-        "title": "Bend, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/2003"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "22",
-      "geometry": {
-        "coordinates": [
-          -116.27417,
-          43.65303
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bfgi",
-        "title": "Boise Fairgrounds Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "8/15/2013"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "23",
-      "geometry": {
-        "coordinates": [
-          -103.6742,
-          44.7367
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bfr",
-        "title": "Belle Fourche Reservoir",
-        "state": "SD",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "24",
-      "geometry": {
-        "coordinates": [
-          -112.518791976205,
-          43.1251384550335
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bfti",
-        "title": "Snake River near Blackfoot, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-DEC-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "25",
-      "geometry": {
-        "coordinates": [
-          -107.9569,
-          45.3072
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bhr",
-        "title": "Bighorn Lake",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "26",
-      "geometry": {
-        "coordinates": [
-          109.2543,
-          42.1457
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "BIGSANDYRESERVOIR",
-        "title": "BIG SANDY RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "27",
-      "geometry": {
-        "coordinates": [
-          -117.96277,
-          44.88277
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bkvo",
-        "title": "Baker Valley, Oregon Agrimet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/2001"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "28",
-      "geometry": {
-        "coordinates": [
-          -112.491167,
-          41.962167
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "blcu",
-        "title": "UCC - Blue Creek, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "29",
-      "geometry": {
-        "coordinates": [
-          -111.420137,
-          41.933628
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "blou",
-        "title": "UCC - BearLake, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "30",
-      "geometry": {
-        "coordinates": [
-          -109.0417,
-          43.2097
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "blr",
-        "title": "Bull Lake",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "31",
-      "geometry": {
-        "coordinates": [
-          107.205,
-          38.2714
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "BLUEMESARESERVOIR",
-        "title": "BLUE MESA RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "32",
-      "geometry": {
-        "coordinates": [
-          -121.93111,
-          45.64777
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bndw",
-        "title": "Bonneville Dam AgriMet, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/13/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "33",
-      "geometry": {
-        "coordinates": [
-          -116.17694,
-          43.60027
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "boii",
-        "title": "Boise, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "7/26/1995"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "34",
-      "geometry": {
-        "coordinates": [
-          -102.1733,
-          39.6233
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bonc",
-        "title": "Bonny Reservoir",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "35",
-      "geometry": {
-        "coordinates": [
-          -108.1769,
-          43.4
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "boyr",
-        "title": "Boysen Reserovir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "36",
-      "geometry": {
-        "coordinates": [
-          -113.702016666667,
-          37.7196
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "brju",
-        "title": "UCC - Beryl Junction, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "37",
-      "geometry": {
-        "coordinates": [
-          -124.24083,
-          42.03
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "brko",
-        "title": "Brookings, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/27/1999"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "38",
-      "geometry": {
-        "coordinates": [
-          -112.711483,
-          38.0399
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bucu",
-        "title": "UCC - Buckhorn, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "39",
-      "geometry": {
-        "coordinates": [
-          -119.252222,
-          38.223056
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "bvpc",
-        "title": "DRI - Bridgeport Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "7/12/2012"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "40",
-      "geometry": {
-        "coordinates": [
-          1071731.0,
-          325305.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "CABALLORESERVOIR",
-        "title": "CABALLO RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "41",
-      "geometry": {
-        "coordinates": [
-          -99.2197,
-          41.8272
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cane",
-        "title": "Calamus Reservoir",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "42",
-      "geometry": {
-        "coordinates": [
-          -105.2119,
-          40.3242
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "carterco",
-        "title": "Carter Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "43",
-      "geometry": {
-        "coordinates": [
-          111.35,
-          41.173
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "CAUSEYRESERVOIR",
-        "title": "CAUSEY RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "44",
-      "geometry": {
-        "coordinates": [
-          -99.7203,
-          38.79
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cbks",
-        "title": "Cedar Bluff Dam",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "45",
-      "geometry": {
-        "coordinates": [
-          -98.1667,
-          28.4667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ccdt",
-        "title": "Choke Canyon Dam",
-        "state": "TX",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "46",
-      "geometry": {
-        "coordinates": [
-          -112.8575,
-          45.0017
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ccr",
-        "title": "Clark Canyon Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "47",
-      "geometry": {
-        "coordinates": [
-          -116.78418,
-          47.71797
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cdai",
-        "title": "Coeur d'Alene Fairgrounds, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "48",
-      "geometry": {
-        "coordinates": [
-          -120.17138,
-          41.58527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cedc",
-        "title": "Cedarville, California AgriMet Weather Station",
-        "state": "CA",
-        "type": "agrimet",
-        "install": "4/1/1985"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "49",
-      "geometry": {
-        "coordinates": [
-          -113.137166666667,
-          37.6729666666667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cedu",
-        "title": "UCC - Cedar City, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "50",
-      "geometry": {
-        "coordinates": [
-          -111.7275,
-          46.6492
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cfr",
-        "title": "Canyon Ferry Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "51",
-      "geometry": {
-        "coordinates": [
-          -117.73916,
-          48.03138
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "chaw",
-        "title": "Chamokane, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "11/27/2007"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "52",
-      "geometry": {
-        "coordinates": [
-          -97.7939,
-          37.7261
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cheny",
-        "title": "Cheny Dam",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "53",
-      "geometry": {
-        "coordinates": [
-          -105.8514,
-          40.6033
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "chmbrsco",
-        "title": "Chambers Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "54",
-      "geometry": {
-        "coordinates": [
-          -120.72805,
-          43.24138
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "chvo",
-        "title": "Christmas Valley, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/1985"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "55",
-      "geometry": {
-        "coordinates": [
-          -119.63555,
-          47.99083
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cjdw",
-        "title": "Chief Joseph Dam, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/15/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "56",
-      "geometry": {
-        "coordinates": [
-          -110.95611,
-          42.077831
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ckvy",
-        "title": "Cokeville, Wyoming AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/9/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "57",
-      "geometry": {
-        "coordinates": [
-          -98.4564,
-          35.1578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cobb",
-        "title": "Fort Cobb Dam",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "58",
-      "geometry": {
-        "coordinates": [
-          -114.08333,
-          46.33333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "covm",
-        "title": "Corvallis, Montana AgriMet Weather Station",
-        "state": "MT",
-        "type": "agrimet",
-        "install": "4/1/1984"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "59",
-      "geometry": {
-        "coordinates": [
-          -112.17395,
-          41.51915
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "crnu",
-        "title": "UCC - Corinne, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "60",
-      "geometry": {
-        "coordinates": [
-          -114.12777,
-          48.1875
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "crsm",
-        "title": "Creston, Montana AgriMet Weather Station",
-        "state": "MT",
-        "type": "agrimet",
-        "install": "4/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "61",
-      "geometry": {
-        "coordinates": [
-          -123.19,
-          44.63416
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "crvo",
-        "title": "Corvallis, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "2/1/1990"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "62",
-      "geometry": {
-        "coordinates": [
-          107.3725,
-          38.3038
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "CRYSTALRESERVOIR",
-        "title": "CRYSTAL RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "63",
-      "geometry": {
-        "coordinates": [
-          -111.07003,
-          39.220131
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "csdu",
-        "title": "Castle Dale, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/1/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "64",
-      "geometry": {
-        "coordinates": [
-          -109.398967,
-          38.648302
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "csvu",
-        "title": "Castle Valley, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/11/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "65",
-      "geometry": {
-        "coordinates": [
-          110.5425,
-          40.1201
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "CURRANTCREEKRESERVOIRUTAH",
-        "title": "CURRANT CREEK RESERVOIR, UTAH",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "66",
-      "geometry": {
-        "coordinates": [
-          -119.803889,
-          38.992778
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "cvan",
-        "title": "DRI - Carson Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "8/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "67",
-      "geometry": {
-        "coordinates": [
-          -98.7078,
-          41.4047
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "dane",
-        "title": "Davis Creek Dam",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "68",
-      "geometry": {
-        "coordinates": [
-          111.32,
-          40.24
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "DEERCREEKRESERVOIRUTAH",
-        "title": "DEER CREEK RESERVOIR, UTAH",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "69",
-      "geometry": {
-        "coordinates": [
-          -121.64055,
-          45.58638
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "defo",
-        "title": "Dee Flat, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "11/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "70",
-      "geometry": {
-        "coordinates": [
-          -116.22055,
-          46.62333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "deni",
-        "title": "Dworshak - Dent Acres, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "4/19/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "71",
-      "geometry": {
-        "coordinates": [
-          -103.7858,
-          44.0281
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "dfr",
-        "title": "Deerfield Reservoir",
-        "state": "SD",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "72",
-      "geometry": {
-        "coordinates": [
-          -111.87895,
-          41.76295
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "drfu",
-        "title": "UCC - Drainage Farm, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "73",
-      "geometry": {
-        "coordinates": [
-          -112.76666,
-          46.33555
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "drlm",
-        "title": "Deer Lodge, Montana AgriMet Weather Station",
-        "state": "MT",
-        "type": "agrimet",
-        "install": "6/4/1998"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "74",
-      "geometry": {
-        "coordinates": [
-          -117.433522,
-          47.954642
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "drpw",
-        "title": "Deer Park, Washington Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "6/25/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "75",
-      "geometry": {
-        "coordinates": [
-          -122.17916,
-          44.73
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "dtro",
-        "title": "Detroit Lake, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/19/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "76",
-      "geometry": {
-        "coordinates": [
-          -110.36013,
-          40.18068
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ducu",
-        "title": "Duchesne, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "77",
-      "geometry": {
-        "coordinates": [
-          -112.12929,
-          42.43355
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "dwni",
-        "title": "Downey, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/27/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "78",
-      "geometry": {
-        "coordinates": [
-          -102.8269,
-          46.8697
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "eapr",
-        "title": "E.A. Patterson Lake",
-        "state": "ND",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "79",
-      "geometry": {
-        "coordinates": [
-          111.36,
-          40.5514
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "EASTCANYONRESERVOIRNEARMORGAN",
-        "title": "EAST CANYON RESERVOIR NEAR MORGAN",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "80",
-      "geometry": {
-        "coordinates": [
-          -112.651733,
-          43.594133
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ebri",
-        "title": "INL - Material Fuels Complex, Idaho",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "81",
-      "geometry": {
-        "coordinates": [
-          -119.31111,
-          45.71861
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "echo",
-        "title": "Echo, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "3/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "82",
-      "geometry": {
-        "coordinates": [
-          111.2555,
-          40.575
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ECHORESERVOIR",
-        "title": "ECHO RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "83",
-      "geometry": {
-        "coordinates": [
-          109.22,
-          42.43
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "EDENRESERVOIR",
-        "title": "EDEN RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "84",
-      "geometry": {
-        "coordinates": [
-          -101.5175,
-          40.4217
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "edne",
-        "title": "Enders  Dam",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "85",
-      "geometry": {
-        "coordinates": [
-          -120.32373,
-          47.69796
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "efhw",
-        "title": "Entiat Fish Hatchery, Washington Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "9/26/2013"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "86",
-      "geometry": {
-        "coordinates": [
-          1071222.0,
-          330854.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ELEPHANTBUTTERESERVOIR",
-        "title": "ELEPHANT BUTTE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "87",
-      "geometry": {
-        "coordinates": [
-          -110.83798,
-          39.421265
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "elmu",
-        "title": "Elmo, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/3/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "88",
-      "geometry": {
-        "coordinates": [
-          -115.97861,
-          39.68527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "eurn",
-        "title": "Eureka, Nevada AgriMet Weather Station ",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "6/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "89",
-      "geometry": {
-        "coordinates": [
-          -111.833166666667,
-          41.6945
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "evfu",
-        "title": "UCC - Evan's Farm, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "90",
-      "geometry": {
-        "coordinates": [
-          -111.02937,
-          41.19713
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "evty",
-        "title": "Evanston, Wyoming AgriMet Weather Station",
-        "state": "WY",
-        "type": "agrimet",
-        "install": "3/9/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "91",
-      "geometry": {
-        "coordinates": [
-          -114.82222,
-          43.31305
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "fafi",
-        "title": "Fairfield, Idaho AgriMet Weather Station  ",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "6/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "92",
-      "geometry": {
-        "coordinates": [
-          -118.77388,
-          39.4575
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "faln",
-        "title": "Fallon, Nevada AgriMet Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "4/1/2001"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "93",
-      "geometry": {
-        "coordinates": [
-          109.25,
-          40.55
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "FLAMINGGORGERESERVOIR",
-        "title": "FLAMING GORGE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "94",
-      "geometry": {
-        "coordinates": [
-          -105.2361,
-          40.365
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "flaresco",
-        "title": "Flatiron Reservoir",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "95",
-      "geometry": {
-        "coordinates": [
-          -110.667458041053,
-          44.0991451829754
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "flgy",
-        "title": "Snake River near Flagg Ranch, WY",
-        "state": "WY",
-        "type": "hydromet",
-        "install": "01-JUN-1984 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "96",
-      "geometry": {
-        "coordinates": [
-          -112.0004,
-          38.9571
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "flou",
-        "title": "UCC - Flowell, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "97",
-      "geometry": {
-        "coordinates": [
-          -123.08361,
-          45.55305
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "fogo",
-        "title": "Forest Grove, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "98",
-      "geometry": {
-        "coordinates": [
-          110.04,
-          42.02
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "FONTENELLERESERVOIR",
-        "title": "FONTENELLE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "99",
-      "geometry": {
-        "coordinates": [
-          -99.1778,
-          35.5383
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "foss",
-        "title": "Foss Dam",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "100",
-      "geometry": {
-        "coordinates": [
-          -111.15426,
-          39.075554
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "frnu",
-        "title": "Ferron, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/2/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "101",
-      "geometry": {
-        "coordinates": [
-          -109.9458,
-          48.6083
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "frr",
-        "title": "Fresno Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "102",
-      "geometry": {
-        "coordinates": [
-          107.95,
-          35.8333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "FRUITGROWERSRESERVOIRCOLORADO",
-        "title": "FRUITGROWERS RESERVOIR, COLORADO",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "103",
-      "geometry": {
-        "coordinates": [
-          -112.43111,
-          43.07138
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "fthi",
-        "title": "Fort Hall, Idaho AgriMet Weather Station ",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "11/15/1992"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "104",
-      "geometry": {
-        "coordinates": [
-          -118.95361,
-          47.94527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gcdw",
-        "title": "Grand Coulee Dam, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/16/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "105",
-      "geometry": {
-        "coordinates": [
-          -116.05611,
-          42.9125
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gdvi",
-        "title": "Grand View, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "10/1/1992"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "106",
-      "geometry": {
-        "coordinates": [
-          -106.6989,
-          42.5656
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gdwy",
-        "title": "Gray Reef Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "107",
-      "geometry": {
-        "coordinates": [
-          -119.64222,
-          47.04388
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gerw",
-        "title": "George, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "5/1/1986"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "108",
-      "geometry": {
-        "coordinates": [
-          -115.35694,
-          42.86666
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gfri",
-        "title": "Glenns Ferry, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "11/15/1992"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "109",
-      "geometry": {
-        "coordinates": [
-          -112.7617,
-          47.6008
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gibr",
-        "title": "Gibson Dam",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "110",
-      "geometry": {
-        "coordinates": [
-          -105.8022,
-          40.2417
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "glaresco",
-        "title": "Grand Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "111",
-      "geometry": {
-        "coordinates": [
-          -104.9506,
-          42.4772
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "gler",
-        "title": "Glendo Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": "10/12/2007"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "112",
-      "geometry": {
-        "coordinates": [
-          -120.82444,
-          45.81194
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "golw",
-        "title": "Goldendale, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "10/24/1991"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "113",
-      "geometry": {
-        "coordinates": [
-          -105.8706,
-          40.1819
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "graresco",
-        "title": "Lake Granby",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "114",
-      "geometry": {
-        "coordinates": [
-          -111.73606,
-          42.51496
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "grei",
-        "title": "Grace, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "115",
-      "geometry": {
-        "coordinates": [
-          -106.3292,
-          39.8783
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "greresco",
-        "title": "Green Mountain Dam",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "116",
-      "geometry": {
-        "coordinates": [
-          -110.976750605595,
-          43.1429655204963
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "grey",
-        "title": "Greys River above Reservoir near Alpine, WY",
-        "state": "WY",
-        "type": "hydromet",
-        "install": "01-JUL-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "117",
-      "geometry": {
-        "coordinates": [
-          -110.819388776,
-          44.1296590931
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "grs",
-        "title": "Grassy Lake near Moran, WY",
-        "state": "WY",
-        "type": "reservoir",
-        "install": "01-OCT-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "118",
-      "geometry": {
-        "coordinates": [
-          -112.756527,
-          40.530544
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "grtu",
-        "title": "Grantsville, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/10/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "119",
-      "geometry": {
-        "coordinates": [
-          1080440.0,
-          384511.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "GUNNISONRIVERATDELTACO.",
-        "title": "GUNNISON RIVER AT DELTA, CO.",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "120",
-      "geometry": {
-        "coordinates": [
-          107.0,
-          38.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "GUNNISONRIVERBELOWGUNNISONTUNNEL",
-        "title": "GUNNISON RIVER BELOW GUNNISON TUNNEL",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "121",
-      "geometry": {
-        "coordinates": [
-          1082700.0,
-          385900.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "GUNNISONRIVERNEARGRANDJUNCTIONCO",
-        "title": "GUNNISON RIVER NEAR GRAND JUNCTION, CO",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "122",
-      "geometry": {
-        "coordinates": [
-          -104.7633,
-          42.29
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "guwy",
-        "title": "Guernsey   Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "123",
-      "geometry": {
-        "coordinates": [
-          -112.238833,
-          44.007417
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hami",
-        "title": "INL - Hamer,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "124",
-      "geometry": {
-        "coordinates": [
-          -100.6672,
-          40.3575
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hbne",
-        "title": "Hugh Butler Lake",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "125",
-      "geometry": {
-        "coordinates": [
-          -99.2083,
-          40.0694
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hcne",
-        "title": "Harlan County Reservoir USACE",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "126",
-      "geometry": {
-        "coordinates": [
-          -111.3358,
-          44.8642
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hebr",
-        "title": "Hebgen Lake",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "127",
-      "geometry": {
-        "coordinates": [
-          -111.659884444473,
-          43.6123985325706
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "heii",
-        "title": "Snake River near Heise, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-DEC-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "128",
-      "geometry": {
-        "coordinates": [
-          -111.353611,
-          44.597222
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hen",
-        "title": "Henrys Lake Dam on Henrys Fork nr. Lake, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "129",
-      "geometry": {
-        "coordinates": [
-          -111.349599507558,
-          44.5952127940803
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "heni",
-        "title": "Henrys Fork near Lake, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "130",
-      "geometry": {
-        "coordinates": [
-          -103.7133,
-          38.2483
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "henresco",
-        "title": "Lake Henry",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "131",
-      "geometry": {
-        "coordinates": [
-          -119.52138,
-          45.82111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hero",
-        "title": "Hermiston, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1983"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "132",
-      "geometry": {
-        "coordinates": [
-          1040257.0,
-          415925.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hewy",
-        "title": "North Platte the stateline station, Wyoming",
-        "state": "WY",
-        "type": "",
-        "install": "1/1/1990"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "133",
-      "geometry": {
-        "coordinates": [
-          -110.97399,
-          39.307898
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hntu",
-        "title": "Huntington, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/2/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "134",
-      "geometry": {
-        "coordinates": [
-          -121.51805,
-          45.68444
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hoxo",
-        "title": "Hood River, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "135",
-      "geometry": {
-        "coordinates": [
-          -118.02,
-          44.48805
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hrfo",
-        "title": "Hereford, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/28/1998"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "136",
-      "geometry": {
-        "coordinates": [
-          -120.57444,
-          46.38472
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hrhw",
-        "title": "Harrah, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "5/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "137",
-      "geometry": {
-        "coordinates": [
-          -119.28333,
-          45.81944
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hrmo",
-        "title": "Hermiston R & E Center, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "7/15/1993"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "138",
-      "geometry": {
-        "coordinates": [
-          -100.2178,
-          40.4122
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hsne",
-        "title": "Harry Strunk Lake",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "139",
-      "geometry": {
-        "coordinates": [
-          -105.1711,
-          40.5994
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "htoothr",
-        "title": "Horsetooth (Spring Canyon Dam)",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "140",
-      "geometry": {
-        "coordinates": [
-          -119.333056,
-          40.901111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "huan",
-        "title": "DRI - Hualapai Flat, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "10/12/2012"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "141",
-      "geometry": {
-        "coordinates": [
-          111.05,
-          39.23
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "HUNTINGTONNORTHRESERVOIR",
-        "title": "HUNTINGTON NORTH RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "142",
-      "geometry": {
-        "coordinates": [
-          -111.8852,
-          46.6381
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "hvr",
-        "title": "Helena Valley Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "143",
-      "geometry": {
-        "coordinates": [
-          111.152,
-          41.373
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "HYRUMRESERVOIR",
-        "title": "HYRUM RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "144",
-      "geometry": {
-        "coordinates": [
-          -114.134583,
-          43.0606
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ichi",
-        "title": "INL - Richfield,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "145",
-      "geometry": {
-        "coordinates": [
-          -112.050133,
-          43.504133
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ifai",
-        "title": "INL - Idaho Falls,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "146",
-      "geometry": {
-        "coordinates": [
-          -112.730267,
-          43.5897
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "igri",
-        "title": "INL - INTEC/Grid 3, Idaho",
-        "state": "ID",
-        "type": "AgriMet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "147",
-      "geometry": {
-        "coordinates": [
-          -117.96666,
-          45.43333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "imbo",
-        "title": "Imbler, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/1994"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "148",
-      "geometry": {
-        "coordinates": [
-          -111.398427603,
-          44.4189315428
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "isl",
-        "title": "Island Park Dam and Reservoir, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "149",
-      "geometry": {
-        "coordinates": [
-          -111.39472,
-          44.41639
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "isli",
-        "title": "Henrys Fork near Island Park, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "150",
-      "geometry": {
-        "coordinates": [
-          -98.7064,
-          46.9306
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "jamr",
-        "title": "Jamestown Reservoir",
-        "state": "ND",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "151",
-      "geometry": {
-        "coordinates": [
-          -110.5897446,
-          43.8575325
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "jck",
-        "title": "Jackson Lake at Dam on Snake River near Moran, WY",
-        "state": "WY",
-        "type": "reservoir",
-        "install": "01-SEP-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "152",
-      "geometry": {
-        "coordinates": [
-          -110.738671911625,
-          43.372074728326
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "jksy",
-        "title": "Snake River below Flat Creek near Jackson, WY",
-        "state": "WY",
-        "type": "hydromet",
-        "install": "01-DEC-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "153",
-      "geometry": {
-        "coordinates": [
-          -102.9369,
-          38.0681
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "jmrcadco",
-        "title": "John Martin Reservoir",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "154",
-      "geometry": {
-        "coordinates": [
-          111.1554,
-          39.1626
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "JOESVALLEYRESERVOIR",
-        "title": "JOES VALLEY RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "155",
-      "geometry": {
-        "coordinates": [
-          111.253,
-          40.36
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "JORDANELLERESERVOIR",
-        "title": "JORDANELLE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "156",
-      "geometry": {
-        "coordinates": [
-          -104.7792,
-          44.3819
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "keyr",
-        "title": "Keyhole Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "157",
-      "geometry": {
-        "coordinates": [
-          -121.755,
-          42.16472
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "kflo",
-        "title": "Klamath Falls, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "3/30/1999"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "158",
-      "geometry": {
-        "coordinates": [
-          -118.12416,
-          48.595
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "kflw",
-        "title": "Kettle Falls, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/17/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "159",
-      "geometry": {
-        "coordinates": [
-          -106.885,
-          42.18
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "korr",
-        "title": "Kortes Dam",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "160",
-      "geometry": {
-        "coordinates": [
-          -99.9342,
-          39.8078
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ksks",
-        "title": "Keith Sebilius Lake",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "161",
-      "geometry": {
-        "coordinates": [
-          -112.325833333333,
-          43.5486111111111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ktbi",
-        "title": "Kettle Butte, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "10/15/1995"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "162",
-      "geometry": {
-        "coordinates": [
-          -99.1247,
-          39.6636
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "kwks",
-        "title": "Kirwin Reservoir",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "163",
-      "geometry": {
-        "coordinates": [
-          114.0,
-          34.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LakeHavasu",
-        "title": "Lake Havasu",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "164",
-      "geometry": {
-        "coordinates": [
-          114.0,
-          36.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LakeMead",
-        "title": "Lake Mead",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "165",
-      "geometry": {
-        "coordinates": [
-          114.5,
-          35.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LakeMohave",
-        "title": "Lake Mohave",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "166",
-      "geometry": {
-        "coordinates": [
-          111.2852,
-          36.5621
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LAKEPOWELL",
-        "title": "LAKE POWELL",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "167",
-      "geometry": {
-        "coordinates": [
-          1042304.0,
-          343630.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LAKESUMNERNRFORTSUMNER",
-        "title": "LAKE SUMNER NR FORT SUMNER",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "168",
-      "geometry": {
-        "coordinates": [
-          -120.52305,
-          42.12222
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lako",
-        "title": "Lakeview, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "169",
-      "geometry": {
-        "coordinates": [
-          -111.334383333333,
-          41.8379
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "laku",
-        "title": "UCC - Laketown , Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "170",
-      "geometry": {
-        "coordinates": [
-          -103.5722,
-          41.9625
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lane",
-        "title": "Little Lake Alice",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "171",
-      "geometry": {
-        "coordinates": [
-          -117.65416,
-          46.6975
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lbrw",
-        "title": "Lake Bryan - Rice Bar, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/19/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "172",
-      "geometry": {
-        "coordinates": [
-          -118.93611,
-          46.20527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "legw",
-        "title": "Legrow, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "7/1/1986"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "173",
-      "geometry": {
-        "coordinates": [
-          107.39,
-          37.23
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LEMONRESERVOIR",
-        "title": "LEMON RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "174",
-      "geometry": {
-        "coordinates": [
-          -111.0908,
-          48.3183
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ler",
-        "title": "Lake Elwell",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "175",
-      "geometry": {
-        "coordinates": [
-          -111.869033333333,
-          41.9521333333333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lewu",
-        "title": "UCC - Lewiston, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "176",
-      "geometry": {
-        "coordinates": [
-          -112.2,
-          48.2667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lfrm",
-        "title": "Lake Francis",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "177",
-      "geometry": {
-        "coordinates": [
-          -111.803533333333,
-          41.7386833333333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lggu",
-        "title": "UCC - Logan Golf, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "178",
-      "geometry": {
-        "coordinates": [
-          -117.087208,
-          47.66533
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "libw",
-        "title": "Liberty Lake, Washington Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "11/18/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "179",
-      "geometry": {
-        "coordinates": [
-          -118.73944,
-          46.86722
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lidw",
-        "title": "Lind, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "5/1/1983"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "180",
-      "geometry": {
-        "coordinates": [
-          -112.3706,
-          44.6561
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "limr",
-        "title": "Lima Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "181",
-      "geometry": {
-        "coordinates": [
-          -103.4886,
-          41.9183
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lmne",
-        "title": "Lake Minatare",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "182",
-      "geometry": {
-        "coordinates": [
-          -112.730267,
-          43.859767
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lofi",
-        "title": "INL - Specific Manufacturing Capability, Idaho",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "183",
-      "geometry": {
-        "coordinates": [
-          -111.878101336098,
-          43.7353607417867
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lori",
-        "title": "Snake River at Lorenzo, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-DEC-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "184",
-      "geometry": {
-        "coordinates": [
-          -121.22416,
-          42.07777
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "loro",
-        "title": "Lorella, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/2001"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "185",
-      "geometry": {
-        "coordinates": [
-          111.24,
-          41.1105
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "LOSTCREEKRESERVOIR",
-        "title": "LOST CREEK RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "186",
-      "geometry": {
-        "coordinates": [
-          -101.8094,
-          46.5967
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ltr",
-        "title": "Lake Tschida (Heart Butte Dam)",
-        "state": "ND",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "187",
-      "geometry": {
-        "coordinates": [
-          -98.0281,
-          39.8844
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lvks",
-        "title": "Lovewell Reservoir",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "188",
-      "geometry": {
-        "coordinates": [
-          -114.05723,
-          43.49306
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "lwoi",
-        "title": "Little Wood River above High Five Creek, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-OCT-1983 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "189",
-      "geometry": {
-        "coordinates": [
-          -113.41388,
-          42.4375
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mali",
-        "title": "Malta, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "6/1/1983"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "190",
-      "geometry": {
-        "coordinates": [
-          -105.485,
-          40.3764
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "marysr",
-        "title": "Mary's Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "191",
-      "geometry": {
-        "coordinates": [
-          -120.12444,
-          47.91694
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "masw",
-        "title": "Manson, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "11/3/1993"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "192",
-      "geometry": {
-        "coordinates": [
-          -95.875,
-          34.3144
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mcdh",
-        "title": "McGee Creek Dam",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "193",
-      "geometry": {
-        "coordinates": [
-          108.3438,
-          37.3431
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "MCPHEERESERVOIR",
-        "title": "MCPHEE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "194",
-      "geometry": {
-        "coordinates": [
-          -121.07621,
-          44.87789
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdeo",
-        "title": "Moody Farms East Satellite, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/10/2013 12:00:00 AM"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "195",
-      "geometry": {
-        "coordinates": [
-          -122.93777,
-          42.33111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdfo",
-        "title": "Medford, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "196",
-      "geometry": {
-        "coordinates": [
-          -113.58965,
-          42.804417
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdki",
-        "title": "INL - Minidoka,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "197",
-      "geometry": {
-        "coordinates": [
-          -121.06748,
-          44.87365
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdno",
-        "title": "Moody Farms North Satellite, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/10/2013 12:00:00 AM"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "198",
-      "geometry": {
-        "coordinates": [
-          -121.06508,
-          44.86472
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdso",
-        "title": "Moody Farms South Satellite, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/10/2013 12:00:00 AM"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "199",
-      "geometry": {
-        "coordinates": [
-          -121.07948,
-          44.86941
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdto",
-        "title": "Moody Farms West Satellite, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/10/2013 12:00:00 AM"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "200",
-      "geometry": {
-        "coordinates": [
-          -121.0683,
-          44.86912
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mdxo",
-        "title": "Moody Farms Control Station, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/9/2013"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "201",
-      "geometry": {
-        "coordinates": [
-          110.3446,
-          41.0134
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "MEEKSCABINRESERVOIR",
-        "title": "MEEKS CABIN RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "202",
-      "geometry": {
-        "coordinates": [
-          -114.037603928,
-          42.5238940739
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mil",
-        "title": "Milner Dam and Reservoir, Idaho",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "203",
-      "geometry": {
-        "coordinates": [
-          -114.018384693968,
-          42.5281458943181
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mili",
-        "title": "Snake River at Milner, Idaho",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-AUG-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "204",
-      "geometry": {
-        "coordinates": [
-          -113.48333,
-          42.67083
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "min",
-        "title": "Minidoka Dam and Lake Walcott, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-MAY-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "205",
-      "geometry": {
-        "coordinates": [
-          -113.50033664752,
-          42.6728975280516
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mini",
-        "title": "Snake River near Minidoka, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-APR-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "206",
-      "geometry": {
-        "coordinates": [
-          -111.33773,
-          42.25452
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mnpi",
-        "title": "Montpelier, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "207",
-      "geometry": {
-        "coordinates": [
-          -112.157598,
-          38.634188
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mnru",
-        "title": "Monroe, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/11/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "208",
-      "geometry": {
-        "coordinates": [
-          -112.535833333333,
-          44.015
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mnti",
-        "title": "Monteview, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "10/15/1995"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "209",
-      "geometry": {
-        "coordinates": [
-          -114.458889,
-          36.569722
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "moan",
-        "title": "DRI - Moapa Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "2/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "210",
-      "geometry": {
-        "coordinates": [
-          110.2921,
-          40.3343
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "MOONLAKERESERVOIR",
-        "title": "MOON LAKE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "211",
-      "geometry": {
-        "coordinates": [
-          1073212.0,
-          382706.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "MORROWPOINTRESERVOIR",
-        "title": "MORROW POINT RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "212",
-      "geometry": {
-        "coordinates": [
-          -100.8722,
-          42.635
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mrne",
-        "title": "Merritt Reservoir",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "213",
-      "geometry": {
-        "coordinates": [
-          -121.14861,
-          44.68
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mrso",
-        "title": "Madras, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "5/1/1984"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "214",
-      "geometry": {
-        "coordinates": [
-          -119.147222,
-          39.106667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "msvn",
-        "title": "DRI - Mason Valley WMA, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "4/10/2011"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "215",
-      "geometry": {
-        "coordinates": [
-          -106.3533,
-          39.1022
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mtelfbco",
-        "title": "Mt Elbert Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "216",
-      "geometry": {
-        "coordinates": [
-          -111.9198,
-          40.6313333333333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "muru",
-        "title": "UCC - Murray, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "217",
-      "geometry": {
-        "coordinates": [
-          -121.1479,
-          44.85424
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "mwso",
-        "title": "Middle Warm Springs, Oregon Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/12/2013"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "218",
-      "geometry": {
-        "coordinates": [
-          -100.4781,
-          31.3886
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "nasty",
-        "title": "Nasworthy lake",
-        "state": "TX",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "219",
-      "geometry": {
-        "coordinates": [
-          107.3632,
-          36.4828
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "NAVAJORESERVOIR",
-        "title": "NAVAJO RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "220",
-      "geometry": {
-        "coordinates": [
-          107.5,
-          36.5
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "NAVAJORESERVOIRClimate",
-        "title": "NAVAJO RESERVOIR, Climate",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "221",
-      "geometry": {
-        "coordinates": [
-          -107.5186,
-          48.5297
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "nelr",
-        "title": "Nelson Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "222",
-      "geometry": {
-        "coordinates": [
-          -111.876783333333,
-          39.6894166666667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "nepu",
-        "title": "UCC - Nephi, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "223",
-      "geometry": {
-        "coordinates": [
-          111.5834,
-          41.5316
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "NEWTONRESERVOIR",
-        "title": "NEWTON RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "224",
-      "geometry": {
-        "coordinates": [
-          -116.64527,
-          43.43722
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "nmpi",
-        "title": "Nampa, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/11/1996"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "225",
-      "geometry": {
-        "coordinates": [
-          -97.2181,
-          35.2208
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "norman",
-        "title": "Lake Thunderbird",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "226",
-      "geometry": {
-        "coordinates": [
-          1075000.0,
-          384707.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "NORTHFORKGUNNISONRIVERABOVEMOUTHNEARLAZEAR",
-        "title": "NORTH FORK GUNNISON RIVER ABOVE MOUTH NEAR LAZEAR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "227",
-      "geometry": {
-        "coordinates": [
-          1072601.0,
-          385533.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "NORTHFORKGUNNISONRIVERNEARSOMERSET",
-        "title": "NORTH FORK GUNNISON RIVER NEAR SOMERSET",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "228",
-      "geometry": {
-        "coordinates": [
-          -114.506667,
-          39.458056
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "nsvn",
-        "title": "DRI - North Spring Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "6/11/2011"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "229",
-      "geometry": {
-        "coordinates": [
-          -118.87861,
-          47.30888
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "odsw",
-        "title": "Odessa, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/1/1984"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "230",
-      "geometry": {
-        "coordinates": [
-          -105.4883,
-          40.375
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "olydamco",
-        "title": "Lake Estes (Olympus Dam)",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "231",
-      "geometry": {
-        "coordinates": [
-          -119.57611,
-          48.4025
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "omaw",
-        "title": "Omak, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "1/1/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "232",
-      "geometry": {
-        "coordinates": [
-          -117.01527,
-          43.97777
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "onto",
-        "title": "Ontario, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/30/1992"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "233",
-      "geometry": {
-        "coordinates": [
-          -112.07568,
-          43.58884
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "osgi",
-        "title": "Osgood, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "234",
-      "geometry": {
-        "coordinates": [
-          -112.977317,
-          43.784117
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "owei",
-        "title": "INL - Howe, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "235",
-      "geometry": {
-        "coordinates": [
-          -111.2063599,
-          43.3381653
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pal",
-        "title": "Palisades Reservoir near Irwin, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "236",
-      "geometry": {
-        "coordinates": [
-          -111.21888171376,
-          43.3508997442461
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pali",
-        "title": "Snake River near Irwin, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "237",
-      "geometry": {
-        "coordinates": [
-          -112.421766666667,
-          37.8685833333333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "panu",
-        "title": "UCC - Panguitch, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "238",
-      "geometry": {
-        "coordinates": [
-          107.3517,
-          38.9442
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "PAONIARESERVOIRCOLORADO",
-        "title": "PAONIA RESERVOIR, COLORADO",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "239",
-      "geometry": {
-        "coordinates": [
-          -121.61666,
-          45.54444
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "paro",
-        "title": "Parkdale, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "11/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "240",
-      "geometry": {
-        "coordinates": [
-          -112.881066666667,
-          37.8622666666667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "paru",
-        "title": "UCC - Parowan, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "241",
-      "geometry": {
-        "coordinates": [
-          -106.8536,
-          42.4681
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "patr",
-        "title": "Pathfinder  Dam",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "242",
-      "geometry": {
-        "coordinates": [
-          -108.75,
-          43.2
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pbr",
-        "title": "Pilot Butte Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "243",
-      "geometry": {
-        "coordinates": [
-          -118.62777,
-          44.44083
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pcyo",
-        "title": "Prairie City, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/1/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "244",
-      "geometry": {
-        "coordinates": [
-          -109.66665,
-          40.17426
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pelu",
-        "title": "Pelican Lake, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/3/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "245",
-      "geometry": {
-        "coordinates": [
-          -114.16583,
-          43.31166
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pici",
-        "title": "Picabo, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "5/1/1982"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "246",
-      "geometry": {
-        "coordinates": [
-          111.41,
-          41.16
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "PINEVIEWRESERVOIR",
-        "title": "PINEVIEW RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "247",
-      "geometry": {
-        "coordinates": [
-          -105.2864,
-          40.3681
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pinresco",
-        "title": "Pinewood Lake",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "248",
-      "geometry": {
-        "coordinates": [
-          -98.7528,
-          46.9564
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pist",
-        "title": "Pipestem Reservoir",
-        "state": "ND",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "249",
-      "geometry": {
-        "coordinates": [
-          -110.09471,
-          40.1663
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "plvu",
-        "title": "Pleasant Valley, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "12/3/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "250",
-      "geometry": {
-        "coordinates": [
-          -116.93333,
-          43.8
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pmai",
-        "title": "Parma, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/1/1986"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "251",
-      "geometry": {
-        "coordinates": [
-          -121.50916,
-          45.65222
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pngo",
-        "title": "Pine Grove, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "11/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "252",
-      "geometry": {
-        "coordinates": [
-          -120.94972,
-          44.24833
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pobo",
-        "title": "Powell Butte, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "9/21/1993"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "253",
-      "geometry": {
-        "coordinates": [
-          -116.970096,
-          47.713664
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "psfi",
-        "title": "Post Falls, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "11/18/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "254",
-      "geometry": {
-        "coordinates": [
-          -112.4967,
-          47.6767
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pshr",
-        "title": "Pishkin Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "255",
-      "geometry": {
-        "coordinates": [
-          -111.89363,
-          42.10715
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "psti",
-        "title": "Preston, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "11/5/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "256",
-      "geometry": {
-        "coordinates": [
-          -103.4833,
-          44.0722
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ptr",
-        "title": "Pactola Reservoir",
-        "state": "SD",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "257",
-      "geometry": {
-        "coordinates": [
-          -104.7181,
-          38.2597
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "puer",
-        "title": "Pueblo Reservoir",
-        "state": "CO",
-        "type": "",
-        "install": "7/24/2007"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "258",
-      "geometry": {
-        "coordinates": [
-          -117.660278,
-          41.185556
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pvan",
-        "title": "DRI - Paradise Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "11/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "259",
-      "geometry": {
-        "coordinates": [
-          -115.106389,
-          37.245556
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "pwln",
-        "title": "DRI - Pahranagat NWR, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "7/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "260",
-      "geometry": {
-        "coordinates": [
-          -114.28055,
-          47.53944
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rdbm",
-        "title": "Round Butte, Montana AgriMet Weather Station",
-        "state": "MT",
-        "type": "agrimet",
-        "install": "3/1/1989"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "261",
-      "geometry": {
-        "coordinates": [
-          -111.087716666667,
-          41.8326666666667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rdhu",
-        "title": "UCC - Randolph, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "262",
-      "geometry": {
-        "coordinates": [
-          109.23,
-          40.32
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "REDFLEETRESERVOIR",
-        "title": "RED FLEET RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "263",
-      "geometry": {
-        "coordinates": [
-          -111.905030770562,
-          43.8258701508665
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rexi",
-        "title": "Henrys Fork near Rexburg, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-DEC-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "264",
-      "geometry": {
-        "coordinates": [
-          -111.87922,
-          43.6772
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rgbi",
-        "title": "Rigby, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "265",
-      "geometry": {
-        "coordinates": [
-          1074527.0,
-          381409.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "RIDGWAYRESERVOIR",
-        "title": "RIDGWAY RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "266",
-      "geometry": {
-        "coordinates": [
-          107.7628,
-          32.62
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "RIFLEGAPRESERVOIR",
-        "title": "RIFLE GAP RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "267",
-      "geometry": {
-        "coordinates": [
-          -111.74284112,
-          43.5821394015
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rir",
-        "title": "Ririe Dam and Lake near Ririe, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-AUG-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "268",
-      "geometry": {
-        "coordinates": [
-          -1114531.0,
-          433551.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "riri",
-        "title": "Willow Creek below Ririe Dam (comp from RIR)",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "......................."
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "269",
-      "geometry": {
-        "coordinates": [
-          -112.121117,
-          43.743517
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "robi",
-        "title": "INL - Roberts,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "270",
-      "geometry": {
-        "coordinates": [
-          111.2412,
-          40.4725
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ROCKPORTRESERVOIR",
-        "title": "ROCKPORT RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "271",
-      "geometry": {
-        "coordinates": [
-          -116.330833,
-          36.478333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rogn",
-        "title": "DRI - Rogers Spring, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "9/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "272",
-      "geometry": {
-        "coordinates": [
-          -113.87388,
-          42.59555
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rpti",
-        "title": "Rupert, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/1/1988"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "273",
-      "geometry": {
-        "coordinates": [
-          -113.2971,
-          43.62455
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rrci",
-        "title": "INL - Arco,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "274",
-      "geometry": {
-        "coordinates": [
-          -111.700605,
-          43.610345
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rrii",
-        "title": "Ririe, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "275",
-      "geometry": {
-        "coordinates": [
-          -116.83333,
-          47.8
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rthi",
-        "title": "Rathdrum Prairie, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "4/9/2008"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "276",
-      "geometry": {
-        "coordinates": [
-          -106.8181,
-          39.3639
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rueresco",
-        "title": "Ruedi Reservoir",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "277",
-      "geometry": {
-        "coordinates": [
-          -111.76666,
-          43.85
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "rxgi",
-        "title": "Rexburg, Idaho AgriMet Weather Station ",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "6/1/1987"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "278",
-      "geometry": {
-        "coordinates": [
-          -111.037346417455,
-          43.0796352061523
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "saly",
-        "title": "Salt River above Reservoir near Etna, WY",
-        "state": "WY",
-        "type": "hydromet",
-        "install": "01-AUG-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "279",
-      "geometry": {
-        "coordinates": [
-          -101.5508,
-          35.7106
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sanford",
-        "title": "Lake Merideth",
-        "state": "TX",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "280",
-      "geometry": {
-        "coordinates": [
-          107.0,
-          36.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "SANJUANRIVERNEARARCHULETANM",
-        "title": "SAN JUAN RIVER NEAR ARCHULETA,NM",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "281",
-      "geometry": {
-        "coordinates": [
-          -118.34111,
-          47.85527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sbmw",
-        "title": "Seven Bays Marina, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/16/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "282",
-      "geometry": {
-        "coordinates": [
-          111.073,
-          39.4715
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "SCOFIELDRESERVOIR",
-        "title": "SCOFIELD RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "283",
-      "geometry": {
-        "coordinates": [
-          -112.098476,
-          39.22009
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "scpu",
-        "title": "Scipio, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/13/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "284",
-      "geometry": {
-        "coordinates": [
-          -106.9081,
-          42.1558
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "semr",
-        "title": "Seminoe Reservoir",
-        "state": "WY",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "285",
-      "geometry": {
-        "coordinates": [
-          -105.8417,
-          40.2072
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sharesco",
-        "title": "Shadow Mountain Dam",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "286",
-      "geometry": {
-        "coordinates": [
-          -113.5211,
-          48.8283
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sher",
-        "title": "Sherburne Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "287",
-      "geometry": {
-        "coordinates": [
-          -112.14273,
-          43.43452
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "shli",
-        "title": "Shelley, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "288",
-      "geometry": {
-        "coordinates": [
-          -102.2033,
-          45.7533
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "shr",
-        "title": "Shadehill Reservoir",
-        "state": "SD",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "289",
-      "geometry": {
-        "coordinates": [
-          -112.135,
-          43.4130555555555
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "shyi",
-        "title": "Snake River near Shelley, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-MAR-1981 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "290",
-      "geometry": {
-        "coordinates": [
-          -112.058611,
-          43.604722
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sifi",
-        "title": "Snake River near Idaho Falls, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-AUG-1984 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "291",
-      "geometry": {
-        "coordinates": [
-          -114.08416,
-          47.32527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sigm",
-        "title": "Saint Ignatius, Montana AgriMet Weather Station",
-        "state": "MT",
-        "type": "agrimet",
-        "install": "4/1/1991"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "292",
-      "geometry": {
-        "coordinates": [
-          107.5411,
-          38.2328
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "SILVERJACKRESERVOIR",
-        "title": "SILVER JACK RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "293",
-      "geometry": {
-        "coordinates": [
-          -117.18472,
-          46.41861
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "silw",
-        "title": "Silcott Island, Washington AgriMet Weather Station",
-        "state": "WA",
-        "type": "agrimet",
-        "install": "4/19/2002"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "294",
-      "geometry": {
-        "coordinates": [
-          -116.71243,
-          47.901142
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "slwi",
-        "title": "Silverwood WWTP Athol, Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "6/26/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "295",
-      "geometry": {
-        "coordinates": [
-          -119.335556,
-          38.751389
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "smvn",
-        "title": "DRI - Smith Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "8/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "296",
-      "geometry": {
-        "coordinates": [
-          -112.369302100176,
-          43.19730610727
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "snai",
-        "title": "Snake River at Blackfoot, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-MAY-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "297",
-      "geometry": {
-        "coordinates": [
-          -114.089722,
-          39.021111
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "snkn",
-        "title": "DRI - Snake Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "8/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "298",
-      "geometry": {
-        "coordinates": [
-          -112.72465,
-          41.86625
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "snsu",
-        "title": "UCC - Snowville South, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "299",
-      "geometry": {
-        "coordinates": [
-          -112.911983333333,
-          41.9838166666667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "snwu",
-        "title": "UCC - Snowville (West), Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "300",
-      "geometry": {
-        "coordinates": [
-          -119.737778,
-          39.503056
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "span",
-        "title": "DRI - Truckee Meadows, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "5/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "301",
-      "geometry": {
-        "coordinates": [
-          -111.629116666667,
-          40.0672
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "spfu",
-        "title": "UCC - Spanish Fork, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "302",
-      "geometry": {
-        "coordinates": [
-          -116.884978,
-          47.987552
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "spli",
-        "title": "Spirit Lake, Washington Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "11/19/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "303",
-      "geometry": {
-        "coordinates": [
-          -111.537214,
-          39.485745
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "spvu",
-        "title": "San Pete Valley, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/16/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "304",
-      "geometry": {
-        "coordinates": [
-          -115.7975,
-          37.646667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "ssvn",
-        "title": "DRI - Sand Spring Valley, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "12/10/2010"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "305",
-      "geometry": {
-        "coordinates": [
-          110.33,
-          40.09
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "STARVATIONRESERVOIR",
-        "title": "STARVATION RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "306",
-      "geometry": {
-        "coordinates": [
-          110.2303,
-          40.592
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "STATELINERESERVOIR",
-        "title": "STATELINE RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "307",
-      "geometry": {
-        "coordinates": [
-          109.37,
-          40.34
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "STEINAKERRESERVOIR",
-        "title": "STEINAKER RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "308",
-      "geometry": {
-        "coordinates": [
-          111.0127,
-          40.08
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "STRAWBERRYRESERVOIREXPANDED",
-        "title": "STRAWBERRY RESERVOIR (EXPANDED)",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "309",
-      "geometry": {
-        "coordinates": [
-          -114.651389,
-          40.084167
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "stvn",
-        "title": "DRI - Steptoe Valley North, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "3/11/2011"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "310",
-      "geometry": {
-        "coordinates": [
-          -111.737617,
-          43.896583
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sugi",
-        "title": "INL - Sugar City,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "311",
-      "geometry": {
-        "coordinates": [
-          -112.63823,
-          39.45071
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "sutu",
-        "title": "Sutherland, Utah  AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "312",
-      "geometry": {
-        "coordinates": [
-          -114.810278,
-          39.195556
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "swmn",
-        "title": "DRI - Steptoe Valley WMA, Nevada Weather Station",
-        "state": "NV",
-        "type": "agrimet",
-        "install": "3/11/2011"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "313",
-      "geometry": {
-        "coordinates": [
-          -112.8667,
-          48.15
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "swtr",
-        "title": "Swift Reservoir",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "314",
-      "geometry": {
-        "coordinates": [
-          -112.6918,
-          43.318683
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "tabi",
-        "title": "INL - Taber,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "315",
-      "geometry": {
-        "coordinates": [
-          106.3624,
-          38.4907
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "TAYLORPARKRESERVOIR",
-        "title": "TAYLOR PARK RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "316",
-      "geometry": {
-        "coordinates": [
-          -111.613803045965,
-          43.9270485926148
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "teai",
-        "title": "Teton River near St. Anthony, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "317",
-      "geometry": {
-        "coordinates": [
-          -112.41825,
-          43.841683
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "teri",
-        "title": "INL - Terreton,  Idaho Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "318",
-      "geometry": {
-        "coordinates": [
-          -114.601548,
-          42.568782
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "tfgi",
-        "title": "Twin Falls Fairgrounds, Filer Idaho",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "8/21/2013"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "319",
-      "geometry": {
-        "coordinates": [
-          -98.9881,
-          34.7381
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "toms",
-        "title": "Tom Steed Reservoir",
-        "state": "OK",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "320",
-      "geometry": {
-        "coordinates": [
-          -100.5336,
-          31.3769
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "trgt",
-        "title": "Twin Buttes Reservoir",
-        "state": "TX",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "321",
-      "geometry": {
-        "coordinates": [
-          -112.15375,
-          41.7229333333333
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "trmu",
-        "title": "UCC - Tremonton, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "322",
-      "geometry": {
-        "coordinates": [
-          -101.0631,
-          40.1614
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "trne",
-        "title": "Swanson Lake",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "323",
-      "geometry": {
-        "coordinates": [
-          -112.046416,
-          37.627466
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "trpu",
-        "title": "Tropic, Utah AgriMet Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": "3/12/2015"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "324",
-      "geometry": {
-        "coordinates": [
-          -112.26394,
-          43.8704
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "trti",
-        "title": "Terraton, Idaho AgriMet Weather Station",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/13/2014"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "325",
-      "geometry": {
-        "coordinates": [
-          -106.3742,
-          39.2528
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "turq",
-        "title": "Turquoise Lake",
-        "state": "CO",
-        "type": "",
-        "install": "2/7/2006"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "326",
-      "geometry": {
-        "coordinates": [
-          -114.34527,
-          42.54611
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "twfi",
-        "title": "Twin Falls (Kimberly) Idaho AgriMet Weather Station  7E",
-        "state": "ID",
-        "type": "agrimet",
-        "install": "3/1/1990"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "327",
-      "geometry": {
-        "coordinates": [
-          -106.3139,
-          39.0803
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "twiresco",
-        "title": "Twin Lakes",
-        "state": "CO",
-        "type": "",
-        "install": "6/19/2008"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "328",
-      "geometry": {
-        "coordinates": [
-          1080449.0,
-          384431.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "UNCOMPAHGRERIVERATDELTACO.",
-        "title": "UNCOMPAHGRE RIVER AT DELTA, CO.",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "329",
-      "geometry": {
-        "coordinates": [
-          110.392,
-          40.3245
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "UPPERSTILLWATERRESERVOIR",
-        "title": "UPPER STILLWATER RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "330",
-      "geometry": {
-        "coordinates": [
-          107.5753,
-          37.23
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "VALLECITORESERVOIR",
-        "title": "VALLECITO RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "331",
-      "geometry": {
-        "coordinates": [
-          -112.000367,
-          38.8235
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "vecu",
-        "title": "UCC - Venice, Utah Weather Station",
-        "state": "UT",
-        "type": "agrimet",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "332",
-      "geometry": {
-        "coordinates": [
-          -98.3133,
-          39.4961
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "waks",
-        "title": "Waconda Lake",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "333",
-      "geometry": {
-        "coordinates": [
-          -99.4258,
-          39.3914
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wbks",
-        "title": "Webster Reservoir",
-        "state": "KS",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "334",
-      "geometry": {
-        "coordinates": [
-          -103.5322,
-          41.9575
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wcne",
-        "title": "Winters Creek Reservoir",
-        "state": "NE",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "335",
-      "geometry": {
-        "coordinates": [
-          -112.4292,
-          47.5467
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wcr",
-        "title": "Willow Creek  Reservoir MT",
-        "state": "MT",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "336",
-      "geometry": {
-        "coordinates": [
-          112.06,
-          41.23
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "WILLARDBAYRESERVOIR",
-        "title": "WILLARD BAY RESERVOIR",
-        "state": "",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "337",
-      "geometry": {
-        "coordinates": [
-          -105.9419,
-          40.1478
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wilresco",
-        "title": "Willow Creek Reservoir CO ",
-        "state": "CO",
-        "type": "",
-        "install": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "338",
-      "geometry": {
-        "coordinates": [
-          -114.02723,
-          43.42528
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wod",
-        "title": "Little Wood Dam and Reservoir near Carey, ID",
-        "state": "ID",
-        "type": "reservoir",
-        "install": "01-NOV-1982 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "339",
-      "geometry": {
-        "coordinates": [
-          -113.999677851083,
-          43.3899574069921
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wodi",
-        "title": "Little Wood River near Carey, ID",
-        "state": "ID",
-        "type": "hydromet",
-        "install": "01-NOV-1980 12:00:00.00"
-      },
-      "type": "Feature"
-    },
-    {
-      "id": "340",
-      "geometry": {
-        "coordinates": [
-          -121.7875,
-          42.0125
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "siteid": "wrdo",
-        "title": "Worden, Oregon AgriMet Weather Station",
-        "state": "OR",
-        "type": "agrimet",
-        "install": "4/19/2000"
-      },
-      "type": "Feature"
-    }
-  ],
-  "type": "FeatureCollection"
-}
+var geojsondata = {"features": [
+{"type": "Feature", "id": "1", "geometry": {"coordinates": [-112.82667,42.953333],"type": "Point"}, "properties": {"siteid": "abei","title": "Aberdeen; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "2", "geometry": {"coordinates": [-106.4289,36.24],"type": "Point"}, "properties": {"siteid": "abiquiureservoir","title": "ABIQUIU RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "3", "geometry": {"coordinates": [-112.3332,43.18985],"type": "Point"}, "properties": {"siteid": "acki","title": "INL - Blackfoot;  Idaho  Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "4", "geometry": {"coordinates": [-105.5775,40.3278],"type": "Point"}, "properties": {"siteid": "adamstunnelatnrestespark","title": "ALVA B. ADAMS TUNNEL AT EAST PORTAL NEAR ESTES PARK","type": "diversion"}},
+{"type": "Feature", "id": "5", "geometry": {"coordinates": [-105.5775,40.32778],"type": "Point"}, "properties": {"siteid": "adatunco","title": "ALVA B ADAMS TUNNEL @ E PORTAL NR ESTES PARK; CO","type": "diversion"}},
+{"type": "Feature", "id": "6", "geometry": {"coordinates": [-105.80222,40.24167],"type": "Point"}, "properties": {"siteid": "adawplco","title": "ADAMS TUNNEL; WEST PORTAL; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "7", "geometry": {"coordinates": [-103.89166,41.975],"type": "Point"}, "properties": {"siteid": "adne","title": "AKERS DRAW DIVERSION INTO TRI-STATE CANAL; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "8", "geometry": {"coordinates": [-110.93583,42.73333],"type": "Point"}, "properties": {"siteid": "afty","title": "Afton; Wyoming AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "9", "geometry": {"coordinates": [-121.9825,42.56527],"type": "Point"}, "properties": {"siteid": "agko","title": "Agency Lake Ranch; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "10", "geometry": {"coordinates": [-103.43833,43.34333],"type": "Point"}, "properties": {"siteid": "agr","title": "ANGOSTURA RESERVOIR (CHEYENNE RIVER BLW DAM); SD","type": "reservoir"}},
+{"type": "Feature", "id": "11", "geometry": {"coordinates": [-112.2712,37.52],"type": "Point"}, "properties": {"siteid": "aguacanyonswe","title": "AGUA CANYON","type": "snotel"}},
+{"type": "Feature", "id": "12", "geometry": {"coordinates": [-107.9464,36.1503],"type": "Point"}, "properties": {"siteid": "ahshislepahwashnearkimbeto","title": "AH-SHI-SLE-PAH WASH NEAR KIMBETO ;NM","type": "stream"}},
+{"type": "Feature", "id": "13", "geometry": {"coordinates": [-111.46666,44.025],"type": "Point"}, "properties": {"siteid": "ahti","title": "Ashton; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "14", "geometry": {"coordinates": [-103.63278,41.99805],"type": "Point"}, "properties": {"siteid": "aine","title": "LAKE ALICE RESERVOIR INFLOW; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "15", "geometry": {"coordinates": [-113.6014,34.2314],"type": "Point"}, "properties": {"siteid": "alamoreservoir","title": "Alamo Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "16", "geometry": {"coordinates": [-106.72056,42.54889],"type": "Point"}, "properties": {"siteid": "alcr","title": "ALCOVA RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "17", "geometry": {"coordinates": [-107.9553,38.8267],"type": "Point"}, "properties": {"siteid": "alfalfablfruitgrowers","title": "ALFALFA RUN BL FRUITGROWERS; Deliveries","type": "canal"}},
+{"type": "Feature", "id": "18", "geometry": {"coordinates": [-107.9292,38.8547],"type": "Point"}, "properties": {"siteid": "alfalfaditchabovefruitgrowersreservoir","title": "ALFALFA DITCH ABOVE FRUIT GROWERS RESERVOIR NEAR ECKERT","type": "diversion"}},
+{"type": "Feature", "id": "19", "geometry": {"coordinates": [-109.24416,48.61028],"type": "Point"}, "properties": {"siteid": "alfvalmt","title": "ALFALFA VALLEY CANAL DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "20", "geometry": {"coordinates": [-99.74722,39.86611],"type": "Point"}, "properties": {"siteid": "alks","title": "ALMENA DIVERSION; KANSAS","type": "diversion"}},
+{"type": "Feature", "id": "21", "geometry": {"coordinates": [-114.4797,32.8714],"type": "Point"}, "properties": {"siteid": "allamericancanalnearimperialdam","title": "All-American Canal near Imperial Dam","type": "diversion"}},
+{"type": "Feature", "id": "22", "geometry": {"coordinates": [-110.8895682,43.19627073],"type": "Point"}, "properties": {"siteid": "alpy","title": "Snake River above Reservoir near Alpine; WY","type": "stream"}},
+{"type": "Feature", "id": "23", "geometry": {"coordinates": [-99.29639,34.8875],"type": "Point"}, "properties": {"siteid": "altus","title": "ALTUS DAM; OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "24", "geometry": {"coordinates": [-106.525,31.7669],"type": "Point"}, "properties": {"siteid": "americancanalatelpaso","title": "AMERICAN CANAL AT EL PASO","type": "canal"}},
+{"type": "Feature", "id": "25", "geometry": {"coordinates": [-112.87917,42.77916],"type": "Point"}, "properties": {"siteid": "amf","title": "American Falls Reservoir at American Falls; ID","type": "reservoir"}},
+{"type": "Feature", "id": "26", "geometry": {"coordinates": [-112.879474,42.767518],"type": "Point"}, "properties": {"siteid": "amfi","title": "Snake River at Neeley; ID","type": "stream"}},
+{"type": "Feature", "id": "27", "geometry": {"coordinates": [-98.24305,35.085],"type": "Point"}, "properties": {"siteid": "anad","title": "WASHITA RIVER NEAR ANADARKO; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "28", "geometry": {"coordinates": [-108.82417,43.66389],"type": "Point"}, "properties": {"siteid": "ancr","title": "ANCHOR RESERVOIR; SOUTH FORK OWL CREEK; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "29", "geometry": {"coordinates": [-107.775,37.5667],"type": "Point"}, "properties": {"siteid": "animasriverabovetacoma","title": "ANIMAS RIVER AT TALL TIMBER RESORT NEAR ROCKWOOD","type": "stream"}},
+{"type": "Feature", "id": "30", "geometry": {"coordinates": [-107.8797,37.2669],"type": "Point"}, "properties": {"siteid": "animasriveratdurango","title": "ANIMAS RIVER AT DURANGO; CO.","type": "stream"}},
+{"type": "Feature", "id": "31", "geometry": {"coordinates": [-108.2014,36.7214],"type": "Point"}, "properties": {"siteid": "animasriveratfarmington","title": "ANIMAS RIVER AT FARMINGTON; NM","type": "stream"}},
+{"type": "Feature", "id": "32", "geometry": {"coordinates": [-107.5989,37.8169],"type": "Point"}, "properties": {"siteid": "animasriverathowardsville","title": "ANIMAS RIVER AT HOWARDSVILLE; CO.","type": "stream"}},
+{"type": "Feature", "id": "33", "geometry": {"coordinates": [-107.6586,37.8003],"type": "Point"}, "properties": {"siteid": "animasriveratsilverton","title": "ANIMAS RIVER AT SILVERTON; CO.","type": "stream"}},
+{"type": "Feature", "id": "34", "geometry": {"coordinates": [-107.8725,37.2492],"type": "Point"}, "properties": {"siteid": "animasriverbelowdpp","title": "ANIMAS RIVER BELOW DPP","type": "stream"}},
+{"type": "Feature", "id": "35", "geometry": {"coordinates": [-107.6669,37.7903],"type": "Point"}, "properties": {"siteid": "animasriverbelowsilverton","title": "ANIMAS RIVER BELOW SILVERTON; CO","type": "stream"}},
+{"type": "Feature", "id": "36", "geometry": {"coordinates": [-107.8736,37.0381],"type": "Point"}, "properties": {"siteid": "animasrivernearcedarhill","title": "ANIMAS RIVER NEAR CEDAR HILL; N. MEX.","type": "stream"}},
+{"type": "Feature", "id": "37", "geometry": {"coordinates": [-117.168889,40.093889],"type": "Point"}, "properties": {"siteid": "anvn","title": "DRI - Antelope Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "38", "geometry": {"coordinates": [-105.0675,37.33],"type": "Point"}, "properties": {"siteid": "apishapaswe","title": "APISHAPA","type": "snotel"}},
+{"type": "Feature", "id": "39", "geometry": {"coordinates": [-105.06667,37.33333],"type": "Point"}, "properties": {"siteid": "apsc","title": "APISHAPA; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "40", "geometry": {"coordinates": [-106.38333,40.35],"type": "Point"}, "properties": {"siteid": "arac","title": "ARAPAHOE RIDGE; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "41", "geometry": {"coordinates": [-122.75027,45.28194],"type": "Point"}, "properties": {"siteid": "arao","title": "Aurora; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "42", "geometry": {"coordinates": [-97.03056,34.43056],"type": "Point"}, "properties": {"siteid": "arbuck","title": "ARBUCKLE DAM (LAKE OF THE ARBUCKLES); OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "43", "geometry": {"coordinates": [-108.78389,43.19167],"type": "Point"}, "properties": {"siteid": "argy","title": "ARAGON DITCH; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "44", "geometry": {"coordinates": [-104.39861,38.24805],"type": "Point"}, "properties": {"siteid": "arkavoco","title": "ARKANSAS RIVER NEAR AVONDALE; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "45", "geometry": {"coordinates": [-105.26167,38.425],"type": "Point"}, "properties": {"siteid": "arkcanco","title": "ARKANSAS RIVER AT CANYON CITY; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "46", "geometry": {"coordinates": [-102.31028,38.09555],"type": "Point"}, "properties": {"siteid": "arkgraco","title": "ARKANSAS RIVER AT GRANADA; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "47", "geometry": {"coordinates": [-106.26527,39.04278],"type": "Point"}, "properties": {"siteid": "arkgrnco","title": "ARKANSAS RIVER AT GRANITE; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "48", "geometry": {"coordinates": [-106.05056,38.65223],"type": "Point"}, "properties": {"siteid": "arknatco","title": "ARKANSAS RIVER NEAR NATHROP; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "49", "geometry": {"coordinates": [-104.17278,38.18417],"type": "Point"}, "properties": {"siteid": "arknepco","title": "ARKANSAS RIVER NEAR NEPESTA; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "50", "geometry": {"coordinates": [-105.01556,38.38834],"type": "Point"}, "properties": {"siteid": "arkporco","title": "ARKANSAS RIVER AT PORTLAND; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "51", "geometry": {"coordinates": [-104.71833,38.27139],"type": "Point"}, "properties": {"siteid": "arkpueco","title": "ARKANSAS RIVER ABOVE PUEBLO; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "52", "geometry": {"coordinates": [-106.01,38.54583],"type": "Point"}, "properties": {"siteid": "arksalco","title": "ARKANSAS RIVER AT SALIDA; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "53", "geometry": {"coordinates": [-105.93972,38.50278],"type": "Point"}, "properties": {"siteid": "arkwelco","title": "ARKANSAS RIVER NEAR WELLSVILLE; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "54", "geometry": {"coordinates": [-98.33611,28.84583],"type": "Point"}, "properties": {"siteid": "armt","title": "ATASCOSA RIVER NEAR MCCOY; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "55", "geometry": {"coordinates": [-103.63223,41.98667],"type": "Point"}, "properties": {"siteid": "arne","title": "LAKE ALICE RESERVOIR ELEVATION; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "56", "geometry": {"coordinates": [-105.75,39.9167],"type": "Point"}, "properties": {"siteid": "arrowswe","title": "ARROW","type": "snotel"}},
+{"type": "Feature", "id": "57", "geometry": {"coordinates": [-98.28111,28.62194],"type": "Point"}, "properties": {"siteid": "arwt","title": "ATASCOSA RIVER AT WHITSETT; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "58", "geometry": {"coordinates": [-106.6,39.06667],"type": "Point"}, "properties": {"siteid": "asnc","title": "INDEPENDENCE PASS; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "59", "geometry": {"coordinates": [-104.2514,32.4908],"type": "Point"}, "properties": {"siteid": "avalon","title": "AVALON RESERVOIR NEAR CARLSBAD; NM","type": "reservoir"}},
+{"type": "Feature", "id": "60", "geometry": {"coordinates": [-106.41,34.01],"type": "Point"}, "properties": {"siteid": "azoteatunnel","title": "AZOTEA TUNNEL OUTLET NEAR CHAMA; NM","type": "diversion"}},
+{"type": "Feature", "id": "61", "geometry": {"coordinates": [-113.41888,48.83333],"type": "Point"}, "properties": {"siteid": "babm","title": "ST. MARY RIVER NEAR BABB; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "62", "geometry": {"coordinates": [-109.09861,48.58444],"type": "Point"}, "properties": {"siteid": "back","title": "BATTLE CREEK NEAR CHINOOK; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "63", "geometry": {"coordinates": [-113.03333,48.13334],"type": "Point"}, "properties": {"siteid": "badm","title": "BADGER PASS; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "64", "geometry": {"coordinates": [-112.56223,48.30555],"type": "Point"}, "properties": {"siteid": "balm","title": "BEAVERHEAD RIVER AT ANDERSON LANE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "65", "geometry": {"coordinates": [-100.38223,40.22361],"type": "Point"}, "properties": {"siteid": "bane","title": "BARTLEY CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "66", "geometry": {"coordinates": [-124.41722,43.09111],"type": "Point"}, "properties": {"siteid": "bano","title": "Bandon; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "67", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "basicmanagementinc","title": "Basic Management Inc.","type": "diversion"}},
+{"type": "Feature", "id": "68", "geometry": {"coordinates": [-106.3167,36.5167],"type": "Point"}, "properties": {"siteid": "batemanswe","title": "BATEMAN","type": "snotel"}},
+{"type": "Feature", "id": "69", "geometry": {"coordinates": [-121.27388,42.47805],"type": "Point"}, "properties": {"siteid": "bato","title": "Beatty; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "70", "geometry": {"coordinates": [-107.2667,41.05],"type": "Point"}, "properties": {"siteid": "battlemountainswe","title": "BATTLE MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "71", "geometry": {"coordinates": [-100.04583,40.265],"type": "Point"}, "properties": {"siteid": "bawne","title": "BARTLEY CANAL; WASTEWAY; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "72", "geometry": {"coordinates": [-114.6328,35.0917],"type": "Point"}, "properties": {"siteid": "bbblc","title": "Colorado River Below Big Bend","type": "stream"}},
+{"type": "Feature", "id": "73", "geometry": {"coordinates": [-103.06667,42.45834],"type": "Point"}, "properties": {"siteid": "bbne","title": "BOX BUTTE DAM; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "74", "geometry": {"coordinates": [-109.18333,44.50139],"type": "Point"}, "properties": {"siteid": "bbr","title": "BUFFALO BILL RESERVOIR ON SHOSHONE RIVER; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "75", "geometry": {"coordinates": [-109.29166,44.49167],"type": "Point"}, "properties": {"siteid": "bbrnfd","title": "BUFFALO BILL RESERVOIR - NORTH FORK DIKE; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "76", "geometry": {"coordinates": [-109.21249,44.4425],"type": "Point"}, "properties": {"siteid": "bbrsfd","title": "BUFFALO BILL RESERVOIR - SOUTH FORK DIKE; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "77", "geometry": {"coordinates": [-109.93806,45.83416],"type": "Point"}, "properties": {"siteid": "bbtm","title": "BOULDER RIVER AT BIG TIMBER; MT","type": "stream"}},
+{"type": "Feature", "id": "78", "geometry": {"coordinates": [-109.16722,44.46778],"type": "Point"}, "properties": {"siteid": "bbws","title": "BUFFALO BILL WEATHER STATION; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "79", "geometry": {"coordinates": [-108.03555,44.38334],"type": "Point"}, "properties": {"siteid": "bbwy","title": "BIGHORN RIVER AT BASIN; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "80", "geometry": {"coordinates": [-99.89222,40.12],"type": "Point"}, "properties": {"siteid": "bcbcne","title": "BEAVER CREEK AT BEAVER CITY; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "81", "geometry": {"coordinates": [-109.65083,48.22167],"type": "Point"}, "properties": {"siteid": "bcbm","title": "BEAVER CREEK @ RESERVATION BOUNDARY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "82", "geometry": {"coordinates": [-112.61861,47.91695],"type": "Point"}, "properties": {"siteid": "bccm","title": "BIG COULEE BELOW BEALE CANAL; MT","type": "stream"}},
+{"type": "Feature", "id": "83", "geometry": {"coordinates": [-107.17056,48.41945],"type": "Point"}, "properties": {"siteid": "bchm","title": "BEAVER CREEK NEAR HINSDALE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "84", "geometry": {"coordinates": [-109.42166,49.00195],"type": "Point"}, "properties": {"siteid": "bcib","title": "BATTLE CREEK AT INTERNATIONAL BOUNDARY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "85", "geometry": {"coordinates": [-111.89,47.51778],"type": "Point"}, "properties": {"siteid": "bclm","title": "BIG COULEE LOWER; MT","type": "stream"}},
+{"type": "Feature", "id": "86", "geometry": {"coordinates": [-108.13445,43.87278],"type": "Point"}, "properties": {"siteid": "bcwy","title": "BLUFF CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "87", "geometry": {"coordinates": [-112.80195,48.37],"type": "Point"}, "properties": {"siteid": "bdcm","title": "BADGER CREEK BLW FOUR HORNS CANAL NR BROWNING; MT","type": "stream"}},
+{"type": "Feature", "id": "88", "geometry": {"coordinates": [-100.38333,40.22917],"type": "Point"}, "properties": {"siteid": "bdne","title": "BARTLEY DIVERSION; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "89", "geometry": {"coordinates": [-112.98333,44.46667],"type": "Point"}, "properties": {"siteid": "beam","title": "BEAGLE SPRINGS; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "90", "geometry": {"coordinates": [-107.5167,37.7167],"type": "Point"}, "properties": {"siteid": "beartownswe","title": "BEARTOWN","type": "snotel"}},
+{"type": "Feature", "id": "91", "geometry": {"coordinates": [-108.195,37.97],"type": "Point"}, "properties": {"siteid": "beavercreeknearnorwood","title": "BEAVER CREEK NEAR NORWOOD; CO","type": "stream"}},
+{"type": "Feature", "id": "92", "geometry": {"coordinates": [-111.55,39.1333],"type": "Point"}, "properties": {"siteid": "beaverdamsswe","title": "BEAVER DAMS","type": "snotel"}},
+{"type": "Feature", "id": "93", "geometry": {"coordinates": [-111.0667,40.6167],"type": "Point"}, "properties": {"siteid": "beaverdivideswe","title": "BEAVER DIVIDE","type": "snotel"}},
+{"type": "Feature", "id": "94", "geometry": {"coordinates": [-109.10027,48.59639],"type": "Point"}, "properties": {"siteid": "belindmt","title": "FORT BELKNAP INDIAN CANAL MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "95", "geometry": {"coordinates": [-111.95,41.3667],"type": "Point"}, "properties": {"siteid": "benlomondpeakswe","title": "BEN LOMOND PEAK","type": "snotel"}},
+{"type": "Feature", "id": "96", "geometry": {"coordinates": [-111.9167,41.3833],"type": "Point"}, "properties": {"siteid": "benlomondtrailswe","title": "BEN LOMOND TRAIL","type": "snotel"}},
+{"type": "Feature", "id": "97", "geometry": {"coordinates": [-122.104,38.513],"type": "Point"}, "properties": {"siteid": "ber","title": "Lake Berryessa And Monticello Dam","type": "reservoir"}},
+{"type": "Feature", "id": "98", "geometry": {"coordinates": [-105.7833,39.8],"type": "Point"}, "properties": {"siteid": "berthoudsummitswe","title": "BERTHOUD SUMMIT","type": "snotel"}},
+{"type": "Feature", "id": "99", "geometry": {"coordinates": [-105.76667,39.8],"type": "Point"}, "properties": {"siteid": "berthspc","title": "BERTHOUD SUMMIT; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "100", "geometry": {"coordinates": [-111.35,44.95],"type": "Point"}, "properties": {"siteid": "bevm","title": "BEAVER CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "101", "geometry": {"coordinates": [-108.82417,43.66389],"type": "Point"}, "properties": {"siteid": "bevr","title": "BEAVER CREEK RESERVOIR NEAR HAVRE; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "102", "geometry": {"coordinates": [-121.32027,44.0475],"type": "Point"}, "properties": {"siteid": "bewo","title": "Bend; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "103", "geometry": {"coordinates": [-112.58889,48.675],"type": "Point"}, "properties": {"siteid": "bfam","title": "BLACKFEET AGRIMET STATION NR SEVILLE COLONY; MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "104", "geometry": {"coordinates": [-103.73333,44.70139],"type": "Point"}, "properties": {"siteid": "bfce","title": "BELLE FOURCHE INLET CANAL EAST; SOUTH DAKOTA","type": "canal"}},
+{"type": "Feature", "id": "105", "geometry": {"coordinates": [-116.27417,43.65303],"type": "Point"}, "properties": {"siteid": "bfgi","title": "Boise Fairgrounds Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "106", "geometry": {"coordinates": [-103.67416,44.73667],"type": "Point"}, "properties": {"siteid": "bfr","title": "BELLE FOURCHE RESERVOIR NR BELLE FOURCHE; S. DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "107", "geometry": {"coordinates": [-112.518792,43.12513846],"type": "Point"}, "properties": {"siteid": "bfti","title": "Snake River near Blackfoot; ID","type": "stream"}},
+{"type": "Feature", "id": "108", "geometry": {"coordinates": [-108.56389,48.83556],"type": "Point"}, "properties": {"siteid": "bftm","title": "BIG FLAT NEAR TURNER WEATHER STATION; MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "109", "geometry": {"coordinates": [-104.04694,44.74972],"type": "Point"}, "properties": {"siteid": "bfwy","title": "BELLE FOURCHE RVR @ WYOMING-SOUTH DAKOTA STATE LINE","type": "stream"}},
+{"type": "Feature", "id": "110", "geometry": {"coordinates": [-112.36305,45.47361],"type": "Point"}, "properties": {"siteid": "bgbm","title": "BEAVERHEAD RIVER AT GIEM BRIDGE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "111", "geometry": {"coordinates": [-107.21667,44.6],"type": "Point"}, "properties": {"siteid": "bgsw","title": "BIG GOOSE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "112", "geometry": {"coordinates": [-112.655,46.21806],"type": "Point"}, "properties": {"siteid": "bhdm","title": "BIG HOLE RIVER AT MAIDEN ROCK NEAR DIVIDE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "113", "geometry": {"coordinates": [-108.0375,43.93556],"type": "Point"}, "properties": {"siteid": "bhdy","title": "BIGHORN RIVER BLW BIGHORN CANAL DIVERSION DAM; WY","type": "stream"}},
+{"type": "Feature", "id": "114", "geometry": {"coordinates": [-112.55556,45.44056],"type": "Point"}, "properties": {"siteid": "bhgm","title": "BIG HOLE RIVER NEAR GLEN; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "115", "geometry": {"coordinates": [-107.46833,46.12472],"type": "Point"}, "properties": {"siteid": "bhmt","title": "BIGHORN RIVER ABOVE TULLOCK CREEK NEAR BIGHORN; MT","type": "stream"}},
+{"type": "Feature", "id": "116", "geometry": {"coordinates": [-106.0675,41.00083],"type": "Point"}, "properties": {"siteid": "bhmw","title": "BLACKHALL MOUNTAIN; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "117", "geometry": {"coordinates": [-107.95694,45.30722],"type": "Point"}, "properties": {"siteid": "bhr","title": "BIGHORN LAKE; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "118", "geometry": {"coordinates": [-107.96889,44.01472],"type": "Point"}, "properties": {"siteid": "bhrw","title": "BIGHORN RIVER NEAR WORLAND; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "119", "geometry": {"coordinates": [-107.91805,45.31667],"type": "Point"}, "properties": {"siteid": "bhsx","title": "BIGHORN RIVER AND BIA CANAL NEAR ST. XAVIER; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "120", "geometry": {"coordinates": [-113.3125,45.8075],"type": "Point"}, "properties": {"siteid": "bhwm","title": "BIG HOLE RIVER BELOW MUDD CREEK NEAR WISDOM; MT","type": "stream"}},
+{"type": "Feature", "id": "121", "geometry": {"coordinates": [-108.01694,43.94528],"type": "Point"}, "properties": {"siteid": "bhwy","title": "BIG HORN CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "122", "geometry": {"coordinates": [-114.5497,33.6006],"type": "Point"}, "properties": {"siteid": "biblc","title": "Colorado River Below Interstate Bridge","type": "stream"}},
+{"type": "Feature", "id": "123", "geometry": {"coordinates": [-114.6,35.1],"type": "Point"}, "properties": {"siteid": "bigbendwaterdistrict","title": "Big Bend Water District","type": "diversion"}},
+{"type": "Feature", "id": "124", "geometry": {"coordinates": [-112.35,38.3],"type": "Point"}, "properties": {"siteid": "bigflatswe","title": "BIG FLAT","type": "snotel"}},
+{"type": "Feature", "id": "125", "geometry": {"coordinates": [-109.2543,42.1457],"type": "Point"}, "properties": {"siteid": "bigsandy","title": "BIG SANDY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "126", "geometry": {"coordinates": [-109.2667,42.65],"type": "Point"}, "properties": {"siteid": "bigsandyopeningswe","title": "BIG SANDY OPENING","type": "snotel"}},
+{"type": "Feature", "id": "127", "geometry": {"coordinates": [-109.485,42.3169],"type": "Point"}, "properties": {"siteid": "bigsandyrivernearfarson","title": "BIG SANDY RIVER ABOVE BIG SANDY RESERVOIR NEAR FARSON","type": "stream"}},
+{"type": "Feature", "id": "128", "geometry": {"coordinates": [-109.26667,42.63334],"type": "Point"}, "properties": {"siteid": "bigsaowy","title": "BIG SANDY OPENING; WY","type": "snotel"}},
+{"type": "Feature", "id": "129", "geometry": {"coordinates": [-104.75972,40.35444],"type": "Point"}, "properties": {"siteid": "bigthom","title": "BIG THOMPSON RIVER; CO","type": "stream"}},
+{"type": "Feature", "id": "130", "geometry": {"coordinates": [-108.47,45.79667],"type": "Point"}, "properties": {"siteid": "bil","title": "YELLOWSTONE RIVER AT BILLINGS; MT","type": "stream"}},
+{"type": "Feature", "id": "131", "geometry": {"coordinates": [-113.6081,34.2308],"type": "Point"}, "properties": {"siteid": "billwilliamsriveratlakehavasu","title": "Bill Williams River at Lake Havasu","type": "stream"}},
+{"type": "Feature", "id": "132", "geometry": {"coordinates": [-107.35,39.7667],"type": "Point"}, "properties": {"siteid": "bisonlakeswe","title": "BISON LAKE","type": "snotel"}},
+{"type": "Feature", "id": "133", "geometry": {"coordinates": [-117.96277,44.88277],"type": "Point"}, "properties": {"siteid": "bkvo","title": "Baker Valley; Oregon Agrimet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "134", "geometry": {"coordinates": [-111.5833,38.6833],"type": "Point"}, "properties": {"siteid": "blackflatu.m.ckswe","title": "BLACK FLAT-U.M. CK","type": "snotel"}},
+{"type": "Feature", "id": "135", "geometry": {"coordinates": [-104.0647,32.2409],"type": "Point"}, "properties": {"siteid": "blackriveratmalaga","title": "BLACK RIVER AT MALAGA; NM","type": "stream"}},
+{"type": "Feature", "id": "136", "geometry": {"coordinates": [-104.6928,41.5461],"type": "Point"}, "properties": {"siteid": "blacksforkatlittleamerica","title": "BLACKS FORK AT LITTLE AMERICA","type": "stream"}},
+{"type": "Feature", "id": "137", "geometry": {"coordinates": [-108.8167,35.7611],"type": "Point"}, "properties": {"siteid": "blackspringswashnrmexicansprings","title": "BLACK SPRINGS WASH NR MEXICAN SPRINGS; N MEX","type": "stream"}},
+{"type": "Feature", "id": "138", "geometry": {"coordinates": [-106.8097,37.2036],"type": "Point"}, "properties": {"siteid": "blancodiversion","title": "BLANCO DIVERSION NEAR PAGOSA SPRINGS","type": "diversion"}},
+{"type": "Feature", "id": "139", "geometry": {"coordinates": [-109.20222,43.17694],"type": "Point"}, "properties": {"siteid": "blay","title": "BULL LAKE CREEK ABOVE BULL LAKE RESERVOIR; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "140", "geometry": {"coordinates": [-111.11667,44.5],"type": "Point"}, "properties": {"siteid": "blbm","title": "BLACK BEAR; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "141", "geometry": {"coordinates": [-109.02222,43.2425],"type": "Point"}, "properties": {"siteid": "blck","title": "BULL LAKE CREEK BLW BULL LAKE RES NR LENORE; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "142", "geometry": {"coordinates": [-112.491167,41.962167],"type": "Point"}, "properties": {"siteid": "blcu","title": "UCC - Blue Creek; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "143", "geometry": {"coordinates": [-112.09084,46.21111],"type": "Point"}, "properties": {"siteid": "bldm","title": "BOULDER RIVER NEAR BOULDER; MT","type": "stream"}},
+{"type": "Feature", "id": "144", "geometry": {"coordinates": [-107.85,44.8],"type": "Point"}, "properties": {"siteid": "bldy","title": "BALD MOUNTAIN; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "145", "geometry": {"coordinates": [-110.6,42.95],"type": "Point"}, "properties": {"siteid": "blindbullsumswe","title": "BLIND BULL SUM","type": "snotel"}},
+{"type": "Feature", "id": "146", "geometry": {"coordinates": [-105.63333,40.3],"type": "Point"}, "properties": {"siteid": "blkc","title": "BEAR LAKE; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "147", "geometry": {"coordinates": [-113.5,45.16667],"type": "Point"}, "properties": {"siteid": "blom","title": "BLOODY DICK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "148", "geometry": {"coordinates": [-111.420137,41.933628],"type": "Point"}, "properties": {"siteid": "blou","title": "UCC - BearLake; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "149", "geometry": {"coordinates": [-109.04166,43.20972],"type": "Point"}, "properties": {"siteid": "blr","title": "BULL LAKE RESERVOIR ON BULL LAKE CREEK; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "150", "geometry": {"coordinates": [-109.56667,44.78333],"type": "Point"}, "properties": {"siteid": "bltw","title": "BEARTOOTH LAKE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "151", "geometry": {"coordinates": [-106.06583,39.62555],"type": "Point"}, "properties": {"siteid": "bludilco","title": "BLUE RIVER BELOW DILLON; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "152", "geometry": {"coordinates": [-107.205,38.2714],"type": "Point"}, "properties": {"siteid": "bluemesa","title": "BLUE MESA RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "153", "geometry": {"coordinates": [-106.33334,39.88028],"type": "Point"}, "properties": {"siteid": "blugreco","title": "BLUE RIVER BELOW GREEN MOUNTAIN RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "154", "geometry": {"coordinates": [-109.8,44.38334],"type": "Point"}, "properties": {"siteid": "blwy","title": "BLACKWATER; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "155", "geometry": {"coordinates": [-114.5692,33.5164],"type": "Point"}, "properties": {"siteid": "bmplc","title": "Colorado River Below McIntyre Park","type": "stream"}},
+{"type": "Feature", "id": "156", "geometry": {"coordinates": [-114.5908,34.8181],"type": "Point"}, "properties": {"siteid": "bnblc","title": "Colorado River Below Needles Bridge","type": "stream"}},
+{"type": "Feature", "id": "157", "geometry": {"coordinates": [-121.93111,45.64777],"type": "Point"}, "properties": {"siteid": "bndw","title": "Bonneville Dam AgriMet; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "158", "geometry": {"coordinates": [-114.7264,33.3683],"type": "Point"}, "properties": {"siteid": "boblc","title": "Colorado River Below Oxbow Bridge","type": "stream"}},
+{"type": "Feature", "id": "159", "geometry": {"coordinates": [-112.24694,47.52055],"type": "Point"}, "properties": {"siteid": "bocm","title": "BROKEN-O CANAL; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "160", "geometry": {"coordinates": [-116.17694,43.60027],"type": "Point"}, "properties": {"siteid": "boii","title": "Boise; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "161", "geometry": {"coordinates": [-111.3,46.56667],"type": "Point"}, "properties": {"siteid": "bomm","title": "BOULDER MOUNTAIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "162", "geometry": {"coordinates": [-112.24694,47.52055],"type": "Point"}, "properties": {"siteid": "bomt","title": "BROKEN O RANCH; MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "163", "geometry": {"coordinates": [-102.17333,39.62333],"type": "Point"}, "properties": {"siteid": "bonc","title": "BONNY RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "164", "geometry": {"coordinates": [-114.73,36.01],"type": "Point"}, "properties": {"siteid": "bouldercanyonproject","title": "Boulder Canyon Project","type": "diversion"}},
+{"type": "Feature", "id": "165", "geometry": {"coordinates": [-106.42777,39.27778],"type": "Point"}, "properties": {"siteid": "boutunco","title": "CHARLES H. BOUSTEAD TUNNEL; CO","type": "diversion"}},
+{"type": "Feature", "id": "166", "geometry": {"coordinates": [-112.0167,38.5],"type": "Point"}, "properties": {"siteid": "boxcreekswe","title": "BOX CREEK","type": "snotel"}},
+{"type": "Feature", "id": "167", "geometry": {"coordinates": [-110.25,45.28333],"type": "Point"}, "properties": {"siteid": "boxm","title": "BOX CANYON; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "168", "geometry": {"coordinates": [-108.17694,43.4],"type": "Point"}, "properties": {"siteid": "boyr","title": "BOYSEN RESERVOIR; THERMOPOLIS; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "169", "geometry": {"coordinates": [-108.17333,43.40417],"type": "Point"}, "properties": {"siteid": "boyw","title": "BOYSEN WEATHER STATION NR THERMOPOLIS; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "170", "geometry": {"coordinates": [-111.15,45.67361],"type": "Point"}, "properties": {"siteid": "bozm","title": "BOZEMAN MONTANA WEATHER STATION  6W","type": "agrimet"}},
+{"type": "Feature", "id": "171", "geometry": {"coordinates": [-104.2243,32.3248],"type": "Point"}, "properties": {"siteid": "brantley","title": "BRANTLEY LAKE","type": "reservoir"}},
+{"type": "Feature", "id": "172", "geometry": {"coordinates": [-113.68055,48.99722],"type": "Point"}, "properties": {"siteid": "brbm","title": "BELLY RIVER @ INTERNATIONAL BOUNDARY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "173", "geometry": {"coordinates": [-110.93333,45.88334],"type": "Point"}, "properties": {"siteid": "brcm","title": "BRACKETT CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "174", "geometry": {"coordinates": [-109.66666,43.7],"type": "Point"}, "properties": {"siteid": "brcw","title": "BURROUGHS CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "175", "geometry": {"coordinates": [-120.075,38.203],"type": "Point"}, "properties": {"siteid": "brd","title": "Beardsley Dam And Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "176", "geometry": {"coordinates": [-112.655,46.21806],"type": "Point"}, "properties": {"siteid": "brdm","title": "BEAVERHEAD RIVER AT DILLON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "177", "geometry": {"coordinates": [-104.80305,46.98778],"type": "Point"}, "properties": {"siteid": "brgm","title": "BUFFALO RAPIDS WEATHER STATION NEAR GLENDIVE; MT","type": "agrimet"}},
+{"type": "Feature", "id": "178", "geometry": {"coordinates": [-111.6167,40.6],"type": "Point"}, "properties": {"siteid": "brightonswe","title": "BRIGHTON","type": "snotel"}},
+{"type": "Feature", "id": "179", "geometry": {"coordinates": [-113.7020167,37.7196],"type": "Point"}, "properties": {"siteid": "brju","title": "UCC - Beryl Junction; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "180", "geometry": {"coordinates": [-107.53333,44.78333],"type": "Point"}, "properties": {"siteid": "brjw","title": "BURGESS JUNCTION; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "181", "geometry": {"coordinates": [-124.24083,42.03],"type": "Point"}, "properties": {"siteid": "brko","title": "Brookings; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "182", "geometry": {"coordinates": [-106.53333,39.08333],"type": "Point"}, "properties": {"siteid": "brmc","title": "BRUMLEY; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "183", "geometry": {"coordinates": [-106.23333,41.36666],"type": "Point"}, "properties": {"siteid": "broklnwy","title": "BROOKLYN LAKE; WY","type": "snotel"}},
+{"type": "Feature", "id": "184", "geometry": {"coordinates": [-114.13,34.3],"type": "Point"}, "properties": {"siteid": "brookeconsolidatedwaterutilities","title": "Brooke - Consolidated Water Utilities","type": "diversion"}},
+{"type": "Feature", "id": "185", "geometry": {"coordinates": [-110.5833,40.5833],"type": "Point"}, "properties": {"siteid": "brownduckswe","title": "BROWN DUCK","type": "snotel"}},
+{"type": "Feature", "id": "186", "geometry": {"coordinates": [-112.33723,45.54694],"type": "Point"}, "properties": {"siteid": "brtb","title": "BEAVERHEAD RIVER AT TWIN BRIDGES; MT","type": "stream"}},
+{"type": "Feature", "id": "187", "geometry": {"coordinates": [-105.29945,46.77806],"type": "Point"}, "properties": {"siteid": "brtm","title": "BUFFALO RAPIDS WEATHER STATION NEAR TERRY; MT","type": "agrimet"}},
+{"type": "Feature", "id": "188", "geometry": {"coordinates": [-106.5333,39.0833],"type": "Point"}, "properties": {"siteid": "brumleyswe","title": "BRUMLEY","type": "snotel"}},
+{"type": "Feature", "id": "189", "geometry": {"coordinates": [-109.80806,48.55639],"type": "Point"}, "properties": {"siteid": "bsck","title": "BIG SANDY CREEK NEAR HAVRE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "190", "geometry": {"coordinates": [-107.58334,44.68333],"type": "Point"}, "properties": {"siteid": "bsdy","title": "BONE SPRINGS DIVIDE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "191", "geometry": {"coordinates": [-106.48638,40.37833],"type": "Point"}, "properties": {"siteid": "btabesco","title": "BIG THOMPSON RIVER ABOVE LAKE ESTES; CO","type": "stream"}},
+{"type": "Feature", "id": "192", "geometry": {"coordinates": [-105.48583,40.37639],"type": "Point"}, "properties": {"siteid": "btblesco","title": "BIG THOMPSON RIVER BELOW LAKE ESTES; CO","type": "stream"}},
+{"type": "Feature", "id": "193", "geometry": {"coordinates": [-105.22611,40.42167],"type": "Point"}, "properties": {"siteid": "btcan","title": "BIG THOMPSON RIVER AT CANYON MOUTH; CO (SCADA)","type": "stream"}},
+{"type": "Feature", "id": "194", "geometry": {"coordinates": [-105.22611,40.42167],"type": "Point"}, "properties": {"siteid": "btcanyco","title": "BIG THOMPSON RIVER AT CANYON MOUTH; NR DRAKE; CO","type": "stream"}},
+{"type": "Feature", "id": "195", "geometry": {"coordinates": [-104.75972,40.35444],"type": "Point"}, "properties": {"siteid": "btclhtco","title": "COLORADO - BIG THOMPSON; CO","type": "stream"}},
+{"type": "Feature", "id": "196", "geometry": {"coordinates": [-112.54806,45.04639],"type": "Point"}, "properties": {"siteid": "btdm","title": "BLACKTAIL DEER CREEK AT DILLON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "197", "geometry": {"coordinates": [-105.33889,40.43333],"type": "Point"}, "properties": {"siteid": "btnfdrco","title": "NORTH FORK BIG THOMPSON RIVER AT DRAKE; CO","type": "stream"}},
+{"type": "Feature", "id": "198", "geometry": {"coordinates": [-107.06667,43.88334],"type": "Point"}, "properties": {"siteid": "btnw","title": "BEAR TRAP MEADOW; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "199", "geometry": {"coordinates": [-105.22806,40.42361],"type": "Point"}, "properties": {"siteid": "btppmcco","title": "POWER PLANT AT BIG THOMPSON RVR CANYON MOUTH; CO","type": "stream"}},
+{"type": "Feature", "id": "200", "geometry": {"coordinates": [-111.4333,39.1333],"type": "Point"}, "properties": {"siteid": "buckflatswe","title": "BUCK FLAT","type": "snotel"}},
+{"type": "Feature", "id": "201", "geometry": {"coordinates": [-112.711483,38.0399],"type": "Point"}, "properties": {"siteid": "bucu","title": "UCC - Buckhorn; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "202", "geometry": {"coordinates": [-106.5833,40.2167],"type": "Point"}, "properties": {"siteid": "buffaloparkswe","title": "BUFFALO PARK","type": "snotel"}},
+{"type": "Feature", "id": "203", "geometry": {"coordinates": [-111.4167,41.6833],"type": "Point"}, "properties": {"siteid": "buglakeswe","title": "BUG LAKE","type": "snotel"}},
+{"type": "Feature", "id": "204", "geometry": {"coordinates": [-114.57,35.2],"type": "Point"}, "properties": {"siteid": "bullheadcity","title": "Bullhead City","type": "diversion"}},
+{"type": "Feature", "id": "205", "geometry": {"coordinates": [-108.4544,36.3531],"type": "Point"}, "properties": {"siteid": "burnhamwashnrburnham","title": "BURNHAM WASH NR BURNHAM; NM","type": "stream"}},
+{"type": "Feature", "id": "206", "geometry": {"coordinates": [-107.6,39.8833],"type": "Point"}, "properties": {"siteid": "burromountainswe","title": "BURRO MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "207", "geometry": {"coordinates": [-106.47056,39.24861],"type": "Point"}, "properties": {"siteid": "bustunco","title": "BUSK-IVANHOE TUNNEL; COLORADO    (Parshall Flume)","type": "diversion"}},
+{"type": "Feature", "id": "208", "geometry": {"coordinates": [-106.95,38.9],"type": "Point"}, "properties": {"siteid": "butteswe","title": "BUTTE","type": "snotel"}},
+{"type": "Feature", "id": "209", "geometry": {"coordinates": [-112.74972,45.11639],"type": "Point"}, "properties": {"siteid": "bvb","title": "BEAVERHEAD RIVER AT BARRETTS; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "210", "geometry": {"coordinates": [-119.252222,38.223056],"type": "Point"}, "properties": {"siteid": "bvpc","title": "DRI - Bridgeport Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "211", "geometry": {"coordinates": [-112.45194,45.38361],"type": "Point"}, "properties": {"siteid": "bvtb","title": "BEAVERHEAD RIVER NR TWIN BRIDGES; MT","type": "stream"}},
+{"type": "Feature", "id": "212", "geometry": {"coordinates": [-100.85611,40.30555],"type": "Point"}, "properties": {"siteid": "bwne","title": "BLACKWOOD WASTEWAY; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "213", "geometry": {"coordinates": [-99.41583,40.11722],"type": "Point"}, "properties": {"siteid": "caawne","title": "CAMBRIDGE CANAL; WASTEWAY; ALMA; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "214", "geometry": {"coordinates": [-107.2919,32.8847],"type": "Point"}, "properties": {"siteid": "caballo","title": "CABALLO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "215", "geometry": {"coordinates": [-111.31195,47.50694],"type": "Point"}, "properties": {"siteid": "cabm","title": "MISSOURI RIVER; CENTRAL AVE BRIDGE; GREAT FALLS; MT","type": "stream"}},
+{"type": "Feature", "id": "216", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "camille","title": "Camille; Alec Jr.","type": "diversion"}},
+{"type": "Feature", "id": "217", "geometry": {"coordinates": [-109.4833,37.8],"type": "Point"}, "properties": {"siteid": "campjacksonswe","title": "CAMP JACKSON","type": "snotel"}},
+{"type": "Feature", "id": "218", "geometry": {"coordinates": [-99.21972,41.82722],"type": "Point"}, "properties": {"siteid": "cane","title": "CALAMUS RESERVOIR (VIRGINIA SMITH DAM); NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "219", "geometry": {"coordinates": [-107.7558,36.69],"type": "Point"}, "properties": {"siteid": "canonlargonrblanco","title": "CANON LARGO NR BLANCO;NM","type": "stream"}},
+{"type": "Feature", "id": "220", "geometry": {"coordinates": [-106.74528,41.26722],"type": "Point"}, "properties": {"siteid": "canw","title": "CANYON; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "221", "geometry": {"coordinates": [-99.63694,40.25111],"type": "Point"}, "properties": {"siteid": "caoxne","title": "CAMBRIDGE CANAL AT OXFORD; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "222", "geometry": {"coordinates": [-114.1031,34.2889],"type": "Point"}, "properties": {"siteid": "cap","title": "CAP Canal Export","type": "diversion"}},
+{"type": "Feature", "id": "223", "geometry": {"coordinates": [-105.37334,40.58889],"type": "Point"}, "properties": {"siteid": "carconco","title": "CARTER CONDUIT FLOW METER; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "224", "geometry": {"coordinates": [-106.54444,39.36666],"type": "Point"}, "properties": {"siteid": "cardivco","title": "CARTER DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "225", "geometry": {"coordinates": [-99.50694,35.16806],"type": "Point"}, "properties": {"siteid": "care","title": "NORTH FORK RED RIVER NEAR CARTER; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "226", "geometry": {"coordinates": [-105.21194,40.32417],"type": "Point"}, "properties": {"siteid": "carterco","title": "CARTER LAKE RESERVOIR NEAR LOVELAND; CO","type": "reservoir"}},
+{"type": "Feature", "id": "227", "geometry": {"coordinates": [-107.8,37.6667],"type": "Point"}, "properties": {"siteid": "cascade2swe","title": "CASCADE #2","type": "snotel"}},
+{"type": "Feature", "id": "228", "geometry": {"coordinates": [-111.609,40.28],"type": "Point"}, "properties": {"siteid": "cascademountainswe","title": "CASCADE MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "229", "geometry": {"coordinates": [-107.8,37.65],"type": "Point"}, "properties": {"siteid": "cascadeswe","title": "CASCADE","type": "snotel"}},
+{"type": "Feature", "id": "230", "geometry": {"coordinates": [-111.69222,47.26944],"type": "Point"}, "properties": {"siteid": "casm","title": "MISSOURI RIVER BRIDGE AT CASCADE; MT","type": "stream"}},
+{"type": "Feature", "id": "231", "geometry": {"coordinates": [-106.31667,42.73333],"type": "Point"}, "properties": {"siteid": "casperwy","title": "CASPER; WY","type": "snotel"}},
+{"type": "Feature", "id": "232", "geometry": {"coordinates": [-112.7333,37.75],"type": "Point"}, "properties": {"siteid": "castlevalleyswe","title": "CASTLE VALLEY","type": "snotel"}},
+{"type": "Feature", "id": "233", "geometry": {"coordinates": [-111.35,41.173],"type": "Point"}, "properties": {"siteid": "causey","title": "CAUSEY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "234", "geometry": {"coordinates": [-99.46194,40.14389],"type": "Point"}, "properties": {"siteid": "cawne","title": "CAMBRIDGE CANAL; WASTEWAY; ORLEANS; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "235", "geometry": {"coordinates": [-106.64417,42.73333],"type": "Point"}, "properties": {"siteid": "cawy","title": "CASPER CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "236", "geometry": {"coordinates": [-112.34612,48.63334],"type": "Point"}, "properties": {"siteid": "cbcm","title": "CUT BANK CREEK AT CUT BANK; MT","type": "stream"}},
+{"type": "Feature", "id": "237", "geometry": {"coordinates": [-113.035,48.61666],"type": "Point"}, "properties": {"siteid": "cbkm","title": "CUT BANK CREEK NEAR BROWNING; MT","type": "stream"}},
+{"type": "Feature", "id": "238", "geometry": {"coordinates": [-99.72028,38.79],"type": "Point"}, "properties": {"siteid": "cbks","title": "CEDAR BLUFF RESERVOIR NR ELLIS; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "239", "geometry": {"coordinates": [-98.16666,28.46667],"type": "Point"}, "properties": {"siteid": "ccdt","title": "CHOKE CANYON RESERVOIR NEAR THREE RIVERS; TEXAS","type": "reservoir"}},
+{"type": "Feature", "id": "240", "geometry": {"coordinates": [-98.96611,40.09167],"type": "Point"}, "properties": {"siteid": "ccfrne","title": "CENTER CREEK AT FRANKLIN; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "241", "geometry": {"coordinates": [-119.98,34.583],"type": "Point"}, "properties": {"siteid": "cch","title": "Cachuma Lake And Bradbury Dam; Cachuma Project","type": "reservoir"}},
+{"type": "Feature", "id": "242", "geometry": {"coordinates": [-98.44056,39.49889],"type": "Point"}, "properties": {"siteid": "ccks","title": "CAWKER CITY DIKE; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "243", "geometry": {"coordinates": [-98.36917,40.05972],"type": "Point"}, "properties": {"siteid": "ccne","title": "COURTLAND CANAL; MILE 0.7; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "244", "geometry": {"coordinates": [-121.577,37.8833],"type": "Point"}, "properties": {"siteid": "ccp","title": "Contra Costa Pumping Plant","type": "diversion"}},
+{"type": "Feature", "id": "245", "geometry": {"coordinates": [-112.8575,45.00167],"type": "Point"}, "properties": {"siteid": "ccr","title": "CLARK CANYON RESERVOIR; BEAVERHEAD RVR NR DILLON; MT","type": "reservoir"}},
+{"type": "Feature", "id": "246", "geometry": {"coordinates": [-109.38333,43.66667],"type": "Point"}, "properties": {"siteid": "ccrw","title": "CASTLE CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "247", "geometry": {"coordinates": [-104.16861,42.03944],"type": "Point"}, "properties": {"siteid": "ccwy","title": "CHERRY CREEK DRAIN; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "248", "geometry": {"coordinates": [-116.78418,47.71797],"type": "Point"}, "properties": {"siteid": "cdai","title": "Coeur d'Alene Fairgrounds; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "249", "geometry": {"coordinates": [-108.89444,43.23167],"type": "Point"}, "properties": {"siteid": "cdcy","title": "CODY CANAL SOUTH FORK OF SHOSHONE RIVER; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "250", "geometry": {"coordinates": [-100.12083,40.28528],"type": "Point"}, "properties": {"siteid": "cdne","title": "CAMBRIDGE DIVERSION; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "251", "geometry": {"coordinates": [-120.17138,41.58527],"type": "Point"}, "properties": {"siteid": "cedc","title": "Cedarville; California AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "252", "geometry": {"coordinates": [-113.1371667,37.67296667],"type": "Point"}, "properties": {"siteid": "cedu","title": "UCC - Cedar City; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "253", "geometry": {"coordinates": [-113.09528,48.94639],"type": "Point"}, "properties": {"siteid": "cegm","title": "ST. MARY CANAL AT EMMIGRANT GAP; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "254", "geometry": {"coordinates": [-107.6631,37.8197],"type": "Point"}, "properties": {"siteid": "cementcreekatsilverton","title": "CEMENT CREEK AT SILVERTON; CO","type": "stream"}},
+{"type": "Feature", "id": "255", "geometry": {"coordinates": [-109.06473,45.01028],"type": "Point"}, "properties": {"siteid": "cfbm","title": "CLARKS FORK YELLOWSTONE RIVER NEAR BELFRY; MT","type": "stream"}},
+{"type": "Feature", "id": "256", "geometry": {"coordinates": [-111.7275,46.64917],"type": "Point"}, "properties": {"siteid": "cfr","title": "CANYON FERRY LAKE NEAR HELENA; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "257", "geometry": {"coordinates": [-111.7275,46.64917],"type": "Point"}, "properties": {"siteid": "cfrsat","title": "CANYON FERRY LAKE NEAR HELENA; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "258", "geometry": {"coordinates": [-108.5908,36.7244],"type": "Point"}, "properties": {"siteid": "chacorivernearwaterflow","title": "CHACO RIVER NEAR WATERFLOW ; NM","type": "stream"}},
+{"type": "Feature", "id": "259", "geometry": {"coordinates": [-108.5658,36.3658],"type": "Point"}, "properties": {"siteid": "chacorivernrburnham","title": "CHACO RIVER NR BURNHAM; NM","type": "stream"}},
+{"type": "Feature", "id": "260", "geometry": {"coordinates": [-107.9178,36.0286],"type": "Point"}, "properties": {"siteid": "chacowashatchacocanyonnationalmonument","title": "CHACO WASH AT CHACO CANYON NATIONAL MONUMENT","type": "stream"}},
+{"type": "Feature", "id": "261", "geometry": {"coordinates": [-107.8511,36.02],"type": "Point"}, "properties": {"siteid": "chacowashatebatchacocanyonnatlmonnm","title": "CHACO WASH AT EB AT CHACO CANYON NATL MON NM","type": "stream"}},
+{"type": "Feature", "id": "262", "geometry": {"coordinates": [-107.9644,36.0542],"type": "Point"}, "properties": {"siteid": "chacowashnrpbatbridgeatchaconatlmon","title": "CHACO WASH NR PB AT BRIDGE AT CHACO NATL MON","type": "stream"}},
+{"type": "Feature", "id": "263", "geometry": {"coordinates": [-107.5275,35.9353],"type": "Point"}, "properties": {"siteid": "chacowashnrstarlaketradingpost","title": "CHACO WASH NR STARLAKE TRADING POST; NM","type": "stream"}},
+{"type": "Feature", "id": "264", "geometry": {"coordinates": [-111.0667,40.85],"type": "Point"}, "properties": {"siteid": "chalkcreek1swe","title": "CHALK CREEK #1","type": "snotel"}},
+{"type": "Feature", "id": "265", "geometry": {"coordinates": [-111.0667,40.9],"type": "Point"}, "properties": {"siteid": "chalkcreek2swe","title": "CHALK CREEK #2","type": "snotel"}},
+{"type": "Feature", "id": "266", "geometry": {"coordinates": [-106.65,36.95],"type": "Point"}, "properties": {"siteid": "chamitaswe","title": "CHAMITA","type": "snotel"}},
+{"type": "Feature", "id": "267", "geometry": {"coordinates": [-117.73916,48.03138],"type": "Point"}, "properties": {"siteid": "chaw","title": "Chamokane; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "268", "geometry": {"coordinates": [-97.79389,37.72611],"type": "Point"}, "properties": {"siteid": "cheney","title": "CHENEY DAM; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "269", "geometry": {"coordinates": [-97.7939,37.7261],"type": "Point"}, "properties": {"siteid": "cheny","title": "Cheny Dam","type": "reservoir"}},
+{"type": "Feature", "id": "270", "geometry": {"coordinates": [-110,40.7667],"type": "Point"}, "properties": {"siteid": "chepetaswe","title": "CHEPETA","type": "snotel"}},
+{"type": "Feature", "id": "271", "geometry": {"coordinates": [-108.1981,37.1189],"type": "Point"}, "properties": {"siteid": "cherrycreeknearredmesa","title": "CHERRY CREEK NEAR RED MESA; CO.","type": "stream"}},
+{"type": "Feature", "id": "272", "geometry": {"coordinates": [-105.85139,40.60333],"type": "Point"}, "properties": {"siteid": "chmbrsco","title": "CHAMBERS LAKE; CO","type": "reservoir"}},
+{"type": "Feature", "id": "273", "geometry": {"coordinates": [-106.63028,39.26305],"type": "Point"}, "properties": {"siteid": "chpdivco","title": "CHAPMAN CREEK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "274", "geometry": {"coordinates": [-120.72805,43.24138],"type": "Point"}, "properties": {"siteid": "chvo","title": "Christmas Valley; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "275", "geometry": {"coordinates": [-114.6,33.3],"type": "Point"}, "properties": {"siteid": "cibolanationalwildliferefuge","title": "Cibola National Wildlife Refuge","type": "diversion"}},
+{"type": "Feature", "id": "276", "geometry": {"coordinates": [-114.6,33.4],"type": "Point"}, "properties": {"siteid": "cibolavalleyirrigationdistrict","title": "Cibola Valley Irrigation District","type": "diversion"}},
+{"type": "Feature", "id": "277", "geometry": {"coordinates": [-107.5461,38.2572],"type": "Point"}, "properties": {"siteid": "cimarronrivernearcimarron","title": "CIMARRON RIVER NEAR CIMARRON; CO","type": "stream"}},
+{"type": "Feature", "id": "278", "geometry": {"coordinates": [-106.01778,41.01778],"type": "Point"}, "properties": {"siteid": "cinw","title": "CINNABAR PARK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "279", "geometry": {"coordinates": [-114.3,34.1],"type": "Point"}, "properties": {"siteid": "cityofblythe","title": "City of Blythe","type": "diversion"}},
+{"type": "Feature", "id": "280", "geometry": {"coordinates": [-114.73,36.01],"type": "Point"}, "properties": {"siteid": "cityofbouldercityathooverdam","title": "City of Boulder City at Hoover Dam","type": "diversion"}},
+{"type": "Feature", "id": "281", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "cityofhendersonsaddleisland","title": "City of Henderson - Saddle Island","type": "diversion"}},
+{"type": "Feature", "id": "282", "geometry": {"coordinates": [-114.5,34.7],"type": "Point"}, "properties": {"siteid": "cityofneedles","title": "City of Needles","type": "diversion"}},
+{"type": "Feature", "id": "283", "geometry": {"coordinates": [-114.8,36.08],"type": "Point"}, "properties": {"siteid": "cityofnorthlasvegas","title": "City of North Las Vegas","type": "diversion"}},
+{"type": "Feature", "id": "284", "geometry": {"coordinates": [-114.75,32.75],"type": "Point"}, "properties": {"siteid": "cityofwinterhaven","title": "City of Winterhaven","type": "diversion"}},
+{"type": "Feature", "id": "285", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "cityofyuma","title": "City of Yuma","type": "diversion"}},
+{"type": "Feature", "id": "286", "geometry": {"coordinates": [-119.63555,47.99083],"type": "Point"}, "properties": {"siteid": "cjdw","title": "Chief Joseph Dam; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "287", "geometry": {"coordinates": [-110.95611,42.077831],"type": "Point"}, "properties": {"siteid": "ckvy","title": "Cokeville; Wyoming AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "288", "geometry": {"coordinates": [-105.06917,40.58916],"type": "Point"}, "properties": {"siteid": "claforco","title": "CACHE LA POUDRE RIVER AT FORT COLLINS; CO","type": "stream"}},
+{"type": "Feature", "id": "289", "geometry": {"coordinates": [-105.22389,40.66445],"type": "Point"}, "properties": {"siteid": "claftcco","title": "CACHE LA POUDRE RVR @ CANYON MOUTH NR FT COLLINS; CO","type": "stream"}},
+{"type": "Feature", "id": "290", "geometry": {"coordinates": [-111.8332,37.97],"type": "Point"}, "properties": {"siteid": "claytonspringsswe","title": "CLAYTON SPRINGS","type": "snotel"}},
+{"type": "Feature", "id": "291", "geometry": {"coordinates": [-114.6817,33.2322],"type": "Point"}, "properties": {"siteid": "clc","title": "Colorado River at Cibola Gage","type": "stream"}},
+{"type": "Feature", "id": "292", "geometry": {"coordinates": [-109.40166,48.58916],"type": "Point"}, "properties": {"siteid": "clck","title": "CLEAR CREEK NEAR CHINOOK; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "293", "geometry": {"coordinates": [-109.35,45.2],"type": "Point"}, "properties": {"siteid": "clcm","title": "COLE CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "294", "geometry": {"coordinates": [-111.2833,39.8667],"type": "Point"}, "properties": {"siteid": "clearcreek1swe","title": "CLEAR CREEK #1","type": "snotel"}},
+{"type": "Feature", "id": "295", "geometry": {"coordinates": [-111.2667,39.8833],"type": "Point"}, "properties": {"siteid": "clearcreek2swe","title": "CLEAR CREEK #2","type": "snotel"}},
+{"type": "Feature", "id": "296", "geometry": {"coordinates": [-104.475,48.12333],"type": "Point"}, "properties": {"siteid": "clmt","title": "MISSOURI RIVER NEAR CULBERTSON; MT","type": "stream"}},
+{"type": "Feature", "id": "297", "geometry": {"coordinates": [-113.33334,45.88334],"type": "Point"}, "properties": {"siteid": "clvm","title": "CALVERT CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "298", "geometry": {"coordinates": [-113.20305,48.91361],"type": "Point"}, "properties": {"siteid": "cmbm","title": "ST. MARY CANAL AT MARTIN'S BRIDGE; NEAR BABB; MT","type": "canal"}},
+{"type": "Feature", "id": "299", "geometry": {"coordinates": [-111.85,45.01667],"type": "Point"}, "properties": {"siteid": "cmdm","title": "CLOVER MEADOW; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "300", "geometry": {"coordinates": [-114.23333,46.06111],"type": "Point"}, "properties": {"siteid": "cmo","title": "LAKE COMO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "301", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "coachellavalleywaterdistrict","title": "Coachella Valley Water District","type": "diversion"}},
+{"type": "Feature", "id": "302", "geometry": {"coordinates": [-98.45638,35.15778],"type": "Point"}, "properties": {"siteid": "cobb","title": "FORT COBB DAM; OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "303", "geometry": {"coordinates": [-98.59389,35.28333],"type": "Point"}, "properties": {"siteid": "cobc","title": "COBB CREEK NEAR EAKLY; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "304", "geometry": {"coordinates": [-106.7717,38.3356],"type": "Point"}, "properties": {"siteid": "cochetopacreekbelowrockcreek","title": "COCHETOPA CREEK BELOW ROCK CREEK; NEAR PARLIN; CO","type": "stream"}},
+{"type": "Feature", "id": "305", "geometry": {"coordinates": [-106.498,38.168],"type": "Point"}, "properties": {"siteid": "cochetopapassswe","title": "COCHETOPA PASS","type": "snotel"}},
+{"type": "Feature", "id": "306", "geometry": {"coordinates": [-106.3239,35.6172],"type": "Point"}, "properties": {"siteid": "cochitieastsidemaincanalatcochiti","title": "COCHITI EAST SIDE MAIN CANAL AT COCHITI","type": "diversion"}},
+{"type": "Feature", "id": "307", "geometry": {"coordinates": [-106.3161,35.6169],"type": "Point"}, "properties": {"siteid": "cochitireservoir","title": "COCHITI LAKE NEAR COCHITI PUEBLO","type": "reservoir"}},
+{"type": "Feature", "id": "308", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "cocopahindianreservation","title": "Cocopah Indian Reservation","type": "diversion"}},
+{"type": "Feature", "id": "309", "geometry": {"coordinates": [-109.18333,44.50139],"type": "Point"}, "properties": {"siteid": "codywy","title": "ARCHIVE DATA REPOSITORY FOR SHOSHONE CANALS; WY","type": "canal"}},
+{"type": "Feature", "id": "310", "geometry": {"coordinates": [-108.26667,39.23889],"type": "Point"}, "properties": {"siteid": "colcamco","title": "COLORADO RIVER NEAR CAMEO; CO (CCAC)","type": "stream"}},
+{"type": "Feature", "id": "311", "geometry": {"coordinates": [-106.22723,39.37361],"type": "Point"}, "properties": {"siteid": "colditco","title": "COLUMBINE DITCH; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "312", "geometry": {"coordinates": [-107.07722,39.64389],"type": "Point"}, "properties": {"siteid": "coldotco","title": "COLORADO RIVER NEAR DOTSERO; EAGLE COUNTY; CO","type": "stream"}},
+{"type": "Feature", "id": "313", "geometry": {"coordinates": [-106.13306,40.14389],"type": "Point"}, "properties": {"siteid": "colgbyco","title": "COLORADO RIVER BELOW GRANBY RESERVOIR; CO (CGBC)","type": "stream"}},
+{"type": "Feature", "id": "314", "geometry": {"coordinates": [-107.33694,39.555],"type": "Point"}, "properties": {"siteid": "colgleco","title": "COLORADO RIVER BELOW GLENWOOD SPRINGS; CO","type": "stream"}},
+{"type": "Feature", "id": "315", "geometry": {"coordinates": [-106.43945,40.03667],"type": "Point"}, "properties": {"siteid": "colkreco","title": "COLORADO RIVER NEAR KREMMLING; CO (CKMC)","type": "stream"}},
+{"type": "Feature", "id": "316", "geometry": {"coordinates": [-106.61667,40.4],"type": "Point"}, "properties": {"siteid": "colmbnco","title": "COLUMBINE; CO","type": "snotel"}},
+{"type": "Feature", "id": "317", "geometry": {"coordinates": [-105.9,40.12083],"type": "Point"}, "properties": {"siteid": "colngbco","title": "COLORADO RIVER NEAR GRANBY RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "318", "geometry": {"coordinates": [-109.8644,37.1472],"type": "Point"}, "properties": {"siteid": "coloradoplusgreenplussanjuantemp","title": "COLORADO PLUS GREEN PLUS SAN JUAN (TEMP)","type": "stream"}},
+{"type": "Feature", "id": "319", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "coloradoriveraboveimperialdam","title": "Colorado River above Imperial Dam","type": "stream"}},
+{"type": "Feature", "id": "320", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "coloradoriveraboveimperialdamibwcsalinitysite","title": "Colorado River above Imperial Dam -- IBWC Salinity Site","type": "stream"}},
+{"type": "Feature", "id": "321", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "coloradoriveraboveimperialdamusbrsalinitysite","title": "Colorado River above Imperial Dam -- USBR Salinity Site","type": "stream"}},
+{"type": "Feature", "id": "322", "geometry": {"coordinates": [-107.3203,39.55],"type": "Point"}, "properties": {"siteid": "coloradoriveratglenwoodsprings","title": "COLORADO RIVER AT GLENWOOD SPRINGS; CO.","type": "stream"}},
+{"type": "Feature", "id": "323", "geometry": {"coordinates": [-111.5875,36.8647],"type": "Point"}, "properties": {"siteid": "coloradoriveratleesferry","title": "Colorado River at Lees Ferry","type": "stream"}},
+{"type": "Feature", "id": "324", "geometry": {"coordinates": [-114.7183,32.7189],"type": "Point"}, "properties": {"siteid": "coloradoriveratnortherninternationalboundaryibwcsalinitysite","title": "Colorado River at Northern International Boundary -- IBWC Salinity Site","type": "stream"}},
+{"type": "Feature", "id": "325", "geometry": {"coordinates": [-114.7183,32.7189],"type": "Point"}, "properties": {"siteid": "coloradoriveratnortherninternationalboundaryusbrsalinitysite","title": "Colorado River at Northern International Boundary -- USBR Salinity Site","type": "stream"}},
+{"type": "Feature", "id": "326", "geometry": {"coordinates": [-114.6325,32.7319],"type": "Point"}, "properties": {"siteid": "coloradoriveratyumagageusbrsalinitysite","title": "Colorado River at Yuma Gage -- USBR Salinity Site","type": "stream"}},
+{"type": "Feature", "id": "327", "geometry": {"coordinates": [-114.6208,32.7292],"type": "Point"}, "properties": {"siteid": "coloradoriveratyumausgsoldyumagagesite","title": "Colorado River at Yuma - USGS (Old Yuma Gage Site)","type": "stream"}},
+{"type": "Feature", "id": "328", "geometry": {"coordinates": [-114.5714,35.1914],"type": "Point"}, "properties": {"siteid": "coloradoriverbelowdavisdam","title": "Colorado River below Davis Dam","type": "stream"}},
+{"type": "Feature", "id": "329", "geometry": {"coordinates": [-112.0856,36.1014],"type": "Point"}, "properties": {"siteid": "coloradoriverbelowglencanyondam","title": "COLORADO RIVER BELOW GLEN CANYON DAM","type": "stream"}},
+{"type": "Feature", "id": "330", "geometry": {"coordinates": [-114.7381,36.0144],"type": "Point"}, "properties": {"siteid": "coloradoriverbelowhooverdam","title": "Colorado River below Hoover Dam (USGS)","type": "stream"}},
+{"type": "Feature", "id": "331", "geometry": {"coordinates": [-114.5142,32.8122],"type": "Point"}, "properties": {"siteid": "coloradoriverbelowlagunadam","title": "Colorado River below Laguna Dam","type": "stream"}},
+{"type": "Feature", "id": "332", "geometry": {"coordinates": [-114.6319,32.7317],"type": "Point"}, "properties": {"siteid": "coloradoriverbelowyumamaincanalwastewayusgs","title": "Colorado River below Yuma Main Canal Wasteway - Yuma Gage - USGS","type": "stream"}},
+{"type": "Feature", "id": "333", "geometry": {"coordinates": [-108.3575,39.0994],"type": "Point"}, "properties": {"siteid": "coloradoriverblgrandvalleycanalnrpalisade","title": "COLORADO RIVER BL GRAND VALLEY CANAL NR PALISADE","type": "stream"}},
+{"type": "Feature", "id": "334", "geometry": {"coordinates": [-114.28,34.18],"type": "Point"}, "properties": {"siteid": "coloradoriverindianreservationaz","title": "Colorado River Indian Reservation; Arizona","type": "diversion"}},
+{"type": "Feature", "id": "335", "geometry": {"coordinates": [-114.5,34.8],"type": "Point"}, "properties": {"siteid": "coloradoriverindianreservationca","title": "Colorado River Indian Reservation; California","type": "diversion"}},
+{"type": "Feature", "id": "336", "geometry": {"coordinates": [-108.2667,39.2389],"type": "Point"}, "properties": {"siteid": "coloradorivernearcameo","title": "COLORADO RIVER NEAR CAMEO; CO.","type": "stream"}},
+{"type": "Feature", "id": "337", "geometry": {"coordinates": [-109.2935,38.8106],"type": "Point"}, "properties": {"siteid": "coloradorivernearcisco","title": "COLORADO RIVER NEAR CISCO; UT","type": "stream"}},
+{"type": "Feature", "id": "338", "geometry": {"coordinates": [-109.0264,39.1328],"type": "Point"}, "properties": {"siteid": "coloradorivernearcoloradoutahstateline","title": "COLORADO RIVER NEAR COLORADO-UTAH STATE LINE","type": "stream"}},
+{"type": "Feature", "id": "339", "geometry": {"coordinates": [-112.0856,36.1014],"type": "Point"}, "properties": {"siteid": "coloradoriverneargrandcanyon","title": "Colorado River near Grand Canyon; AZ","type": "stream"}},
+{"type": "Feature", "id": "340", "geometry": {"coordinates": [-108.3575,39.09944],"type": "Point"}, "properties": {"siteid": "colpalco","title": "COLORADO RIVER NEAR PALISADE; COLORADO (CGVC)","type": "stream"}},
+{"type": "Feature", "id": "341", "geometry": {"coordinates": [-108.3833,38.4167],"type": "Point"}, "properties": {"siteid": "columbinepassswe","title": "COLUMBINE PASS","type": "snotel"}},
+{"type": "Feature", "id": "342", "geometry": {"coordinates": [-106.6,40.4],"type": "Point"}, "properties": {"siteid": "columbineswe","title": "COLUMBINE","type": "snotel"}},
+{"type": "Feature", "id": "343", "geometry": {"coordinates": [-108.0167,37.4333],"type": "Point"}, "properties": {"siteid": "columbusbasinswe","title": "COLUMBUS BASIN","type": "snotel"}},
+{"type": "Feature", "id": "344", "geometry": {"coordinates": [-109.02639,39.13277],"type": "Point"}, "properties": {"siteid": "colutaco","title": "COLORADO RIVER NEAR COLORADO-UTAH STATE LINE (CCUC)","type": "stream"}},
+{"type": "Feature", "id": "345", "geometry": {"coordinates": [-111.84722,48.17278],"type": "Point"}, "properties": {"siteid": "comt","title": "CONRAD MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "346", "geometry": {"coordinates": [-98.13278,40.00306],"type": "Point"}, "properties": {"siteid": "cone","title": "COURTLAND CANAL; STATE LINE; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "347", "geometry": {"coordinates": [-106.5436,37.355],"type": "Point"}, "properties": {"siteid": "conejosriverbelowplatororeservoir","title": "CONEJOS RIVER BELOW PLATORO RESERVOIR","type": "stream"}},
+{"type": "Feature", "id": "348", "geometry": {"coordinates": [-106.1869,37.0539],"type": "Point"}, "properties": {"siteid": "conejosrivernearmogote","title": "CONEJOS RIVER NEAR MOGOTE","type": "stream"}},
+{"type": "Feature", "id": "349", "geometry": {"coordinates": [-105.56667,40.2],"type": "Point"}, "properties": {"siteid": "coplndco","title": "COPELAND; CO","type": "snotel"}},
+{"type": "Feature", "id": "350", "geometry": {"coordinates": [-106.1667,39.4833],"type": "Point"}, "properties": {"siteid": "coppermountainswe","title": "COPPER MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "351", "geometry": {"coordinates": [-105.2559,36.8978],"type": "Point"}, "properties": {"siteid": "costillacreekabovecostilladam","title": "COSTILLA CREEK ABOVE COSTILLA DAM; NM","type": "stream"}},
+{"type": "Feature", "id": "352", "geometry": {"coordinates": [-105.2809,36.8739],"type": "Point"}, "properties": {"siteid": "costillacreekbelowcostilladam","title": "COSTILLA CREEK BELOW COSTILLA DAM; NM","type": "stream"}},
+{"type": "Feature", "id": "353", "geometry": {"coordinates": [-105.508,36.9669],"type": "Point"}, "properties": {"siteid": "costillacreeknearcostilla","title": "COSTILLA CREEK NEAR COSTILLA; NM","type": "stream"}},
+{"type": "Feature", "id": "354", "geometry": {"coordinates": [-105.5329,36.9892],"type": "Point"}, "properties": {"siteid": "costillacreekneargarcia","title": "COSTILLA CREEK NEAR GARCIA; CO","type": "stream"}},
+{"type": "Feature", "id": "355", "geometry": {"coordinates": [-109.45,43.26667],"type": "Point"}, "properties": {"siteid": "cosw","title": "COLD SPRINGS; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "356", "geometry": {"coordinates": [-109.5781,37.5606],"type": "Point"}, "properties": {"siteid": "cottonwoodwashnrblandingutah","title": "COTTONWOOD WASH NR BLANDING UTAH","type": "stream"}},
+{"type": "Feature", "id": "357", "geometry": {"coordinates": [-114.08333,46.33333],"type": "Point"}, "properties": {"siteid": "covm","title": "Corvallis; Montana AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "358", "geometry": {"coordinates": [-107.7511,38.245],"type": "Point"}, "properties": {"siteid": "cowcreeknearridgwayreservoir","title": "COW CREEK NEAR RIDGWAY RERSERVOIR","type": "stream"}},
+{"type": "Feature", "id": "359", "geometry": {"coordinates": [-112.73333,47.08333],"type": "Point"}, "properties": {"siteid": "cpcm","title": "COPPER CAMP; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "360", "geometry": {"coordinates": [-107.06667,44.4],"type": "Point"}, "properties": {"siteid": "cpkw","title": "CLOUD PEAK RESERVOIR; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "361", "geometry": {"coordinates": [-106.16666,39.48333],"type": "Point"}, "properties": {"siteid": "cpmc","title": "COPPER MOUNTAIN; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "362", "geometry": {"coordinates": [-113.3628,35.7736],"type": "Point"}, "properties": {"siteid": "cratdiamondcreek","title": "Colorado River above Diamond Creek near Peach Spring; AZ","type": "stream"}},
+{"type": "Feature", "id": "363", "geometry": {"coordinates": [-107.6056,38.6914],"type": "Point"}, "properties": {"siteid": "crawford","title": "CRAWFORD RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "364", "geometry": {"coordinates": [-112,44.41667],"type": "Point"}, "properties": {"siteid": "crbi","title": "CRAB CREEK; IDAHO","type": "snotel"}},
+{"type": "Feature", "id": "365", "geometry": {"coordinates": [-101.87917,35.47028],"type": "Point"}, "properties": {"siteid": "crbt","title": "CANADIAN RIVER NEAR AMARILLO (HWY 87 & 287); TEXAS","type": "stream"}},
+{"type": "Feature", "id": "366", "geometry": {"coordinates": [-103.82056,43.30555],"type": "Point"}, "properties": {"siteid": "cred","title": "CHEYENNE RIVER AT EDGEMONT; SOUTH DAKOTA","type": "stream"}},
+{"type": "Feature", "id": "367", "geometry": {"coordinates": [-114.2758,34.1678],"type": "Point"}, "properties": {"siteid": "crirmaincanal","title": "CRIR Main Canal","type": "diversion"}},
+{"type": "Feature", "id": "368", "geometry": {"coordinates": [-112.17395,41.51915],"type": "Point"}, "properties": {"siteid": "crnu","title": "UCC - Corinne; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "369", "geometry": {"coordinates": [-107.05,40.1667],"type": "Point"}, "properties": {"siteid": "croshoswe","title": "CROSHO","type": "snotel"}},
+{"type": "Feature", "id": "370", "geometry": {"coordinates": [-105.38333,41.23333],"type": "Point"}, "properties": {"siteid": "crow","title": "CROW CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "371", "geometry": {"coordinates": [-111.28333,44.96667],"type": "Point"}, "properties": {"siteid": "crrm","title": "CARROT BASIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "372", "geometry": {"coordinates": [-114.12777,48.1875],"type": "Point"}, "properties": {"siteid": "crsm","title": "Creston; Montana AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "373", "geometry": {"coordinates": [-123.19,44.63416],"type": "Point"}, "properties": {"siteid": "crvo","title": "Corvallis; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "374", "geometry": {"coordinates": [-109.5,46.8],"type": "Point"}, "properties": {"siteid": "crym","title": "CRYSTAL LAKE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "375", "geometry": {"coordinates": [-107.3725,38.3038],"type": "Point"}, "properties": {"siteid": "crystal","title": "CRYSTAL RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "376", "geometry": {"coordinates": [-111.07003,39.220131],"type": "Point"}, "properties": {"siteid": "csdu","title": "Castle Dale; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "377", "geometry": {"coordinates": [-109.398967,38.648302],"type": "Point"}, "properties": {"siteid": "csvu","title": "Castle Valley; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "378", "geometry": {"coordinates": [-105.2,37.2167],"type": "Point"}, "properties": {"siteid": "culebra2swe","title": "CULEBRA #2","type": "snotel"}},
+{"type": "Feature", "id": "379", "geometry": {"coordinates": [-106.45,37.0167],"type": "Point"}, "properties": {"siteid": "cumbrestrestleswe","title": "CUMBRES TRESTLE","type": "snotel"}},
+{"type": "Feature", "id": "380", "geometry": {"coordinates": [-101.09306,40.35917],"type": "Point"}, "properties": {"siteid": "cune","title": "CULBERTSON CANAL; MILE 0.53; NE","type": "canal"}},
+{"type": "Feature", "id": "381", "geometry": {"coordinates": [-107.4144,38.4878],"type": "Point"}, "properties": {"siteid": "curecanticreeknearsapinero","title": "CURECANTI CREEK NEAR SAPINERO; CO","type": "stream"}},
+{"type": "Feature", "id": "382", "geometry": {"coordinates": [-110.5425,40.1201],"type": "Point"}, "properties": {"siteid": "currantcreek","title": "CURRANT CREEK RESERVOIR; UTAH","type": "reservoir"}},
+{"type": "Feature", "id": "383", "geometry": {"coordinates": [-110.9069,40.2003],"type": "Point"}, "properties": {"siteid": "currantcreeknearfruitland","title": "CURRANT CREEK NEAR FRUITLAND","type": "stream"}},
+{"type": "Feature", "id": "384", "geometry": {"coordinates": [-111.1,40.3667],"type": "Point"}, "properties": {"siteid": "currantcreekswe","title": "CURRANT CREEK","type": "snotel"}},
+{"type": "Feature", "id": "385", "geometry": {"coordinates": [-119.803889,38.992778],"type": "Point"}, "properties": {"siteid": "cvan","title": "DRI - Carson Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "386", "geometry": {"coordinates": [-100.85611,40.30555],"type": "Point"}, "properties": {"siteid": "cxne","title": "CULBERTSON EXTENSION CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "387", "geometry": {"coordinates": [-107.7578,38.1778],"type": "Point"}, "properties": {"siteid": "dallascreeknearridgeway","title": "DALLAS CREEK NEAR RIDGEWAY; CO","type": "stream"}},
+{"type": "Feature", "id": "388", "geometry": {"coordinates": [-98.70777,41.40472],"type": "Point"}, "properties": {"siteid": "dane","title": "DAVIS CREEK DAM; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "389", "geometry": {"coordinates": [-111.25,40.3],"type": "Point"}, "properties": {"siteid": "danielsstrawberryswe","title": "DANIELS-STRAWBERRY","type": "snotel"}},
+{"type": "Feature", "id": "390", "geometry": {"coordinates": [-104.2261,32.4067],"type": "Point"}, "properties": {"siteid": "darkcanyonatcarlsbad","title": "DARK CANYON AT CARLSBAD; NM","type": "stream"}},
+{"type": "Feature", "id": "391", "geometry": {"coordinates": [-107.7569,39.6269],"type": "Point"}, "properties": {"siteid": "daviesditch","title": "DAVIES DITCH; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "392", "geometry": {"coordinates": [-98.79166,41.44639],"type": "Point"}, "properties": {"siteid": "dcabne","title": "MIRDAN CANAL INLET TO DAVIS CREEK DAM; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "393", "geometry": {"coordinates": [-109.40945,43.34555],"type": "Point"}, "properties": {"siteid": "dcby","title": "DINWOODY CREEK ABOVE LAKES; NEAR BURRIS; WY","type": "stream"}},
+{"type": "Feature", "id": "394", "geometry": {"coordinates": [-109.29111,43.34306],"type": "Point"}, "properties": {"siteid": "dccy","title": "DRY CREEK CANAL NEAR BURRIS; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "395", "geometry": {"coordinates": [-114.5858,35.2042],"type": "Point"}, "properties": {"siteid": "ddmlc","title": "Lake Mohave","type": "reservoir"}},
+{"type": "Feature", "id": "396", "geometry": {"coordinates": [-110.68333,46.8],"type": "Point"}, "properties": {"siteid": "ddmm","title": "DEADMAN CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "397", "geometry": {"coordinates": [-105.75,40.8],"type": "Point"}, "properties": {"siteid": "dedmnhco","title": "DEAD MAN HILL; CO","type": "snotel"}},
+{"type": "Feature", "id": "398", "geometry": {"coordinates": [-111.32,40.24],"type": "Point"}, "properties": {"siteid": "deercreek","title": "DEER CREEK RESERVOIR; UTAH","type": "reservoir"}},
+{"type": "Feature", "id": "399", "geometry": {"coordinates": [-121.64055,45.58638],"type": "Point"}, "properties": {"siteid": "defo","title": "Dee Flat; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "400", "geometry": {"coordinates": [-108.1992,36.2308],"type": "Point"}, "properties": {"siteid": "denazinwashnrbistitradingpost","title": "DE-NA-ZIN WASH NR BISTI TRADING POST ; NM","type": "stream"}},
+{"type": "Feature", "id": "401", "geometry": {"coordinates": [-116.22055,46.62333],"type": "Point"}, "properties": {"siteid": "deni","title": "Dworshak - Dent Acres; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "402", "geometry": {"coordinates": [-112.6167,40.4667],"type": "Point"}, "properties": {"siteid": "deseretpeakswe","title": "DESERET PEAK","type": "snotel"}},
+{"type": "Feature", "id": "403", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "desertlawnmemorial","title": "Desert Lawn Memorial","type": "diversion"}},
+{"type": "Feature", "id": "404", "geometry": {"coordinates": [-103.78584,44.02806],"type": "Point"}, "properties": {"siteid": "dfr","title": "DEERFIELD RESERVOIR; SOUTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "405", "geometry": {"coordinates": [-99.78111,29.50444],"type": "Point"}, "properties": {"siteid": "dfrt","title": "DRY FRIO RIVER NR REAGAN WELLS; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "406", "geometry": {"coordinates": [-113.58334,45.16667],"type": "Point"}, "properties": {"siteid": "dhlm","title": "DARKHORSE LAKE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "407", "geometry": {"coordinates": [-106.0325,39.62472],"type": "Point"}, "properties": {"siteid": "dillonco","title": "DILLON 1E; COLORADO (CLIMATOLOGY)","type": "weather"}},
+{"type": "Feature", "id": "408", "geometry": {"coordinates": [-106.04,39.37],"type": "Point"}, "properties": {"siteid": "dillonreservoir","title": "DILLON RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "409", "geometry": {"coordinates": [-111.4667,39.0333],"type": "Point"}, "properties": {"siteid": "dill'scampswe","title": "DILL'S CAMP","type": "snotel"}},
+{"type": "Feature", "id": "410", "geometry": {"coordinates": [-105.24583,40.41945],"type": "Point"}, "properties": {"siteid": "diltunco","title": "DILLIE TUNNEL AT THOMPSON RIVER NR DRAKE; CO","type": "diversion"}},
+{"type": "Feature", "id": "411", "geometry": {"coordinates": [-107.1667,41.3],"type": "Point"}, "properties": {"siteid": "dividepeakswe","title": "DIVIDE PEAK","type": "snotel"}},
+{"type": "Feature", "id": "412", "geometry": {"coordinates": [-112.05,44.8],"type": "Point"}, "properties": {"siteid": "divm","title": "DIVIDE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "413", "geometry": {"coordinates": [-112.50916,45.33333],"type": "Point"}, "properties": {"siteid": "dlnm","title": "DILLON MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "414", "geometry": {"coordinates": [-107.3,44.56667],"type": "Point"}, "properties": {"siteid": "dmlw","title": "DOME LAKE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "415", "geometry": {"coordinates": [-108.3075,48.41195],"type": "Point"}, "properties": {"siteid": "dodm","title": "DODSON NORTH CANAL; MT","type": "stream"}},
+{"type": "Feature", "id": "416", "geometry": {"coordinates": [-108.17083,48.37972],"type": "Point"}, "properties": {"siteid": "dodnthmt","title": "DODSON NORTH MAIN DIVERSION","type": "canal"}},
+{"type": "Feature", "id": "417", "geometry": {"coordinates": [-108.22,48.405],"type": "Point"}, "properties": {"siteid": "dodpmpmt","title": "DODSON PUMP MAIN DIVERSION","type": "canal"}},
+{"type": "Feature", "id": "418", "geometry": {"coordinates": [-108.14278,48.3475],"type": "Point"}, "properties": {"siteid": "dodsthmt","title": "DODSON SOUTH MAIN DIVERSION","type": "canal"}},
+{"type": "Feature", "id": "419", "geometry": {"coordinates": [-108.4969,37.4725],"type": "Point"}, "properties": {"siteid": "doloresriveratdolores","title": "DOLORES RIVER AT DOLORES; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "420", "geometry": {"coordinates": [-108.9797,38.6814],"type": "Point"}, "properties": {"siteid": "doloresriveratgateway","title": "DOLORES RIVER AT GATEWAY; CO","type": "stream"}},
+{"type": "Feature", "id": "421", "geometry": {"coordinates": [-108.5667,37.5667],"type": "Point"}, "properties": {"siteid": "doloresriverbelowmcpheereservoir","title": "DOLORES RIVER BELOW MCPHEE RESERVOIR","type": "stream"}},
+{"type": "Feature", "id": "422", "geometry": {"coordinates": [-108.0597,37.6389],"type": "Point"}, "properties": {"siteid": "doloresriverbelowrico","title": "DOLORES RIVER BELOW RICO","type": "stream"}},
+{"type": "Feature", "id": "423", "geometry": {"coordinates": [-108.5772,37.5753],"type": "Point"}, "properties": {"siteid": "doloresriverblomcpheereservoir","title": "DOLORES RIVER BLO MCPHEE RESERVOIR; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "424", "geometry": {"coordinates": [-108.8328,38.3569],"type": "Point"}, "properties": {"siteid": "doloresrivernearbedrock","title": "DOLORES RIVER NEAR BEDROCK; CO","type": "stream"}},
+{"type": "Feature", "id": "425", "geometry": {"coordinates": [-109.1951,38.7972],"type": "Point"}, "properties": {"siteid": "doloresrivernearcisco","title": "DOLORES RIVER NEAR CISCO; UT","type": "stream"}},
+{"type": "Feature", "id": "426", "geometry": {"coordinates": [-119.96,38.329],"type": "Point"}, "properties": {"siteid": "don","title": "Donnells Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "427", "geometry": {"coordinates": [-111.4667,38.2167],"type": "Point"}, "properties": {"siteid": "donkeyreservoirswe","title": "DONKEY RESERVOIR","type": "snotel"}},
+{"type": "Feature", "id": "428", "geometry": {"coordinates": [-108.26833,48.41306],"type": "Point"}, "properties": {"siteid": "dpcm","title": "DODSON PUMPS CANAL; MT","type": "canal"}},
+{"type": "Feature", "id": "429", "geometry": {"coordinates": [-108.9,42.58333],"type": "Point"}, "properties": {"siteid": "dpkw","title": "DEER PARK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "430", "geometry": {"coordinates": [-112.75,48.06667],"type": "Point"}, "properties": {"siteid": "dpym","title": "DUPUYER CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "431", "geometry": {"coordinates": [-109.29861,43.33639],"type": "Point"}, "properties": {"siteid": "drby","title": "DRY CREEK NEAR BURRIS; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "432", "geometry": {"coordinates": [-111.87895,41.76295],"type": "Point"}, "properties": {"siteid": "drfu","title": "UCC - Drainage Farm; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "433", "geometry": {"coordinates": [-112.76666,46.33555],"type": "Point"}, "properties": {"siteid": "drlm","title": "Deer Lodge; Montana AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "434", "geometry": {"coordinates": [-112.08334,47.2],"type": "Point"}, "properties": {"siteid": "drmt","title": "DEARBORN RIVER NEAR CRAIG; MT","type": "stream"}},
+{"type": "Feature", "id": "435", "geometry": {"coordinates": [-117.433522,47.954642],"type": "Point"}, "properties": {"siteid": "drpw","title": "Deer Park; Washington Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "436", "geometry": {"coordinates": [-111.5333,41.4167],"type": "Point"}, "properties": {"siteid": "drybreadpondswe","title": "DRY BREAD POND","type": "snotel"}},
+{"type": "Feature", "id": "437", "geometry": {"coordinates": [-112.1733,40.565],"type": "Point"}, "properties": {"siteid": "dryforkswe","title": "DRY FORK","type": "snotel"}},
+{"type": "Feature", "id": "438", "geometry": {"coordinates": [-106.7833,40.5333],"type": "Point"}, "properties": {"siteid": "drylakeswe","title": "DRY LAKE","type": "snotel"}},
+{"type": "Feature", "id": "439", "geometry": {"coordinates": [-108.30611,48.40583],"type": "Point"}, "properties": {"siteid": "dscm","title": "DODSON SOUTH CANAL; MT","type": "canal"}},
+{"type": "Feature", "id": "440", "geometry": {"coordinates": [-103.82944,41.98639],"type": "Point"}, "properties": {"siteid": "dsne","title": "DRY SPOTTED TAIL DIVERSION INTO TRI-STATE CANAL; WY","type": "diversion"}},
+{"type": "Feature", "id": "441", "geometry": {"coordinates": [-122.17916,44.73],"type": "Point"}, "properties": {"siteid": "dtro","title": "Detroit Lake; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "442", "geometry": {"coordinates": [-109.7828,40.2156],"type": "Point"}, "properties": {"siteid": "duchesnerivernearrandlett","title": "DUCHESNE RIVER NEAR RANDLETT; UT","type": "stream"}},
+{"type": "Feature", "id": "443", "geometry": {"coordinates": [-110.36013,40.18068],"type": "Point"}, "properties": {"siteid": "ducu","title": "Duchesne; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "444", "geometry": {"coordinates": [-100.3,31.28333],"type": "Point"}, "properties": {"siteid": "dukt","title": "DOVE CREEK AT KNICKERBOCKER; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "445", "geometry": {"coordinates": [-102.92361,42.4625],"type": "Point"}, "properties": {"siteid": "dune","title": "DUNLAP DIVERSION; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "446", "geometry": {"coordinates": [-107.16666,41.3],"type": "Point"}, "properties": {"siteid": "dvdy","title": "DIVIDE PEAK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "447", "geometry": {"coordinates": [-112.12929,42.43355],"type": "Point"}, "properties": {"siteid": "dwni","title": "Downey; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "448", "geometry": {"coordinates": [-104.4039,32.8458],"type": "Point"}, "properties": {"siteid": "eagledrawatartesia","title": "EAGLE DRAW AT ARTESIA; NM","type": "stream"}},
+{"type": "Feature", "id": "449", "geometry": {"coordinates": [-102.82694,46.86972],"type": "Point"}, "properties": {"siteid": "eapr","title": "E.A. PATTERSON LAKE (DICKINSON); NORTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "450", "geometry": {"coordinates": [-114.35,33.8],"type": "Point"}, "properties": {"siteid": "eastblythecountywaterdistrict","title": "East Blythe County Water District","type": "diversion"}},
+{"type": "Feature", "id": "451", "geometry": {"coordinates": [-111.36,40.5514],"type": "Point"}, "properties": {"siteid": "eastcanyon","title": "EAST CANYON RESERVOIR NEAR MORGAN","type": "reservoir"}},
+{"type": "Feature", "id": "452", "geometry": {"coordinates": [-111.5189,40.7239],"type": "Point"}, "properties": {"siteid": "eastcanyoncreekbelowi80reststop","title": "EAST CANYON CREEK BELOW I-80 REST STOP","type": "stream"}},
+{"type": "Feature", "id": "453", "geometry": {"coordinates": [-106.8917,37.3694],"type": "Point"}, "properties": {"siteid": "eastforksanjuanrivernrpagosasprings","title": "EAST FORK SAN JUAN RIVER NR PAGOSA SPRINGS;","type": "stream"}},
+{"type": "Feature", "id": "454", "geometry": {"coordinates": [-108.2308,37.3703],"type": "Point"}, "properties": {"siteid": "eastmancosrivernearmancos","title": "EAST MANCOS RIVER NEAR MANCOS; CO.","type": "stream"}},
+{"type": "Feature", "id": "455", "geometry": {"coordinates": [-107.7347,39.6361],"type": "Point"}, "properties": {"siteid": "eastriflecreekaboveriflegap","title": "EAST RIFLE CREEK BELOW ELK PARK","type": "stream"}},
+{"type": "Feature", "id": "456", "geometry": {"coordinates": [-110.2,43.1333],"type": "Point"}, "properties": {"siteid": "eastrimdivideswe","title": "EAST RIM DIVIDE","type": "snotel"}},
+{"type": "Feature", "id": "457", "geometry": {"coordinates": [-106.8475,38.6644],"type": "Point"}, "properties": {"siteid": "eastriveratalmont","title": "EAST RIVER AT ALMONT; CO","type": "stream"}},
+{"type": "Feature", "id": "458", "geometry": {"coordinates": [-109.5167,39.3167],"type": "Point"}, "properties": {"siteid": "eastwillowcreekswe","title": "EAST WILLOW CREEK","type": "snotel"}},
+{"type": "Feature", "id": "459", "geometry": {"coordinates": [-112.651733,43.594133],"type": "Point"}, "properties": {"siteid": "ebri","title": "INL - Material Fuels Complex; Idaho","type": "agrimet"}},
+{"type": "Feature", "id": "460", "geometry": {"coordinates": [-98.43611,40.09083],"type": "Point"}, "properties": {"siteid": "ecamne","title": "ELM CREEK AT AMBOY; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "461", "geometry": {"coordinates": [-119.31111,45.71861],"type": "Point"}, "properties": {"siteid": "echo","title": "Echo; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "462", "geometry": {"coordinates": [-111.2555,40.575],"type": "Point"}, "properties": {"siteid": "echoreservoir","title": "ECHO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "463", "geometry": {"coordinates": [-111.38333,47.2],"type": "Point"}, "properties": {"siteid": "eden","title": "SMITH RIVER NEAR EDEN; MT","type": "stream"}},
+{"type": "Feature", "id": "464", "geometry": {"coordinates": [-109.22,42.43],"type": "Point"}, "properties": {"siteid": "edenreservoir","title": "EDEN RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "465", "geometry": {"coordinates": [-101.5175,40.42167],"type": "Point"}, "properties": {"siteid": "edne","title": "ENDERS DAM AND DIKE; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "466", "geometry": {"coordinates": [-120.32373,47.69796],"type": "Point"}, "properties": {"siteid": "efhw","title": "Entiat Fish Hatchery; Washington Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "467", "geometry": {"coordinates": [-106.8406,37.3897],"type": "Point"}, "properties": {"siteid": "efsanjuanrabsandcreek","title": "EF SAN JUAN R AB SAND CREEK; NR PAGOSA SPGS;","type": "stream"}},
+{"type": "Feature", "id": "468", "geometry": {"coordinates": [-114.3,33.8],"type": "Point"}, "properties": {"siteid": "ehrenburgimprovementassociation","title": "Ehrenburg Improvement Association","type": "diversion"}},
+{"type": "Feature", "id": "469", "geometry": {"coordinates": [-109.75,43],"type": "Point"}, "properties": {"siteid": "ekpw","title": "ELKHART PARK G. S.; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "470", "geometry": {"coordinates": [-108.0167,37.7833],"type": "Point"}, "properties": {"siteid": "eldientepeakswe","title": "EL DIENTE PEAK","type": "snotel"}},
+{"type": "Feature", "id": "471", "geometry": {"coordinates": [-107.2061,33.1483],"type": "Point"}, "properties": {"siteid": "elephantbuttedam","title": "ELEPHANT BUTTE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "472", "geometry": {"coordinates": [-106.96667,40.85],"type": "Point"}, "properties": {"siteid": "elkc","title": "ELK RIVER; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "473", "geometry": {"coordinates": [-105.8068,35.704],"type": "Point"}, "properties": {"siteid": "elkcabinswe","title": "ELK CABIN","type": "snotel"}},
+{"type": "Feature", "id": "474", "geometry": {"coordinates": [-109.75,43],"type": "Point"}, "properties": {"siteid": "elkhartparkg.s.swe","title": "ELKHART PARK G.S.","type": "snotel"}},
+{"type": "Feature", "id": "475", "geometry": {"coordinates": [-107.3203,40.5917],"type": "Point"}, "properties": {"siteid": "elkheadcreekabovelonggulch","title": "ELKHEAD CREEK ABOVE LONG GULCH; NEAR HAYDEN; CO","type": "stream"}},
+{"type": "Feature", "id": "476", "geometry": {"coordinates": [-107.3972,40.5419],"type": "Point"}, "properties": {"siteid": "elkheadcreekbelowmaynardgulch","title": "ELKHEAD CREEK BELOW MAYNARD GULCH; NEAR CRAIG; CO","type": "stream"}},
+{"type": "Feature", "id": "477", "geometry": {"coordinates": [-106.9153,40.7175],"type": "Point"}, "properties": {"siteid": "elkriveratclark","title": "ELK RIVER AT CLARK; CO.","type": "stream"}},
+{"type": "Feature", "id": "478", "geometry": {"coordinates": [-107.0467,40.5144],"type": "Point"}, "properties": {"siteid": "elkrivernearmilner","title": "ELK RIVER NEAR MILNER; CO","type": "stream"}},
+{"type": "Feature", "id": "479", "geometry": {"coordinates": [-106.9667,40.85],"type": "Point"}, "properties": {"siteid": "elkriverswe","title": "ELK RIVER","type": "snotel"}},
+{"type": "Feature", "id": "480", "geometry": {"coordinates": [-110.83798,39.421265],"type": "Point"}, "properties": {"siteid": "elmu","title": "Elmo; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "481", "geometry": {"coordinates": [-106.7333,36.5942],"type": "Point"}, "properties": {"siteid": "elvado","title": "EL VADO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "482", "geometry": {"coordinates": [-105.9131,36.2108],"type": "Point"}, "properties": {"siteid": "embudocreekatdixon","title": "EMBUDO CREEK AT DIXON; NM","type": "stream"}},
+{"type": "Feature", "id": "483", "geometry": {"coordinates": [-113.95,48.43333],"type": "Point"}, "properties": {"siteid": "emcm","title": "EMERY CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "484", "geometry": {"coordinates": [-105.48833,40.375],"type": "Point"}, "properties": {"siteid": "estesr","title": "LAKE ESTES RESERVOIR; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "485", "geometry": {"coordinates": [-105.48833,40.375],"type": "Point"}, "properties": {"siteid": "estspkco","title": "LAKE ESTES (OLYMPUS DAM); CO","type": "reservoir"}},
+{"type": "Feature", "id": "486", "geometry": {"coordinates": [-115.97861,39.68527],"type": "Point"}, "properties": {"siteid": "eurn","title": "Eureka; Nevada AgriMet Weather Station ","type": "agrimet"}},
+{"type": "Feature", "id": "487", "geometry": {"coordinates": [-111.8331667,41.6945],"type": "Point"}, "properties": {"siteid": "evfu","title": "UCC - Evan's Farm; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "488", "geometry": {"coordinates": [-109.78333,44.65],"type": "Point"}, "properties": {"siteid": "evny","title": "EVENING STAR; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "489", "geometry": {"coordinates": [-111.02937,41.19713],"type": "Point"}, "properties": {"siteid": "evty","title": "Evanston; Wyoming AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "490", "geometry": {"coordinates": [-106.30611,39.36111],"type": "Point"}, "properties": {"siteid": "ewiditco","title": "EWING DITCH; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "491", "geometry": {"coordinates": [-114.82222,43.31305],"type": "Point"}, "properties": {"siteid": "fafi","title": "Fairfield; Idaho AgriMet Weather Station  ","type": "agrimet"}},
+{"type": "Feature", "id": "492", "geometry": {"coordinates": [-107.9178,36.0175],"type": "Point"}, "properties": {"siteid": "fajadawashatchacocanyonnatlmonnm","title": "FAJADA WASH AT CHACO CANYON NATL MON NM","type": "stream"}},
+{"type": "Feature", "id": "493", "geometry": {"coordinates": [-108.0053,37.9583],"type": "Point"}, "properties": {"siteid": "fallcreeknearfallcreek","title": "FALL CREEK NEAR FALL CREEK; CO","type": "stream"}},
+{"type": "Feature", "id": "494", "geometry": {"coordinates": [-107.8658,37.3672],"type": "Point"}, "properties": {"siteid": "fallscreekneardurango","title": "FALLS CREEK NEAR DURANGO; CO.","type": "stream"}},
+{"type": "Feature", "id": "495", "geometry": {"coordinates": [-118.77388,39.4575],"type": "Point"}, "properties": {"siteid": "faln","title": "Fallon; Nevada AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "496", "geometry": {"coordinates": [-111.817,40.992],"type": "Point"}, "properties": {"siteid": "farmingtonlowerswe","title": "FARMINGTON LOWER","type": "snotel"}},
+{"type": "Feature", "id": "497", "geometry": {"coordinates": [-111.8,40.9667],"type": "Point"}, "properties": {"siteid": "farmingtonswe","title": "FARMINGTON","type": "snotel"}},
+{"type": "Feature", "id": "498", "geometry": {"coordinates": [-111.6833,38.7667],"type": "Point"}, "properties": {"siteid": "farnsworthlakeswe","title": "FARNSWORTH LAKE","type": "snotel"}},
+{"type": "Feature", "id": "499", "geometry": {"coordinates": [-108.75361,48.48417],"type": "Point"}, "properties": {"siteid": "fbcm","title": "FORT BELKNAP BIA CANAL; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "500", "geometry": {"coordinates": [-101.62361,40.42917],"type": "Point"}, "properties": {"siteid": "fcabne","title": "FRENCHMAN CREEK ABOVE ENDERS RESERVOIR; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "501", "geometry": {"coordinates": [-104.05473,41.80944],"type": "Point"}, "properties": {"siteid": "fcne","title": "FORT LARAMIE CANAL AT MILE POST 85.3 (PARSHALL); NE","type": "canal"}},
+{"type": "Feature", "id": "502", "geometry": {"coordinates": [-98.46472,40.08361],"type": "Point"}, "properties": {"siteid": "fcwdcne","title": "FRANKLIN CANAL WASTEWAY AT DRY CREEK; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "503", "geometry": {"coordinates": [-98.57361,40.09306],"type": "Point"}, "properties": {"siteid": "fcwicne","title": "FRANKLIN CANAL WASTEWAY AT INDIAN CREEK; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "504", "geometry": {"coordinates": [-104.63,42.24306],"type": "Point"}, "properties": {"siteid": "fcwy","title": "FORT LARAMIE CANAL AT MILE POST 0.8; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "505", "geometry": {"coordinates": [-111.1903,39.7744],"type": "Point"}, "properties": {"siteid": "fishcreekabovereservoir","title": "FISH CREEK ABOVE RESERVOIR; NEAR SCOFIELD; UT","type": "stream"}},
+{"type": "Feature", "id": "506", "geometry": {"coordinates": [-105.49305,40.36833],"type": "Point"}, "properties": {"siteid": "fishesco","title": "FISH CREEK NR ESTES PARK; CO","type": "stream"}},
+{"type": "Feature", "id": "507", "geometry": {"coordinates": [-110.4667,40.7167],"type": "Point"}, "properties": {"siteid": "fivepointslakeswe","title": "FIVE POINTS LAKE","type": "snotel"}},
+{"type": "Feature", "id": "508", "geometry": {"coordinates": [-109.25,40.55],"type": "Point"}, "properties": {"siteid": "flaminggorge","title": "FLAMING GORGE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "509", "geometry": {"coordinates": [-105.23611,40.365],"type": "Point"}, "properties": {"siteid": "flaresco","title": "FLATIRON RESERVOIR; LOVELAND; CO","type": "reservoir"}},
+{"type": "Feature", "id": "510", "geometry": {"coordinates": [-105.22166,40.36833],"type": "Point"}, "properties": {"siteid": "flatirco","title": "FLATIRON RESERVOIR OUTFLOW; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "511", "geometry": {"coordinates": [-110.667458,44.09914518],"type": "Point"}, "properties": {"siteid": "flgy","title": "Snake River near Flagg Ranch; WY","type": "stream"}},
+{"type": "Feature", "id": "512", "geometry": {"coordinates": [-111.17805,46.79583],"type": "Point"}, "properties": {"siteid": "flmt","title": "SMITH RIVER; FORT LOGAN; MT","type": "stream"}},
+{"type": "Feature", "id": "513", "geometry": {"coordinates": [-108.2286,37.3128],"type": "Point"}, "properties": {"siteid": "floridacanal","title": "FLORIDA CANAL NEAR DURANGO","type": "diversion"}},
+{"type": "Feature", "id": "514", "geometry": {"coordinates": [-107.6667,37.4167],"type": "Point"}, "properties": {"siteid": "floridariverabovelemonreservoir","title": "FLORIDA RIVER ABOVE LEMON RESERVOIR; NR BAYFIELD; CO","type": "stream"}},
+{"type": "Feature", "id": "515", "geometry": {"coordinates": [-107.8692,37.0567],"type": "Point"}, "properties": {"siteid": "floridariveratbondad","title": "FLORIDA RIVER AT BONDAD; CO.","type": "stream"}},
+{"type": "Feature", "id": "516", "geometry": {"coordinates": [-108.2472,37.1394],"type": "Point"}, "properties": {"siteid": "floridariverblfarmersditch","title": "FLORIDA R BL FLOR FARMERS DITCH; NR DURANGO","type": "stream"}},
+{"type": "Feature", "id": "517", "geometry": {"coordinates": [-108.3381,37.3803],"type": "Point"}, "properties": {"siteid": "floridariverbllemonreservoir","title": "FLORIDA RIVER BELOW LEMON RESERVOIR; NR BAYFIELD","type": "stream"}},
+{"type": "Feature", "id": "518", "geometry": {"coordinates": [-107.6617,37.3767],"type": "Point"}, "properties": {"siteid": "floridarivernearhermosa","title": "FLORIDA RIVER NEAR HERMOSA; CO.","type": "stream"}},
+{"type": "Feature", "id": "519", "geometry": {"coordinates": [-107.7483,37.3253],"type": "Point"}, "properties": {"siteid": "floridarivernrdurango","title": "FLORIDA RIVER NEAR DURANGO","type": "stream"}},
+{"type": "Feature", "id": "520", "geometry": {"coordinates": [-112.0004,38.9571],"type": "Point"}, "properties": {"siteid": "flou","title": "UCC - Flowell; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "521", "geometry": {"coordinates": [-105.22166,40.36833],"type": "Point"}, "properties": {"siteid": "fltirnr","title": "FLATIRON RESERVOIR; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "522", "geometry": {"coordinates": [-104.53778,42.20056],"type": "Point"}, "properties": {"siteid": "flwy","title": "LARAMIE RIVER NR FORT LARAMIE; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "523", "geometry": {"coordinates": [-108.21833,43.22222],"type": "Point"}, "properties": {"siteid": "fmsy","title": "FIVEMILE CREEK NEAR SHOSHONI; WY","type": "stream"}},
+{"type": "Feature", "id": "524", "geometry": {"coordinates": [-114.6089,34.8419],"type": "Point"}, "properties": {"siteid": "fmtbs","title": "Fort Mojave Tribe-Barrackman","type": "diversion"}},
+{"type": "Feature", "id": "525", "geometry": {"coordinates": [-114.6436,34.9697],"type": "Point"}, "properties": {"siteid": "fmtc1","title": "Fort Mojave Tribe-California 1","type": "diversion"}},
+{"type": "Feature", "id": "526", "geometry": {"coordinates": [-114.6536,34.9728],"type": "Point"}, "properties": {"siteid": "fmtc2n","title": "Fort Mojave Tribe-California 2 (North)","type": "canal"}},
+{"type": "Feature", "id": "527", "geometry": {"coordinates": [-114.6536,34.9728],"type": "Point"}, "properties": {"siteid": "fmtc2s","title": "Fort Mojave Tribe-California 2 (South)","type": "canal"}},
+{"type": "Feature", "id": "528", "geometry": {"coordinates": [-114.6536,34.9728],"type": "Point"}, "properties": {"siteid": "fmtc2w","title": "Fort Mojave Tribe-California 2 (West)","type": "canal"}},
+{"type": "Feature", "id": "529", "geometry": {"coordinates": [-114.6442,34.9464],"type": "Point"}, "properties": {"siteid": "fmtcs","title": "Fort Mojave Tribe-Cimmaron","type": "diversion"}},
+{"type": "Feature", "id": "530", "geometry": {"coordinates": [-114.6336,35.0303],"type": "Point"}, "properties": {"siteid": "fmtnc","title": "Fort Mojave Tribe-North Casino","type": "diversion"}},
+{"type": "Feature", "id": "531", "geometry": {"coordinates": [-114.6336,35.0303],"type": "Point"}, "properties": {"siteid": "fmtncnec","title": "Fort Mojave Tribe-North Casino (North Event Center)","type": "diversion"}},
+{"type": "Feature", "id": "532", "geometry": {"coordinates": [-114.6267,35.0594],"type": "Point"}, "properties": {"siteid": "fmtnv","title": "Fort Mojave Tribe-Nevada","type": "diversion"}},
+{"type": "Feature", "id": "533", "geometry": {"coordinates": [-114.5769,34.8572],"type": "Point"}, "properties": {"siteid": "fmtrsftmve","title": "Fort Mojave Tribe-Refuge (Fort Mojave Tribe)","type": "diversion"}},
+{"type": "Feature", "id": "534", "geometry": {"coordinates": [-114.5769,34.8572],"type": "Point"}, "properties": {"siteid": "fmtrsvdslc","title": "Fort Mojave Tribe-Refuge (Vanderslice Farms)","type": "diversion"}},
+{"type": "Feature", "id": "535", "geometry": {"coordinates": [-114.6228,34.9878],"type": "Point"}, "properties": {"siteid": "fmtsc","title": "Fort Mojave Tribe-South Casino","type": "diversion"}},
+{"type": "Feature", "id": "536", "geometry": {"coordinates": [-114.6258,34.92],"type": "Point"}, "properties": {"siteid": "fmtws","title": "Fort Mojave Tribe-Willow","type": "diversion"}},
+{"type": "Feature", "id": "537", "geometry": {"coordinates": [-123.08361,45.55305],"type": "Point"}, "properties": {"siteid": "fogo","title": "Forest Grove; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "538", "geometry": {"coordinates": [-121.183,38.683],"type": "Point"}, "properties": {"siteid": "fol","title": "Folsom Lake; Dam; And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "539", "geometry": {"coordinates": [-110.04,42.02],"type": "Point"}, "properties": {"siteid": "fontenelle","title": "FONTENELLE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "540", "geometry": {"coordinates": [-110.4158,42.0961],"type": "Point"}, "properties": {"siteid": "fontenellecreeknearhershlerranch","title": "FONTENELLE CREEK NEAR HERSHLER RANCH; WY.","type": "stream"}},
+{"type": "Feature", "id": "541", "geometry": {"coordinates": [-114.7,35],"type": "Point"}, "properties": {"siteid": "fortmojaveindianreservationaz","title": "Fort Mojave Indian Reservation (AZ)","type": "diversion"}},
+{"type": "Feature", "id": "542", "geometry": {"coordinates": [-114.7,34.9],"type": "Point"}, "properties": {"siteid": "fortmojaveindianreservationca","title": "Fort Mojave Indian Reservation (CA)","type": "diversion"}},
+{"type": "Feature", "id": "543", "geometry": {"coordinates": [-104.2778,34.5083],"type": "Point"}, "properties": {"siteid": "fortsumnermaincanalnearfortsumner","title": "FORT SUMNER MAIN CANAL NEAR FORT SUMNER; NM","type": "canal"}},
+{"type": "Feature", "id": "544", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "fortyumaindianreservation","title": "Fort Yuma Indian Reservation; CA","type": "diversion"}},
+{"type": "Feature", "id": "545", "geometry": {"coordinates": [-99.17777,35.53833],"type": "Point"}, "properties": {"siteid": "foss","title": "FOSS DAM; OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "546", "geometry": {"coordinates": [-104.59306,38.43972],"type": "Point"}, "properties": {"siteid": "foupinco","title": "FOUNTAIN CREEK NEAR PINON; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "547", "geometry": {"coordinates": [-104.60056,38.28778],"type": "Point"}, "properties": {"siteid": "foupueco","title": "FOUNTAIN CREEK AT PUEBLO; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "548", "geometry": {"coordinates": [-104.3689,32.6728],"type": "Point"}, "properties": {"siteid": "fourmiledrawnearlakewood","title": "FOUR MILE DRAW NEAR LAKEWOOD","type": "stream"}},
+{"type": "Feature", "id": "549", "geometry": {"coordinates": [-98.88555,40.07444],"type": "Point"}, "properties": {"siteid": "fpne","title": "FRANKLIN PUMP CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "550", "geometry": {"coordinates": [-111.6,43.05],"type": "Point"}, "properties": {"siteid": "franklinbasinswe","title": "FRANKLIN BASIN","type": "snotel"}},
+{"type": "Feature", "id": "551", "geometry": {"coordinates": [-105.78472,39.92028],"type": "Point"}, "properties": {"siteid": "frawinco","title": "FRASER RIVER AT WINTER PARK; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "552", "geometry": {"coordinates": [-107.30167,49],"type": "Point"}, "properties": {"siteid": "frbm","title": "FRENCHMAN RIVER AT INTERNATIONAL BOUNDARY; MT","type": "stream"}},
+{"type": "Feature", "id": "553", "geometry": {"coordinates": [-99.70444,29.48833],"type": "Point"}, "properties": {"siteid": "frct","title": "FRIO RIVER AT CONCAN; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "554", "geometry": {"coordinates": [-99.14444,28.73639],"type": "Point"}, "properties": {"siteid": "frdt","title": "FRIO RIVER NEAR DERBY; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "555", "geometry": {"coordinates": [-106.18611,39.36639],"type": "Point"}, "properties": {"siteid": "fremntco","title": "FREMONT PASS; CO","type": "snotel"}},
+{"type": "Feature", "id": "556", "geometry": {"coordinates": [-106.2,39.3833],"type": "Point"}, "properties": {"siteid": "fremontpassswe","title": "FREMONT PASS","type": "snotel"}},
+{"type": "Feature", "id": "557", "geometry": {"coordinates": [-112.2,46.45],"type": "Point"}, "properties": {"siteid": "frhm","title": "FROHNER MEADOW; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "558", "geometry": {"coordinates": [-120.935,37.915],"type": "Point"}, "properties": {"siteid": "frm","title": "Upper Farmington Canal","type": "canal"}},
+{"type": "Feature", "id": "559", "geometry": {"coordinates": [-99.20722,40.07333],"type": "Point"}, "properties": {"siteid": "frne","title": "FRANKLIN CANAL; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "560", "geometry": {"coordinates": [-111.15426,39.075554],"type": "Point"}, "properties": {"siteid": "frnu","title": "Ferron; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "561", "geometry": {"coordinates": [-109.94583,48.60833],"type": "Point"}, "properties": {"siteid": "frr","title": "FRESNO RESERVOIR NEAR HAVRE; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "562", "geometry": {"coordinates": [-98.54722,28.46722],"type": "Point"}, "properties": {"siteid": "frtt","title": "FRIO RIVER AT TILDEN; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "563", "geometry": {"coordinates": [-107.95,35.8333],"type": "Point"}, "properties": {"siteid": "fruitgrowers","title": "FRUITGROWERS RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "564", "geometry": {"coordinates": [-108.2667,36.7286],"type": "Point"}, "properties": {"siteid": "fruitlandcanalflume","title": "FRUITLAND CANAL FLUME","type": "diversion"}},
+{"type": "Feature", "id": "565", "geometry": {"coordinates": [-99.67416,29.24556],"type": "Point"}, "properties": {"siteid": "frut","title": "FRIO RIVER BELOW DRY FRIO RIVER NEAR UVALDE; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "566", "geometry": {"coordinates": [-106.53111,39.245],"type": "Point"}, "properties": {"siteid": "frydivco","title": "FRYINGPAN RIVER DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "567", "geometry": {"coordinates": [-106.72639,39.3625],"type": "Point"}, "properties": {"siteid": "frymerco","title": "FRYINGPAN RIVER NEAR MEREDITH; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "568", "geometry": {"coordinates": [-106.66528,39.34278],"type": "Point"}, "properties": {"siteid": "frynfnco","title": "NORTH FORK FRYINGPAN RIVER NR NORRIE; CO","type": "stream"}},
+{"type": "Feature", "id": "569", "geometry": {"coordinates": [-106.825,39.36555],"type": "Point"}, "properties": {"siteid": "fryrudco","title": "FRYINGPAN RIVER NEAR RUEDI; EAGLE COUNTY; CO","type": "stream"}},
+{"type": "Feature", "id": "570", "geometry": {"coordinates": [-106.67305,39.34472],"type": "Point"}, "properties": {"siteid": "frythoco","title": "FRYINGPAN RIVER NEAR THOMASVILLE; CO","type": "stream"}},
+{"type": "Feature", "id": "571", "geometry": {"coordinates": [-112.075,47.50834],"type": "Point"}, "properties": {"siteid": "fsdm","title": "FORT SHAW DIVERSION DAM NEAR SIMMS; MONTANA","type": "diversion"}},
+{"type": "Feature", "id": "572", "geometry": {"coordinates": [-109.95,45.06667],"type": "Point"}, "properties": {"siteid": "fshm","title": "FISHER CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "573", "geometry": {"coordinates": [-104.1739,34.3517],"type": "Point"}, "properties": {"siteid": "fsidlowerdrain","title": "Fort Sumner Irrigation District Lower Drain","type": "canal"}},
+{"type": "Feature", "id": "574", "geometry": {"coordinates": [-104.2008,34.4042],"type": "Point"}, "properties": {"siteid": "fsidmaindrain","title": "Fort Sumner Irrigation District Main Drain","type": "canal"}},
+{"type": "Feature", "id": "575", "geometry": {"coordinates": [-108.39444,48.60278],"type": "Point"}, "properties": {"siteid": "ftbelkmt","title": "FORT BELKNAP CANAL MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "576", "geometry": {"coordinates": [-112.43111,43.07138],"type": "Point"}, "properties": {"siteid": "fthi","title": "Fort Hall; Idaho AgriMet Weather Station ","type": "agrimet"}},
+{"type": "Feature", "id": "577", "geometry": {"coordinates": [-113.85,48.8],"type": "Point"}, "properties": {"siteid": "ftmm","title": "FLATTOP MOUNTAIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "578", "geometry": {"coordinates": [-98.74667,41.41167],"type": "Point"}, "properties": {"siteid": "fune","title": "FULLERTON CANAL BELOW DAVIS CREEK DAM; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "579", "geometry": {"coordinates": [-114.5708,34.7864],"type": "Point"}, "properties": {"siteid": "fwsfd","title": "U.S. Fish and Wildlife Service Topock Refuge-Farm Ditch","type": "canal"}},
+{"type": "Feature", "id": "580", "geometry": {"coordinates": [-114.5372,34.8339],"type": "Point"}, "properties": {"siteid": "fwsic","title": "U.S. Fish and Wildlife Service Topock Refuge-Inlet Canal","type": "diversion"}},
+{"type": "Feature", "id": "581", "geometry": {"coordinates": [-114.485,34.7369],"type": "Point"}, "properties": {"siteid": "fwssd","title": "U.S. Fish and Wildlife Service Topock Refuge-South Dike","type": "stream"}},
+{"type": "Feature", "id": "582", "geometry": {"coordinates": [-108.125,36.6478],"type": "Point"}, "properties": {"siteid": "gallegoscanyonnrfarmington","title": "GALLEGOS CANYON NR FARMINGTON; NM","type": "stream"}},
+{"type": "Feature", "id": "583", "geometry": {"coordinates": [-105.55,36.1833],"type": "Point"}, "properties": {"siteid": "gallegospeakswe","title": "GALLEGOS PEAK","type": "snotel"}},
+{"type": "Feature", "id": "584", "geometry": {"coordinates": [-105.1614,35.468],"type": "Point"}, "properties": {"siteid": "gallinascreeknearlourdes","title": "GALLINAS CREEK NEAR LOURDES","type": "stream"}},
+{"type": "Feature", "id": "585", "geometry": {"coordinates": [-107.8903,36.035],"type": "Point"}, "properties": {"siteid": "gallowashatchaconationalmonument","title": "GALLO WASH AT CHACO NATIONAL MONUMENT; NM","type": "stream"}},
+{"type": "Feature", "id": "586", "geometry": {"coordinates": [-118.95361,47.94527],"type": "Point"}, "properties": {"siteid": "gcdw","title": "Grand Coulee Dam; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "587", "geometry": {"coordinates": [-113.69722,48.77222],"type": "Point"}, "properties": {"siteid": "gcrm","title": "GRINNELL CREEK NEAR MANY GLACIER; MT","type": "stream"}},
+{"type": "Feature", "id": "588", "geometry": {"coordinates": [-112.76667,47.6],"type": "Point"}, "properties": {"siteid": "gdmm","title": "GIBSON DAM WEATHER STATION; MONTANA","type": "weather"}},
+{"type": "Feature", "id": "589", "geometry": {"coordinates": [-98.38333,40.06667],"type": "Point"}, "properties": {"siteid": "gdsne","title": "GUIDE ROCK DIVERSION DAM; SOUTH CHANNEL; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "590", "geometry": {"coordinates": [-116.05611,42.9125],"type": "Point"}, "properties": {"siteid": "gdvi","title": "Grand View; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "591", "geometry": {"coordinates": [-120.6297,37.8628],"type": "Point"}, "properties": {"siteid": "gdw","title": "Goodwin Dam And Joint-Main And South Canals","type": "reservoir"}},
+{"type": "Feature", "id": "592", "geometry": {"coordinates": [-106.69889,42.56556],"type": "Point"}, "properties": {"siteid": "gdwy","title": "GRAY REEF DAM; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "593", "geometry": {"coordinates": [-119.64222,47.04388],"type": "Point"}, "properties": {"siteid": "gerw","title": "George; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "594", "geometry": {"coordinates": [-111.8125,47.65834],"type": "Point"}, "properties": {"siteid": "gfmt","title": "GREENFIELDS WEATHER STATION NR FAIRFIELD; MT  8NE","type": "agrimet"}},
+{"type": "Feature", "id": "595", "geometry": {"coordinates": [-103.71555,41.85333],"type": "Point"}, "properties": {"siteid": "gfne","title": "GERING CANAL-BADLANDS PARSHALL FLUME; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "596", "geometry": {"coordinates": [-115.35694,42.86666],"type": "Point"}, "properties": {"siteid": "gfri","title": "Glenns Ferry; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "597", "geometry": {"coordinates": [-106.69195,42.57417],"type": "Point"}, "properties": {"siteid": "ggwy","title": "N PLATTE RIV BELOW GRAY REEF RESERVOIR NR ALCOVA; WY","type": "stream"}},
+{"type": "Feature", "id": "598", "geometry": {"coordinates": [-112.97861,45.15528],"type": "Point"}, "properties": {"siteid": "ghcm","title": "GRASSHOPPER CREEK AT BANNACK STATE PARK; MT","type": "stream"}},
+{"type": "Feature", "id": "599", "geometry": {"coordinates": [-108.30056,39.17334],"type": "Point"}, "properties": {"siteid": "ghicanco","title": "GOVERNMENT HIGHLINE CANAL NR GRAND JUNCTION; CO","type": "canal"}},
+{"type": "Feature", "id": "600", "geometry": {"coordinates": [-114.455,32.8761],"type": "Point"}, "properties": {"siteid": "gialgravitymaincanal","title": "Gial Gravity Main Canal","type": "canal"}},
+{"type": "Feature", "id": "601", "geometry": {"coordinates": [-112.76167,47.60083],"type": "Point"}, "properties": {"siteid": "gibr","title": "GIBSON RESERVOIR; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "602", "geometry": {"coordinates": [-114.455,32.8761],"type": "Point"}, "properties": {"siteid": "gilagravitymaincanalatimperialdam","title": "Gila Gravity Main Canal at Imperial Dam","type": "diversion"}},
+{"type": "Feature", "id": "603", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "gilamonsterfarms","title": "Gila Monster Farms","type": "diversion"}},
+{"type": "Feature", "id": "604", "geometry": {"coordinates": [-113.5406,32.8822],"type": "Point"}, "properties": {"siteid": "gilariver@64eastdateland","title": "Gila River @ 64 East - Dateland","type": "stream"}},
+{"type": "Feature", "id": "605", "geometry": {"coordinates": [-114.4197,32.7611],"type": "Point"}, "properties": {"siteid": "gilariveratdome","title": "Gila River at Dome","type": "stream"}},
+{"type": "Feature", "id": "606", "geometry": {"coordinates": [-113.0139,33.075],"type": "Point"}, "properties": {"siteid": "gilariveratpaintedrock","title": "Gila River at Painted Rock","type": "stream"}},
+{"type": "Feature", "id": "607", "geometry": {"coordinates": [-105.80305,40.23667],"type": "Point"}, "properties": {"siteid": "gl6sswco","title": "GRAND LAKE 6SSW; CO","type": "reservoir"}},
+{"type": "Feature", "id": "608", "geometry": {"coordinates": [-105.80222,40.24167],"type": "Point"}, "properties": {"siteid": "glaresco","title": "GRAND LAKE; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "609", "geometry": {"coordinates": [-106.97305,48.37222],"type": "Point"}, "properties": {"siteid": "glasgomt","title": "GLASGOW MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "610", "geometry": {"coordinates": [-104.95055,42.47722],"type": "Point"}, "properties": {"siteid": "gler","title": "GLENDO RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "611", "geometry": {"coordinates": [-106.60056,48.14667],"type": "Point"}, "properties": {"siteid": "glgm","title": "GLASGOW MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "612", "geometry": {"coordinates": [-104.94722,42.45694],"type": "Point"}, "properties": {"siteid": "glwy","title": "N PLATTE RIVER BELOW GLENDO DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "613", "geometry": {"coordinates": [-106.32916,39.87833],"type": "Point"}, "properties": {"siteid": "gmtr","title": "GREEN MOUNTAIN RESERVOIR; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "614", "geometry": {"coordinates": [-114.58,34.6],"type": "Point"}, "properties": {"siteid": "goldenshoreswaterconservationdistrict","title": "Golden Shores Water Conservation District","type": "diversion"}},
+{"type": "Feature", "id": "615", "geometry": {"coordinates": [-120.82444,45.81194],"type": "Point"}, "properties": {"siteid": "golw","title": "Goldendale; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "616", "geometry": {"coordinates": [-111.6833,38.8],"type": "Point"}, "properties": {"siteid": "gooseberryr.s.swe","title": "GOOSEBERRY R.S.","type": "snotel"}},
+{"type": "Feature", "id": "617", "geometry": {"coordinates": [-104.75417,42.28056],"type": "Point"}, "properties": {"siteid": "gowy","title": "N PLATTE RIVER BELOW GUERNSEY DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "618", "geometry": {"coordinates": [-105.87056,40.18195],"type": "Point"}, "properties": {"siteid": "granbyr","title": "GRANBY RESERVOIR; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "619", "geometry": {"coordinates": [-105.5214,40.1055],"type": "Point"}, "properties": {"siteid": "granbyreservoir","title": "GRANBY RESERVOIR; CO","type": "reservoir"}},
+{"type": "Feature", "id": "620", "geometry": {"coordinates": [-105.80305,40.23667],"type": "Point"}, "properties": {"siteid": "grandr","title": "GRAND LAKE; CO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "621", "geometry": {"coordinates": [-106.69667,42.56333],"type": "Point"}, "properties": {"siteid": "grar","title": "GRAY REEF RESERVOIR; WY (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "622", "geometry": {"coordinates": [-105.87112,40.18195],"type": "Point"}, "properties": {"siteid": "graresco","title": "LAKE GRANBY NEAR GRANBY; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "623", "geometry": {"coordinates": [-106.5378,37.47],"type": "Point"}, "properties": {"siteid": "graybackswe","title": "GRAYBACK","type": "snotel"}},
+{"type": "Feature", "id": "624", "geometry": {"coordinates": [-105.86333,40.41945],"type": "Point"}, "properties": {"siteid": "grdtchco","title": "GRAND DITCH; CO","type": "canal"}},
+{"type": "Feature", "id": "625", "geometry": {"coordinates": [-108.35333,39.09833],"type": "Point"}, "properties": {"siteid": "grdvalco","title": "GRAND VALLEY CANAL NR GRAND JUNCTION; CO","type": "canal"}},
+{"type": "Feature", "id": "626", "geometry": {"coordinates": [-106.32916,39.87444],"type": "Point"}, "properties": {"siteid": "greelcco","title": "ELLIOT CK CANAL NR GREEN MOUNTAIN RESERVOIR; CO","type": "diversion"}},
+{"type": "Feature", "id": "627", "geometry": {"coordinates": [-106.1945,39.5242],"type": "Point"}, "properties": {"siteid": "greenmountainreservoir","title": "GREEN MOUNTAIN RESERVOIR; CO","type": "reservoir"}},
+{"type": "Feature", "id": "628", "geometry": {"coordinates": [-110.1656,42.1883],"type": "Point"}, "properties": {"siteid": "greenriverabovefontenellelabarge","title": "GREEN RIVER ABOVE FONTENELLE (LA BARGE)","type": "stream"}},
+{"type": "Feature", "id": "629", "geometry": {"coordinates": [-110.1506,38.9861],"type": "Point"}, "properties": {"siteid": "greenriveratgreenriver","title": "GREEN RIVER AT GREEN RIVER; UT","type": "stream"}},
+{"type": "Feature", "id": "630", "geometry": {"coordinates": [-110.1175,43.0189],"type": "Point"}, "properties": {"siteid": "greenriveratwarrenbridge","title": "GREEN RIVER AT WARREN BRIDGE","type": "stream"}},
+{"type": "Feature", "id": "631", "geometry": {"coordinates": [-110.0492,42.0211],"type": "Point"}, "properties": {"siteid": "greenriverbelowfontenelledam","title": "GREEN RIVER BELOW FONTENELLE DAM; WY","type": "stream"}},
+{"type": "Feature", "id": "632", "geometry": {"coordinates": [-109.4222,40.9083],"type": "Point"}, "properties": {"siteid": "greenriverneargreendale","title": "GREEN RIVER NEAR GREENDALE; UT","type": "stream"}},
+{"type": "Feature", "id": "633", "geometry": {"coordinates": [-109.4483,41.5164],"type": "Point"}, "properties": {"siteid": "greenriverneargreenriver","title": "GREEN RIVER NEAR GREEN RIVER; WY","type": "stream"}},
+{"type": "Feature", "id": "634", "geometry": {"coordinates": [-109.2347,40.4094],"type": "Point"}, "properties": {"siteid": "greenrivernearjensen","title": "GREEN RIVER NEAR JENSEN; UTAH","type": "stream"}},
+{"type": "Feature", "id": "635", "geometry": {"coordinates": [-109.5778,40.9667],"type": "Point"}, "properties": {"siteid": "greenrivernearlinwood","title": "GREEN RIVER NEAR LINWOOD; UT","type": "stream"}},
+{"type": "Feature", "id": "636", "geometry": {"coordinates": [-111.73606,42.51496],"type": "Point"}, "properties": {"siteid": "grei","title": "Grace; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "637", "geometry": {"coordinates": [-106.31334,39.87889],"type": "Point"}, "properties": {"siteid": "greresco","title": "GREEN MOUNTAIN RESERVOIR; SUMMIT COUNTY; CO","type": "reservoir"}},
+{"type": "Feature", "id": "638", "geometry": {"coordinates": [-110.9767506,43.14296552],"type": "Point"}, "properties": {"siteid": "grey","title": "Greys River above Reservoir near Alpine; WY","type": "stream"}},
+{"type": "Feature", "id": "639", "geometry": {"coordinates": [-111.42,45.4975],"type": "Point"}, "properties": {"siteid": "grgm","title": "GALLATIN RIVER NEAR GALLATIN GATEWAY; MT","type": "stream"}},
+{"type": "Feature", "id": "640", "geometry": {"coordinates": [-105.86667,39.65],"type": "Point"}, "properties": {"siteid": "grizlyco","title": "GRIZZLY PEAK; CO","type": "snotel"}},
+{"type": "Feature", "id": "641", "geometry": {"coordinates": [-105.8667,39.65],"type": "Point"}, "properties": {"siteid": "grizzlypeakswe","title": "GRIZZLY PEAK","type": "snotel"}},
+{"type": "Feature", "id": "642", "geometry": {"coordinates": [-105.80305,40.23667],"type": "Point"}, "properties": {"siteid": "grl1nwco","title": "GRAND LAKE 1NW; CO","type": "reservoir"}},
+{"type": "Feature", "id": "643", "geometry": {"coordinates": [-108.87639,44.15556],"type": "Point"}, "properties": {"siteid": "grmy","title": "GREYBULL RIVER AT MEETEETSE; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "644", "geometry": {"coordinates": [-106.55417,39.2675],"type": "Point"}, "properties": {"siteid": "grndivco","title": "GRANITE DIVERSION/BYPASS; COLORADO (FROM IVNDIVCO)","type": "diversion"}},
+{"type": "Feature", "id": "645", "geometry": {"coordinates": [-110.1333,43.3833],"type": "Point"}, "properties": {"siteid": "grosventresummitswe","title": "GROS VENTRE SUMMIT","type": "snotel"}},
+{"type": "Feature", "id": "646", "geometry": {"coordinates": [-110.8193888,44.12965909],"type": "Point"}, "properties": {"siteid": "grs","title": "Grassy Lake near Moran; WY","type": "reservoir"}},
+{"type": "Feature", "id": "647", "geometry": {"coordinates": [-107.22556,43.47028],"type": "Point"}, "properties": {"siteid": "grsw","title": "GRAVE SPRINGS; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "648", "geometry": {"coordinates": [-112.756527,40.530544],"type": "Point"}, "properties": {"siteid": "grtu","title": "Grantsville; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "649", "geometry": {"coordinates": [-110.13333,43.38334],"type": "Point"}, "properties": {"siteid": "grvw","title": "GROS VENTRE SUMMIT; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "650", "geometry": {"coordinates": [-105.75833,42.83611],"type": "Point"}, "properties": {"siteid": "grwy","title": "NORTH PLATTE RIVER NR GLENROCK; WY","type": "stream"}},
+{"type": "Feature", "id": "651", "geometry": {"coordinates": [-104.76334,42.29],"type": "Point"}, "properties": {"siteid": "guer","title": "GUERNSEY RESERVOIR; WY (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "652", "geometry": {"coordinates": [-108.0778,38.7531],"type": "Point"}, "properties": {"siteid": "gunnisonriveratdelta","title": "GUNNISON RIVER AT DELTA; CO.","type": "stream"}},
+{"type": "Feature", "id": "653", "geometry": {"coordinates": [-107.0606,38.0586],"type": "Point"}, "properties": {"siteid": "gunnisonriverbelowgunnisontunnel","title": "GUNNISON RIVER BELOW GUNNISON TUNNEL","type": "stream"}},
+{"type": "Feature", "id": "654", "geometry": {"coordinates": [-108.5703,39.0381],"type": "Point"}, "properties": {"siteid": "gunnisonriverbelowredlandsdiversion","title": "GUNNISON RIVER BELOW REDLANDS DIVERSION","type": "stream"}},
+{"type": "Feature", "id": "655", "geometry": {"coordinates": [-108.45,38.9833],"type": "Point"}, "properties": {"siteid": "gunnisonriverneargrandjunction","title": "GUNNISON RIVER NEAR GRAND JUNCTION; CO","type": "stream"}},
+{"type": "Feature", "id": "656", "geometry": {"coordinates": [-106.9492,38.5419],"type": "Point"}, "properties": {"siteid": "gunnisonriverneargunnison","title": "GUNNISON RIVER NEAR GUNNISON; CO","type": "stream"}},
+{"type": "Feature", "id": "657", "geometry": {"coordinates": [-107.7492,38.485],"type": "Point"}, "properties": {"siteid": "gunnisontunnelablateral","title": "GUNNISON TUNNEL AB LATERAL","type": "canal"}},
+{"type": "Feature", "id": "658", "geometry": {"coordinates": [-107.7556,38.4836],"type": "Point"}, "properties": {"siteid": "gunnisontunnelsouthcanal","title": "GUNNISON TUNNEL SOUTH CANAL","type": "canal"}},
+{"type": "Feature", "id": "659", "geometry": {"coordinates": [-109.8667,43.3833],"type": "Point"}, "properties": {"siteid": "gunsightpassswe","title": "GUNSIGHT PASS","type": "snotel"}},
+{"type": "Feature", "id": "660", "geometry": {"coordinates": [-104.7625,42.28861],"type": "Point"}, "properties": {"siteid": "guwy","title": "GUERNSEY RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "661", "geometry": {"coordinates": [-114.4222,34.0061],"type": "Point"}, "properties": {"siteid": "gwwlc","title": "CRIR Return Gardner Wasteway","type": "canal"}},
+{"type": "Feature", "id": "662", "geometry": {"coordinates": [-104.7625,42.28861],"type": "Point"}, "properties": {"siteid": "gwwy","title": "WEATHER STATION; GUERNSEY DAM; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "663", "geometry": {"coordinates": [-106.38333,39.18611],"type": "Point"}, "properties": {"siteid": "haldivco","title": "HALFMOON CREEK BL HALFMOON DIV. NEAR LEADVILLE; CO","type": "diversion"}},
+{"type": "Feature", "id": "664", "geometry": {"coordinates": [-112.238833,44.007417],"type": "Point"}, "properties": {"siteid": "hami","title": "INL - Hamer;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "665", "geometry": {"coordinates": [-110.6833,42.15],"type": "Point"}, "properties": {"siteid": "hamsforkswe","title": "HAMS FORK","type": "snotel"}},
+{"type": "Feature", "id": "666", "geometry": {"coordinates": [-103.48083,41.93945],"type": "Point"}, "properties": {"siteid": "hane","title": "HIGHLINE CANAL ABOVE MINATARE DIVERSION; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "667", "geometry": {"coordinates": [-111.7194,40.868],"type": "Point"}, "properties": {"siteid": "hardscrabbleswe","title": "HARDSCRABBLE","type": "snotel"}},
+{"type": "Feature", "id": "668", "geometry": {"coordinates": [-108.9986,48.57167],"type": "Point"}, "properties": {"siteid": "harlemmt","title": "HARLEM PUMP MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "669", "geometry": {"coordinates": [-112.5833,37.4833],"type": "Point"}, "properties": {"siteid": "harrisflatswe","title": "HARRIS FLAT","type": "snotel"}},
+{"type": "Feature", "id": "670", "geometry": {"coordinates": [-108.6144,37.3239],"type": "Point"}, "properties": {"siteid": "hartmandrawatcortez","title": "HARTMAN DRAW AT CORTEZ; CO.","type": "stream"}},
+{"type": "Feature", "id": "671", "geometry": {"coordinates": [-111.89083,46.76722],"type": "Point"}, "properties": {"siteid": "haum","title": "MISSOURI RIVER BELOW HAUSER DAM; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "672", "geometry": {"coordinates": [-114.58,34.5],"type": "Point"}, "properties": {"siteid": "havasunationalwildliferefuge","title": "Havasu National Wildlife Refuge","type": "diversion"}},
+{"type": "Feature", "id": "673", "geometry": {"coordinates": [-110.8833,40.8],"type": "Point"}, "properties": {"siteid": "haydenforkswe","title": "HAYDEN FORK","type": "snotel"}},
+{"type": "Feature", "id": "674", "geometry": {"coordinates": [-109.1,42.86666],"type": "Point"}, "properties": {"siteid": "hbby","title": "HOBBS PARK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "675", "geometry": {"coordinates": [-107.57472,45.73667],"type": "Point"}, "properties": {"siteid": "hbhm","title": "HIGHWAY 384 BRIDGE AT HARDIN; MT","type": "stream"}},
+{"type": "Feature", "id": "676", "geometry": {"coordinates": [-100.66722,40.3575],"type": "Point"}, "properties": {"siteid": "hbne","title": "HUGH BUTLER LAKE (RED WILLOW DAM); NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "677", "geometry": {"coordinates": [-99.11667,29.37611],"type": "Point"}, "properties": {"siteid": "hcht","title": "HONDO CREEK AT STATE HIGHWAY 173 NEAR HONDO; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "678", "geometry": {"coordinates": [-99.20833,40.06944],"type": "Point"}, "properties": {"siteid": "hcne","title": "HARLAN COUNTY DAM; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "679", "geometry": {"coordinates": [-99.24638,29.56944],"type": "Point"}, "properties": {"siteid": "hctt","title": "HONDO CREEK NR TARPLEY; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "680", "geometry": {"coordinates": [-102.16944,39.62083],"type": "Point"}, "properties": {"siteid": "hdco","title": "HALE DITCH BELOW BONNY DAM; COLORAD0","type": "canal"}},
+{"type": "Feature", "id": "681", "geometry": {"coordinates": [-108.31694,45.90417],"type": "Point"}, "properties": {"siteid": "hdhm","title": "HUNTLEY DIVERSIONS NEAR HUNTLEY; MT","type": "canal"}},
+{"type": "Feature", "id": "682", "geometry": {"coordinates": [-114.7378,36.0153],"type": "Point"}, "properties": {"siteid": "hdmlc","title": "Lake Mead","type": "reservoir"}},
+{"type": "Feature", "id": "683", "geometry": {"coordinates": [-103.63194,41.99944],"type": "Point"}, "properties": {"siteid": "hdne","title": "HIGHLINE CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "684", "geometry": {"coordinates": [-111.33584,44.86417],"type": "Point"}, "properties": {"siteid": "hebr","title": "HEBGEN LAKE NEAR WEST YELLOWSTONE; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "685", "geometry": {"coordinates": [-111.6598844,43.61239853],"type": "Point"}, "properties": {"siteid": "heii","title": "Snake River near Heise; ID","type": "stream"}},
+{"type": "Feature", "id": "686", "geometry": {"coordinates": [-111.353611,44.597222],"type": "Point"}, "properties": {"siteid": "hen","title": "Henrys Lake Dam on Henrys Fork nr. Lake; ID","type": "reservoir"}},
+{"type": "Feature", "id": "687", "geometry": {"coordinates": [-111.3495995,44.59521279],"type": "Point"}, "properties": {"siteid": "heni","title": "Henrys Fork near Lake; ID","type": "stream"}},
+{"type": "Feature", "id": "688", "geometry": {"coordinates": [-103.71333,38.24833],"type": "Point"}, "properties": {"siteid": "henresco","title": "LAKE HENRY RESERVOIR; CO","type": "reservoir"}},
+{"type": "Feature", "id": "689", "geometry": {"coordinates": [-107.8444,37.4219],"type": "Point"}, "properties": {"siteid": "hermosacreeknearhermosa","title": "HERMOSA CREEK NEAR HERMOSA; CO.","type": "stream"}},
+{"type": "Feature", "id": "690", "geometry": {"coordinates": [-119.52138,45.82111],"type": "Point"}, "properties": {"siteid": "hero","title": "Hermiston; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "691", "geometry": {"coordinates": [-106.7036,36.6656],"type": "Point"}, "properties": {"siteid": "heronreservoir","title": "HERON RESERVOIR NR TIERRA AMARILLA","type": "reservoir"}},
+{"type": "Feature", "id": "692", "geometry": {"coordinates": [-110.4833,40.95],"type": "Point"}, "properties": {"siteid": "hewintaswe","title": "HEWINTA","type": "snotel"}},
+{"type": "Feature", "id": "693", "geometry": {"coordinates": [-104.04916,41.99028],"type": "Point"}, "properties": {"siteid": "hewy","title": "NORTH PLATTE RIVER AT WYOMING-NEBRASKA STATE LINE","type": "stream"}},
+{"type": "Feature", "id": "694", "geometry": {"coordinates": [-105.21638,40.39417],"type": "Point"}, "properties": {"siteid": "hfc930co","title": "CHARLES HANSEN FEEDER CANAL; 930 SECTION; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "695", "geometry": {"coordinates": [-105.22583,40.42222],"type": "Point"}, "properties": {"siteid": "hfcbbsco","title": "HANSEN FEEDER CANAL FLOW NORTH; 550 SECTION; CO","type": "canal"}},
+{"type": "Feature", "id": "696", "geometry": {"coordinates": [-105.23083,40.375],"type": "Point"}, "properties": {"siteid": "hfcfltco","title": "CHARLES HANSEN FEEDER CANAL @ FLATIRON RES; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "697", "geometry": {"coordinates": [-105.22611,40.41667],"type": "Point"}, "properties": {"siteid": "hfcwasco","title": "CHARLES HANSEN FEEDER CANAL WASTEWAY TO BIG THOMPSON","type": "canal"}},
+{"type": "Feature", "id": "698", "geometry": {"coordinates": [-114.01334,48.34111],"type": "Point"}, "properties": {"siteid": "hgh","title": "HUNGRY HORSE RES NR HUNGRY HORSE; MT","type": "reservoir"}},
+{"type": "Feature", "id": "699", "geometry": {"coordinates": [-114.03667,48.35667],"type": "Point"}, "properties": {"siteid": "hghm","title": "S.FK. FLATHEAD RVR NR COLUMBIA FALLS @ HUNGRY HORSE","type": "reservoir"}},
+{"type": "Feature", "id": "700", "geometry": {"coordinates": [-107.96472,43.93278],"type": "Point"}, "properties": {"siteid": "hhwy","title": "HIGHLAND HANOVER CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "701", "geometry": {"coordinates": [-109.9667,40.9],"type": "Point"}, "properties": {"siteid": "hickersonparkswe","title": "HICKERSON PARK","type": "snotel"}},
+{"type": "Feature", "id": "702", "geometry": {"coordinates": [-106.38861,39.17222],"type": "Point"}, "properties": {"siteid": "hmmc","title": "HALFMOON CREEK NEAR MALTA; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "703", "geometry": {"coordinates": [-103.39361,41.94083],"type": "Point"}, "properties": {"siteid": "hmne","title": "HIGHLINE CANAL BELOW DIVERSION; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "704", "geometry": {"coordinates": [-107.96388,43.93306],"type": "Point"}, "properties": {"siteid": "hmwy","title": "HIGHLAND MADDEN CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "705", "geometry": {"coordinates": [-106.98333,44.25],"type": "Point"}, "properties": {"siteid": "hnsw","title": "HANSEN SAWMILL; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "706", "geometry": {"coordinates": [-106.67889,39.20778],"type": "Point"}, "properties": {"siteid": "hntdivco","title": "HUNTER CREEK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "707", "geometry": {"coordinates": [-110.97399,39.307898],"type": "Point"}, "properties": {"siteid": "hntu","title": "Huntington; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "708", "geometry": {"coordinates": [-108.5458,36.745],"type": "Point"}, "properties": {"siteid": "hogbackcanalflume","title": "HOGBACK CANAL FLUME","type": "diversion"}},
+{"type": "Feature", "id": "709", "geometry": {"coordinates": [-110.2,40.9167],"type": "Point"}, "properties": {"siteid": "holeinrockswe","title": "HOLE-IN-ROCK","type": "snotel"}},
+{"type": "Feature", "id": "710", "geometry": {"coordinates": [-112.00472,46.99111],"type": "Point"}, "properties": {"siteid": "holm","title": "MISSOURI RIVER BLW HOLTER DAM & CANYON FERRY DAM; MT","type": "stream"}},
+{"type": "Feature", "id": "711", "geometry": {"coordinates": [-106.46249,39.36833],"type": "Point"}, "properties": {"siteid": "homoutco","title": "HOMESTAKE RESERVOIR; COLORADO (STATE DATA)","type": "reservoir"}},
+{"type": "Feature", "id": "712", "geometry": {"coordinates": [-106.44111,39.28111],"type": "Point"}, "properties": {"siteid": "homtunco","title": "HOMESTAKE TUNNEL; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "713", "geometry": {"coordinates": [-106.0667,39.3667],"type": "Point"}, "properties": {"siteid": "hoosierpassswe","title": "HOOSIER PASS","type": "snotel"}},
+{"type": "Feature", "id": "714", "geometry": {"coordinates": [-106.2667,36.7167],"type": "Point"}, "properties": {"siteid": "hopewellswe","title": "HOPEWELL","type": "snotel"}},
+{"type": "Feature", "id": "715", "geometry": {"coordinates": [-111.45,41.3167],"type": "Point"}, "properties": {"siteid": "horseridgeswe","title": "HORSE RIDGE","type": "snotel"}},
+{"type": "Feature", "id": "716", "geometry": {"coordinates": [-106.05,39.36666],"type": "Point"}, "properties": {"siteid": "hosierco","title": "HOOSIER PASS; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "717", "geometry": {"coordinates": [-121.51805,45.68444],"type": "Point"}, "properties": {"siteid": "hoxo","title": "Hood River; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "718", "geometry": {"coordinates": [-118.02,44.48805],"type": "Point"}, "properties": {"siteid": "hrfo","title": "Hereford; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "719", "geometry": {"coordinates": [-120.57444,46.38472],"type": "Point"}, "properties": {"siteid": "hrhw","title": "Harrah; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "720", "geometry": {"coordinates": [-114.2764,34.1681],"type": "Point"}, "properties": {"siteid": "hrlc","title": "Headgate Rock - CRIR Canal","type": "canal"}},
+{"type": "Feature", "id": "721", "geometry": {"coordinates": [-108.83472,48.54333],"type": "Point"}, "properties": {"siteid": "hrlm","title": "HARLEM MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "722", "geometry": {"coordinates": [-119.28333,45.81944],"type": "Point"}, "properties": {"siteid": "hrmo","title": "Hermiston R & E Center; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "723", "geometry": {"coordinates": [-108.77167,48.48944],"type": "Point"}, "properties": {"siteid": "hscm","title": "HARLEM SECONDARY CANAL; MT","type": "canal"}},
+{"type": "Feature", "id": "724", "geometry": {"coordinates": [-100.21778,40.37889],"type": "Point"}, "properties": {"siteid": "hsne","title": "HARRY STRUNK LAKE (MEDICINE CREEK DAM); NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "725", "geometry": {"coordinates": [-105.17111,40.59944],"type": "Point"}, "properties": {"siteid": "htoothr","title": "HORSETOOTH RESERVOIR NEAR FORT COLLINS; CO","type": "reservoir"}},
+{"type": "Feature", "id": "726", "geometry": {"coordinates": [-119.333056,40.901111],"type": "Point"}, "properties": {"siteid": "huan","title": "DRI - Hualapai Flat; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "727", "geometry": {"coordinates": [-106.79694,39.20583],"type": "Point"}, "properties": {"siteid": "huntasco","title": "HUNTER CREEK NR ASPEN; CO","type": "stream"}},
+{"type": "Feature", "id": "728", "geometry": {"coordinates": [-108.2533,36.2769],"type": "Point"}, "properties": {"siteid": "hunterwashatbistitradingpost","title": "HUNTER WASH AT BISTI TRADING POST; NM","type": "stream"}},
+{"type": "Feature", "id": "729", "geometry": {"coordinates": [-111.05,39.23],"type": "Point"}, "properties": {"siteid": "huntingtonnorth","title": "HUNTINGTON NORTH RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "730", "geometry": {"coordinates": [-111.98333,46.67917],"type": "Point"}, "properties": {"siteid": "hvmt","title": "HELENA VALLEY MONTANA WEATHER STATION  4N","type": "agrimet"}},
+{"type": "Feature", "id": "731", "geometry": {"coordinates": [-111.88223,46.63806],"type": "Point"}, "properties": {"siteid": "hvr","title": "HELENA VALLEY IRRIGATION & MUNICIPAL SUPPLY","type": "reservoir"}},
+{"type": "Feature", "id": "732", "geometry": {"coordinates": [-108.00389,43.92361],"type": "Point"}, "properties": {"siteid": "hwwy","title": "HIGHLAND WEST CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "733", "geometry": {"coordinates": [-107.96944,43.93084],"type": "Point"}, "properties": {"siteid": "hxwy","title": "HIGHLAND EAST CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "734", "geometry": {"coordinates": [-111.152,41.373],"type": "Point"}, "properties": {"siteid": "hyrum","title": "HYRUM RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "735", "geometry": {"coordinates": [-114.134583,43.0606],"type": "Point"}, "properties": {"siteid": "ichi","title": "INL - Richfield;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "736", "geometry": {"coordinates": [-104.6125,42.24306],"type": "Point"}, "properties": {"siteid": "icwy","title": "INTERSTATE CANAL AT MILE POST 1.0; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "737", "geometry": {"coordinates": [-107.6667,37.9333],"type": "Point"}, "properties": {"siteid": "idaradoswe","title": "IDARADO","type": "snotel"}},
+{"type": "Feature", "id": "738", "geometry": {"coordinates": [-112.050133,43.504133],"type": "Point"}, "properties": {"siteid": "ifai","title": "INL - Idaho Falls;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "739", "geometry": {"coordinates": [-112.730267,43.5897],"type": "Point"}, "properties": {"siteid": "igri","title": "INL - INTEC/Grid 3; Idaho","type": "agrimet"}},
+{"type": "Feature", "id": "740", "geometry": {"coordinates": [-106.48306,39.25555],"type": "Point"}, "properties": {"siteid": "ihco","title": "IVANHOE; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "741", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "iidpluscoachella","title": "Imperial Irrigation District + Coachella Valley Water District","type": "diversion"}},
+{"type": "Feature", "id": "742", "geometry": {"coordinates": [-99.28139,34.89111],"type": "Point"}, "properties": {"siteid": "ilah","title": "LUGERT DIKE; ALTUS; OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "743", "geometry": {"coordinates": [-107.06667,40.7175],"type": "Point"}, "properties": {"siteid": "illranco","title": "ILLINOIS RIVER NEAR RAND; CO","type": "stream"}},
+{"type": "Feature", "id": "744", "geometry": {"coordinates": [-117.96666,45.43333],"type": "Point"}, "properties": {"siteid": "imbo","title": "Imbler; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "745", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "imperialirrigationdistrict","title": "Imperial Irrigation District","type": "diversion"}},
+{"type": "Feature", "id": "746", "geometry": {"coordinates": [-114.4,33],"type": "Point"}, "properties": {"siteid": "imperialnationalwildliferefuge","title": "Imperial National Wildlife Refuge","type": "diversion"}},
+{"type": "Feature", "id": "747", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "imperialreservoir","title": "Imperial Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "748", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "imperialreservoirofficialcompletesalinitysite","title": "Imperial Reservoir -- Official Complete Salinity Site","type": "reservoir"}},
+{"type": "Feature", "id": "749", "geometry": {"coordinates": [-114.4667,32.8836],"type": "Point"}, "properties": {"siteid": "imperialreservoiryao","title": "Imperial Reservoir - YAO use","type": "reservoir"}},
+{"type": "Feature", "id": "750", "geometry": {"coordinates": [-106.6167,39.0667],"type": "Point"}, "properties": {"siteid": "independencepassswe","title": "INDEPENDENCE PASS","type": "snotel"}},
+{"type": "Feature", "id": "751", "geometry": {"coordinates": [-110.75,39.9],"type": "Point"}, "properties": {"siteid": "indiancanyonswe","title": "INDIAN CANYON","type": "snotel"}},
+{"type": "Feature", "id": "752", "geometry": {"coordinates": [-110.6833,42.3],"type": "Point"}, "properties": {"siteid": "indiancreekswe","title": "INDIAN CREEK","type": "snotel"}},
+{"type": "Feature", "id": "753", "geometry": {"coordinates": [-111.3984276,44.41893154],"type": "Point"}, "properties": {"siteid": "isl","title": "Island Park Dam and Reservoir; ID","type": "reservoir"}},
+{"type": "Feature", "id": "754", "geometry": {"coordinates": [-111.39472,44.41639],"type": "Point"}, "properties": {"siteid": "isli","title": "Henrys Fork near Island Park; ID","type": "stream"}},
+{"type": "Feature", "id": "755", "geometry": {"coordinates": [-111.37056,44.41945],"type": "Point"}, "properties": {"siteid": "ispi","title": "ISLAND PARK; IDAHO","type": "snotel"}},
+{"type": "Feature", "id": "756", "geometry": {"coordinates": [-106.55,39.2833],"type": "Point"}, "properties": {"siteid": "ivanhoeswe","title": "IVANHOE","type": "snotel"}},
+{"type": "Feature", "id": "757", "geometry": {"coordinates": [-106.55889,39.2875],"type": "Point"}, "properties": {"siteid": "ivndivco","title": "IVANHOE CREEK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "758", "geometry": {"coordinates": [-108.2744,37.3987],"type": "Point"}, "properties": {"siteid": "jacksongulch","title": "JACKSON GULCH RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "759", "geometry": {"coordinates": [-98.70638,46.93056],"type": "Point"}, "properties": {"siteid": "jamr","title": "JAMESTOWN RESERVOIR; NORTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "760", "geometry": {"coordinates": [-110.5897446,43.8575325],"type": "Point"}, "properties": {"siteid": "jck","title": "Jackson Lake at Dam on Snake River near Moran; WY","type": "reservoir"}},
+{"type": "Feature", "id": "761", "geometry": {"coordinates": [-122.626,40.647],"type": "Point"}, "properties": {"siteid": "jcr","title": "Judge Francis Carr Powerplant","type": "powerplant"}},
+{"type": "Feature", "id": "762", "geometry": {"coordinates": [-106.5439,35.3886],"type": "Point"}, "properties": {"siteid": "jemezcanyonreservoir","title": "JEMEZ CANYON RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "763", "geometry": {"coordinates": [-108.72833,43.15083],"type": "Point"}, "properties": {"siteid": "jhny","title": "JOHNSTOWN DITCH AT HEADWORKS; NEAR KINNEAR; WY","type": "canal"}},
+{"type": "Feature", "id": "764", "geometry": {"coordinates": [-110.7386719,43.37207473],"type": "Point"}, "properties": {"siteid": "jksy","title": "Snake River below Flat Creek near Jackson; WY","type": "stream"}},
+{"type": "Feature", "id": "765", "geometry": {"coordinates": [-102.93694,38.06805],"type": "Point"}, "properties": {"siteid": "jmrcadco","title": "JOHN MARTIN RESERVOIR AT CADDOA; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "766", "geometry": {"coordinates": [-111.1554,39.1626],"type": "Point"}, "properties": {"siteid": "joesvalley","title": "JOES VALLEY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "767", "geometry": {"coordinates": [-111.253,40.36],"type": "Point"}, "properties": {"siteid": "jordanelle","title": "JORDANELLE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "768", "geometry": {"coordinates": [-112.31667,45.61666],"type": "Point"}, "properties": {"siteid": "jrmt","title": "JEFFERSON RIVER NEAR TWIN BRIDGES; MT","type": "stream"}},
+{"type": "Feature", "id": "769", "geometry": {"coordinates": [-107.9089,37.3342],"type": "Point"}, "properties": {"siteid": "junctioncreekneardurango","title": "JUNCTION CREEK NEAR DURANGO; CO.","type": "stream"}},
+{"type": "Feature", "id": "770", "geometry": {"coordinates": [-112.16528,45.79778],"type": "Point"}, "properties": {"siteid": "jvwm","title": "JEFFERSON RVR VALLEY WEATHER STA. NR WHITEHALL; MT","type": "agrimet"}},
+{"type": "Feature", "id": "771", "geometry": {"coordinates": [-105.85,40.51667],"type": "Point"}, "properties": {"siteid": "jwrc","title": "JOE WRIGHT; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "772", "geometry": {"coordinates": [-108.20222,44.84361],"type": "Point"}, "properties": {"siteid": "kawy","title": "BIGHORN RIVER AT KANE; WY","type": "stream"}},
+{"type": "Feature", "id": "773", "geometry": {"coordinates": [-108.1825,43.68],"type": "Point"}, "properties": {"siteid": "kcwy","title": "KIRBY CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "774", "geometry": {"coordinates": [-99.25,41.7625],"type": "Point"}, "properties": {"siteid": "kdne","title": "KENT DIVERSION; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "775", "geometry": {"coordinates": [-104.07083,41.97917],"type": "Point"}, "properties": {"siteid": "kdwy","title": "KATZER DRAIN; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "776", "geometry": {"coordinates": [-110.8,42.25],"type": "Point"}, "properties": {"siteid": "kelleyr.s.swe","title": "KELLEY R.S.","type": "snotel"}},
+{"type": "Feature", "id": "777", "geometry": {"coordinates": [-110.0167,43.25],"type": "Point"}, "properties": {"siteid": "kendallr.s.swe","title": "KENDALL R.S.","type": "snotel"}},
+{"type": "Feature", "id": "778", "geometry": {"coordinates": [-122.443,40.601],"type": "Point"}, "properties": {"siteid": "kes","title": "Keswick Dam; Reservoir; And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "779", "geometry": {"coordinates": [-104.77917,44.38194],"type": "Point"}, "properties": {"siteid": "keyr","title": "KEYHOLE RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "780", "geometry": {"coordinates": [-121.755,42.16472],"type": "Point"}, "properties": {"siteid": "kflo","title": "Klamath Falls; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "781", "geometry": {"coordinates": [-118.12416,48.595],"type": "Point"}, "properties": {"siteid": "kflw","title": "Kettle Falls; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "782", "geometry": {"coordinates": [-106.6167,39.3],"type": "Point"}, "properties": {"siteid": "kilnswe","title": "KILN","type": "snotel"}},
+{"type": "Feature", "id": "783", "geometry": {"coordinates": [-112.3833,38.4833],"type": "Point"}, "properties": {"siteid": "kimberlymineswe","title": "KIMBERLY MINE","type": "snotel"}},
+{"type": "Feature", "id": "784", "geometry": {"coordinates": [-108.06,35.8486],"type": "Point"}, "properties": {"siteid": "kimmenioilwashnrcrownpoint","title": "KIM-ME-NI-OIL WASH NR CROWNPOINT; N.M","type": "stream"}},
+{"type": "Feature", "id": "785", "geometry": {"coordinates": [-108.1375,35.9792],"type": "Point"}, "properties": {"siteid": "kimmenioilwashnrlakevalley","title": "KIM-ME-NI-OIL WASH NR LAKE VALLEY; N.M.","type": "stream"}},
+{"type": "Feature", "id": "786", "geometry": {"coordinates": [-109.55,40.7167],"type": "Point"}, "properties": {"siteid": "king'scabinswe","title": "KING'S CABIN","type": "snotel"}},
+{"type": "Feature", "id": "787", "geometry": {"coordinates": [-106.61667,39.31667],"type": "Point"}, "properties": {"siteid": "klnc","title": "KILN; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "788", "geometry": {"coordinates": [-106.88499,42.18],"type": "Point"}, "properties": {"siteid": "korr","title": "KORTES RESERVOIR; WY (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "789", "geometry": {"coordinates": [-106.87583,42.17833],"type": "Point"}, "properties": {"siteid": "kowy","title": "N PLATTE RIVER BELOW KORTES DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "790", "geometry": {"coordinates": [-107.31667,43.86666],"type": "Point"}, "properties": {"siteid": "krww","title": "KIRWIN; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "791", "geometry": {"coordinates": [-99.93417,39.8075],"type": "Point"}, "properties": {"siteid": "ksks","title": "KEITH SEBELIUS LAKE (NORTON DAM); KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "792", "geometry": {"coordinates": [-112.3258333,43.54861111],"type": "Point"}, "properties": {"siteid": "ktbi","title": "Kettle Butte; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "793", "geometry": {"coordinates": [-99.12473,39.66361],"type": "Point"}, "properties": {"siteid": "kwks","title": "KIRWIN RESERVOIR AT KIRWIN; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "794", "geometry": {"coordinates": [-106.40723,39.06305],"type": "Point"}, "properties": {"siteid": "lakatlco","title": "LAKE CREEK ABOVE TWIN LAKES; CO","type": "stream"}},
+{"type": "Feature", "id": "795", "geometry": {"coordinates": [-106.30972,39.07611],"type": "Point"}, "properties": {"siteid": "lakbtlco","title": "LAKE CREEK BELOW TWIN LAKES; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "796", "geometry": {"coordinates": [-110.4333,40.6],"type": "Point"}, "properties": {"siteid": "lakefork1swe","title": "LAKEFORK #1","type": "snotel"}},
+{"type": "Feature", "id": "797", "geometry": {"coordinates": [-107.2294,38.2989],"type": "Point"}, "properties": {"siteid": "lakeforkatgateview","title": "LAKE FORK AT GATEVIEW; CO","type": "stream"}},
+{"type": "Feature", "id": "798", "geometry": {"coordinates": [-110.6167,40.75],"type": "Point"}, "properties": {"siteid": "lakeforkbasinswe","title": "LAKEFORK BASIN","type": "snotel"}},
+{"type": "Feature", "id": "799", "geometry": {"coordinates": [-114.3,34.2],"type": "Point"}, "properties": {"siteid": "lakehavasucityirrigationanddrainage","title": "Lake Havasu City - Irrigation and Drainage","type": "diversion"}},
+{"type": "Feature", "id": "800", "geometry": {"coordinates": [-105.8167,40.4167],"type": "Point"}, "properties": {"siteid": "lakeireneswe","title": "LAKE IRENE","type": "snotel"}},
+{"type": "Feature", "id": "801", "geometry": {"coordinates": [-111.2852,36.5621],"type": "Point"}, "properties": {"siteid": "lakepowell","title": "LAKE POWELL","type": "reservoir"}},
+{"type": "Feature", "id": "802", "geometry": {"coordinates": [-120.52305,42.12222],"type": "Point"}, "properties": {"siteid": "lako","title": "Lakeview; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "803", "geometry": {"coordinates": [-111.3343833,41.8379],"type": "Point"}, "properties": {"siteid": "laku","title": "UCC - Laketown ; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "804", "geometry": {"coordinates": [-103.57222,41.9625],"type": "Point"}, "properties": {"siteid": "lane","title": "LITTLE LAKE ALICE RESERVOIR EL-OUTFLOW; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "805", "geometry": {"coordinates": [-108.1881,36.9997],"type": "Point"}, "properties": {"siteid": "laplatariveratcoloradonewmexicostateline","title": "LA PLATA RIVER AT COLORADO-NEW MEXICO STATE LINE","type": "stream"}},
+{"type": "Feature", "id": "806", "geometry": {"coordinates": [-108.04,37.2897],"type": "Point"}, "properties": {"siteid": "laplatariverathesperus","title": "LA PLATA RIVER AT HESPERUS; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "807", "geometry": {"coordinates": [-108.2475,36.7397],"type": "Point"}, "properties": {"siteid": "laplatarivernearfarmington","title": "LA PLATA RIVER NEAR FARMINGTON; NM","type": "stream"}},
+{"type": "Feature", "id": "808", "geometry": {"coordinates": [-108.2253,36.7861],"type": "Point"}, "properties": {"siteid": "laplatarivertribnrfarmington","title": "LA PLATA RIVER TRIB NR FARMINGTON; N MEX","type": "stream"}},
+{"type": "Feature", "id": "809", "geometry": {"coordinates": [-109.2667,38.4833],"type": "Point"}, "properties": {"siteid": "lasalmountainswe","title": "LASAL MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "810", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "lasvegasvalleywaterdistrict","title": "Las Vegas Valley Water District","type": "diversion"}},
+{"type": "Feature", "id": "811", "geometry": {"coordinates": [-114.94,36.1],"type": "Point"}, "properties": {"siteid": "lasvegaswashbouldercity","title": "Las Vegas Wash (Boulder City)","type": "canal"}},
+{"type": "Feature", "id": "812", "geometry": {"coordinates": [-115.0086,35.0903],"type": "Point"}, "properties": {"siteid": "lasvegaswashpabcordhenderson","title": "Las Vegas Wash (Pabco Rd - Henderson)","type": "canal"}},
+{"type": "Feature", "id": "813", "geometry": {"coordinates": [-107.55667,45.73583],"type": "Point"}, "properties": {"siteid": "lbhm","title": "LITTLE BIGHORN RIVER NEAR HARDIN; MT","type": "stream"}},
+{"type": "Feature", "id": "814", "geometry": {"coordinates": [-117.65416,46.6975],"type": "Point"}, "properties": {"siteid": "lbrw","title": "Lake Bryan - Rice Bar; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "815", "geometry": {"coordinates": [-107.61444,45.00694],"type": "Point"}, "properties": {"siteid": "lbsm","title": "LITTLE BIGHORN RIVER @STATE LINE NR WYOLA; MT","type": "stream"}},
+{"type": "Feature", "id": "816", "geometry": {"coordinates": [-109.71722,49.00528],"type": "Point"}, "properties": {"siteid": "lcbm","title": "LODGE CREEK BELOW MCRAE CR @ INTERNATIONAL BOUNDARY","type": "stream"}},
+{"type": "Feature", "id": "817", "geometry": {"coordinates": [-108.55611,43.10583],"type": "Point"}, "properties": {"siteid": "lccy","title": "LE CLAIR DIVERSION CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "818", "geometry": {"coordinates": [-110.96667,45.5],"type": "Point"}, "properties": {"siteid": "lckm","title": "LICK CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "819", "geometry": {"coordinates": [-98.02528,39.88389],"type": "Point"}, "properties": {"siteid": "lcks","title": "LOWER COURTLAND CANAL; MILE 38.0; KANSAS","type": "canal"}},
+{"type": "Feature", "id": "820", "geometry": {"coordinates": [-109.00139,42.58333],"type": "Point"}, "properties": {"siteid": "lckw","title": "LARSEN CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "821", "geometry": {"coordinates": [-114.8867,32.7407],"type": "Point"}, "properties": {"siteid": "lcwspwellsatallamericancanal","title": "LCWSP -- All American Canal Return Wells","type": "canal"}},
+{"type": "Feature", "id": "822", "geometry": {"coordinates": [-103.62334,41.9875],"type": "Point"}, "properties": {"siteid": "ldne","title": "LAKE ALICE DAM - 1.5 DRAIN; NE","type": "canal"}},
+{"type": "Feature", "id": "823", "geometry": {"coordinates": [-118.93611,46.20527],"type": "Point"}, "properties": {"siteid": "legw","title": "Legrow; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "824", "geometry": {"coordinates": [-105.6,39.93333],"type": "Point"}, "properties": {"siteid": "lelc","title": "LAKE ELDORA; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "825", "geometry": {"coordinates": [-107.39,37.23],"type": "Point"}, "properties": {"siteid": "lemon","title": "LEMON RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "826", "geometry": {"coordinates": [-107.9228,38.1017],"type": "Point"}, "properties": {"siteid": "leopardcreekatnoel","title": "LEOPARD CREEK AT NOEL; CO","type": "stream"}},
+{"type": "Feature", "id": "827", "geometry": {"coordinates": [-111.09084,48.31833],"type": "Point"}, "properties": {"siteid": "ler","title": "LAKE ELWELL SPILLWAY TRANSDUCER; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "828", "geometry": {"coordinates": [-111.09084,48.31833],"type": "Point"}, "properties": {"siteid": "lerm","title": "LAKE ELWELL AUXILIARY OUTLET BUBBLER; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "829", "geometry": {"coordinates": [-122.793,40.727],"type": "Point"}, "properties": {"siteid": "lew","title": "Lewiston Dam; Lake; And Judge Francis Carr Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "830", "geometry": {"coordinates": [-111.8690333,41.95213333],"type": "Point"}, "properties": {"siteid": "lewu","title": "UCC - Lewiston; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "831", "geometry": {"coordinates": [-106.37444,39.25139],"type": "Point"}, "properties": {"siteid": "lfcbslco","title": "LAKE FORK CREEK BELOW SUGAR LOAF DAM; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "832", "geometry": {"coordinates": [-112.2,48.26667],"type": "Point"}, "properties": {"siteid": "lfrm","title": "LAKE FRANCES RESERVOIR; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "833", "geometry": {"coordinates": [-111.8035333,41.73868333],"type": "Point"}, "properties": {"siteid": "lggu","title": "UCC - Logan Golf; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "834", "geometry": {"coordinates": [-111.42667,45.88445],"type": "Point"}, "properties": {"siteid": "lgmt","title": "GALLATIN RIVER; LOGAN; MT","type": "stream"}},
+{"type": "Feature", "id": "835", "geometry": {"coordinates": [-107.60027,45.1275],"type": "Point"}, "properties": {"siteid": "lgwm","title": "LODGE GRASS CREEK ABOVE WILLOW CREEK NEAR WYOLA; MT","type": "stream"}},
+{"type": "Feature", "id": "836", "geometry": {"coordinates": [-108.52,43.02611],"type": "Point"}, "properties": {"siteid": "lhdy","title": "LEFTHAND DITCH AT HEADWORKS; NEAR RIVERTON; WY","type": "canal"}},
+{"type": "Feature", "id": "837", "geometry": {"coordinates": [-107.99194,43.975],"type": "Point"}, "properties": {"siteid": "lhwy","title": "LOWER HANOVER CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "838", "geometry": {"coordinates": [-117.087208,47.66533],"type": "Point"}, "properties": {"siteid": "libw","title": "Liberty Lake; Washington Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "839", "geometry": {"coordinates": [-118.73944,46.86722],"type": "Point"}, "properties": {"siteid": "lidw","title": "Lind; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "840", "geometry": {"coordinates": [-107.8931,37.6039],"type": "Point"}, "properties": {"siteid": "lightnercreekneardurango","title": "LIGHTNER CREEK NEAR DURANGO; CO.","type": "stream"}},
+{"type": "Feature", "id": "841", "geometry": {"coordinates": [-110.75,40.7167],"type": "Point"}, "properties": {"siteid": "lightninglakeswe","title": "LIGHTNING LAKE","type": "snotel"}},
+{"type": "Feature", "id": "842", "geometry": {"coordinates": [-111.4875,41.358],"type": "Point"}, "properties": {"siteid": "lightningridgeswe","title": "LIGHTNING RIDGE","type": "snotel"}},
+{"type": "Feature", "id": "843", "geometry": {"coordinates": [-110.8,40.8667],"type": "Point"}, "properties": {"siteid": "lilylakeswe","title": "LILY LAKE","type": "snotel"}},
+{"type": "Feature", "id": "844", "geometry": {"coordinates": [-106.5333,37.3833],"type": "Point"}, "properties": {"siteid": "lilypondswe","title": "LILY POND","type": "snotel"}},
+{"type": "Feature", "id": "845", "geometry": {"coordinates": [-107.7503,37.6781],"type": "Point"}, "properties": {"siteid": "limecreeknearsilverton","title": "LIME CREEK NEAR SILVERTON; CO.","type": "stream"}},
+{"type": "Feature", "id": "846", "geometry": {"coordinates": [-112.37056,44.65611],"type": "Point"}, "properties": {"siteid": "limr","title": "LIMA RESV. UPSTREAM OF CLARK CANYON RESV.; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "847", "geometry": {"coordinates": [-106.61028,39.06889],"type": "Point"}, "properties": {"siteid": "lingrrco","title": "LINCOLN CREEK BLW GRIZZLY RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "848", "geometry": {"coordinates": [-105.81667,40.41667],"type": "Point"}, "properties": {"siteid": "lireneco","title": "LAKE IRENE; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "849", "geometry": {"coordinates": [-111.8167,41.4],"type": "Point"}, "properties": {"siteid": "littlebearswe","title": "LITTLE BEAR","type": "snotel"}},
+{"type": "Feature", "id": "850", "geometry": {"coordinates": [-111.7764,36.1953],"type": "Point"}, "properties": {"siteid": "littlecoloradoriverabvmouthnrdesertview","title": "Little Colorado River Abv Mouth NR Desert View; AZ","type": "stream"}},
+{"type": "Feature", "id": "851", "geometry": {"coordinates": [-111.5667,35.9264],"type": "Point"}, "properties": {"siteid": "littlecoloradorivernearcameron","title": "Little Colorado River Near Cameron; Az","type": "stream"}},
+{"type": "Feature", "id": "852", "geometry": {"coordinates": [-113.85,37.4833],"type": "Point"}, "properties": {"siteid": "littlegrassyswe","title": "LITTLE GRASSY","type": "snotel"}},
+{"type": "Feature", "id": "853", "geometry": {"coordinates": [-107.1894,37.0753],"type": "Point"}, "properties": {"siteid": "littlenavajorbllosodivdam","title": "LITTLE NAVAJO R BL OSO DIV DAM; NR CHROMO;","type": "stream"}},
+{"type": "Feature", "id": "854", "geometry": {"coordinates": [-106.8425,37.0456],"type": "Point"}, "properties": {"siteid": "littlenavajoriveratchromo","title": "LITTLE NAVAJO RIVER AT CHROMO; CO.","type": "stream"}},
+{"type": "Feature", "id": "855", "geometry": {"coordinates": [-106.8106,37.0756],"type": "Point"}, "properties": {"siteid": "littleosodiversion","title": "LITTLE OSO DIVERSION NR CHROMO","type": "diversion"}},
+{"type": "Feature", "id": "856", "geometry": {"coordinates": [-108.4236,40.5472],"type": "Point"}, "properties": {"siteid": "littlesnakerivernearlily","title": "LITTLE SNAKE RIVER NEAR LILY; CO","type": "stream"}},
+{"type": "Feature", "id": "857", "geometry": {"coordinates": [-107.1428,40.9994],"type": "Point"}, "properties": {"siteid": "littlesnakerivernearslaterco","title": "LITTLE SNAKE RIVER NEAR SLATER CO.","type": "stream"}},
+{"type": "Feature", "id": "858", "geometry": {"coordinates": [-107.9333,37.8],"type": "Point"}, "properties": {"siteid": "lizardheadpassswe","title": "LIZARD HEAD PASS","type": "snotel"}},
+{"type": "Feature", "id": "859", "geometry": {"coordinates": [-106.39444,39.26972],"type": "Point"}, "properties": {"siteid": "lkcturco","title": "LAKE FORK CREEK ABOVE TURQUOISE RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "860", "geometry": {"coordinates": [-108.89444,43.23167],"type": "Point"}, "properties": {"siteid": "lkvy","title": "LAKE VIEW CANAL; SOUTH FORK SHOSHONE; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "861", "geometry": {"coordinates": [-114.5142,32.8122],"type": "Point"}, "properties": {"siteid": "llc","title": "Colorado River Below Laguna","type": "stream"}},
+{"type": "Feature", "id": "862", "geometry": {"coordinates": [-113.43333,44.98333],"type": "Point"}, "properties": {"siteid": "lmhm","title": "LEMHI RIDGE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "863", "geometry": {"coordinates": [-108.00584,46.56278],"type": "Point"}, "properties": {"siteid": "lmmm","title": "LOWER MUSSELSHELL WEATHER STATION NEAR MELSTONE; MT","type": "agrimet"}},
+{"type": "Feature", "id": "864", "geometry": {"coordinates": [-103.48861,41.91833],"type": "Point"}, "properties": {"siteid": "lmne","title": "LAKE MINATARE RESERVOIR; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "865", "geometry": {"coordinates": [-114.75,35.4],"type": "Point"}, "properties": {"siteid": "lmnracottonwood","title": "Lake Mead National Recreation Area; NV. Lake Mohave / Cottonwood","type": "diversion"}},
+{"type": "Feature", "id": "866", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "lmnralkmead","title": "Lake Mead National Recreation Area; NV.  Lake Mead","type": "diversion"}},
+{"type": "Feature", "id": "867", "geometry": {"coordinates": [-114.7,35.5],"type": "Point"}, "properties": {"siteid": "lmnralkmohave","title": "Lake Mead National Recreation Area; AZ. Lake Mohave","type": "diversion"}},
+{"type": "Feature", "id": "868", "geometry": {"coordinates": [-114.3,36.1],"type": "Point"}, "properties": {"siteid": "lmnratemplebar","title": "Lake Mead National Recreation Area; AZ. Lake Mead /Temple Bar","type": "diversion"}},
+{"type": "Feature", "id": "869", "geometry": {"coordinates": [-112.730267,43.859767],"type": "Point"}, "properties": {"siteid": "lofi","title": "INL - Specific Manufacturing Capability; Idaho","type": "agrimet"}},
+{"type": "Feature", "id": "870", "geometry": {"coordinates": [-105.3,46.43333],"type": "Point"}, "properties": {"siteid": "lomt","title": "POWDER RIVER AT LOCATE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "871", "geometry": {"coordinates": [-108.1833,37.9],"type": "Point"}, "properties": {"siteid": "loneconeswe","title": "LONE CONE","type": "snotel"}},
+{"type": "Feature", "id": "872", "geometry": {"coordinates": [-112.5167,37.4833],"type": "Point"}, "properties": {"siteid": "longvalleyjctswe","title": "LONG VALLEY JCT","type": "snotel"}},
+{"type": "Feature", "id": "873", "geometry": {"coordinates": [-110.7167,40.8333],"type": "Point"}, "properties": {"siteid": "lookoutpeakswe","title": "LOOKOUT PEAK","type": "snotel"}},
+{"type": "Feature", "id": "874", "geometry": {"coordinates": [-110.1333,43.1667],"type": "Point"}, "properties": {"siteid": "loomisparkswe","title": "LOOMIS PARK","type": "snotel"}},
+{"type": "Feature", "id": "875", "geometry": {"coordinates": [-111.8781013,43.73536074],"type": "Point"}, "properties": {"siteid": "lori","title": "Snake River at Lorenzo; ID","type": "stream"}},
+{"type": "Feature", "id": "876", "geometry": {"coordinates": [-121.22416,42.07777],"type": "Point"}, "properties": {"siteid": "loro","title": "Lorella; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "877", "geometry": {"coordinates": [-107.5989,37.0094],"type": "Point"}, "properties": {"siteid": "lospinosriveratlaboca","title": "LOS PINOS RIVER AT LA BOCA; CO.","type": "stream"}},
+{"type": "Feature", "id": "878", "geometry": {"coordinates": [-107.5806,37.3736],"type": "Point"}, "properties": {"siteid": "lospinosriverblovallecresnrbayfield","title": "LOS PINOS RIVER BLO VALLEC RES NR BAYFIELD; CO","type": "stream"}},
+{"type": "Feature", "id": "879", "geometry": {"coordinates": [-107.5769,37.3828],"type": "Point"}, "properties": {"siteid": "lospinosrivernearbayfield","title": "LOS PINOS RIVER NEAR BAYFIELD; CO.","type": "stream"}},
+{"type": "Feature", "id": "880", "geometry": {"coordinates": [-107.5825,37.1661],"type": "Point"}, "properties": {"siteid": "lospinosriverneariganacio","title": "LOS PINOS RIVER NEAR IGANACIO; CO","type": "stream"}},
+{"type": "Feature", "id": "881", "geometry": {"coordinates": [-106.0731,36.9822],"type": "Point"}, "properties": {"siteid": "lospinosrivernearortiz","title": "LOS PINOS RIVER NEAR ORTIZ","type": "stream"}},
+{"type": "Feature", "id": "882", "geometry": {"coordinates": [-108.4686,37.4461],"type": "Point"}, "properties": {"siteid": "lostcanyoncreekneardolores","title": "LOST CANYON CREEK NEAR DOLORES; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "883", "geometry": {"coordinates": [-111.24,41.1105],"type": "Point"}, "properties": {"siteid": "lostcreek","title": "LOST CREEK RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "884", "geometry": {"coordinates": [-106.7667,40.8167],"type": "Point"}, "properties": {"siteid": "lostdogswe","title": "LOST DOG","type": "snotel"}},
+{"type": "Feature", "id": "885", "geometry": {"coordinates": [-111.7646,40.83],"type": "Point"}, "properties": {"siteid": "louismeadowswe","title": "LOUIS MEADOW","type": "snotel"}},
+{"type": "Feature", "id": "886", "geometry": {"coordinates": [-105.87862,39.66361],"type": "Point"}, "properties": {"siteid": "lovlndco","title": "LOVELAND BASIN; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "887", "geometry": {"coordinates": [-114.57,35.2],"type": "Point"}, "properties": {"siteid": "lowercoloradoriverdamsprojectdavisdam","title": "Lower Colorado River Dams Project (Davis Dam)","type": "diversion"}},
+{"type": "Feature", "id": "888", "geometry": {"coordinates": [-106.6261,36.7425],"type": "Point"}, "properties": {"siteid": "lowerwillowcreekaboveheronreservoir","title": "LOWER WILLOW CREEK ABOVE HERON RESERVOIR","type": "stream"}},
+{"type": "Feature", "id": "889", "geometry": {"coordinates": [-108.64278,42.71667],"type": "Point"}, "properties": {"siteid": "lply","title": "LITTLE POPO AGIE RIVER NEAR LANDER; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "890", "geometry": {"coordinates": [-112.06944,47.00528],"type": "Point"}, "properties": {"siteid": "lppwcm","title": "LITTLE PRICKLY PEAR CREEK AT WOLF CREEK; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "891", "geometry": {"coordinates": [-105.86667,42.43333],"type": "Point"}, "properties": {"siteid": "lppy","title": "LAPRELE CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "892", "geometry": {"coordinates": [-108.17972,43.69722],"type": "Point"}, "properties": {"siteid": "lpwy","title": "LUCERNE PUMPS (UPPER AND LOWER); WYOMING","type": "canal"}},
+{"type": "Feature", "id": "893", "geometry": {"coordinates": [-101.80945,46.59666],"type": "Point"}, "properties": {"siteid": "ltr","title": "LAKE TSCHIDA (HEART BUTTE); NORTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "894", "geometry": {"coordinates": [-110.25,43.83333],"type": "Point"}, "properties": {"siteid": "ltwy","title": "LITTLE WARM; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "895", "geometry": {"coordinates": [-98.025,39.90556],"type": "Point"}, "properties": {"siteid": "lvabks","title": "COURTLAND CANAL INLET TO LOVEWELL RESERVOIR; KS","type": "diversion"}},
+{"type": "Feature", "id": "896", "geometry": {"coordinates": [-98.02806,39.88445],"type": "Point"}, "properties": {"siteid": "lvks","title": "LOVEWELL DAM; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "897", "geometry": {"coordinates": [-111.83334,44.58333],"type": "Point"}, "properties": {"siteid": "lvrm","title": "LAKEVIEW RIDGE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "898", "geometry": {"coordinates": [-114.05723,43.49306],"type": "Point"}, "properties": {"siteid": "lwoi","title": "Little Wood River above High Five Creek; ID","type": "stream"}},
+{"type": "Feature", "id": "899", "geometry": {"coordinates": [-108.37473,42.9975],"type": "Point"}, "properties": {"siteid": "lwrv","title": "LITTLE WIND RIVER NEAR RIVERTON; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "900", "geometry": {"coordinates": [-111.91666,45.5],"type": "Point"}, "properties": {"siteid": "lwtm","title": "LOWER TWIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "901", "geometry": {"coordinates": [-109.03694,42.96833],"type": "Point"}, "properties": {"siteid": "lwwy","title": "SO FK LTL WIND R AB WASHAKIE RES NR FT WASHAKIE; WY","type": "stream"}},
+{"type": "Feature", "id": "902", "geometry": {"coordinates": [-106.6667,40.0833],"type": "Point"}, "properties": {"siteid": "lynxpassswe","title": "LYNX PASS","type": "snotel"}},
+{"type": "Feature", "id": "903", "geometry": {"coordinates": [-110.89166,48.26],"type": "Point"}, "properties": {"siteid": "macm","title": "MARIAS RIVER AT HWY 223 BRIDGE NEAR CHESTER; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "904", "geometry": {"coordinates": [-113.41388,42.4375],"type": "Point"}, "properties": {"siteid": "mali","title": "Malta; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "905", "geometry": {"coordinates": [-111.3167,39.6833],"type": "Point"}, "properties": {"siteid": "mammothcottonwoodswe","title": "MAMMOTH-COTTONWOOD","type": "snotel"}},
+{"type": "Feature", "id": "906", "geometry": {"coordinates": [-111.73139,45.44445],"type": "Point"}, "properties": {"siteid": "mamt","title": "MADISON RIVER AT MCALLISTER; MT","type": "stream"}},
+{"type": "Feature", "id": "907", "geometry": {"coordinates": [-108.4656,37.0992],"type": "Point"}, "properties": {"siteid": "mancosriverbelowjohnsoncanyonnrcortez","title": "MANCOS RIVER BELOW JOHNSON CANYON NR CORTEZ;","type": "stream"}},
+{"type": "Feature", "id": "908", "geometry": {"coordinates": [-108.4633,37.1078],"type": "Point"}, "properties": {"siteid": "mancosrivernearcortez","title": "MANCOS RIVER NEAR CORTEZ; CO.","type": "stream"}},
+{"type": "Feature", "id": "909", "geometry": {"coordinates": [-108.2542,37.3572],"type": "Point"}, "properties": {"siteid": "mancosrivernearmancos","title": "MANCOS RIVER NEAR MANCOS; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "910", "geometry": {"coordinates": [-108.7408,37.0275],"type": "Point"}, "properties": {"siteid": "mancosriverneartowaoc","title": "MANCOS RIVER NEAR TOWAOC; CO.","type": "stream"}},
+{"type": "Feature", "id": "911", "geometry": {"coordinates": [-108.1833,37.4167],"type": "Point"}, "properties": {"siteid": "mancosswe","title": "MANCOS","type": "snotel"}},
+{"type": "Feature", "id": "912", "geometry": {"coordinates": [-113.66666,48.8],"type": "Point"}, "properties": {"siteid": "manm","title": "MANY GLACIER; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "913", "geometry": {"coordinates": [-106.27084,39.24805],"type": "Point"}, "properties": {"siteid": "marditco","title": "MARION DITCH NR LEADVILLE; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "914", "geometry": {"coordinates": [-111.07889,48.30583],"type": "Point"}, "properties": {"siteid": "mari","title": "MARIAS RIVER NEAR CHESTER; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "915", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "marinecorpsairstationyuma","title": "Marine Corps Air Station (Yuma)","type": "diversion"}},
+{"type": "Feature", "id": "916", "geometry": {"coordinates": [-111.88889,48.42722],"type": "Point"}, "properties": {"siteid": "marm","title": "MARIAS RIVER NEAR SHELBY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "917", "geometry": {"coordinates": [-105.48499,40.37639],"type": "Point"}, "properties": {"siteid": "marylaco","title": "MARYS LAKE; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "918", "geometry": {"coordinates": [-105.53084,40.34611],"type": "Point"}, "properties": {"siteid": "marysr","title": "MARYS LAKE; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "919", "geometry": {"coordinates": [-120.12444,47.91694],"type": "Point"}, "properties": {"siteid": "masw","title": "Manson; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "920", "geometry": {"coordinates": [-107.77639,48.37361],"type": "Point"}, "properties": {"siteid": "matm","title": "MALTA MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "921", "geometry": {"coordinates": [-101.1,31.43333],"type": "Point"}, "properties": {"siteid": "mbgt","title": "MIDDLE CONCHO RIVER NR BARNHART (HWY 163); TEXAS","type": "stream"}},
+{"type": "Feature", "id": "922", "geometry": {"coordinates": [-106.58334,41.63334],"type": "Point"}, "properties": {"siteid": "mbow","title": "MED BOW; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "923", "geometry": {"coordinates": [-106.5125,42.00972],"type": "Point"}, "properties": {"siteid": "mbwy","title": "MEDICINE BOW RVR ABV SEMINOE RESERVOIR NR HANNA; WY","type": "stream"}},
+{"type": "Feature", "id": "924", "geometry": {"coordinates": [-100.32222,40.50278],"type": "Point"}, "properties": {"siteid": "mcabne","title": "MEDICINE CREEK ABOVE HARRY STRUNK LAKE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "925", "geometry": {"coordinates": [-99.91139,40.30639],"type": "Point"}, "properties": {"siteid": "mcarne","title": "MUDDY CREEK AT ARAPAHOE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "926", "geometry": {"coordinates": [-100.22195,40.37139],"type": "Point"}, "properties": {"siteid": "mcblne","title": "MEDICINE CREEK BELOW HARRY STRUNK LAKE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "927", "geometry": {"coordinates": [-107.2833,39.1333],"type": "Point"}, "properties": {"siteid": "mcclurepassswe","title": "MC CLURE PASS","type": "snotel"}},
+{"type": "Feature", "id": "928", "geometry": {"coordinates": [-107.51945,48.54028],"type": "Point"}, "properties": {"siteid": "mccm","title": "MILK RIVER AT CREE CROSSING; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "929", "geometry": {"coordinates": [-106.5413,39.604],"type": "Point"}, "properties": {"siteid": "mccoyparkswe","title": "MCCOY PARK","type": "snotel"}},
+{"type": "Feature", "id": "930", "geometry": {"coordinates": [-106.0719,39.3807],"type": "Point"}, "properties": {"siteid": "mcculloughspdiversionnearhoosierpass","title": "MCCULLOUGH-SP-DIVERSION NEAR HOOSIER PASS; CO.","type": "diversion"}},
+{"type": "Feature", "id": "931", "geometry": {"coordinates": [-95.875,34.31445],"type": "Point"}, "properties": {"siteid": "mcdh","title": "MCGEE CREEK DAM; OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "932", "geometry": {"coordinates": [-108.6486,37.3272],"type": "Point"}, "properties": {"siteid": "mcelmocreekabovealkalicanyon","title": "MCELMO CREEK ABOVE ALKALI CANYON; NR CORTEZ;","type": "stream"}},
+{"type": "Feature", "id": "933", "geometry": {"coordinates": [-108.8053,37.3406],"type": "Point"}, "properties": {"siteid": "mcelmocreekbelowcortez","title": "MCELMO CREEK BELOW CORTEZ; CO.","type": "stream"}},
+{"type": "Feature", "id": "934", "geometry": {"coordinates": [-109.1833,37.2167],"type": "Point"}, "properties": {"siteid": "mcelmocreeknearbluff","title": "MCELMO CREEK NEAR BLUFF; UTAH","type": "stream"}},
+{"type": "Feature", "id": "935", "geometry": {"coordinates": [-109.015,37.3242],"type": "Point"}, "properties": {"siteid": "mcelmocreeknearcoloradoutahstateline","title": "MCELMO CREEK NEAR COLORADO-UTAH STATE LINE","type": "stream"}},
+{"type": "Feature", "id": "936", "geometry": {"coordinates": [-108.6725,37.3228],"type": "Point"}, "properties": {"siteid": "mcelmocreeknearcortez","title": "MCELMO CREEK NEAR CORTEZ; CO.","type": "stream"}},
+{"type": "Feature", "id": "937", "geometry": {"coordinates": [-99.21111,41.82389],"type": "Point"}, "properties": {"siteid": "mcne","title": "MIRDAN CANAL; VIRGINIA SMITH DAM; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "938", "geometry": {"coordinates": [-108.3438,37.3431],"type": "Point"}, "properties": {"siteid": "mcphee","title": "MCPHEE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "939", "geometry": {"coordinates": [-112.20139,48.18444],"type": "Point"}, "properties": {"siteid": "mcpm","title": "MUDDY CREEK NEAR POWER; MT","type": "stream"}},
+{"type": "Feature", "id": "940", "geometry": {"coordinates": [-106.55222,39.32861],"type": "Point"}, "properties": {"siteid": "mcudivco","title": "MIDDLE CUNNINGHAM DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "941", "geometry": {"coordinates": [-111.5425,47.56166],"type": "Point"}, "properties": {"siteid": "mcvm","title": "MUDDY CREEK AT VAUGHN; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "942", "geometry": {"coordinates": [-95.88333,34.41667],"type": "Point"}, "properties": {"siteid": "mcwh","title": "MCGEE CREEK WILDLIFE AREA; OKLAHOMA","type": "weather"}},
+{"type": "Feature", "id": "943", "geometry": {"coordinates": [-108.275,43.28611],"type": "Point"}, "properties": {"siteid": "mcwy","title": "MUDDY CREEK NEAR SHOSHONI; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "944", "geometry": {"coordinates": [-107.18333,43.63334],"type": "Point"}, "properties": {"siteid": "mddw","title": "MIDDLE POWDER; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "945", "geometry": {"coordinates": [-121.07621,44.87789],"type": "Point"}, "properties": {"siteid": "mdeo","title": "Moody Farms East Satellite; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "946", "geometry": {"coordinates": [-122.93777,42.33111],"type": "Point"}, "properties": {"siteid": "mdfo","title": "Medford; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "947", "geometry": {"coordinates": [-113.58965,42.804417],"type": "Point"}, "properties": {"siteid": "mdki","title": "INL - Minidoka;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "948", "geometry": {"coordinates": [-101.05833,40.15139],"type": "Point"}, "properties": {"siteid": "mdne","title": "MEEKER - DRIFTWOOD CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "949", "geometry": {"coordinates": [-121.06748,44.87365],"type": "Point"}, "properties": {"siteid": "mdno","title": "Moody Farms North Satellite; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "950", "geometry": {"coordinates": [-111.11667,44.58333],"type": "Point"}, "properties": {"siteid": "mdpm","title": "MADISON PLATEAU; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "951", "geometry": {"coordinates": [-121.06508,44.86472],"type": "Point"}, "properties": {"siteid": "mdso","title": "Moody Farms South Satellite; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "952", "geometry": {"coordinates": [-121.07948,44.86941],"type": "Point"}, "properties": {"siteid": "mdto","title": "Moody Farms West Satellite; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "953", "geometry": {"coordinates": [-100.49139,40.19639],"type": "Point"}, "properties": {"siteid": "mdwne","title": "MEEKER - DRIFTWOOD CANAL; WASTEWAY; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "954", "geometry": {"coordinates": [-121.0683,44.86912],"type": "Point"}, "properties": {"siteid": "mdxo","title": "Moody Farms Control Station; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "955", "geometry": {"coordinates": [-105.4361,37.8561],"type": "Point"}, "properties": {"siteid": "medanopassswe","title": "MEDANO PASS","type": "snotel"}},
+{"type": "Feature", "id": "956", "geometry": {"coordinates": [-110.3446,41.0134],"type": "Point"}, "properties": {"siteid": "meekscabin","title": "MEEKS CABIN RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "957", "geometry": {"coordinates": [-112.70083,45.52666],"type": "Point"}, "properties": {"siteid": "melm","title": "BIG HOLE RIVER NEAR MELROSE; MT","type": "stream"}},
+{"type": "Feature", "id": "958", "geometry": {"coordinates": [-112.4333,38.3],"type": "Point"}, "properties": {"siteid": "merchantvalleyswe","title": "MERCHANT VALLEY","type": "snotel"}},
+{"type": "Feature", "id": "959", "geometry": {"coordinates": [-108.0833,39.05],"type": "Point"}, "properties": {"siteid": "mesalakesswe","title": "MESA LAKES","type": "snotel"}},
+{"type": "Feature", "id": "960", "geometry": {"coordinates": [-110.66639,47.8175],"type": "Point"}, "properties": {"siteid": "mfbm","title": "MISSOURI RIVER AT FORT BENTON; MT","type": "stream"}},
+{"type": "Feature", "id": "961", "geometry": {"coordinates": [-106.35583,48.04417],"type": "Point"}, "properties": {"siteid": "mfpm","title": "MISSOURI RIVER BELOW FORT PECK DAM; MT","type": "stream"}},
+{"type": "Feature", "id": "962", "geometry": {"coordinates": [-111.05972,47.58444],"type": "Point"}, "properties": {"siteid": "mgfm","title": "MISSOURI RIVER NEAR GREAT FALLS; MT","type": "stream"}},
+{"type": "Feature", "id": "963", "geometry": {"coordinates": [-104.05778,41.98278],"type": "Point"}, "properties": {"siteid": "mgne","title": "MITCHELL GERING CANAL NEAR STATE LINE; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "964", "geometry": {"coordinates": [-109.695,48.56389],"type": "Point"}, "properties": {"siteid": "mhvm","title": "MILK RIVER AT HAVRE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "965", "geometry": {"coordinates": [-106.68584,39.185],"type": "Point"}, "properties": {"siteid": "middivco","title": "MIDWAY CREEK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "966", "geometry": {"coordinates": [-107.0333,37.6167],"type": "Point"}, "properties": {"siteid": "middlecreekswe","title": "MIDDLE CREEK","type": "snotel"}},
+{"type": "Feature", "id": "967", "geometry": {"coordinates": [-106.0273,39.796],"type": "Point"}, "properties": {"siteid": "middleforkcampswe","title": "MIDDLE FORK CAMP","type": "snotel"}},
+{"type": "Feature", "id": "968", "geometry": {"coordinates": [-107.1758,37.4528],"type": "Point"}, "properties": {"siteid": "middleforkpiedrariverneardyke","title": "MIDDLE FORK PIEDRA RIVER NEAR DYKE; CO.","type": "stream"}},
+{"type": "Feature", "id": "969", "geometry": {"coordinates": [-107.1628,37.4867],"type": "Point"}, "properties": {"siteid": "middleforkpiedrarivernrpagosasprings","title": "MIDDLE FORK PIEDRA RIVER NR PAGOSA SPRINGS;","type": "stream"}},
+{"type": "Feature", "id": "970", "geometry": {"coordinates": [-108.23,37.3739],"type": "Point"}, "properties": {"siteid": "middlemancosrivernearmancos","title": "MIDDLE MANCOS RIVER NEAR MANCOS; CO.","type": "stream"}},
+{"type": "Feature", "id": "971", "geometry": {"coordinates": [-112.8333,37.5667],"type": "Point"}, "properties": {"siteid": "midwayvalleyswe","title": "MIDWAY VALLEY","type": "snotel"}},
+{"type": "Feature", "id": "972", "geometry": {"coordinates": [-114.0376039,42.52389407],"type": "Point"}, "properties": {"siteid": "mil","title": "Milner Dam and Reservoir; Idaho","type": "reservoir"}},
+{"type": "Feature", "id": "973", "geometry": {"coordinates": [-119.705,37.001],"type": "Point"}, "properties": {"siteid": "milfn","title": "Millerton Lake Full Natural Inflow","type": "stream"}},
+{"type": "Feature", "id": "974", "geometry": {"coordinates": [-119.705,37.001],"type": "Point"}, "properties": {"siteid": "milfrnt","title": "Millerton Lake; Friant Dam; Madera And Friant Kern Canals","type": "reservoir"}},
+{"type": "Feature", "id": "975", "geometry": {"coordinates": [-114.0183847,42.52814589],"type": "Point"}, "properties": {"siteid": "mili","title": "Snake River at Milner; Idaho","type": "stream"}},
+{"type": "Feature", "id": "976", "geometry": {"coordinates": [-111.6333,40.65],"type": "Point"}, "properties": {"siteid": "milldnorthswe","title": "MILL-D NORTH","type": "snotel"}},
+{"type": "Feature", "id": "977", "geometry": {"coordinates": [-113.48333,42.67083],"type": "Point"}, "properties": {"siteid": "min","title": "Minidoka Dam and Lake Walcott; ID","type": "reservoir"}},
+{"type": "Feature", "id": "978", "geometry": {"coordinates": [-103.515,41.94861],"type": "Point"}, "properties": {"siteid": "mine","title": "LAKE MINATARE RESERVOIR (INFLOW); NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "979", "geometry": {"coordinates": [-107.7253,37.8511],"type": "Point"}, "properties": {"siteid": "mineralcreekabovesilverton","title": "MINERAL CREEK ABOVE SILVERTON; CO.","type": "stream"}},
+{"type": "Feature", "id": "980", "geometry": {"coordinates": [-107.6722,37.8028],"type": "Point"}, "properties": {"siteid": "mineralcreekatsilverton","title": "MINERAL CREEK AT SILVERTON; CO","type": "stream"}},
+{"type": "Feature", "id": "981", "geometry": {"coordinates": [-107.6947,37.7975],"type": "Point"}, "properties": {"siteid": "mineralcreeknearsilverton","title": "MINERAL CREEK NEAR SILVERTON; CO.","type": "stream"}},
+{"type": "Feature", "id": "982", "geometry": {"coordinates": [-107.7333,37.85],"type": "Point"}, "properties": {"siteid": "mineralcreekswe","title": "MINERAL CREEK","type": "snotel"}},
+{"type": "Feature", "id": "983", "geometry": {"coordinates": [-113.5003366,42.67289753],"type": "Point"}, "properties": {"siteid": "mini","title": "Snake River near Minidoka; ID","type": "stream"}},
+{"type": "Feature", "id": "984", "geometry": {"coordinates": [-107.5036,38.87],"type": "Point"}, "properties": {"siteid": "minnesotacreeknearpaonia","title": "MINNESOTA CREEK NEAR PAONIA","type": "stream"}},
+{"type": "Feature", "id": "985", "geometry": {"coordinates": [-114.6,35.1],"type": "Point"}, "properties": {"siteid": "miscellaneousandchecksumnevada","title": "Miscellaneous and Check Sum - Nevada","type": "diversion"}},
+{"type": "Feature", "id": "986", "geometry": {"coordinates": [-114.3,33.7],"type": "Point"}, "properties": {"siteid": "miscellaneousothersandsumcheckarizona","title": "Miscellaneous Others and Sum Check - Arizona","type": "diversion"}},
+{"type": "Feature", "id": "987", "geometry": {"coordinates": [-114.5,32.7],"type": "Point"}, "properties": {"siteid": "miscellaneousothersandsumcheckca","title": "Miscellaneous Others and Sum Check - CA","type": "diversion"}},
+{"type": "Feature", "id": "988", "geometry": {"coordinates": [-114,48.8],"type": "Point"}, "properties": {"siteid": "mlkacct","title": "MILK RIVER NATURAL FLOW ACCOUNTING; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "989", "geometry": {"coordinates": [-114.4892,32.9964],"type": "Point"}, "properties": {"siteid": "mllc","title": "Colorado River at Martinez Gage","type": "stream"}},
+{"type": "Feature", "id": "990", "geometry": {"coordinates": [-105.86056,46.42167],"type": "Point"}, "properties": {"siteid": "mls","title": "YELLOWSTONE RIVER AT MILES CITY; MT","type": "stream"}},
+{"type": "Feature", "id": "991", "geometry": {"coordinates": [-105.80278,46.34555],"type": "Point"}, "properties": {"siteid": "mlto","title": "TONGUE RIVER AT MILES CITY; MT","type": "stream"}},
+{"type": "Feature", "id": "992", "geometry": {"coordinates": [-114.495,32.8292],"type": "Point"}, "properties": {"siteid": "mlwlc","title": "Mitry Lake at Laguna Dam","type": "reservoir"}},
+{"type": "Feature", "id": "993", "geometry": {"coordinates": [-111.33773,42.25452],"type": "Point"}, "properties": {"siteid": "mnpi","title": "Montpelier; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "994", "geometry": {"coordinates": [-110.23333,45.21667],"type": "Point"}, "properties": {"siteid": "mnpm","title": "MONUMENT PEAK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "995", "geometry": {"coordinates": [-112.157598,38.634188],"type": "Point"}, "properties": {"siteid": "mnru","title": "Monroe; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "996", "geometry": {"coordinates": [-112.5358333,44.015],"type": "Point"}, "properties": {"siteid": "mnti","title": "Monteview; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "997", "geometry": {"coordinates": [-111.63472,47.625],"type": "Point"}, "properties": {"siteid": "mnvm","title": "MUDDY CREEK NEAR VAUGHN; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "998", "geometry": {"coordinates": [-114.458889,36.569722],"type": "Point"}, "properties": {"siteid": "moan","title": "DRI - Moapa Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "999", "geometry": {"coordinates": [-105.6458,39.9044],"type": "Point"}, "properties": {"siteid": "moffatwatertunnelateastportal","title": "MOFFAT WATER TUNNEL AT EAST PORTAL","type": "diversion"}},
+{"type": "Feature", "id": "1000", "geometry": {"coordinates": [-114.7,35],"type": "Point"}, "properties": {"siteid": "mohavevalleyirrigationdistrict","title": "Mohave Valley Irrigation District","type": "diversion"}},
+{"type": "Feature", "id": "1001", "geometry": {"coordinates": [-114.57,35.2],"type": "Point"}, "properties": {"siteid": "mohavewaterconservationdistrict","title": "Mohave Water Conservation District","type": "diversion"}},
+{"type": "Feature", "id": "1002", "geometry": {"coordinates": [-113.95,45.66667],"type": "Point"}, "properties": {"siteid": "moki","title": "MOOSE CREEK; IDAHO","type": "snotel"}},
+{"type": "Feature", "id": "1003", "geometry": {"coordinates": [-107.6833,37.75],"type": "Point"}, "properties": {"siteid": "molaslakeswe","title": "MOLAS LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1004", "geometry": {"coordinates": [-103.49194,41.91611],"type": "Point"}, "properties": {"siteid": "mone","title": "LAKE MINATARE RESERVOIR (OUTFLOW); NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1005", "geometry": {"coordinates": [-106.0719,39.3807],"type": "Point"}, "properties": {"siteid": "montecristodiversionnearhoosierpass","title": "MONTE CRISTO DIVERSION NEAR HOOSIER PASS; CO.","type": "diversion"}},
+{"type": "Feature", "id": "1006", "geometry": {"coordinates": [-111.5,41.4667],"type": "Point"}, "properties": {"siteid": "montecristoswe","title": "MONTE CRISTO","type": "snotel"}},
+{"type": "Feature", "id": "1007", "geometry": {"coordinates": [-109.3417,37.8606],"type": "Point"}, "properties": {"siteid": "montezumacreekatgolfcourseatmonticello","title": "MONTEZUMA CREEK AT GOLF COURSE AT MONTICELLO","type": "stream"}},
+{"type": "Feature", "id": "1008", "geometry": {"coordinates": [-110.2921,40.3343],"type": "Point"}, "properties": {"siteid": "moonlake","title": "MOON LAKE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1009", "geometry": {"coordinates": [-106.53389,39.35528],"type": "Point"}, "properties": {"siteid": "mordivco","title": "MORMON DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "1010", "geometry": {"coordinates": [-107.5367,38.4517],"type": "Point"}, "properties": {"siteid": "morrowpoint","title": "MORROW POINT RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1011", "geometry": {"coordinates": [-106.53389,39.35528],"type": "Point"}, "properties": {"siteid": "morweaco","title": "MORMON CONTROL HOUSE WEATHER STATION; COLORADO","type": "weather"}},
+{"type": "Feature", "id": "1012", "geometry": {"coordinates": [-109.8833,40.6167],"type": "Point"}, "properties": {"siteid": "mosbymtn.swe","title": "MOSBY MTN.","type": "snotel"}},
+{"type": "Feature", "id": "1013", "geometry": {"coordinates": [-108.79861,42.75722],"type": "Point"}, "properties": {"siteid": "mpwy","title": "MIDDLE POPO AGIE RVR BLW SINKS NR LANDER; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1014", "geometry": {"coordinates": [-111.57944,44.88945],"type": "Point"}, "properties": {"siteid": "mrcm","title": "MADISON RIVER AT KIRBY RANCH NEAR CAMERON; MT","type": "stream"}},
+{"type": "Feature", "id": "1015", "geometry": {"coordinates": [-108.29305,48.40306],"type": "Point"}, "properties": {"siteid": "mrdm","title": "MILK RIVER AT DODSON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1016", "geometry": {"coordinates": [-110.47083,48.98472],"type": "Point"}, "properties": {"siteid": "mrec","title": "MILK RIVER AT EASTERN CROSSING OF INTNATL BOUNDARY","type": "stream"}},
+{"type": "Feature", "id": "1017", "geometry": {"coordinates": [-108.75777,48.47278],"type": "Point"}, "properties": {"siteid": "mrhm","title": "MILK RIVER NEAR HARLEM; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1018", "geometry": {"coordinates": [-111.51723,47.93306],"type": "Point"}, "properties": {"siteid": "mrlm","title": "MARIAS RIVER NEAR LOMA; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1019", "geometry": {"coordinates": [-107.86278,48.36166],"type": "Point"}, "properties": {"siteid": "mrmm","title": "MILK RIVER AT MALTA; MT","type": "stream"}},
+{"type": "Feature", "id": "1020", "geometry": {"coordinates": [-112.07889,49.14361],"type": "Point"}, "properties": {"siteid": "mrmr","title": "MILK RIVER AT MILK RIVER; ALBERTA","type": "stream"}},
+{"type": "Feature", "id": "1021", "geometry": {"coordinates": [-100.87222,42.635],"type": "Point"}, "properties": {"siteid": "mrne","title": "MERRITT DAM; NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "1022", "geometry": {"coordinates": [-109.23333,44.3],"type": "Point"}, "properties": {"siteid": "mrqy","title": "MARQUETTE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1023", "geometry": {"coordinates": [-121.14861,44.68],"type": "Point"}, "properties": {"siteid": "mrso","title": "Madras; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1024", "geometry": {"coordinates": [-106.82195,48.30806],"type": "Point"}, "properties": {"siteid": "mrtm","title": "MILK RIVER AT TAMPICO; MT","type": "stream"}},
+{"type": "Feature", "id": "1025", "geometry": {"coordinates": [-112.545,49.0075],"type": "Point"}, "properties": {"siteid": "mrwc","title": "MILK RIVER @ WESTERN CROSSING OF INTL BOUNDARY; MT","type": "stream"}},
+{"type": "Feature", "id": "1026", "geometry": {"coordinates": [-119.147222,39.106667],"type": "Point"}, "properties": {"siteid": "msvn","title": "DRI - Mason Valley WMA; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1027", "geometry": {"coordinates": [-106.35333,39.10222],"type": "Point"}, "properties": {"siteid": "mtelfbco","title": "MOUNT ELBERT FOREBAY; CO","type": "reservoir"}},
+{"type": "Feature", "id": "1028", "geometry": {"coordinates": [-112.81667,47.91667],"type": "Point"}, "properties": {"siteid": "mtkm","title": "MOUNT LOCKHART; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1029", "geometry": {"coordinates": [-108.6606,37.3128],"type": "Point"}, "properties": {"siteid": "mudcreekatstatehighway32","title": "MUD CREEK AT STATE HIGHWAY 32; NEAR CORTEZ;","type": "stream"}},
+{"type": "Feature", "id": "1030", "geometry": {"coordinates": [-108.6675,37.3194],"type": "Point"}, "properties": {"siteid": "mudcreeknearcortez","title": "MUD CREEK NEAR CORTEZ; CO.","type": "stream"}},
+{"type": "Feature", "id": "1031", "geometry": {"coordinates": [-107.3481,38.9875],"type": "Point"}, "properties": {"siteid": "muddycreekabovepaoniareservoirnearpaonia","title": "MUDDY CREEK ABOVE PAONIA RESERVOIR NEAR PAONIA; CO","type": "stream"}},
+{"type": "Feature", "id": "1032", "geometry": {"coordinates": [-107.3564,38.9406],"type": "Point"}, "properties": {"siteid": "muddycreekbelowpaonianearsummerset","title": "MUDDY CREEK BELOW PAONIA NEAR SUMMERSET; CO","type": "stream"}},
+{"type": "Feature", "id": "1033", "geometry": {"coordinates": [-106.41334,40.10861],"type": "Point"}, "properties": {"siteid": "mudkreco","title": "MUDDY CK BLW WOLFORD RESV NR KREMMLING; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1034", "geometry": {"coordinates": [-112.96667,45.4],"type": "Point"}, "properties": {"siteid": "mulm","title": "MULE CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1035", "geometry": {"coordinates": [-111.9198,40.63133333],"type": "Point"}, "properties": {"siteid": "muru","title": "UCC - Murray; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1036", "geometry": {"coordinates": [-100.71083,31.42722],"type": "Point"}, "properties": {"siteid": "mutt","title": "MIDDLE CONCHO RIVER ABV TANKERSLEY; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1037", "geometry": {"coordinates": [-114.1564,34.3164],"type": "Point"}, "properties": {"siteid": "mwd","title": "MWD Canal Export","type": "diversion"}},
+{"type": "Feature", "id": "1038", "geometry": {"coordinates": [-109.95083,47.05889],"type": "Point"}, "properties": {"siteid": "mwsm","title": "MOCCASIN WEATHER STATION; MT","type": "agrimet"}},
+{"type": "Feature", "id": "1039", "geometry": {"coordinates": [-121.1479,44.85424],"type": "Point"}, "properties": {"siteid": "mwso","title": "Middle Warm Springs; Oregon Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1040", "geometry": {"coordinates": [-111.0675,44.65694],"type": "Point"}, "properties": {"siteid": "mwym","title": "MADISON RIVER NEAR WEST YELLOWSTONE; MT","type": "stream"}},
+{"type": "Feature", "id": "1041", "geometry": {"coordinates": [-105.9019,35.8458],"type": "Point"}, "properties": {"siteid": "nambefalls","title": "NAMBE FALLS RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1042", "geometry": {"coordinates": [-106.36388,48.12972],"type": "Point"}, "properties": {"siteid": "namt","title": "MILK RIVER; NASHUA; MT","type": "stream"}},
+{"type": "Feature", "id": "1043", "geometry": {"coordinates": [-106.6,39.3],"type": "Point"}, "properties": {"siteid": "nastlakeswe","title": "NAST LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1044", "geometry": {"coordinates": [-100.47806,31.38861],"type": "Point"}, "properties": {"siteid": "nasty","title": "LAKE NASWORTHY NEAR SAN ANGELO; TEXAS","type": "reservoir"}},
+{"type": "Feature", "id": "1045", "geometry": {"coordinates": [-121.183,38.65],"type": "Point"}, "properties": {"siteid": "nat","title": "Lake Natoma; Nimbus Dam And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1046", "geometry": {"coordinates": [-107.3632,36.4828],"type": "Point"}, "properties": {"siteid": "navajo","title": "NAVAJO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1047", "geometry": {"coordinates": [-106.7322,37.0319],"type": "Point"}, "properties": {"siteid": "navajoriverabovechromo","title": "NAVAJO RIVER ABOVE CHROMO; CO.","type": "stream"}},
+{"type": "Feature", "id": "1048", "geometry": {"coordinates": [-106.9069,37.0028],"type": "Point"}, "properties": {"siteid": "navajoriveratedith","title": "NAVAJO RIVER AT EDITH; CO.","type": "stream"}},
+{"type": "Feature", "id": "1049", "geometry": {"coordinates": [-107.1894,37.0753],"type": "Point"}, "properties": {"siteid": "navajoriverblosodiversiondamnrchromo","title": "NAVAJO RIVER BL OSO DIVERSION DAM NR CHROMO;","type": "stream"}},
+{"type": "Feature", "id": "1050", "geometry": {"coordinates": [-106.6889,37.0853],"type": "Point"}, "properties": {"siteid": "navajorivernearchromo","title": "NAVAJO RIVER NEAR CHROMO; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1051", "geometry": {"coordinates": [-108.6972,37.2008],"type": "Point"}, "properties": {"siteid": "navajowashneartowaoc","title": "NAVAJO WASH NEAR TOWAOC; CO","type": "stream"}},
+{"type": "Feature", "id": "1052", "geometry": {"coordinates": [-114.7183,32.7189],"type": "Point"}, "properties": {"siteid": "nblc","title": "Colorado River at NIB Gage","type": "stream"}},
+{"type": "Feature", "id": "1053", "geometry": {"coordinates": [-99.23972,28.42611],"type": "Point"}, "properties": {"siteid": "ncot","title": "NUECES RIVER AT COTULLA; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1054", "geometry": {"coordinates": [-106.54305,39.33667],"type": "Point"}, "properties": {"siteid": "ncudivco","title": "NORTH CUNNINGHAM DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "1055", "geometry": {"coordinates": [-107.63306,48.45972],"type": "Point"}, "properties": {"siteid": "nelfdrmt","title": "NELSON FEEDER CANAL; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1056", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "nellisairforcebase","title": "Nellis Air Force Base","type": "diversion"}},
+{"type": "Feature", "id": "1057", "geometry": {"coordinates": [-107.51862,48.52972],"type": "Point"}, "properties": {"siteid": "nelr","title": "NELSON RESERVOIR AT DAM 10 MILES NW OF SACO; MT","type": "reservoir"}},
+{"type": "Feature", "id": "1058", "geometry": {"coordinates": [-107.51083,48.52444],"type": "Point"}, "properties": {"siteid": "nelsthmt","title": "NELSON SOUTH MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1059", "geometry": {"coordinates": [-111.8767833,39.68941667],"type": "Point"}, "properties": {"siteid": "nepu","title": "UCC - Nephi; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1060", "geometry": {"coordinates": [-106.63194,39.26417],"type": "Point"}, "properties": {"siteid": "nes02340","title": "CHAPMAN DIVERSION TEST CHANNEL; CO","type": "diversion"}},
+{"type": "Feature", "id": "1061", "geometry": {"coordinates": [-114.82,36.05],"type": "Point"}, "properties": {"siteid": "nevadadepartmentoffishandgame","title": "Nevada Department of Fish and Game","type": "diversion"}},
+{"type": "Feature", "id": "1062", "geometry": {"coordinates": [-105.95,40.4],"type": "Point"}, "properties": {"siteid": "nevsnoco","title": "NEVER SUMMER; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1063", "geometry": {"coordinates": [-120.97715,37.350494],"type": "Point"}, "properties": {"siteid": "new","title": "San Joaquin River At Newman","type": "stream"}},
+{"type": "Feature", "id": "1064", "geometry": {"coordinates": [-109.95,43.1167],"type": "Point"}, "properties": {"siteid": "newforklakeswe","title": "NEW FORK LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1065", "geometry": {"coordinates": [-111.5834,41.5316],"type": "Point"}, "properties": {"siteid": "newton","title": "NEWTON RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1066", "geometry": {"coordinates": [-113.76389,48.98889],"type": "Point"}, "properties": {"siteid": "nfbm","title": "NORTH FORK BELLY RIVER @ INTERNATIONAL BOUNDARY; MT","type": "stream"}},
+{"type": "Feature", "id": "1067", "geometry": {"coordinates": [-106.36667,41.33333],"type": "Point"}, "properties": {"siteid": "nfcy","title": "NORTH FRENCH CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1068", "geometry": {"coordinates": [-106.53778,39.36166],"type": "Point"}, "properties": {"siteid": "nfkdivco","title": "NORTH FORK DIVERSION/BYPASS; CO (FROM CARDIVCO)","type": "diversion"}},
+{"type": "Feature", "id": "1069", "geometry": {"coordinates": [-113.05528,48.97083],"type": "Point"}, "properties": {"siteid": "nfma","title": "NORTH FK MILK R AB CANAL NR BROWNING; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1070", "geometry": {"coordinates": [-112.97112,49.02195],"type": "Point"}, "properties": {"siteid": "nfmb","title": "NORTH FORK MILK RIVER NEAR BOUNDARY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1071", "geometry": {"coordinates": [-103.20667,41.79083],"type": "Point"}, "properties": {"siteid": "nfne","title": "NORTHPORT CANAL AT RED WILLOW FLUME; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1072", "geometry": {"coordinates": [-109.3667,37.8667],"type": "Point"}, "properties": {"siteid": "nforkmountezumacratmonticello","title": "N.FORK MOUNTEZUMA CR. AT MONTICELLO;UT.","type": "stream"}},
+{"type": "Feature", "id": "1073", "geometry": {"coordinates": [-109.4911,44.47917],"type": "Point"}, "properties": {"siteid": "nfs","title": "NORTH FORK SHOSHONE RIVER NEAR WAPITI; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1074", "geometry": {"coordinates": [-112.85944,47.64083],"type": "Point"}, "properties": {"siteid": "nfsm","title": "NORTH FORK SUN RIVER NEAR AUGUSTA; MT","type": "stream"}},
+{"type": "Feature", "id": "1075", "geometry": {"coordinates": [-109.00056,43.02722],"type": "Point"}, "properties": {"siteid": "nfwy","title": "NORTH FORK LITTLE WIND RIVER NEAR FORT WASHAKIE; WY","type": "stream"}},
+{"type": "Feature", "id": "1076", "geometry": {"coordinates": [-106.33778,40.9375],"type": "Point"}, "properties": {"siteid": "ngcl","title": "NORTH PLATTE RIVER NEAR NORTHGATE; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1077", "geometry": {"coordinates": [-105.55,40.05],"type": "Point"}, "properties": {"siteid": "niwc","title": "NIWOT; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1078", "geometry": {"coordinates": [-112.69111,47.61944],"type": "Point"}, "properties": {"siteid": "njpsrdm","title": "SUN RIVER DIVERSION DAM; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1079", "geometry": {"coordinates": [-106.60583,39.29611],"type": "Point"}, "properties": {"siteid": "nlco","title": "NAST LAKE; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1080", "geometry": {"coordinates": [-120.525,37.9481],"type": "Point"}, "properties": {"siteid": "nml","title": "New Melones Lake; Dam; And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1081", "geometry": {"coordinates": [-120.525,37.9481],"type": "Point"}, "properties": {"siteid": "nmlfn","title": "New Melones Lake Full Natural Inflow","type": "stream"}},
+{"type": "Feature", "id": "1082", "geometry": {"coordinates": [-116.64527,43.43722],"type": "Point"}, "properties": {"siteid": "nmpi","title": "Nampa; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1083", "geometry": {"coordinates": [-107.51083,48.52444],"type": "Point"}, "properties": {"siteid": "nncm","title": "NELSON NORTH MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1084", "geometry": {"coordinates": [-113.95,48.15],"type": "Point"}, "properties": {"siteid": "noim","title": "NOISY BASIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1085", "geometry": {"coordinates": [-106.67916,39.18861],"type": "Point"}, "properties": {"siteid": "nondivco","title": "NO NAME CREEK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "1086", "geometry": {"coordinates": [-110,45],"type": "Point"}, "properties": {"siteid": "norm","title": "NORTHEAST ENTRANCE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1087", "geometry": {"coordinates": [-97.21806,35.22083],"type": "Point"}, "properties": {"siteid": "norman","title": "NORMAN DAM; (LAKE THUNDERBIRD); OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "1088", "geometry": {"coordinates": [-105.25,37],"type": "Point"}, "properties": {"siteid": "northcostillaswe","title": "NORTH COSTILLA","type": "snotel"}},
+{"type": "Feature", "id": "1089", "geometry": {"coordinates": [-109.3658,37.8731],"type": "Point"}, "properties": {"siteid": "northcreekabvrangerstatnrmonticello","title": "NORTH CREEK ABV. RANGER STAT NR MONTICELLO;","type": "stream"}},
+{"type": "Feature", "id": "1090", "geometry": {"coordinates": [-106.5997,35.1981],"type": "Point"}, "properties": {"siteid": "northfloodwaychannelnearalameda","title": "NORTH FLOODWAY CHANNEL NEAR ALAMEDA; NM","type": "stream"}},
+{"type": "Feature", "id": "1091", "geometry": {"coordinates": [-107.8333,38.7853],"type": "Point"}, "properties": {"siteid": "northforkgunnisonriveratconfluence","title": "NORTH FORK GUNNISON RIVER ABOVE MOUTH NEAR LAZEAR","type": "stream"}},
+{"type": "Feature", "id": "1092", "geometry": {"coordinates": [-107.4336,38.9258],"type": "Point"}, "properties": {"siteid": "northforkgunnisonrivernearsomerset","title": "NORTH FORK GUNNISON RIVER NEAR SOMERSET","type": "stream"}},
+{"type": "Feature", "id": "1093", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "northgilamaincanalto#1","title": "North Gila Main Canal T.O. #1","type": "diversion"}},
+{"type": "Feature", "id": "1094", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "northgilavalleyirrigationdistrict","title": "North Gila Valley Irrigation District","type": "diversion"}},
+{"type": "Feature", "id": "1095", "geometry": {"coordinates": [-107.8667,39.0667],"type": "Point"}, "properties": {"siteid": "northlosttrailswe","title": "NORTH LOST TRAIL","type": "snotel"}},
+{"type": "Feature", "id": "1096", "geometry": {"coordinates": [-106.33139,42.85361],"type": "Point"}, "properties": {"siteid": "npcw","title": "NORTH PLATTE RIVER AT CASPER; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1097", "geometry": {"coordinates": [-99.20083,40.0575],"type": "Point"}, "properties": {"siteid": "npne","title": "NAPONEE CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1098", "geometry": {"coordinates": [-105.15916,42.6525],"type": "Point"}, "properties": {"siteid": "npow","title": "NORTH PLATTE RIVER AT ORIN; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1099", "geometry": {"coordinates": [-97.76667,27.93333],"type": "Point"}, "properties": {"siteid": "nrbt","title": "NUECES RIVER AT BLUNTZER; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1100", "geometry": {"coordinates": [-97.86,28.03806],"type": "Point"}, "properties": {"siteid": "nrmt","title": "NUECES RIVER NEAR MATHIS; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1101", "geometry": {"coordinates": [-98.55695,28.30861],"type": "Point"}, "properties": {"siteid": "nrtt","title": "NUECES RIVER NEAR TILDEN; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1102", "geometry": {"coordinates": [-107.51667,48.52778],"type": "Point"}, "properties": {"siteid": "nscm","title": "NELSON SOUTH CANAL; MT","type": "canal"}},
+{"type": "Feature", "id": "1103", "geometry": {"coordinates": [-114.506667,39.458056],"type": "Point"}, "properties": {"siteid": "nsvn","title": "DRI - North Spring Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1104", "geometry": {"coordinates": [-98.17777,28.42722],"type": "Point"}, "properties": {"siteid": "ntrt","title": "NUECES RIVER NEAR THREE RIVERS; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1105", "geometry": {"coordinates": [-108.3,43.68333],"type": "Point"}, "properties": {"siteid": "ocaw","title": "OWL CREEK AT ARAPAHOE RANCH; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1106", "geometry": {"coordinates": [-118.87861,47.30888],"type": "Point"}, "properties": {"siteid": "odsw","title": "Odessa; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1107", "geometry": {"coordinates": [-106.9308,38.5878],"type": "Point"}, "properties": {"siteid": "ohiocreekabovemouth","title": "OHIO CREEK ABOVE MOUTH; NEAR GUNNISON CO","type": "stream"}},
+{"type": "Feature", "id": "1108", "geometry": {"coordinates": [-106.9978,38.7022],"type": "Point"}, "properties": {"siteid": "ohiocreeknearbaldwin","title": "OHIO CREEK NEAR BALDWIN; CO","type": "stream"}},
+{"type": "Feature", "id": "1109", "geometry": {"coordinates": [-107.24444,41.00139],"type": "Point"}, "properties": {"siteid": "oldbatco","title": "OLD BATTLE CREEK; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1110", "geometry": {"coordinates": [-107.9667,41.15],"type": "Point"}, "properties": {"siteid": "oldbattleswe","title": "OLD BATTLE","type": "snotel"}},
+{"type": "Feature", "id": "1111", "geometry": {"coordinates": [-109.01667,43.66667],"type": "Point"}, "properties": {"siteid": "olww","title": "OWL CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1112", "geometry": {"coordinates": [-108.56889,43.19889],"type": "Point"}, "properties": {"siteid": "olwy","title": "OCEAN DRAIN AT OCEAN LAKE OUTLET NR PAVILLION; WY","type": "canal"}},
+{"type": "Feature", "id": "1113", "geometry": {"coordinates": [-105.48778,40.37305],"type": "Point"}, "properties": {"siteid": "olydamco","title": "OLYMPUS DAM NEAR ESTES PARK; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1114", "geometry": {"coordinates": [-105.48694,40.375],"type": "Point"}, "properties": {"siteid": "olytunco","title": "OLYMPUS TUNNEL (ESTES FOOTHILLS CANL) AT LAKE ESTES","type": "canal"}},
+{"type": "Feature", "id": "1115", "geometry": {"coordinates": [-119.57611,48.4025],"type": "Point"}, "properties": {"siteid": "omaw","title": "Omak; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1116", "geometry": {"coordinates": [-117.01527,43.97777],"type": "Point"}, "properties": {"siteid": "onto","title": "Ontario; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1117", "geometry": {"coordinates": [-108.32,39.1],"type": "Point"}, "properties": {"siteid": "orchidco","title": "ORCHARD MESA IRRIGATION DISTRICT CANAL; PALISADE; CO","type": "canal"}},
+{"type": "Feature", "id": "1118", "geometry": {"coordinates": [-105.18333,42.65583],"type": "Point"}, "properties": {"siteid": "orwy","title": "NORTH PLATTE RIVER AT ORIN JCT.; WY","type": "stream"}},
+{"type": "Feature", "id": "1119", "geometry": {"coordinates": [-112.07568,43.58884],"type": "Point"}, "properties": {"siteid": "osgi","title": "Osgood; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1120", "geometry": {"coordinates": [-99.09861,39.44722],"type": "Point"}, "properties": {"siteid": "osks","title": "OSBORNE CANAL; KANSAS","type": "canal"}},
+{"type": "Feature", "id": "1121", "geometry": {"coordinates": [-106.7372,37.0303],"type": "Point"}, "properties": {"siteid": "osodiversion","title": "OSO DIVERSION NEAR CHROMO","type": "diversion"}},
+{"type": "Feature", "id": "1122", "geometry": {"coordinates": [-114.7,35.5],"type": "Point"}, "properties": {"siteid": "otherarizonauserspumping","title": "Other Arizona Users Pumping; Lees Ferry to Davis Dam","type": "diversion"}},
+{"type": "Feature", "id": "1123", "geometry": {"coordinates": [-114.5,32.75],"type": "Point"}, "properties": {"siteid": "otherarizonauserspumpingbelowimperialdam","title": "Other Arizona Users Pumping - below Imperial Dam","type": "diversion"}},
+{"type": "Feature", "id": "1124", "geometry": {"coordinates": [-114.7,35],"type": "Point"}, "properties": {"siteid": "otherarizonauserspumpingdavistoparker","title": "Other Arizona Users Pumping - Davis to Parker","type": "diversion"}},
+{"type": "Feature", "id": "1125", "geometry": {"coordinates": [-114.3,33.7],"type": "Point"}, "properties": {"siteid": "otherarizonauserspumpingparkertoimperial","title": "Other Arizona Users Pumping - Parker to Imperial","type": "diversion"}},
+{"type": "Feature", "id": "1126", "geometry": {"coordinates": [-114.5,32.7],"type": "Point"}, "properties": {"siteid": "othercaliforniauserspumpingbelowimperialdam","title": "Other California Users Pumping - below Imperial Dam","type": "diversion"}},
+{"type": "Feature", "id": "1127", "geometry": {"coordinates": [-114.5,34.8],"type": "Point"}, "properties": {"siteid": "othercaliforniauserspumpingdavistoparker","title": "Other California Users Pumping - Davis to Parker","type": "diversion"}},
+{"type": "Feature", "id": "1128", "geometry": {"coordinates": [-114.5,33.7],"type": "Point"}, "properties": {"siteid": "othercaliforniauserspumpingparkertoimperial","title": "Other California Users Pumping - Parker to Imperial","type": "diversion"}},
+{"type": "Feature", "id": "1129", "geometry": {"coordinates": [-114.6,35.1],"type": "Point"}, "properties": {"siteid": "othernevadauserspumpinginfloodplaindavisdamtocalbndry","title": "Other Nevada Users Pumping in Flood Plain Davis Dam to Cal Bndry","type": "diversion"}},
+{"type": "Feature", "id": "1130", "geometry": {"coordinates": [-107.6333,39.0833],"type": "Point"}, "properties": {"siteid": "overlandres.swe","title": "OVERLAND RES.","type": "snotel"}},
+{"type": "Feature", "id": "1131", "geometry": {"coordinates": [-112.977317,43.784117],"type": "Point"}, "properties": {"siteid": "owei","title": "INL - Howe; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1132", "geometry": {"coordinates": [-114.8,36.15],"type": "Point"}, "properties": {"siteid": "pacificcoastbuildingproductsinc","title": "Pacific Coast Building Products Inc.","type": "diversion"}},
+{"type": "Feature", "id": "1133", "geometry": {"coordinates": [-111.2063599,43.3381653],"type": "Point"}, "properties": {"siteid": "pal","title": "Palisades Reservoir near Irwin; ID","type": "reservoir"}},
+{"type": "Feature", "id": "1134", "geometry": {"coordinates": [-111.2188817,43.35089974],"type": "Point"}, "properties": {"siteid": "pali","title": "Snake River near Irwin; ID","type": "stream"}},
+{"type": "Feature", "id": "1135", "geometry": {"coordinates": [-114.31,33.73],"type": "Point"}, "properties": {"siteid": "paloverdecanal","title": "Palo Verde Canal","type": "diversion"}},
+{"type": "Feature", "id": "1136", "geometry": {"coordinates": [-105.6667,35.8333],"type": "Point"}, "properties": {"siteid": "panchuelaswe","title": "PANCHUELA","type": "snotel"}},
+{"type": "Feature", "id": "1137", "geometry": {"coordinates": [-112.4217667,37.86858333],"type": "Point"}, "properties": {"siteid": "panu","title": "UCC - Panguitch; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1138", "geometry": {"coordinates": [-107.3517,38.9442],"type": "Point"}, "properties": {"siteid": "paonia","title": "PAONIA RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1139", "geometry": {"coordinates": [-109.18083,48.56417],"type": "Point"}, "properties": {"siteid": "pardismt","title": "PARADISE MAIN DIVERSION; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1140", "geometry": {"coordinates": [-111.5939,36.8722],"type": "Point"}, "properties": {"siteid": "pariariveratleesferry","title": "PARIA RIVER AT LEES FERRY; AZ","type": "stream"}},
+{"type": "Feature", "id": "1141", "geometry": {"coordinates": [-106.5833,38.8167],"type": "Point"}, "properties": {"siteid": "parkconeswe","title": "PARK CONE","type": "snotel"}},
+{"type": "Feature", "id": "1142", "geometry": {"coordinates": [-114.16,34.32],"type": "Point"}, "properties": {"siteid": "parkerdamandgovernmentcamp","title": "Parker Dam and Government Camp","type": "diversion"}},
+{"type": "Feature", "id": "1143", "geometry": {"coordinates": [-107.8667,39.0333],"type": "Point"}, "properties": {"siteid": "parkreservoirswe","title": "PARK RESERVOIR","type": "snotel"}},
+{"type": "Feature", "id": "1144", "geometry": {"coordinates": [-111.6167,40.7667],"type": "Point"}, "properties": {"siteid": "parley'ssummitswe","title": "PARLEY'S SUMMIT","type": "snotel"}},
+{"type": "Feature", "id": "1145", "geometry": {"coordinates": [-121.61666,45.54444],"type": "Point"}, "properties": {"siteid": "paro","title": "Parkdale; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1146", "geometry": {"coordinates": [-111.8137,40.934],"type": "Point"}, "properties": {"siteid": "parrishcreekswe","title": "PARRISH CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1147", "geometry": {"coordinates": [-112.8810667,37.86226667],"type": "Point"}, "properties": {"siteid": "paru","title": "UCC - Parowan; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1148", "geometry": {"coordinates": [-106.85361,42.46806],"type": "Point"}, "properties": {"siteid": "patr","title": "PATHFINDER RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "1149", "geometry": {"coordinates": [-106.84639,42.465],"type": "Point"}, "properties": {"siteid": "pawy","title": "NORTH PLATTE RIVER BL PATHFINDER DAM; WY","type": "stream"}},
+{"type": "Feature", "id": "1150", "geometry": {"coordinates": [-111.6333,39.9333],"type": "Point"}, "properties": {"siteid": "paysonr.s.swe","title": "PAYSON R.S.","type": "snotel"}},
+{"type": "Feature", "id": "1151", "geometry": {"coordinates": [-108.75,43.2],"type": "Point"}, "properties": {"siteid": "pbr","title": "PILOT BUTTE OFFSTREAM; 22 MILES NW OF RIVERTON; WY","type": "reservoir"}},
+{"type": "Feature", "id": "1152", "geometry": {"coordinates": [-112.2,48.26667],"type": "Point"}, "properties": {"siteid": "pccm","title": "PONDERA COUNTY CANAL; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1153", "geometry": {"coordinates": [-108.71333,48.36361],"type": "Point"}, "properties": {"siteid": "pcdm","title": "PEOPLES CR BEL KUHR COULEE NR DODSON; MT","type": "stream"}},
+{"type": "Feature", "id": "1154", "geometry": {"coordinates": [-108.71333,48.22361],"type": "Point"}, "properties": {"siteid": "pchm","title": "PEOPLES CREEK NEAR HAYS; MT","type": "stream"}},
+{"type": "Feature", "id": "1155", "geometry": {"coordinates": [-111.26667,46.58333],"type": "Point"}, "properties": {"siteid": "pckm","title": "PICKFOOT CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1156", "geometry": {"coordinates": [-108.74416,43.19222],"type": "Point"}, "properties": {"siteid": "pcpb","title": "PILOT CANAL BELOW PILOT BUTTE RESERVOIR; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1157", "geometry": {"coordinates": [-118.62777,44.44083],"type": "Point"}, "properties": {"siteid": "pcyo","title": "Prairie City; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1158", "geometry": {"coordinates": [-114.1364,34.3067],"type": "Point"}, "properties": {"siteid": "pdmlc","title": "Lake Havasu","type": "reservoir"}},
+{"type": "Feature", "id": "1159", "geometry": {"coordinates": [-104.3333,32.5112],"type": "Point"}, "properties": {"siteid": "pecosratdamsite3nrcarlsbad","title": "PECOS R AT DAMSITE 3 NR CARLSBAD; NM","type": "stream"}},
+{"type": "Feature", "id": "1160", "geometry": {"coordinates": [-104.2778,33.9153],"type": "Point"}, "properties": {"siteid": "pecosriverabhugginscrnrroswell","title": "PECOS RIVER AB. HUGGINS CR. NR. ROSWELL; NM","type": "stream"}},
+{"type": "Feature", "id": "1161", "geometry": {"coordinates": [-104.3167,33.6833],"type": "Point"}, "properties": {"siteid": "pecosriveraboveacme","title": "PECOS RIVER ABOVE ACME; NM","type": "stream"}},
+{"type": "Feature", "id": "1162", "geometry": {"coordinates": [-104.8,35.0914],"type": "Point"}, "properties": {"siteid": "pecosriverabovecanondelutanearcolonias","title": "PECOS RIVER ABOVE CANON DEL UTA NEAR COLONIAS","type": "stream"}},
+{"type": "Feature", "id": "1163", "geometry": {"coordinates": [-104.3783,32.5786],"type": "Point"}, "properties": {"siteid": "pecosriverabsevenriversnrlakewood","title": "PECOS RIVER AB SEVEN RIVERS NR LAKEWOOD; NM","type": "stream"}},
+{"type": "Feature", "id": "1164", "geometry": {"coordinates": [-104.2169,32.4111],"type": "Point"}, "properties": {"siteid": "pecosriveratcarlsbad","title": "PECOS RIVER AT CARLSBAD","type": "stream"}},
+{"type": "Feature", "id": "1165", "geometry": {"coordinates": [-103.9794,32.1886],"type": "Point"}, "properties": {"siteid": "pecosriveratpiercecanyoncrossing","title": "PECOS RIVER AT PIERCE CANYON CROSSING NEAR MALAGA","type": "stream"}},
+{"type": "Feature", "id": "1166", "geometry": {"coordinates": [-104.6986,34.9433],"type": "Point"}, "properties": {"siteid": "pecosriveratsantarosa","title": "PECOS RIVER AT SANTA ROSA; NM","type": "stream"}},
+{"type": "Feature", "id": "1167", "geometry": {"coordinates": [-104.1725,34.3481],"type": "Point"}, "properties": {"siteid": "pecosriverbelowfortsumner","title": "PECOS RIVER BELOW FORT SUMNER; NM","type": "stream"}},
+{"type": "Feature", "id": "1168", "geometry": {"coordinates": [-104.3497,32.5944],"type": "Point"}, "properties": {"siteid": "pecosriverbelowmcmillandam","title": "PECOS RIVER BELOW MCMILLAN DAM; NM","type": "stream"}},
+{"type": "Feature", "id": "1169", "geometry": {"coordinates": [-104.2917,33.85],"type": "Point"}, "properties": {"siteid": "pecosriverbelowsixmiledrawnearroswell","title": "PECOS RIVER BELOW SIXMILE DRAW NEAR ROSWELL; NM","type": "stream"}},
+{"type": "Feature", "id": "1170", "geometry": {"coordinates": [-104.2292,34.2278],"type": "Point"}, "properties": {"siteid": "pecosriverblyesoarroyonrftsumner","title": "PECOS RIVER BL. YESO ARROYO NR. FT. SUMNER; NM","type": "stream"}},
+{"type": "Feature", "id": "1171", "geometry": {"coordinates": [-104.299,32.6897],"type": "Point"}, "properties": {"siteid": "pecosriverkaiserchannelnearlakewood","title": "PECOS RIVER (KAISER CHANNEL) NEAR LAKEWOOD","type": "stream"}},
+{"type": "Feature", "id": "1172", "geometry": {"coordinates": [-104.2719,34.4786],"type": "Point"}, "properties": {"siteid": "pecosrivernearfortsumner","title": "PECOS RIVER NEAR FORT SUMNER","type": "stream"}},
+{"type": "Feature", "id": "1173", "geometry": {"coordinates": [-104.3067,33.1689],"type": "Point"}, "properties": {"siteid": "pecosrivernearhagerman","title": "PECOS RIVER NEAR HAGERMAN; NM","type": "stream"}},
+{"type": "Feature", "id": "1174", "geometry": {"coordinates": [-104.321,32.9893],"type": "Point"}, "properties": {"siteid": "pecosrivernearlakearthur","title": "PECOS RIVER NEAR LAKE ARTHUR; NM","type": "stream"}},
+{"type": "Feature", "id": "1175", "geometry": {"coordinates": [-109.66665,40.17426],"type": "Point"}, "properties": {"siteid": "pelu","title": "Pelican Lake; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1176", "geometry": {"coordinates": [-114.3189,34.1428],"type": "Point"}, "properties": {"siteid": "pglc","title": "Colorado River at Parker Gage","type": "stream"}},
+{"type": "Feature", "id": "1177", "geometry": {"coordinates": [-105.84722,40.39944],"type": "Point"}, "properties": {"siteid": "phantmco","title": "PHANTOM VALLEY; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1178", "geometry": {"coordinates": [-105.85,40.4],"type": "Point"}, "properties": {"siteid": "phantomvalleyswe","title": "PHANTOM VALLEY","type": "snotel"}},
+{"type": "Feature", "id": "1179", "geometry": {"coordinates": [-114.16583,43.31166],"type": "Point"}, "properties": {"siteid": "pici","title": "Picabo; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1180", "geometry": {"coordinates": [-111.5833,39.0167],"type": "Point"}, "properties": {"siteid": "picklekegswe","title": "PICKLE KEG","type": "snotel"}},
+{"type": "Feature", "id": "1181", "geometry": {"coordinates": [-113.33334,48.3],"type": "Point"}, "properties": {"siteid": "picm","title": "PIKE CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1182", "geometry": {"coordinates": [-107.1928,37.4286],"type": "Point"}, "properties": {"siteid": "piedraratbridgerngrsta","title": "PIEDRA R AT BRIDGE RNGR STA; NR PAGOSA SPGS;","type": "stream"}},
+{"type": "Feature", "id": "1183", "geometry": {"coordinates": [-107.3972,37.0883],"type": "Point"}, "properties": {"siteid": "piedrariverneararboles","title": "PIEDRA RIVER NEAR ARBOLES; CO.","type": "stream"}},
+{"type": "Feature", "id": "1184", "geometry": {"coordinates": [-107.3422,37.2222],"type": "Point"}, "properties": {"siteid": "piedrarivernearpiedra","title": "PIEDRA RIVER NEAR PIEDRA; CO.","type": "stream"}},
+{"type": "Feature", "id": "1185", "geometry": {"coordinates": [-112.25,38.8833],"type": "Point"}, "properties": {"siteid": "pinecreekswe","title": "PINE CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1186", "geometry": {"coordinates": [-111.41,41.16],"type": "Point"}, "properties": {"siteid": "pineview","title": "PINEVIEW RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1187", "geometry": {"coordinates": [-105.28638,40.36805],"type": "Point"}, "properties": {"siteid": "pinresco","title": "PINEWOOD RESERVOIR; LOVELAND; CO","type": "reservoir"}},
+{"type": "Feature", "id": "1188", "geometry": {"coordinates": [-98.75278,46.95639],"type": "Point"}, "properties": {"siteid": "pist","title": "PIPESTEM DAM; NORTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "1189", "geometry": {"coordinates": [-108.26833,39.18361],"type": "Point"}, "properties": {"siteid": "placamco","title": "PLATEAU CREEK NEAR CAMEO; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1190", "geometry": {"coordinates": [-107.175,39.3653],"type": "Point"}, "properties": {"siteid": "platororeservoir","title": "PLATORO RESERVOIR NEAR PAGOSA SPRINGS; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1191", "geometry": {"coordinates": [-110.1,45.41667],"type": "Point"}, "properties": {"siteid": "plcm","title": "PLACER BASIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1192", "geometry": {"coordinates": [-110.09471,40.1663],"type": "Point"}, "properties": {"siteid": "plvu","title": "Pleasant Valley; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1193", "geometry": {"coordinates": [-116.93333,43.8],"type": "Point"}, "properties": {"siteid": "pmai","title": "Parma; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1194", "geometry": {"coordinates": [-121.50916,45.65222],"type": "Point"}, "properties": {"siteid": "pngo","title": "Pine Grove; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1195", "geometry": {"coordinates": [-120.94972,44.24833],"type": "Point"}, "properties": {"siteid": "pobo","title": "Powell Butte; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1196", "geometry": {"coordinates": [-106.33334,38.48333],"type": "Point"}, "properties": {"siteid": "pophyrco","title": "PORPHYRY CREEK; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1197", "geometry": {"coordinates": [-106.3333,38.4833],"type": "Point"}, "properties": {"siteid": "porphyrycreekswe","title": "PORPHYRY CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1198", "geometry": {"coordinates": [-114.6256,33.0228],"type": "Point"}, "properties": {"siteid": "ppglc","title": "Colorado River at Picacho Park","type": "stream"}},
+{"type": "Feature", "id": "1199", "geometry": {"coordinates": [-110.8653,39.7189],"type": "Point"}, "properties": {"siteid": "pricerivernearwoodside","title": "PRICE RIVER NEAR WOODSIDE; UT","type": "stream"}},
+{"type": "Feature", "id": "1200", "geometry": {"coordinates": [-109.91666,44.73333],"type": "Point"}, "properties": {"siteid": "prkw","title": "PARKER PEAK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1201", "geometry": {"coordinates": [-110.46667,46.11666],"type": "Point"}, "properties": {"siteid": "prpm","title": "PORCUPINE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1202", "geometry": {"coordinates": [-116.970096,47.713664],"type": "Point"}, "properties": {"siteid": "psfi","title": "Post Falls; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1203", "geometry": {"coordinates": [-112.49667,47.67667],"type": "Point"}, "properties": {"siteid": "pshr","title": "PISHKUN RESERVOIR NEAR AUGUSTA; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "1204", "geometry": {"coordinates": [-111.89363,42.10715],"type": "Point"}, "properties": {"siteid": "psti","title": "Preston; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1205", "geometry": {"coordinates": [-103.48805,44.07222],"type": "Point"}, "properties": {"siteid": "ptr","title": "PACTOLA RESERVOIR NEAR RAPID CITY; SOUTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "1206", "geometry": {"coordinates": [-104.71806,38.25972],"type": "Point"}, "properties": {"siteid": "puer","title": "PUEBLO RESERVOIR;ARKANSAS RIVER NR PUEBLO; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1207", "geometry": {"coordinates": [-104.71806,38.25945],"type": "Point"}, "properties": {"siteid": "puerwxco","title": "PUEBLO FIELD OFFICE WEATHER STATION; COLORADO","type": "weather"}},
+{"type": "Feature", "id": "1208", "geometry": {"coordinates": [-114.5,32.75],"type": "Point"}, "properties": {"siteid": "pumpedfromsouthgilawellsdpoc's","title": "Pumped from South Gila Wells (DPOC'S)","type": "diversion"}},
+{"type": "Feature", "id": "1209", "geometry": {"coordinates": [-104.54722,37.14389],"type": "Point"}, "properties": {"siteid": "purbtrco","title": "PURGATORIE RIVER BELOW TRINIDAD RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "1210", "geometry": {"coordinates": [-103.2,38.03389],"type": "Point"}, "properties": {"siteid": "purlasco","title": "PURGATORIE RIVER NEAR LAS ANIMAS; CO","type": "stream"}},
+{"type": "Feature", "id": "1211", "geometry": {"coordinates": [-104.63944,37.12944],"type": "Point"}, "properties": {"siteid": "purmadco","title": "PURGATORIE RIVER AT MADRID; CO","type": "stream"}},
+{"type": "Feature", "id": "1212", "geometry": {"coordinates": [-103.50777,37.71472],"type": "Point"}, "properties": {"siteid": "purninco","title": "PURGATORIE RIVER AT NINEMILE DAM; NR HIGBEE; CO","type": "stream"}},
+{"type": "Feature", "id": "1213", "geometry": {"coordinates": [-103.89972,37.35639],"type": "Point"}, "properties": {"siteid": "purthaco","title": "PURGATORIE RIVER NEAR THATCHER; CO","type": "stream"}},
+{"type": "Feature", "id": "1214", "geometry": {"coordinates": [-104.50861,37.17083],"type": "Point"}, "properties": {"siteid": "purtrico","title": "PURGATORIE RIVER AT TRINIDAD; CO","type": "stream"}},
+{"type": "Feature", "id": "1215", "geometry": {"coordinates": [-117.660278,41.185556],"type": "Point"}, "properties": {"siteid": "pvan","title": "DRI - Paradise Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1216", "geometry": {"coordinates": [-114.5047,33.7169],"type": "Point"}, "properties": {"siteid": "pvc","title": "Palo Verde Main Canal","type": "diversion"}},
+{"type": "Feature", "id": "1217", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "pvidc28lowerspill","title": "PVID C-28 Lower Spill","type": "canal"}},
+{"type": "Feature", "id": "1218", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "pvidc28upperspill","title": "PVID C-28 Upper Spill","type": "canal"}},
+{"type": "Feature", "id": "1219", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "pvidccanalspill","title": "PVID C-Canal Spill","type": "canal"}},
+{"type": "Feature", "id": "1220", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "pvidd10112spill","title": "PVID D-10-11-2 Spill","type": "canal"}},
+{"type": "Feature", "id": "1221", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "pvidd10115spill","title": "PVID D-10-11-5 Spill","type": "canal"}},
+{"type": "Feature", "id": "1222", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "pvidd231spill","title": "PVID D-23-1 Spill","type": "canal"}},
+{"type": "Feature", "id": "1223", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "pvidd23spill","title": "PVID D-23 Spill","type": "canal"}},
+{"type": "Feature", "id": "1224", "geometry": {"coordinates": [-114.49,32.73],"type": "Point"}, "properties": {"siteid": "pvidfcanalspill","title": "PVID F-Canal Spill","type": "canal"}},
+{"type": "Feature", "id": "1225", "geometry": {"coordinates": [-114.4978,33.7319],"type": "Point"}, "properties": {"siteid": "pvlc","title": "Colorado River Below Palo Verde Dam","type": "stream"}},
+{"type": "Feature", "id": "1226", "geometry": {"coordinates": [-114.7094,33.3356],"type": "Point"}, "properties": {"siteid": "pvof","title": "Palo Verde Outfall Drain","type": "canal"}},
+{"type": "Feature", "id": "1227", "geometry": {"coordinates": [-107.13333,44.16667],"type": "Point"}, "properties": {"siteid": "pwdw","title": "POWDER RIVER PASS; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1228", "geometry": {"coordinates": [-115.106389,37.245556],"type": "Point"}, "properties": {"siteid": "pwln","title": "DRI - Pahranagat NWR; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1229", "geometry": {"coordinates": [-106.6358,38.5597],"type": "Point"}, "properties": {"siteid": "quartzcreeknearohiocity","title": "QUARTZ CREEK NEAR OHIO CITY; CO","type": "stream"}},
+{"type": "Feature", "id": "1230", "geometry": {"coordinates": [-106.3833,35.8333],"type": "Point"}, "properties": {"siteid": "quemazonswe","title": "QUEMAZON","type": "snotel"}},
+{"type": "Feature", "id": "1231", "geometry": {"coordinates": [-106.7333,40.3667],"type": "Point"}, "properties": {"siteid": "rabbitearsswe","title": "RABBIT EARS","type": "snotel"}},
+{"type": "Feature", "id": "1232", "geometry": {"coordinates": [-106,40.7],"type": "Point"}, "properties": {"siteid": "rawsnoco","title": "RAWAH; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1233", "geometry": {"coordinates": [-108.68694,47.63083],"type": "Point"}, "properties": {"siteid": "rbmt","title": "MISSOURI RIVER AT LANDUSKY; MT","type": "stream"}},
+{"type": "Feature", "id": "1234", "geometry": {"coordinates": [-112.15028,45.345],"type": "Point"}, "properties": {"siteid": "rbym","title": "RUBY RIVER VALLEY WEATHER STATION NR LAURIN; MT","type": "agrimet"}},
+{"type": "Feature", "id": "1235", "geometry": {"coordinates": [-96.98833,34.49528],"type": "Point"}, "properties": {"siteid": "rcsok","title": "ROCK CREEK AT SULPHUR; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "1236", "geometry": {"coordinates": [-104.32667,42.12555],"type": "Point"}, "properties": {"siteid": "rcwy","title": "RAWHIDE CREEK NEAR LINGLE; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1237", "geometry": {"coordinates": [-114.28055,47.53944],"type": "Point"}, "properties": {"siteid": "rdbm","title": "Round Butte; Montana AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1238", "geometry": {"coordinates": [-111.0877167,41.83266667],"type": "Point"}, "properties": {"siteid": "rdhu","title": "UCC - Randolph; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1239", "geometry": {"coordinates": [-109.4619,37.6808],"type": "Point"}, "properties": {"siteid": "recapturecrbljohnsoncrnrblanding","title": "RECAPTURE CR BL JOHNSON CR NR BLANDING;UT.","type": "stream"}},
+{"type": "Feature", "id": "1240", "geometry": {"coordinates": [-109.4758,37.7556],"type": "Point"}, "properties": {"siteid": "recapturecreeknrblanding","title": "RECAPTURE CREEK NR BLANDING;UT.","type": "stream"}},
+{"type": "Feature", "id": "1241", "geometry": {"coordinates": [-109.23,40.32],"type": "Point"}, "properties": {"siteid": "redfleet","title": "RED FLEET RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1242", "geometry": {"coordinates": [-108.5642,39.0303],"type": "Point"}, "properties": {"siteid": "redlandscanalneargrandjunction","title": "REDLANDS CANAL NEAR GRAND JUNCTION","type": "diversion"}},
+{"type": "Feature", "id": "1243", "geometry": {"coordinates": [-107.7167,37.9],"type": "Point"}, "properties": {"siteid": "redmountainpassswe","title": "RED MOUNTAIN PASS","type": "snotel"}},
+{"type": "Feature", "id": "1244", "geometry": {"coordinates": [-111.2667,39.4667],"type": "Point"}, "properties": {"siteid": "redpineridgeswe","title": "RED PINE RIDGE","type": "snotel"}},
+{"type": "Feature", "id": "1245", "geometry": {"coordinates": [-105.6542,36.6828],"type": "Point"}, "properties": {"siteid": "redriverblfishhatchery","title": "RED RIVER BELOW FISH HATCHERY; NEAR QUESTA","type": "stream"}},
+{"type": "Feature", "id": "1246", "geometry": {"coordinates": [-105.5678,36.7033],"type": "Point"}, "properties": {"siteid": "redrivernearquesta","title": "RED RIVER NEAR QUESTA; NM","type": "stream"}},
+{"type": "Feature", "id": "1247", "geometry": {"coordinates": [-105.3333,36.7],"type": "Point"}, "properties": {"siteid": "redriverpass2swe","title": "RED RIVER PASS #2","type": "snotel"}},
+{"type": "Feature", "id": "1248", "geometry": {"coordinates": [-111.9050308,43.82587015],"type": "Point"}, "properties": {"siteid": "rexi","title": "Henrys Fork near Rexburg; ID","type": "stream"}},
+{"type": "Feature", "id": "1249", "geometry": {"coordinates": [-106.82472,39.36555],"type": "Point"}, "properties": {"siteid": "rfcmerco","title": "ROCKY FORK CREEK NR MEREDITH; CO","type": "stream"}},
+{"type": "Feature", "id": "1250", "geometry": {"coordinates": [-111.87922,43.6772],"type": "Point"}, "properties": {"siteid": "rgbi","title": "Rigby; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1251", "geometry": {"coordinates": [-107.7575,38.2358],"type": "Point"}, "properties": {"siteid": "ridgway","title": "RIDGWAY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1252", "geometry": {"coordinates": [-107.7569,39.6269],"type": "Point"}, "properties": {"siteid": "riflecreekbelowriflegapreservoir","title": "RIFLE CREEK BELOW RIFLE GAP RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "1253", "geometry": {"coordinates": [-107.7628,32.62],"type": "Point"}, "properties": {"siteid": "riflegap","title": "RIFLE GAP RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1254", "geometry": {"coordinates": [-107.76222,39.63],"type": "Point"}, "properties": {"siteid": "rifresco","title": "RIFLE GAP RESERVOIR NR RIFLE; CO","type": "reservoir"}},
+{"type": "Feature", "id": "1255", "geometry": {"coordinates": [-106.9047,37.1936],"type": "Point"}, "properties": {"siteid": "rioblanconearpagosasprings","title": "RIO BLANCO NEAR PAGOSA SPRINGS; CO.","type": "stream"}},
+{"type": "Feature", "id": "1256", "geometry": {"coordinates": [-106.7939,37.2128],"type": "Point"}, "properties": {"siteid": "rioblancorbloblancodivdam","title": "RIO BLANCO R BLO BLANCO DIV DAM; NR PAGOSA SP; CO","type": "stream"}},
+{"type": "Feature", "id": "1257", "geometry": {"coordinates": [-104.3444,33.125],"type": "Point"}, "properties": {"siteid": "riofelixatoldhwybrdnrhagerman","title": "RIO FELIX AT OLD HWY BRD NR HAGERMAN; NM","type": "stream"}},
+{"type": "Feature", "id": "1258", "geometry": {"coordinates": [-106.8508,33.9267],"type": "Point"}, "properties": {"siteid": "riograndeabovehwy380nearsanantonio","title": "RIO GRANDE ABOVE HWY 380 NEAR SAN ANTONIO","type": "stream"}},
+{"type": "Feature", "id": "1259", "geometry": {"coordinates": [-106.6429,35.1972],"type": "Point"}, "properties": {"siteid": "riograndeatalamedabridgeatalameda","title": "RIO GRANDE AT ALAMEDA BRIDGE AT ALAMEDA; NM","type": "stream"}},
+{"type": "Feature", "id": "1260", "geometry": {"coordinates": [-106.6809,35.0892],"type": "Point"}, "properties": {"siteid": "riograndeatalbuquerque","title": "RIO GRANDE AT ALBUQUERQUE","type": "stream"}},
+{"type": "Feature", "id": "1261", "geometry": {"coordinates": [-106.8869,34.1211],"type": "Point"}, "properties": {"siteid": "riograndeatbridgenearescondida","title": "RIO GRANDE AT BRIDGE NEAR ESCONDIDA","type": "stream"}},
+{"type": "Feature", "id": "1262", "geometry": {"coordinates": [-106.6014,31.915],"type": "Point"}, "properties": {"siteid": "riograndeatcanutillo","title": "RIO GRANDE AT CANUTILLO","type": "stream"}},
+{"type": "Feature", "id": "1263", "geometry": {"coordinates": [-106.5403,31.8028],"type": "Point"}, "properties": {"siteid": "riograndeatelpaso","title": "RIO GRANDE AT EL PASO (COURCHESNE BRIDGE)","type": "stream"}},
+{"type": "Feature", "id": "1264", "geometry": {"coordinates": [-105.9649,36.2056],"type": "Point"}, "properties": {"siteid": "riograndeatembudo","title": "RIO GRANDE AT EMBUDO; NM","type": "stream"}},
+{"type": "Feature", "id": "1265", "geometry": {"coordinates": [-105.6083,31.0861],"type": "Point"}, "properties": {"siteid": "riograndeatfortquitman","title": "RIO GRANDE AT FORT QUITMAN; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1266", "geometry": {"coordinates": [-107.0194,32.6133],"type": "Point"}, "properties": {"siteid": "riograndeathayner'sbridge","title": "RIO GRANDE AT HAYNER'S BRIDGE NEAR RINCON","type": "stream"}},
+{"type": "Feature", "id": "1267", "geometry": {"coordinates": [-106.6803,34.9467],"type": "Point"}, "properties": {"siteid": "riograndeatisletalakesnrisleta","title": "RIO GRANDE AT ISLETA LAKES NR ISLETA; NM","type": "stream"}},
+{"type": "Feature", "id": "1268", "geometry": {"coordinates": [-106.1417,35.8747],"type": "Point"}, "properties": {"siteid": "riograndeatotowibridge","title": "RIO GRANDE AT OTOWI BRIDGE; NM","type": "stream"}},
+{"type": "Feature", "id": "1269", "geometry": {"coordinates": [-106.4398,35.4446],"type": "Point"}, "properties": {"siteid": "riograndeatsanfelipe","title": "RIO GRANDE AT SAN FELIPE; NM","type": "stream"}},
+{"type": "Feature", "id": "1270", "geometry": {"coordinates": [-106.7631,34.545],"type": "Point"}, "properties": {"siteid": "riograndeatstatehwy346nearbosque","title": "RIO GRANDE AT STATE HWY 346 NEAR BOSQUE; NM","type": "stream"}},
+{"type": "Feature", "id": "1271", "geometry": {"coordinates": [-107.2919,32.8847],"type": "Point"}, "properties": {"siteid": "riograndebelowcaballodam","title": "RIO GRANDE BELOW CABALLO DAM","type": "stream"}},
+{"type": "Feature", "id": "1272", "geometry": {"coordinates": [-106.3233,35.6181],"type": "Point"}, "properties": {"siteid": "riograndebelowcochitidam","title": "RIO GRANDE BELOW COCHITI DAM; NM","type": "stream"}},
+{"type": "Feature", "id": "1273", "geometry": {"coordinates": [-106.9192,32.4792],"type": "Point"}, "properties": {"siteid": "riograndebelowleasburgdiversiondam","title": "RIO GRANDE BELOW LEASBURG DIVERSION DAM","type": "stream"}},
+{"type": "Feature", "id": "1274", "geometry": {"coordinates": [-106.7717,32.2103],"type": "Point"}, "properties": {"siteid": "riograndebelowmesilladiversiondam","title": "RIO GRANDE BELOW MESILLA DIVERSION DAM","type": "stream"}},
+{"type": "Feature", "id": "1275", "geometry": {"coordinates": [-106.5222,31.7764],"type": "Point"}, "properties": {"siteid": "riograndeblamericandam","title": "RIO GRANDE BELOW AMERICAN DAM NEAR EL PASO","type": "stream"}},
+{"type": "Feature", "id": "1276", "geometry": {"coordinates": [-108.2061,33.1483],"type": "Point"}, "properties": {"siteid": "riograndeblebuttedamusgs","title": "RIO GRANDE BELOW ELEPHANT BUTTE DAM (USGS)","type": "stream"}},
+{"type": "Feature", "id": "1277", "geometry": {"coordinates": [-105.7539,36.32],"type": "Point"}, "properties": {"siteid": "riograndeblwtaosjunctionbridgeneartaos","title": "RIO GRANDE BLW TAOS JUNCTION BRIDGE NEAR TAOS; NM","type": "stream"}},
+{"type": "Feature", "id": "1278", "geometry": {"coordinates": [-106.8883,34.2564],"type": "Point"}, "properties": {"siteid": "riograndeconveyancechannelatsanacacia","title": "RIO GRANDE CONVEYANCE CHANNEL AT SAN ACACIA","type": "stream"}},
+{"type": "Feature", "id": "1279", "geometry": {"coordinates": [-106.9944,33.6875],"type": "Point"}, "properties": {"siteid": "riograndeconveyancechannelatsanmarcial","title": "RIO GRANDE CONVEYANCE CHANNEL AT SAN MARCIAL; NM","type": "stream"}},
+{"type": "Feature", "id": "1280", "geometry": {"coordinates": [-106.9917,33.6806],"type": "Point"}, "properties": {"siteid": "riograndefloodwayatsanacacia","title": "RIO GRANDE FLOODWAY AT SAN ACACIA","type": "stream"}},
+{"type": "Feature", "id": "1281", "geometry": {"coordinates": [-106.9929,33.6806],"type": "Point"}, "properties": {"siteid": "riograndefloodwayatsanmarcial","title": "RIO GRANDE FLOODWAY AT SAN MARCIAL; NM","type": "stream"}},
+{"type": "Feature", "id": "1282", "geometry": {"coordinates": [-106.801,34.417],"type": "Point"}, "properties": {"siteid": "riograndefloodwaynearbernardo","title": "RIO GRANDE FLOODWAY NEAR BERNARDO; NM","type": "stream"}},
+{"type": "Feature", "id": "1283", "geometry": {"coordinates": [-106.72,34.8706],"type": "Point"}, "properties": {"siteid": "riograndenearbosquefarms","title": "RIO GRANDE NEAR BOSQUE FARMS","type": "stream"}},
+{"type": "Feature", "id": "1284", "geometry": {"coordinates": [-105.6831,36.74],"type": "Point"}, "properties": {"siteid": "riograndenearcerro","title": "RIO GRANDE NEAR CERRO; NM","type": "stream"}},
+{"type": "Feature", "id": "1285", "geometry": {"coordinates": [-106.4606,34.2394],"type": "Point"}, "properties": {"siteid": "riograndeneardelnorte","title": "RIO GRANDE NEAR DEL NORTE","type": "stream"}},
+{"type": "Feature", "id": "1286", "geometry": {"coordinates": [-105.7564,37.0783],"type": "Point"}, "properties": {"siteid": "riograndenearlobatos","title": "RIO GRANDE NEAR LOBATOS","type": "stream"}},
+{"type": "Feature", "id": "1287", "geometry": {"coordinates": [-106.6569,35.1818],"type": "Point"}, "properties": {"siteid": "riograndenralameda","title": "RIO GRANDE NR ALAMEDA; NM","type": "stream"}},
+{"type": "Feature", "id": "1288", "geometry": {"coordinates": [-104.8519,33.3493],"type": "Point"}, "properties": {"siteid": "riohondoatdiamondaranchnrroswell","title": "RIO HONDO AT DIAMOND A RANCH NR ROSWELL; NM","type": "stream"}},
+{"type": "Feature", "id": "1289", "geometry": {"coordinates": [-104.5453,33.3719],"type": "Point"}, "properties": {"siteid": "riohondoatroswell","title": "RIO HONDO AT ROSWELL; NM","type": "stream"}},
+{"type": "Feature", "id": "1290", "geometry": {"coordinates": [-104.4789,33.4073],"type": "Point"}, "properties": {"siteid": "riohondonearroswell","title": "RIO HONDO NEAR ROSWELL; NM","type": "stream"}},
+{"type": "Feature", "id": "1291", "geometry": {"coordinates": [-105.5309,36.5083],"type": "Point"}, "properties": {"siteid": "rioluceroneararroyoseco","title": "RIO LUCERO NEAR ARROYO SECO; NM","type": "stream"}},
+{"type": "Feature", "id": "1292", "geometry": {"coordinates": [-105.8944,35.8501],"type": "Point"}, "properties": {"siteid": "rionambeabovenambefallsdamnearnambe","title": "RIO NAMBE ABOVE NAMBE FALLS DAM NEAR NAMBE; NM","type": "stream"}},
+{"type": "Feature", "id": "1293", "geometry": {"coordinates": [-105.9059,35.8461],"type": "Point"}, "properties": {"siteid": "rionambebelownambefallsdamnearnambe","title": "RIO NAMBE BELOW NAMBE FALLS DAM NEAR NAMBE; NM","type": "stream"}},
+{"type": "Feature", "id": "1294", "geometry": {"coordinates": [-106.0436,36.3497],"type": "Point"}, "properties": {"siteid": "rioojocalienteatlamadera","title": "RIO OJO CALIENTE AT LA MADERA; NM","type": "stream"}},
+{"type": "Feature", "id": "1295", "geometry": {"coordinates": [-104.4142,32.7433],"type": "Point"}, "properties": {"siteid": "riopenascoatdayton","title": "RIO PENASCO AT DAYTON NEAR ARTESIA","type": "stream"}},
+{"type": "Feature", "id": "1296", "geometry": {"coordinates": [-105.1781,32.8814],"type": "Point"}, "properties": {"siteid": "riopenasconeardunken","title": "RIO PENASCO NEAR DUNKEN; NM","type": "stream"}},
+{"type": "Feature", "id": "1297", "geometry": {"coordinates": [-105.0694,32.8369],"type": "Point"}, "properties": {"siteid": "riopenasconearhope","title": "RIO PENASCO NEAR HOPE; NM","type": "stream"}},
+{"type": "Feature", "id": "1298", "geometry": {"coordinates": [-105.6681,36.3775],"type": "Point"}, "properties": {"siteid": "riopueblodetaosbelowloscordovas","title": "RIO PUEBLO DE TAOS BELOW LOS CORDOVAS; NM","type": "stream"}},
+{"type": "Feature", "id": "1299", "geometry": {"coordinates": [-105.5039,36.4394],"type": "Point"}, "properties": {"siteid": "riopueblodetaosneartaos","title": "RIO PUEBLO DE TAOS NEAR TAOS; NM","type": "stream"}},
+{"type": "Feature", "id": "1300", "geometry": {"coordinates": [-105.611,36.1706],"type": "Point"}, "properties": {"siteid": "riopueblonrpenasco","title": "RIO PUEBLO NR PENASCO; NM","type": "stream"}},
+{"type": "Feature", "id": "1301", "geometry": {"coordinates": [-107.1669,35.6012],"type": "Point"}, "properties": {"siteid": "riopuercoabvarroyochiconrguadalupe","title": "RIO PUERCO ABV ARROYO CHICO NR GUADALUPE; NM","type": "stream"}},
+{"type": "Feature", "id": "1302", "geometry": {"coordinates": [-106.8544,34.4103],"type": "Point"}, "properties": {"siteid": "riopuerconearbernardo","title": "RIO PUERCO NEAR BERNARDO; NM","type": "stream"}},
+{"type": "Feature", "id": "1303", "geometry": {"coordinates": [-105.721,33.3376],"type": "Point"}, "properties": {"siteid": "rioruidosoatruidoso","title": "RIO RUIDOSO AT RUIDOSO; NM","type": "stream"}},
+{"type": "Feature", "id": "1304", "geometry": {"coordinates": [-107.3,40.1167],"type": "Point"}, "properties": {"siteid": "ripplecreekswe","title": "RIPPLE CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1305", "geometry": {"coordinates": [-111.7428411,43.5821394],"type": "Point"}, "properties": {"siteid": "rir","title": "Ririe Dam and Lake near Ririe; ID","type": "reservoir"}},
+{"type": "Feature", "id": "1306", "geometry": {"coordinates": [-111.7428411,43.5821394],"type": "Point"}, "properties": {"siteid": "riri","title": "Willow Creek below Ririe Dam (comp from RIR)","type": "stream"}},
+{"type": "Feature", "id": "1307", "geometry": {"coordinates": [-112.25,46.36666],"type": "Point"}, "properties": {"siteid": "rkpm","title": "ROCKER PEAK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1308", "geometry": {"coordinates": [-106.08334,42.56667],"type": "Point"}, "properties": {"siteid": "rnhw","title": "RENO HILL; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1309", "geometry": {"coordinates": [-106.80139,39.18],"type": "Point"}, "properties": {"siteid": "roaaspco","title": "ROARING FORK RIVER NEAR ASPEN; COLORADO (APNC)","type": "stream"}},
+{"type": "Feature", "id": "1310", "geometry": {"coordinates": [-106.85555,39.225],"type": "Point"}, "properties": {"siteid": "roabmcco","title": "ROARING FORK RIVER BLW MAROON CRK; NR ASPEN; CO","type": "stream"}},
+{"type": "Feature", "id": "1311", "geometry": {"coordinates": [-106.13333,40.76667],"type": "Point"}, "properties": {"siteid": "roac","title": "ROACH; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1312", "geometry": {"coordinates": [-106.77361,39.14111],"type": "Point"}, "properties": {"siteid": "roadifco","title": "ROARING FORK RIVER ABV DIFFICULT CRK NR ASPEN; CO","type": "stream"}},
+{"type": "Feature", "id": "1313", "geometry": {"coordinates": [-107.08334,39.37333],"type": "Point"}, "properties": {"siteid": "roaemmco","title": "ROARING FORK RIVER NR EMMA; CO","type": "stream"}},
+{"type": "Feature", "id": "1314", "geometry": {"coordinates": [-107.32889,39.54361],"type": "Point"}, "properties": {"siteid": "roagleco","title": "ROARING FORK RIVER AT GLENWOOD SPRINGS; CO","type": "stream"}},
+{"type": "Feature", "id": "1315", "geometry": {"coordinates": [-106.62417,39.12028],"type": "Point"}, "properties": {"siteid": "roalmcco","title": "ROARING FORK RIVER NR LOST MAN CREEK; CO","type": "stream"}},
+{"type": "Feature", "id": "1316", "geometry": {"coordinates": [-114.8,36.05],"type": "Point"}, "properties": {"siteid": "robertbgriffithwaterproject","title": "Robert B. Griffith Water Project","type": "diversion"}},
+{"type": "Feature", "id": "1317", "geometry": {"coordinates": [-105.6836,39.4639],"type": "Point"}, "properties": {"siteid": "robertstunnelateastportalneargrant","title": "ROBERTS TUNNEL AT EAST PORTAL NEAR GRANT","type": "diversion"}},
+{"type": "Feature", "id": "1318", "geometry": {"coordinates": [-112.121117,43.743517],"type": "Point"}, "properties": {"siteid": "robi","title": "INL - Roberts;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1319", "geometry": {"coordinates": [-106.32333,39.48389],"type": "Point"}, "properties": {"siteid": "robtunco","title": "ROBERTS TUNNEL AT EAST PORTAL NR GRANT; CO","type": "canal"}},
+{"type": "Feature", "id": "1320", "geometry": {"coordinates": [-110.6972,40.5575],"type": "Point"}, "properties": {"siteid": "rockcreekabovesouthforknearhanna","title": "ROCK CREEK ABOVE SOUTH FORK NEAR HANNA; UTAH","type": "stream"}},
+{"type": "Feature", "id": "1321", "geometry": {"coordinates": [-110.6833,40.55],"type": "Point"}, "properties": {"siteid": "rockcreekswe","title": "ROCK CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1322", "geometry": {"coordinates": [-111.2412,40.4725],"type": "Point"}, "properties": {"siteid": "rockportreservoir","title": "ROCKPORT RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1323", "geometry": {"coordinates": [-104.375,32.5061],"type": "Point"}, "properties": {"siteid": "rockyarroyoathighwaybridge","title": "ROCKY ARROYO AT HIGHWAY BRIDGE NEAR LAKEWOOD","type": "stream"}},
+{"type": "Feature", "id": "1324", "geometry": {"coordinates": [-112.2167,40.4333],"type": "Point"}, "properties": {"siteid": "rockybasinsettlemeswe","title": "ROCKY BASIN-SETTLEME","type": "snotel"}},
+{"type": "Feature", "id": "1325", "geometry": {"coordinates": [-109.65,48.18333],"type": "Point"}, "properties": {"siteid": "rocm","title": "ROCKY BOY; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1326", "geometry": {"coordinates": [-116.330833,36.478333],"type": "Point"}, "properties": {"siteid": "rogn","title": "DRI - Rogers Spring; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1327", "geometry": {"coordinates": [-108.1611,38.735],"type": "Point"}, "properties": {"siteid": "roubideaucreekatmouthnrdelta","title": "ROUBIDEAU CREEK AT MOUTH NR DELTA","type": "stream"}},
+{"type": "Feature", "id": "1328", "geometry": {"coordinates": [-98.76945,40.09167],"type": "Point"}, "properties": {"siteid": "rprvne","title": "REPUBLICAN RIVER NEAR RIVERTON; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1329", "geometry": {"coordinates": [-113.87388,42.59555],"type": "Point"}, "properties": {"siteid": "rpti","title": "Rupert; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1330", "geometry": {"coordinates": [-112.14777,45.17528],"type": "Point"}, "properties": {"siteid": "rram","title": "RUBY RIVER ABOVE RESERVOIR NEAR ALDER; MT","type": "stream"}},
+{"type": "Feature", "id": "1331", "geometry": {"coordinates": [-112.11,45.24222],"type": "Point"}, "properties": {"siteid": "rrbm","title": "RUBY RIVER BELOW RESERVOIR NEAR ALDER; MT","type": "stream"}},
+{"type": "Feature", "id": "1332", "geometry": {"coordinates": [-113.2971,43.62455],"type": "Point"}, "properties": {"siteid": "rrci","title": "INL - Arco;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1333", "geometry": {"coordinates": [-111.65584,44.61694],"type": "Point"}, "properties": {"siteid": "rrcm","title": "RED ROCK CREEK ABOVE LAKES NEAR LAKEVIEW; MT","type": "stream"}},
+{"type": "Feature", "id": "1334", "geometry": {"coordinates": [-111.700605,43.610345],"type": "Point"}, "properties": {"siteid": "rrii","title": "Ririe; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1335", "geometry": {"coordinates": [-114.4664,34.6986],"type": "Point"}, "properties": {"siteid": "rs41lc","title": "Colorado River at River Section 41","type": "stream"}},
+{"type": "Feature", "id": "1336", "geometry": {"coordinates": [-116.83333,47.8],"type": "Point"}, "properties": {"siteid": "rthi","title": "Rathdrum Prairie; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1337", "geometry": {"coordinates": [-106.49,39.2151],"type": "Point"}, "properties": {"siteid": "ruedireservoir","title": "RUEDI RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1338", "geometry": {"coordinates": [-106.81805,39.36389],"type": "Point"}, "properties": {"siteid": "rueresco","title": "RUEDI RESERVOIR NR BASALT; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1339", "geometry": {"coordinates": [-108.56667,46.41667],"type": "Point"}, "properties": {"siteid": "rumt","title": "MUSSELSHELL RIVER AT ROUNDUP; MT","type": "stream"}},
+{"type": "Feature", "id": "1340", "geometry": {"coordinates": [-108.50584,43.02639],"type": "Point"}, "properties": {"siteid": "rvcy","title": "RIVERTON VALLEY DIVERSION CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1341", "geometry": {"coordinates": [-100.77917,40.40139],"type": "Point"}, "properties": {"siteid": "rwabne","title": "RED WILLOW CREEK ABOVE HUGH BUTLER LAKE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1342", "geometry": {"coordinates": [-100.54195,40.28167],"type": "Point"}, "properties": {"siteid": "rwne","title": "RED WILLOW DIVERSION; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "1343", "geometry": {"coordinates": [-111.76666,43.85],"type": "Point"}, "properties": {"siteid": "rxgi","title": "Rexburg; Idaho AgriMet Weather Station ","type": "agrimet"}},
+{"type": "Feature", "id": "1344", "geometry": {"coordinates": [-107.21722,48.50889],"type": "Point"}, "properties": {"siteid": "saco","title": "MILK RIVER AT JUNEBERG BRIDGE; NEAR SACO; MT","type": "stream"}},
+{"type": "Feature", "id": "1345", "geometry": {"coordinates": [-106.3667,38.7],"type": "Point"}, "properties": {"siteid": "saintelmoswe","title": "SAINT ELMO","type": "snotel"}},
+{"type": "Feature", "id": "1346", "geometry": {"coordinates": [-107.7528,37.1397],"type": "Point"}, "properties": {"siteid": "saltcreeknearoxford","title": "SALT CREEK NEAR OXFORD; CO.","type": "stream"}},
+{"type": "Feature", "id": "1347", "geometry": {"coordinates": [-111.0373464,43.07963521],"type": "Point"}, "properties": {"siteid": "saly","title": "Salt River above Reservoir near Etna; WY","type": "stream"}},
+{"type": "Feature", "id": "1348", "geometry": {"coordinates": [-106.0381,36.9931],"type": "Point"}, "properties": {"siteid": "sanantonioriveratortiz","title": "SAN ANTONIO RIVER AT ORTIZ","type": "stream"}},
+{"type": "Feature", "id": "1349", "geometry": {"coordinates": [-114.5,34.7],"type": "Point"}, "properties": {"siteid": "sanbernadinocounty","title": "San Bernadino County","type": "diversion"}},
+{"type": "Feature", "id": "1350", "geometry": {"coordinates": [-104.2586,34.4742],"type": "Point"}, "properties": {"siteid": "sandgatedivfromftsumnercanalatftsumner","title": "SAND GATE DIV FROM FT SUMNER CANAL AT FT SUMNER","type": "diversion"}},
+{"type": "Feature", "id": "1351", "geometry": {"coordinates": [-107.1667,41.1167],"type": "Point"}, "properties": {"siteid": "sandstonersswe","title": "SANDSTONE RS","type": "snotel"}},
+{"type": "Feature", "id": "1352", "geometry": {"coordinates": [-101.55083,35.71056],"type": "Point"}, "properties": {"siteid": "sanford","title": "SANFORD DAM (LAKE MEREDITH); TEXAS","type": "reservoir"}},
+{"type": "Feature", "id": "1353", "geometry": {"coordinates": [-107.9861,36.7],"type": "Point"}, "properties": {"siteid": "sanjuanriveratbloomfield","title": "SAN JUAN RIVER AT BLOOMFIELD; NM","type": "stream"}},
+{"type": "Feature", "id": "1354", "geometry": {"coordinates": [-108.225,36.7228],"type": "Point"}, "properties": {"siteid": "sanjuanriveratfarmington","title": "SAN JUAN RIVER AT FARMINGTON; NM","type": "stream"}},
+{"type": "Feature", "id": "1355", "geometry": {"coordinates": [-109.0333,37.0056],"type": "Point"}, "properties": {"siteid": "sanjuanriveratfourcorners","title": "SAN JUAN RIVER AT FOUR CORNERS NEAR TOWAOC","type": "stream"}},
+{"type": "Feature", "id": "1356", "geometry": {"coordinates": [-108.095,36.6894],"type": "Point"}, "properties": {"siteid": "sanjuanriverathammondbrnrbloomfield","title": "SAN JUAN RIVER AT HAMMOND BR NR BLOOMFIELD;N","type": "stream"}},
+{"type": "Feature", "id": "1357", "geometry": {"coordinates": [-107.0103,37.2661],"type": "Point"}, "properties": {"siteid": "sanjuanriveratpagosasprings","title": "SAN JUAN RIVER AT PAGOSA SPRINGS","type": "stream"}},
+{"type": "Feature", "id": "1358", "geometry": {"coordinates": [-108.7317,36.7922],"type": "Point"}, "properties": {"siteid": "sanjuanriveratshiprock","title": "SAN JUAN RIVER AT SHIPROCK; NM","type": "stream"}},
+{"type": "Feature", "id": "1359", "geometry": {"coordinates": [-107.6975,36.8014],"type": "Point"}, "properties": {"siteid": "sanjuanriverneararchuleta","title": "SAN JUAN RIVER NEAR ARCHULETA;NM","type": "stream"}},
+{"type": "Feature", "id": "1360", "geometry": {"coordinates": [-109.8642,37.1469],"type": "Point"}, "properties": {"siteid": "sanjuanrivernearbluff","title": "SAN JUAN RIVER NEAR BLUFF; UT","type": "stream"}},
+{"type": "Feature", "id": "1361", "geometry": {"coordinates": [-107.3117,37.0136],"type": "Point"}, "properties": {"siteid": "sanjuanrivernearcarracas","title": "SAN JUAN RIVER NEAR CARRACAS; CO.","type": "stream"}},
+{"type": "Feature", "id": "1362", "geometry": {"coordinates": [-107.8139,36.7306],"type": "Point"}, "properties": {"siteid": "sanjuanrnrblanco","title": "SAN JUAN R NR BLANCO;NM","type": "stream"}},
+{"type": "Feature", "id": "1363", "geometry": {"coordinates": [-108.4025,36.7403],"type": "Point"}, "properties": {"siteid": "sanjuanrnrfruitland","title": "SAN JUAN R NR FRUITLAND; NM","type": "stream"}},
+{"type": "Feature", "id": "1364", "geometry": {"coordinates": [-108.5658,38.2178],"type": "Point"}, "properties": {"siteid": "sanmiguelriveratnaturita","title": "SAN MIGUEL RIVER AT NATURITA; CO","type": "stream"}},
+{"type": "Feature", "id": "1365", "geometry": {"coordinates": [-108.7122,38.3572],"type": "Point"}, "properties": {"siteid": "sanmiguelriveraturavan","title": "SAN MIGUEL RIVER AT URAVAN; CO","type": "stream"}},
+{"type": "Feature", "id": "1366", "geometry": {"coordinates": [-107.8764,37.9481],"type": "Point"}, "properties": {"siteid": "sanmiguelriverneartelluride","title": "SAN MIGUEL RIVER NEAR TELLURIDE; CO","type": "stream"}},
+{"type": "Feature", "id": "1367", "geometry": {"coordinates": [-110.3694,38.8583],"type": "Point"}, "properties": {"siteid": "sanrafaelriverneargreenriver","title": "SAN RAFAEL RIVER NEAR GREEN RIVER; UT","type": "stream"}},
+{"type": "Feature", "id": "1368", "geometry": {"coordinates": [-105.7833,35.77],"type": "Point"}, "properties": {"siteid": "santafeswe","title": "SANTA FE","type": "snotel"}},
+{"type": "Feature", "id": "1369", "geometry": {"coordinates": [-104.6917,35.0297],"type": "Point"}, "properties": {"siteid": "santarosareservoir","title": "SANTA ROSA RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1370", "geometry": {"coordinates": [-105.2819,36.8842],"type": "Point"}, "properties": {"siteid": "santistevancreeknearcostilla","title": "SANTISTEVAN CREEK NEAR COSTILLA; NM","type": "stream"}},
+{"type": "Feature", "id": "1371", "geometry": {"coordinates": [-106.3667,38.2833],"type": "Point"}, "properties": {"siteid": "sargentsmesaswe","title": "SARGENTS MESA","type": "snotel"}},
+{"type": "Feature", "id": "1372", "geometry": {"coordinates": [-99.62167,37.28472],"type": "Point"}, "properties": {"siteid": "sayr","title": "NORTH FORK RED RIVER NR SAYRE; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "1373", "geometry": {"coordinates": [-106.5,41.33333],"type": "Point"}, "properties": {"siteid": "sbcw","title": "SOUTH BRUSH CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1374", "geometry": {"coordinates": [-114.7847,32.4889],"type": "Point"}, "properties": {"siteid": "sblc","title": "Southern International Boundary - To Mexico","type": "canal"}},
+{"type": "Feature", "id": "1375", "geometry": {"coordinates": [-118.34111,47.85527],"type": "Point"}, "properties": {"siteid": "sbmw","title": "Seven Bays Marina; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1376", "geometry": {"coordinates": [-108.17694,43.4],"type": "Point"}, "properties": {"siteid": "scada","title": "BOYSEN RESERVOIR SCADA PARAMETERS FOR HYDROMET","type": "reservoir"}},
+{"type": "Feature", "id": "1377", "geometry": {"coordinates": [-109.18333,44.50139],"type": "Point"}, "properties": {"siteid": "scadabb","title": "BUFFALO BILL DAM SCADA PARAMETERS FOR HYDROMET","type": "reservoir"}},
+{"type": "Feature", "id": "1378", "geometry": {"coordinates": [-107.95694,45.30722],"type": "Point"}, "properties": {"siteid": "scadabh","title": "BIGHORN LAKE SCADA PARAMETERS FOR HYDROMET","type": "reservoir"}},
+{"type": "Feature", "id": "1379", "geometry": {"coordinates": [-107.95694,45.30722],"type": "Point"}, "properties": {"siteid": "scadabht","title": "BIGHORN LAKE SCADA PARAMETERS FOR HYDROMET","type": "reservoir"}},
+{"type": "Feature", "id": "1380", "geometry": {"coordinates": [-111.7275,46.64917],"type": "Point"}, "properties": {"siteid": "scadacf","title": "CANYON FERRY SCADA PARAMETERS FOR HYDROMET","type": "reservoir"}},
+{"type": "Feature", "id": "1381", "geometry": {"coordinates": [-111.7275,46.64917],"type": "Point"}, "properties": {"siteid": "scadacft","title": "CANYON FERRY SCADA PARAMETERS FOR HYDROMET-HR TOTALS","type": "reservoir"}},
+{"type": "Feature", "id": "1382", "geometry": {"coordinates": [-113.42777,48.85833],"type": "Point"}, "properties": {"siteid": "scbm","title": "SWIFTCURRENT CREEK NEAR BABB; MT","type": "stream"}},
+{"type": "Feature", "id": "1383", "geometry": {"coordinates": [-107.25,41.23333],"type": "Point"}, "properties": {"siteid": "scbw","title": "SAGE CREEK BASIN; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1384", "geometry": {"coordinates": [-105.91666,40.21667],"type": "Point"}, "properties": {"siteid": "scco","title": "STILLWATER CREEK; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1385", "geometry": {"coordinates": [-107.05,39.0167],"type": "Point"}, "properties": {"siteid": "schofieldpassswe","title": "SCHOFIELD PASS","type": "snotel"}},
+{"type": "Feature", "id": "1386", "geometry": {"coordinates": [-103.96139,41.96944],"type": "Point"}, "properties": {"siteid": "scne","title": "SHEEP CREEK DIVERSION INTO TRI-STATE CANAL; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "1387", "geometry": {"coordinates": [-111.073,39.4715],"type": "Point"}, "properties": {"siteid": "scofield","title": "SCOFIELD RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1388", "geometry": {"coordinates": [-108.0167,37.65],"type": "Point"}, "properties": {"siteid": "scotchcreekswe","title": "SCOTCH CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1389", "geometry": {"coordinates": [-112.098476,39.22009],"type": "Point"}, "properties": {"siteid": "scpu","title": "Scipio; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1390", "geometry": {"coordinates": [-107.43333,44.5],"type": "Point"}, "properties": {"siteid": "scry","title": "SHELL CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1391", "geometry": {"coordinates": [-113.51639,48.83028],"type": "Point"}, "properties": {"siteid": "scsm","title": "SWIFTCURRENT CREEK @ SHERBURNE; MT","type": "stream"}},
+{"type": "Feature", "id": "1392", "geometry": {"coordinates": [-107.71278,44.56445],"type": "Point"}, "properties": {"siteid": "scwy","title": "SHELL CREEK NEAR SHELL; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1393", "geometry": {"coordinates": [-111.93333,47.5],"type": "Point"}, "properties": {"siteid": "sdcm","title": "SUN RIVER DITCH COMPANY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1394", "geometry": {"coordinates": [-113.96667,45.7],"type": "Point"}, "properties": {"siteid": "sdmm","title": "SADDLE MTN.; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1395", "geometry": {"coordinates": [-111.55556,47.56805],"type": "Point"}, "properties": {"siteid": "sdwm","title": "SUN RIVER DITCH COMPANY WASTEWAY INTO MUDDY CREEK;MT","type": "canal"}},
+{"type": "Feature", "id": "1396", "geometry": {"coordinates": [-99.2875,29.37056],"type": "Point"}, "properties": {"siteid": "sedt","title": "SECO CREEK AT ROWE RANCH NR D'HANIS; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1397", "geometry": {"coordinates": [-111.4333,39.3167],"type": "Point"}, "properties": {"siteid": "seeleycreekswe","title": "SEELEY CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1398", "geometry": {"coordinates": [-106.90806,42.15583],"type": "Point"}, "properties": {"siteid": "semr","title": "SEMINOE RESERVOIR; WYOMING","type": "reservoir"}},
+{"type": "Feature", "id": "1399", "geometry": {"coordinates": [-114.4769,32.9039],"type": "Point"}, "properties": {"siteid": "senatorwashreservoir","title": "Senator Wash Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "1400", "geometry": {"coordinates": [-114.4769,32.9039],"type": "Point"}, "properties": {"siteid": "senatorwashreservoiryao","title": "Senator Wash Reservoir - YAO Use","type": "reservoir"}},
+{"type": "Feature", "id": "1401", "geometry": {"coordinates": [-106.8333,36],"type": "Point"}, "properties": {"siteid": "senoritadivide2swe","title": "SENORITA DIVIDE #2","type": "snotel"}},
+{"type": "Feature", "id": "1402", "geometry": {"coordinates": [-99.40278,29.57306],"type": "Point"}, "properties": {"siteid": "seut","title": "SECO CREEK AT MILLER RANCH NR UTOPIA; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1403", "geometry": {"coordinates": [-112.49667,47.67667],"type": "Point"}, "properties": {"siteid": "sewr","title": "LAKE SEWELL - MPC DATA; MT","type": "reservoir"}},
+{"type": "Feature", "id": "1404", "geometry": {"coordinates": [-106.58972,39.23778],"type": "Point"}, "properties": {"siteid": "sfkdivco","title": "SOUTH FORK DIVERSION/BYPASS; COLORADO","type": "diversion"}},
+{"type": "Feature", "id": "1405", "geometry": {"coordinates": [-112.86667,47.63334],"type": "Point"}, "properties": {"siteid": "sfksm","title": "SOUTH FORK SUN RIVER NEAR AUGUSTA; MT","type": "stream"}},
+{"type": "Feature", "id": "1406", "geometry": {"coordinates": [-111.17805,46.79583],"type": "Point"}, "properties": {"siteid": "sflm","title": "SMITH RIVER NEAR FORT LOGAN; MT","type": "stream"}},
+{"type": "Feature", "id": "1407", "geometry": {"coordinates": [-113.16666,48.75389],"type": "Point"}, "properties": {"siteid": "sfmm","title": "SOUTH FORK MILK RIVER NEAR BABB; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1408", "geometry": {"coordinates": [-108.79361,43.66389],"type": "Point"}, "properties": {"siteid": "sfoc","title": "SOUTH FORK OWL CREEK; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1409", "geometry": {"coordinates": [-108.855,43.66695],"type": "Point"}, "properties": {"siteid": "sfoy","title": "SOUTH FORK OWL CREEK ABOVE ANCHOR RESERVOIR; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1410", "geometry": {"coordinates": [-109.25723,44.41917],"type": "Point"}, "properties": {"siteid": "sfs","title": "SOUTH FORK SHOSHONE RVR ABV BUFFALO BILL RES.; WY","type": "stream"}},
+{"type": "Feature", "id": "1411", "geometry": {"coordinates": [-110.43333,46.08333],"type": "Point"}, "properties": {"siteid": "sfsm","title": "SOUTH FORK SHIELDS; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1412", "geometry": {"coordinates": [-109.55417,44.20834],"type": "Point"}, "properties": {"siteid": "sfvy","title": "SOUTH FORK SHOSHONE RIVER NEAR VALLEY; WY","type": "stream"}},
+{"type": "Feature", "id": "1413", "geometry": {"coordinates": [-108.59389,44.73889],"type": "Point"}, "properties": {"siteid": "sgwy","title": "SHOSHONE RIVER NR GARLAND (BELOW SIDON); WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1414", "geometry": {"coordinates": [-122.42,40.718],"type": "Point"}, "properties": {"siteid": "sha","title": "Shasta Lake; Dam And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1415", "geometry": {"coordinates": [-105.5027,40.1226],"type": "Point"}, "properties": {"siteid": "shadowmountainreservoir","title": "SHADOW MOUNTAIN RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1416", "geometry": {"coordinates": [-122.42,40.718],"type": "Point"}, "properties": {"siteid": "shafn","title": "Shasta Lake Full Natural Inflow","type": "stream"}},
+{"type": "Feature", "id": "1417", "geometry": {"coordinates": [-100.24139,35.26417],"type": "Point"}, "properties": {"siteid": "sham","title": "NORTH FORK RED RIVER NR SHAMROCK; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1418", "geometry": {"coordinates": [-105.84167,40.20722],"type": "Point"}, "properties": {"siteid": "sharesco","title": "SHADOW MOUNTAIN RESERVOIR; GRAND COUNTY; CO","type": "reservoir"}},
+{"type": "Feature", "id": "1419", "geometry": {"coordinates": [-111.95,44.96667],"type": "Point"}, "properties": {"siteid": "shcm","title": "SHORT CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1420", "geometry": {"coordinates": [-105.84028,40.20694],"type": "Point"}, "properties": {"siteid": "shdmtr","title": "SHADOW MOUNTAIN RESERVOIR; COLORADO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "1421", "geometry": {"coordinates": [-113.52112,48.82833],"type": "Point"}, "properties": {"siteid": "sher","title": "LAKE SHERBURNE; SWIFT CURRENT CREEK NEAR BABB; MT","type": "reservoir"}},
+{"type": "Feature", "id": "1422", "geometry": {"coordinates": [-110.95,45.4],"type": "Point"}, "properties": {"siteid": "shfm","title": "SHOWER FALLS; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1423", "geometry": {"coordinates": [-112.14273,43.43452],"type": "Point"}, "properties": {"siteid": "shli","title": "Shelley; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1424", "geometry": {"coordinates": [-102.20333,45.75333],"type": "Point"}, "properties": {"siteid": "shr","title": "SHADEHILL RESERVOIR ON THE GRAND RIVER; SOUTH DAKOTA","type": "reservoir"}},
+{"type": "Feature", "id": "1425", "geometry": {"coordinates": [-108.395,36.8064],"type": "Point"}, "properties": {"siteid": "shumwayarroyonearfruitland","title": "SHUMWAY ARROYO NEAR FRUITLAND ; NM","type": "stream"}},
+{"type": "Feature", "id": "1426", "geometry": {"coordinates": [-108.4406,36.7733],"type": "Point"}, "properties": {"siteid": "shumwayarroyonearwaterflow","title": "SHUMWAY ARROYO NEAR WATERFLOW; NM","type": "stream"}},
+{"type": "Feature", "id": "1427", "geometry": {"coordinates": [-112.135,43.41305556],"type": "Point"}, "properties": {"siteid": "shyi","title": "Snake River near Shelley; ID","type": "stream"}},
+{"type": "Feature", "id": "1428", "geometry": {"coordinates": [-104.15611,47.67833],"type": "Point"}, "properties": {"siteid": "sidm","title": "YELLOWSTONE RIVER NEAR SIDNEY; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1429", "geometry": {"coordinates": [-112.058611,43.604722],"type": "Point"}, "properties": {"siteid": "sifi","title": "Snake River near Idaho Falls; ID","type": "stream"}},
+{"type": "Feature", "id": "1430", "geometry": {"coordinates": [-114.08416,47.32527],"type": "Point"}, "properties": {"siteid": "sigm","title": "Saint Ignatius; Montana AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1431", "geometry": {"coordinates": [-106.3244,35.6194],"type": "Point"}, "properties": {"siteid": "silimaincanalatheadatcochiti","title": "SILI MAIN CANAL (AT HEAD) AT COCHITI","type": "diversion"}},
+{"type": "Feature", "id": "1432", "geometry": {"coordinates": [-107.5411,38.2328],"type": "Point"}, "properties": {"siteid": "silverjack","title": "SILVER JACK RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1433", "geometry": {"coordinates": [-117.18472,46.41861],"type": "Point"}, "properties": {"siteid": "silw","title": "Silcott Island; Washington AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1434", "geometry": {"coordinates": [-107.05695,41.87222],"type": "Point"}, "properties": {"siteid": "siwy","title": "NO. PLATTE RIV ABV SEMINOE RESERVOIR NR SINCLAIR; WY","type": "stream"}},
+{"type": "Feature", "id": "1435", "geometry": {"coordinates": [-107.3822,40.9825],"type": "Point"}, "properties": {"siteid": "slaterforknearslaterco","title": "SLATER FORK NEAR SLATER CO.","type": "stream"}},
+{"type": "Feature", "id": "1436", "geometry": {"coordinates": [-109.16666,43.03333],"type": "Point"}, "properties": {"siteid": "slaw","title": "ST. LAWRENCE ALT; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1437", "geometry": {"coordinates": [-107.2,37.9833],"type": "Point"}, "properties": {"siteid": "slumgullionswe","title": "SLUMGULLION","type": "snotel"}},
+{"type": "Feature", "id": "1438", "geometry": {"coordinates": [-116.71243,47.901142],"type": "Point"}, "properties": {"siteid": "slwi","title": "Silverwood WWTP Athol; Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1439", "geometry": {"coordinates": [-113.41389,48.85],"type": "Point"}, "properties": {"siteid": "smbm","title": "ST. MARY RIVER ABOVE SWIFTCURRENT; NEAR BABB; MT","type": "stream"}},
+{"type": "Feature", "id": "1440", "geometry": {"coordinates": [-113.65584,48.79917],"type": "Point"}, "properties": {"siteid": "smgm","title": "SWIFT CURRENT CREEK @ MANY GLACIER; MT","type": "stream"}},
+{"type": "Feature", "id": "1441", "geometry": {"coordinates": [-113.41389,48.85278],"type": "Point"}, "properties": {"siteid": "smim","title": "ST. MARY CANAL AT INTAKE NEAR BABB; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1442", "geometry": {"coordinates": [-111.1019,40.7611],"type": "Point"}, "properties": {"siteid": "smith&morehousereservoir","title": "SMITH & MOREHOUSE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1443", "geometry": {"coordinates": [-111.1,40.7833],"type": "Point"}, "properties": {"siteid": "smith&morehouseswe","title": "SMITH & MOREHOUSE","type": "snotel"}},
+{"type": "Feature", "id": "1444", "geometry": {"coordinates": [-111.19139,46.82806],"type": "Point"}, "properties": {"siteid": "smlm","title": "SMITH RIVER BELOW EAGLE CREEK NEAR FORT LOGAN; MT","type": "stream"}},
+{"type": "Feature", "id": "1445", "geometry": {"coordinates": [-98.54556,28.58722],"type": "Point"}, "properties": {"siteid": "smtt","title": "SAN MIGUEL CREEK NEAR TILDEN; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1446", "geometry": {"coordinates": [-119.335556,38.751389],"type": "Point"}, "properties": {"siteid": "smvn","title": "DRI - Smith Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1447", "geometry": {"coordinates": [-112.3693021,43.19730611],"type": "Point"}, "properties": {"siteid": "snai","title": "Snake River at Blackfoot; ID","type": "stream"}},
+{"type": "Feature", "id": "1448", "geometry": {"coordinates": [-110.5333,42.4667],"type": "Point"}, "properties": {"siteid": "sniderbasinswe","title": "SNIDER BASIN","type": "snotel"}},
+{"type": "Feature", "id": "1449", "geometry": {"coordinates": [-114.089722,39.021111],"type": "Point"}, "properties": {"siteid": "snkn","title": "DRI - Snake Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1450", "geometry": {"coordinates": [-121.133,37.033],"type": "Point"}, "properties": {"siteid": "snl","title": "San Luis Reservoir; Dam; And Pump/Generation Plant","type": "reservoir"}},
+{"type": "Feature", "id": "1451", "geometry": {"coordinates": [-106.28333,41.46667],"type": "Point"}, "properties": {"siteid": "snlw","title": "SAND LAKE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1452", "geometry": {"coordinates": [-111.65,40.55],"type": "Point"}, "properties": {"siteid": "snowbirdswe","title": "SNOWBIRD","type": "snotel"}},
+{"type": "Feature", "id": "1453", "geometry": {"coordinates": [-99.49249,29.49083],"type": "Point"}, "properties": {"siteid": "snst","title": "SABINAL RIVER NR SABINAL; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1454", "geometry": {"coordinates": [-112.72465,41.86625],"type": "Point"}, "properties": {"siteid": "snsu","title": "UCC - Snowville South; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1455", "geometry": {"coordinates": [-112.9119833,41.98381667],"type": "Point"}, "properties": {"siteid": "snwu","title": "UCC - Snowville (West); Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1456", "geometry": {"coordinates": [-98.99805,34.63778],"type": "Point"}, "properties": {"siteid": "snyd","title": "OTTER CREEK NEAR SNYDER; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "1457", "geometry": {"coordinates": [-107.3161,38.5608],"type": "Point"}, "properties": {"siteid": "soapcreeknearsapinero","title": "SOAP CREEK NEAR SAPINERO; CO","type": "stream"}},
+{"type": "Feature", "id": "1458", "geometry": {"coordinates": [-99.58167,39.37389],"type": "Point"}, "properties": {"siteid": "soawks","title": "SOUTH FORK SOLOMON RIVER ABOVE WEBSTER; KANSAS","type": "stream"}},
+{"type": "Feature", "id": "1459", "geometry": {"coordinates": [-98.28278,39.47417],"type": "Point"}, "properties": {"siteid": "sogeks","title": "SOLOMON RIVER NEAR GLEN ELDER; KANSAS","type": "stream"}},
+{"type": "Feature", "id": "1460", "geometry": {"coordinates": [-99.30833,39.67778],"type": "Point"}, "properties": {"siteid": "soglks","title": "NORTH FORK SOLOMON RIVER AT GLADE; KANSAS","type": "stream"}},
+{"type": "Feature", "id": "1461", "geometry": {"coordinates": [-111.0127,40.08],"type": "Point"}, "properties": {"siteid": "soldiercreekreservoir","title": "SOLDIER CREEK RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1462", "geometry": {"coordinates": [-98.69444,39.42861],"type": "Point"}, "properties": {"siteid": "soosks","title": "SOUTH FORK SOLOMON RIVER AT OSBORNE; KANSAS","type": "stream"}},
+{"type": "Feature", "id": "1463", "geometry": {"coordinates": [-108.83334,42.56667],"type": "Point"}, "properties": {"siteid": "sopasswy","title": "SOUTH PASS CITY; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1464", "geometry": {"coordinates": [-98.69195,39.55416],"type": "Point"}, "properties": {"siteid": "soprks","title": "NORTH FORK SOLOMON RIVER AT PORTIS; KANSAS","type": "stream"}},
+{"type": "Feature", "id": "1465", "geometry": {"coordinates": [-105.5379,37.968],"type": "Point"}, "properties": {"siteid": "southcolonyswe","title": "SOUTH COLONY","type": "snotel"}},
+{"type": "Feature", "id": "1466", "geometry": {"coordinates": [-109.3689,37.8467],"type": "Point"}, "properties": {"siteid": "southcreekabovereservoirnearmonticello","title": "SOUTH CREEK ABOVE RESERVOIR NEAR MONTICELLO","type": "stream"}},
+{"type": "Feature", "id": "1467", "geometry": {"coordinates": [-114.6,33.15],"type": "Point"}, "properties": {"siteid": "southernnevadawaterauthoritysce","title": "Southern Nevada Water Authority (SCE)","type": "diversion"}},
+{"type": "Feature", "id": "1468", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "southernpacificcompany","title": "Southern Pacific Company","type": "diversion"}},
+{"type": "Feature", "id": "1469", "geometry": {"coordinates": [-104.4214,32.5886],"type": "Point"}, "properties": {"siteid": "southsevenriversnearlakewood","title": "SOUTH SEVEN RIVERS NEAR LAKEWOOD","type": "stream"}},
+{"type": "Feature", "id": "1470", "geometry": {"coordinates": [-119.737778,39.503056],"type": "Point"}, "properties": {"siteid": "span","title": "DRI - Truckee Meadows; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1471", "geometry": {"coordinates": [-111.6291167,40.0672],"type": "Point"}, "properties": {"siteid": "spfu","title": "UCC - Spanish Fork; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1472", "geometry": {"coordinates": [-116.884978,47.987552],"type": "Point"}, "properties": {"siteid": "spli","title": "Spirit Lake; Washington Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1473", "geometry": {"coordinates": [-98.32222,40.06389],"type": "Point"}, "properties": {"siteid": "spne","title": "SUPERIOR CANAL; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1474", "geometry": {"coordinates": [-122.474,40.629],"type": "Point"}, "properties": {"siteid": "spr","title": "Spring Creek Debris Dam And Reservoir","type": "reservoir"}},
+{"type": "Feature", "id": "1475", "geometry": {"coordinates": [-109.4342,37.9194],"type": "Point"}, "properties": {"siteid": "springcreekabvdiversions","title": "SPRING CREEK ABV DIVERSIONS; NR MONTICELLO;","type": "stream"}},
+{"type": "Feature", "id": "1476", "geometry": {"coordinates": [-107.5964,37.0111],"type": "Point"}, "properties": {"siteid": "springcreekatlaboca","title": "SPRING CREEK AT LA BOCA; CO.","type": "stream"}},
+{"type": "Feature", "id": "1477", "geometry": {"coordinates": [-110.6667,42.5333],"type": "Point"}, "properties": {"siteid": "springcreekdivideswe","title": "SPRING CREEK DIVIDE","type": "snotel"}},
+{"type": "Feature", "id": "1478", "geometry": {"coordinates": [-110.61667,46.78333],"type": "Point"}, "properties": {"siteid": "sprm","title": "SPUR PARK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1479", "geometry": {"coordinates": [-107.7833,37.7],"type": "Point"}, "properties": {"siteid": "spudmountainswe","title": "SPUD MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "1480", "geometry": {"coordinates": [-111.537214,39.485745],"type": "Point"}, "properties": {"siteid": "spvu","title": "San Pete Valley; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1481", "geometry": {"coordinates": [-109.38667,45.55111],"type": "Point"}, "properties": {"siteid": "sram","title": "STILLWATER RIVER NEAR ABSAROKEE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1482", "geometry": {"coordinates": [-109.09722,44.51667],"type": "Point"}, "properties": {"siteid": "srbb","title": "SHOSHONE RIVER BELOW BUFFALO BILL; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1483", "geometry": {"coordinates": [-112.36723,47.54694],"type": "Point"}, "properties": {"siteid": "srbm","title": "SUN RIVER @ AUGUSTA BRIDGE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1484", "geometry": {"coordinates": [-108.90833,44.66833],"type": "Point"}, "properties": {"siteid": "srbw","title": "SHOSHONE RIVER BELOW WILLWOOD DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1485", "geometry": {"coordinates": [-112.70667,47.62083],"type": "Point"}, "properties": {"siteid": "srdm","title": "SUN RIVER DIVERSION DAM; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "1486", "geometry": {"coordinates": [-112.28194,47.50667],"type": "Point"}, "properties": {"siteid": "srem","title": "SUN RIVER BELOW ELK CREEK; MT","type": "stream"}},
+{"type": "Feature", "id": "1487", "geometry": {"coordinates": [-110.47916,45.73833],"type": "Point"}, "properties": {"siteid": "srlm","title": "SHIELDS RIVER NEAR LIVINGSTON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1488", "geometry": {"coordinates": [-108.43445,44.83861],"type": "Point"}, "properties": {"siteid": "srly","title": "SHOSHONE RIVER NEAR LOVELL; WY","type": "stream"}},
+{"type": "Feature", "id": "1489", "geometry": {"coordinates": [-111.93222,47.50167],"type": "Point"}, "properties": {"siteid": "srsm","title": "SUN RIVER AT SIMMS; MT","type": "stream"}},
+{"type": "Feature", "id": "1490", "geometry": {"coordinates": [-99.47945,29.39056],"type": "Point"}, "properties": {"siteid": "srst","title": "SABINAL RIVER AT SABINAL; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1491", "geometry": {"coordinates": [-108.90833,44.66833],"type": "Point"}, "properties": {"siteid": "srwy","title": "SHOSHONE RIVER AT WILLWOOD DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1492", "geometry": {"coordinates": [-115.7975,37.646667],"type": "Point"}, "properties": {"siteid": "ssvn","title": "DRI - Sand Spring Valley; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1493", "geometry": {"coordinates": [-110.33,40.09],"type": "Point"}, "properties": {"siteid": "starvation","title": "STARVATION RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1494", "geometry": {"coordinates": [-110.2303,40.592],"type": "Point"}, "properties": {"siteid": "stateline","title": "STATELINE RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1495", "geometry": {"coordinates": [-110.5,40.9167],"type": "Point"}, "properties": {"siteid": "steelcreekparkswe","title": "STEEL CREEK PARK","type": "snotel"}},
+{"type": "Feature", "id": "1496", "geometry": {"coordinates": [-109.37,40.34],"type": "Point"}, "properties": {"siteid": "steinaker","title": "STEINAKER RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1497", "geometry": {"coordinates": [-105.9167,40.2333],"type": "Point"}, "properties": {"siteid": "stillwatercreekswe","title": "STILLWATER CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1498", "geometry": {"coordinates": [-113.31334,49.00333],"type": "Point"}, "properties": {"siteid": "stmb","title": "ST. MARY RIVER AT BOUNDARY; MONTANA (NEW 1999)","type": "stream"}},
+{"type": "Feature", "id": "1499", "geometry": {"coordinates": [-113.37444,48.94722],"type": "Point"}, "properties": {"siteid": "stmc","title": "ST. MARY CANAL @ ST. MARY XING NR BABB; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1500", "geometry": {"coordinates": [-111.2167,40.1833],"type": "Point"}, "properties": {"siteid": "strawberrydivideswe","title": "STRAWBERRY DIVIDE","type": "snotel"}},
+{"type": "Feature", "id": "1501", "geometry": {"coordinates": [-111.0127,40.08],"type": "Point"}, "properties": {"siteid": "strawberryreservoir","title": "STRAWBERRY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1502", "geometry": {"coordinates": [-111.0127,40.08],"type": "Point"}, "properties": {"siteid": "strawberryreservoirexpanded","title": "STRAWBERRY RESERVOIR (EXPANDED)","type": "reservoir"}},
+{"type": "Feature", "id": "1503", "geometry": {"coordinates": [-110.7411,40.1275],"type": "Point"}, "properties": {"siteid": "strawberryriveratpinnaclesnearfruitland","title": "STRAWBERRY RIVER AT PINNACLES NEAR FRUITLAND","type": "stream"}},
+{"type": "Feature", "id": "1504", "geometry": {"coordinates": [-107.6333,37.4833],"type": "Point"}, "properties": {"siteid": "stumplakesswe","title": "STUMP LAKES","type": "snotel"}},
+{"type": "Feature", "id": "1505", "geometry": {"coordinates": [-114.651389,40.084167],"type": "Point"}, "properties": {"siteid": "stvn","title": "DRI - Steptoe Valley North; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1506", "geometry": {"coordinates": [-100.50166,31.18778],"type": "Point"}, "properties": {"siteid": "suct","title": "SOUTH CONCHO RIVER AT CHRISTOVAL; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1507", "geometry": {"coordinates": [-107.4,44.71667],"type": "Point"}, "properties": {"siteid": "sucy","title": "SUCKER CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1508", "geometry": {"coordinates": [-111.737617,43.896583],"type": "Point"}, "properties": {"siteid": "sugi","title": "INL - Sugar City;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1509", "geometry": {"coordinates": [-100.12056,35.46667],"type": "Point"}, "properties": {"siteid": "sukt","title": "SWEETWATER CREEK NEAR KELTON; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1510", "geometry": {"coordinates": [-106.15,39.71667],"type": "Point"}, "properties": {"siteid": "sumc","title": "SUMMIT RANCH; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1511", "geometry": {"coordinates": [-113.35278,48.3175],"type": "Point"}, "properties": {"siteid": "summ","title": "SUMMIT; MONTANA","type": "weather"}},
+{"type": "Feature", "id": "1512", "geometry": {"coordinates": [-106.1667,39.7167],"type": "Point"}, "properties": {"siteid": "summitranchswe","title": "SUMMIT RANCH","type": "snotel"}},
+{"type": "Feature", "id": "1513", "geometry": {"coordinates": [-104.3844,34.6083],"type": "Point"}, "properties": {"siteid": "sumner","title": "LAKE SUMNER NR FORT SUMNER","type": "reservoir"}},
+{"type": "Feature", "id": "1514", "geometry": {"coordinates": [-111.927,40.7267],"type": "Point"}, "properties": {"siteid": "surpluscanal@saltlakecity","title": "SURPLUS CANAL @ SALT LAKE CITY; UT","type": "canal"}},
+{"type": "Feature", "id": "1515", "geometry": {"coordinates": [-100.64,31.33],"type": "Point"}, "properties": {"siteid": "sutt","title": "SPRING CREEK ABOVE TANKERSLEY; TEXAS","type": "stream"}},
+{"type": "Feature", "id": "1516", "geometry": {"coordinates": [-112.63823,39.45071],"type": "Point"}, "properties": {"siteid": "sutu","title": "Sutherland; Utah  AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1517", "geometry": {"coordinates": [-104.87917,40.25806],"type": "Point"}, "properties": {"siteid": "svcplaco","title": "ST. VRAIN CREEK AT MOUTH; NEAR PLATTEVILLE; CO","type": "stream"}},
+{"type": "Feature", "id": "1518", "geometry": {"coordinates": [-110.65278,46.04667],"type": "Point"}, "properties": {"siteid": "svwm","title": "SHIELDS VALLEY WEATHER STATION NR WILSALL; MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "1519", "geometry": {"coordinates": [-113.42777,48.85833],"type": "Point"}, "properties": {"siteid": "swbm","title": "SWIFT CURRENT CREEK @ BRIDGE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1520", "geometry": {"coordinates": [-114.810278,39.195556],"type": "Point"}, "properties": {"siteid": "swmn","title": "DRI - Steptoe Valley WMA; Nevada Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1521", "geometry": {"coordinates": [-101.11694,40.37305],"type": "Point"}, "properties": {"siteid": "swne","title": "STINKING WATER CREEK AT PALISADE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1522", "geometry": {"coordinates": [-112.86667,48.15],"type": "Point"}, "properties": {"siteid": "swtr","title": "SWIFT RESERVOIR; BIRCH CREEK; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "1523", "geometry": {"coordinates": [-107.13805,42.4925],"type": "Point"}, "properties": {"siteid": "swwy","title": "SWEETWATER RIVER NR INDEPENDENCE ROCK; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1524", "geometry": {"coordinates": [-107.7486,45.46083],"type": "Point"}, "properties": {"siteid": "sxbm","title": "ST. XAVIER BRIDGE NEAR HARDIN; MT","type": "stream"}},
+{"type": "Feature", "id": "1525", "geometry": {"coordinates": [-110.15,44.48333],"type": "Point"}, "properties": {"siteid": "syly","title": "SYLVAN LAKE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1526", "geometry": {"coordinates": [-110.03333,44.46667],"type": "Point"}, "properties": {"siteid": "syrw","title": "SYLVAN ROAD; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1527", "geometry": {"coordinates": [-112.6918,43.318683],"type": "Point"}, "properties": {"siteid": "tabi","title": "INL - Taber;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1528", "geometry": {"coordinates": [-106.3624,38.4907],"type": "Point"}, "properties": {"siteid": "taylorpark","title": "TAYLOR PARK RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1529", "geometry": {"coordinates": [-106.8447,38.6644],"type": "Point"}, "properties": {"siteid": "taylorriveratalmont","title": "TAYLOR RIVER AT ALMONT; CO","type": "stream"}},
+{"type": "Feature", "id": "1530", "geometry": {"coordinates": [-106.5661,38.8603],"type": "Point"}, "properties": {"siteid": "taylorriverattaylorpark","title": "TAYLOR RIVER ABOVE TAYLOR PARK; CO","type": "stream"}},
+{"type": "Feature", "id": "1531", "geometry": {"coordinates": [-107.6483,38.5292],"type": "Point"}, "properties": {"siteid": "taylorriverbelowtaylorparkreservoir","title": "TAYLOR RIVER BELOW TAYLOR PARK RESERVOIR; CO","type": "stream"}},
+{"type": "Feature", "id": "1532", "geometry": {"coordinates": [-99.73389,40.27111],"type": "Point"}, "properties": {"siteid": "tcedne","title": "TURKEY CREEK AT EDISON; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1533", "geometry": {"coordinates": [-99.14027,40.07778],"type": "Point"}, "properties": {"siteid": "tcnpne","title": "TURKEY CREEK AT NAPONEE; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1534", "geometry": {"coordinates": [-112.3525,48.03472],"type": "Point"}, "properties": {"siteid": "tcpm","title": "TANK COULEE NEAR POWER; MT","type": "stream"}},
+{"type": "Feature", "id": "1535", "geometry": {"coordinates": [-98.76527,40.09083],"type": "Point"}, "properties": {"siteid": "tcrvne","title": "THOMPSON CREEK AT RIVERTON; NEBRASKA","type": "stream"}},
+{"type": "Feature", "id": "1536", "geometry": {"coordinates": [-109.18333,44.03333],"type": "Point"}, "properties": {"siteid": "tcwy","title": "TIMBER CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1537", "geometry": {"coordinates": [-103.68694,41.93333],"type": "Point"}, "properties": {"siteid": "tdne","title": "TUB SPRINGS DIVERSION INTO TRI-STATE CANAL; NEBRASKA","type": "diversion"}},
+{"type": "Feature", "id": "1538", "geometry": {"coordinates": [-111.613803,43.92704859],"type": "Point"}, "properties": {"siteid": "teai","title": "Teton River near St. Anthony; ID","type": "stream"}},
+{"type": "Feature", "id": "1539", "geometry": {"coordinates": [-108.4561,36.3072],"type": "Point"}, "properties": {"siteid": "teecniditsowashnrburnham","title": "TEEC-NI-DI-TSO WASH NR BURNHAM; NM","type": "stream"}},
+{"type": "Feature", "id": "1540", "geometry": {"coordinates": [-111.5461,41.793],"type": "Point"}, "properties": {"siteid": "templeforkswe","title": "TEMPLE FORK","type": "snotel"}},
+{"type": "Feature", "id": "1541", "geometry": {"coordinates": [-112.41825,43.841683],"type": "Point"}, "properties": {"siteid": "teri","title": "INL - Terreton;  Idaho Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1542", "geometry": {"coordinates": [-111.55195,47.93028],"type": "Point"}, "properties": {"siteid": "tetm","title": "TETON RIVER NEAR DUTTON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1543", "geometry": {"coordinates": [-114.601548,42.568782],"type": "Point"}, "properties": {"siteid": "tfgi","title": "Twin Falls Fairgrounds; Filer Idaho","type": "agrimet"}},
+{"type": "Feature", "id": "1544", "geometry": {"coordinates": [-114.6353,33.4508],"type": "Point"}, "properties": {"siteid": "tflc","title": "Colorado River at Taylor Ferry","type": "stream"}},
+{"type": "Feature", "id": "1545", "geometry": {"coordinates": [-111.59583,45.89778],"type": "Point"}, "properties": {"siteid": "tfmt","title": "JEFFERSON RIVER AT THREE FORKS; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1546", "geometry": {"coordinates": [-112.08862,47.81139],"type": "Point"}, "properties": {"siteid": "tfom","title": "TETON RIVER BELOW FREEZE OUT RESERVOIR; MT","type": "stream"}},
+{"type": "Feature", "id": "1547", "geometry": {"coordinates": [-108.13278,43.85944],"type": "Point"}, "properties": {"siteid": "tfwy","title": "TIE DOWN FLATS CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1548", "geometry": {"coordinates": [-111.5333,40.6167],"type": "Point"}, "properties": {"siteid": "thaynescanyonswe","title": "THAYNES CANYON","type": "snotel"}},
+{"type": "Feature", "id": "1549", "geometry": {"coordinates": [-108.97305,42.63445],"type": "Point"}, "properties": {"siteid": "thmw","title": "THUMB DIVIDE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1550", "geometry": {"coordinates": [-111.85,46.35],"type": "Point"}, "properties": {"siteid": "tibm","title": "TIZER BASIN; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1551", "geometry": {"coordinates": [-107.4,44.8],"type": "Point"}, "properties": {"siteid": "tiew","title": "TIE CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1552", "geometry": {"coordinates": [-111.6167,40.4333],"type": "Point"}, "properties": {"siteid": "timpanogosdivideswe","title": "TIMPANOGOS DIVIDE","type": "snotel"}},
+{"type": "Feature", "id": "1553", "geometry": {"coordinates": [-107.6575,45.64417],"type": "Point"}, "properties": {"siteid": "tlbm","title": "TWO LEGGINS BRIDGE NEAR HARDIN; MT","type": "stream"}},
+{"type": "Feature", "id": "1554", "geometry": {"coordinates": [-112.98888,48.42667],"type": "Point"}, "properties": {"siteid": "tmrm","title": "TWO MEDICINE RIVER BELOW SOUTH FORK NR BROWNING; MT","type": "stream"}},
+{"type": "Feature", "id": "1555", "geometry": {"coordinates": [-110.08334,43.75],"type": "Point"}, "properties": {"siteid": "togy","title": "TOGWOTEE PASS; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1556", "geometry": {"coordinates": [-105.1947,36.474],"type": "Point"}, "properties": {"siteid": "tolbyswe","title": "TOLBY","type": "snotel"}},
+{"type": "Feature", "id": "1557", "geometry": {"coordinates": [-106.9403,38.5217],"type": "Point"}, "properties": {"siteid": "tomichicreekatgunnison","title": "TOMICHI CREEK AT GUNNISON; CO","type": "stream"}},
+{"type": "Feature", "id": "1558", "geometry": {"coordinates": [-106.7256,38.4972],"type": "Point"}, "properties": {"siteid": "tomichicreekatparlin","title": "TOMICHI CREEK AT PARLIN; CO","type": "stream"}},
+{"type": "Feature", "id": "1559", "geometry": {"coordinates": [-106.4222,38.4117],"type": "Point"}, "properties": {"siteid": "tomichicreekatsargents","title": "TOMICHI CREEK AT SARGENTS; CO","type": "stream"}},
+{"type": "Feature", "id": "1560", "geometry": {"coordinates": [-98.98805,34.73806],"type": "Point"}, "properties": {"siteid": "toms","title": "MOUNTAIN PARK DAM (TOM STEED RESERVOIR); OKLAHOMA","type": "reservoir"}},
+{"type": "Feature", "id": "1561", "geometry": {"coordinates": [-111.41972,46.14611],"type": "Point"}, "properties": {"siteid": "tomt","title": "MISSOURI RIVER; TOSTON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1562", "geometry": {"coordinates": [-111.6333,41.9],"type": "Point"}, "properties": {"siteid": "tonygrovelakeswe","title": "TONY GROVE LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1563", "geometry": {"coordinates": [-110.21667,44.15],"type": "Point"}, "properties": {"siteid": "topw","title": "TWO OCEAN PLATEAU; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1564", "geometry": {"coordinates": [-111.49472,46.12222],"type": "Point"}, "properties": {"siteid": "tosm","title": "TOSTON MONTANA WEATHER STATION (2WSW); MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "1565", "geometry": {"coordinates": [-106.66666,40.53333],"type": "Point"}, "properties": {"siteid": "towc","title": "TOWER; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1566", "geometry": {"coordinates": [-106.6833,40.5333],"type": "Point"}, "properties": {"siteid": "towerswe","title": "TOWER","type": "snotel"}},
+{"type": "Feature", "id": "1567", "geometry": {"coordinates": [-114.26,34.15],"type": "Point"}, "properties": {"siteid": "townofparker","title": "Town of Parker","type": "diversion"}},
+{"type": "Feature", "id": "1568", "geometry": {"coordinates": [-111.7,44.78333],"type": "Point"}, "properties": {"siteid": "tpem","title": "TEPEE CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1569", "geometry": {"coordinates": [-107.9292,38.8547],"type": "Point"}, "properties": {"siteid": "transferditchabovefruitgrowers","title": "TRANSFER DITCH ABOVE FRUITGROWERS","type": "diversion"}},
+{"type": "Feature", "id": "1570", "geometry": {"coordinates": [-107.2333,40],"type": "Point"}, "properties": {"siteid": "trapperlakeswe","title": "TRAPPER LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1571", "geometry": {"coordinates": [-112.61111,47.88305],"type": "Point"}, "properties": {"siteid": "trcm","title": "TETON RIVER BELOW SOUTH FORK; NEAR CHOTEAU; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1572", "geometry": {"coordinates": [-106.77084,45.14139],"type": "Point"}, "properties": {"siteid": "trdm","title": "TONGUE RIVER @ TONGUE RIVER DAM NR DECKER; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1573", "geometry": {"coordinates": [-112.15972,47.90056],"type": "Point"}, "properties": {"siteid": "trfm","title": "TETON RIVER WEATHER STATION NEAR FARMINGTON; MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "1574", "geometry": {"coordinates": [-100.53361,31.37695],"type": "Point"}, "properties": {"siteid": "trgt","title": "TWIN BUTTES DAM; TEXAS","type": "reservoir"}},
+{"type": "Feature", "id": "1575", "geometry": {"coordinates": [-110.95,40.6833],"type": "Point"}, "properties": {"siteid": "triallakeswe","title": "TRIAL LAKE","type": "snotel"}},
+{"type": "Feature", "id": "1576", "geometry": {"coordinates": [-105.2333,37.35],"type": "Point"}, "properties": {"siteid": "trincheraswe","title": "TRINCHERA","type": "snotel"}},
+{"type": "Feature", "id": "1577", "geometry": {"coordinates": [-110.5833,42.7667],"type": "Point"}, "properties": {"siteid": "triplepeakswe","title": "TRIPLE PEAK","type": "snotel"}},
+{"type": "Feature", "id": "1578", "geometry": {"coordinates": [-111.56361,47.9325],"type": "Point"}, "properties": {"siteid": "trlm","title": "TETON RIVER AT LOMA; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1579", "geometry": {"coordinates": [-106.83556,45.00889],"type": "Point"}, "properties": {"siteid": "trmt","title": "TONGUE RIVER AT STATE LINE; NEAR DECKER; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1580", "geometry": {"coordinates": [-112.15375,41.72293333],"type": "Point"}, "properties": {"siteid": "trmu","title": "UCC - Tremonton; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1581", "geometry": {"coordinates": [-122.762,40.801],"type": "Point"}, "properties": {"siteid": "trn","title": "Trinity Lake; Trinity Dam And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1582", "geometry": {"coordinates": [-101.06306,40.16139],"type": "Point"}, "properties": {"siteid": "trne","title": "SWANSON LAKE (TRENTON DAM); NEBRASKA","type": "reservoir"}},
+{"type": "Feature", "id": "1583", "geometry": {"coordinates": [-109.6667,40.7333],"type": "Point"}, "properties": {"siteid": "troutcreekswe","title": "TROUT CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1584", "geometry": {"coordinates": [-112.046416,37.627466],"type": "Point"}, "properties": {"siteid": "trpu","title": "Tropic; Utah AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1585", "geometry": {"coordinates": [-112.26394,43.8704],"type": "Point"}, "properties": {"siteid": "trti","title": "Terraton; Idaho AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1586", "geometry": {"coordinates": [-104.03111,41.98444],"type": "Point"}, "properties": {"siteid": "tsne","title": "NORTH PLATTE RIVER PASSING TRI-STATE DAM; NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1587", "geometry": {"coordinates": [-120.603,37.875],"type": "Point"}, "properties": {"siteid": "tul","title": "Tulloch Lake; Dam; And Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1588", "geometry": {"coordinates": [-106.9397,37.3694],"type": "Point"}, "properties": {"siteid": "turkeycreeknearpagosasprings","title": "TURKEY CREEK NEAR PAGOSA SPRINGS; CO.","type": "stream"}},
+{"type": "Feature", "id": "1589", "geometry": {"coordinates": [-106.37417,39.25278],"type": "Point"}, "properties": {"siteid": "turq","title": "TURQUOISE LAKE (SUGARLOAF DAM); COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1590", "geometry": {"coordinates": [-114.34527,42.54611],"type": "Point"}, "properties": {"siteid": "twfi","title": "Twin Falls (Kimberly) Idaho AgriMet Weather Station  7E","type": "agrimet"}},
+{"type": "Feature", "id": "1591", "geometry": {"coordinates": [-106.54,39.0822],"type": "Point"}, "properties": {"siteid": "twinlakestunnel","title": "TWIN LAKES TUNNEL","type": "diversion"}},
+{"type": "Feature", "id": "1592", "geometry": {"coordinates": [-106.31389,39.08028],"type": "Point"}, "properties": {"siteid": "twiresco","title": "TWIN LAKES RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1593", "geometry": {"coordinates": [-106.54,39.08222],"type": "Point"}, "properties": {"siteid": "twitunco","title": "TWIN LAKES TUNNEL; CO","type": "diversion"}},
+{"type": "Feature", "id": "1594", "geometry": {"coordinates": [-108.9,42.7],"type": "Point"}, "properties": {"siteid": "twnw","title": "TOWNSEND CREEK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1595", "geometry": {"coordinates": [-108.05056,43.94194],"type": "Point"}, "properties": {"siteid": "ubwy","title": "UPPER BLUFF CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1596", "geometry": {"coordinates": [-108.175,43.85333],"type": "Point"}, "properties": {"siteid": "uhwy","title": "UPPER HANOVER CANAL; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1597", "geometry": {"coordinates": [-111.38528,47.435],"type": "Point"}, "properties": {"siteid": "ulge","title": "MISSOURI RIVER AT ULM; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1598", "geometry": {"coordinates": [-111.5075,47.40278],"type": "Point"}, "properties": {"siteid": "ulmt","title": "ULM MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "1599", "geometry": {"coordinates": [-109.94,46.44722],"type": "Point"}, "properties": {"siteid": "umhm","title": "UPPER MUSSELSHELL WEATHER STATION NR HARLOWTON; MT","type": "agrimet"}},
+{"type": "Feature", "id": "1600", "geometry": {"coordinates": [-114.5,32.6],"type": "Point"}, "properties": {"siteid": "unassignedreturns","title": "Unassigned Returns","type": "diversion"}},
+{"type": "Feature", "id": "1601", "geometry": {"coordinates": [-107.7789,38.3314],"type": "Point"}, "properties": {"siteid": "uncompahgreriveratcolona","title": "UNCOMPAHGRE RIVER AT COLONA; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1602", "geometry": {"coordinates": [-108.0803,38.7419],"type": "Point"}, "properties": {"siteid": "uncompahgreriveratdelta","title": "UNCOMPAHGRE RIVER AT DELTA; CO.","type": "stream"}},
+{"type": "Feature", "id": "1603", "geometry": {"coordinates": [-107.7586,38.2381],"type": "Point"}, "properties": {"siteid": "uncompahgreriverbelowridgewayreservoir","title": "UNCOMPAHGRE RIVER BELOW RIDGEWAY RESERVOIR","type": "stream"}},
+{"type": "Feature", "id": "1604", "geometry": {"coordinates": [-107.7453,38.1839],"type": "Point"}, "properties": {"siteid": "uncompahgrerivernearridgway","title": "UNCOMPAHGRE RIVER NEAR RIDGWAY; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1605", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "unitbirrigationanddrainagedistrict","title": "Unit B Irrigation and Drainage District","type": "diversion"}},
+{"type": "Feature", "id": "1606", "geometry": {"coordinates": [-105.58334,40.03333],"type": "Point"}, "properties": {"siteid": "univerco","title": "UNIVERSITY CAMP; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1607", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "universityofarizona","title": "University of Arizona","type": "diversion"}},
+{"type": "Feature", "id": "1608", "geometry": {"coordinates": [-107.2667,37.7167],"type": "Point"}, "properties": {"siteid": "upperriograndeswe","title": "UPPER RIO GRANDE","type": "snotel"}},
+{"type": "Feature", "id": "1609", "geometry": {"coordinates": [-106.8333,37.4833],"type": "Point"}, "properties": {"siteid": "uppersanjuanswe","title": "UPPER SAN JUAN","type": "snotel"}},
+{"type": "Feature", "id": "1610", "geometry": {"coordinates": [-110.392,40.3245],"type": "Point"}, "properties": {"siteid": "upperstillwater","title": "UPPER STILLWATER RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1611", "geometry": {"coordinates": [-106.75,38.9833],"type": "Point"}, "properties": {"siteid": "uppertaylorswe","title": "UPPER TAYLOR","type": "snotel"}},
+{"type": "Feature", "id": "1612", "geometry": {"coordinates": [-105.3733,37.614],"type": "Point"}, "properties": {"siteid": "utecreekswe","title": "UTE CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1613", "geometry": {"coordinates": [-109.3125,43.40834],"type": "Point"}, "properties": {"siteid": "uway","title": "UPPER WIND RIVER; A CANAL; AT HEADWORKS; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1614", "geometry": {"coordinates": [-106.3833,39.6167],"type": "Point"}, "properties": {"siteid": "vailmountainswe","title": "VAIL MOUNTAIN","type": "snotel"}},
+{"type": "Feature", "id": "1615", "geometry": {"coordinates": [-107.5753,37.23],"type": "Point"}, "properties": {"siteid": "vallecito","title": "VALLECITO RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1616", "geometry": {"coordinates": [-107.5431,37.4775],"type": "Point"}, "properties": {"siteid": "vallecitocreeknearbayfield","title": "VALLECITO CREEK NEAR BAYFIELD; CO.","type": "stream"}},
+{"type": "Feature", "id": "1617", "geometry": {"coordinates": [-107.5,37.4833],"type": "Point"}, "properties": {"siteid": "vallecitoswe","title": "VALLECITO","type": "snotel"}},
+{"type": "Feature", "id": "1618", "geometry": {"coordinates": [-111.48472,47.52694],"type": "Point"}, "properties": {"siteid": "vamt","title": "SUN RIVER NEAR VAUGHN; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1619", "geometry": {"coordinates": [-112.000367,38.8235],"type": "Point"}, "properties": {"siteid": "vecu","title": "UCC - Venice; Utah Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1620", "geometry": {"coordinates": [-107.49,39.123],"type": "Point"}, "properties": {"siteid": "vega","title": "VEGA RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1621", "geometry": {"coordinates": [-112.4167,39.9333],"type": "Point"}, "properties": {"siteid": "vernoncreekswe","title": "VERNON CREEK","type": "snotel"}},
+{"type": "Feature", "id": "1622", "geometry": {"coordinates": [-110.25528,48.00389],"type": "Point"}, "properties": {"siteid": "vimt","title": "MISSOURI RIVER AT VIRGELLE; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1623", "geometry": {"coordinates": [-112.24972,48.36972],"type": "Point"}, "properties": {"siteid": "vlmt","title": "VALIER MONTANA WEATHER STATION","type": "agrimet"}},
+{"type": "Feature", "id": "1624", "geometry": {"coordinates": [-106.35,47.33333],"type": "Point"}, "properties": {"siteid": "vnmt","title": "BIG DRY CREEK AT VAN NORMAN; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1625", "geometry": {"coordinates": [-99.41666,35.41667],"type": "Point"}, "properties": {"siteid": "waeh","title": "ELK CITY; OKLAHOMA WEATHER STATION","type": "weather"}},
+{"type": "Feature", "id": "1626", "geometry": {"coordinates": [-98.31334,39.49611],"type": "Point"}, "properties": {"siteid": "waks","title": "WACONDA LAKE (GLEN ELDER DAM); KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "1627", "geometry": {"coordinates": [-112.76527,47.92417],"type": "Point"}, "properties": {"siteid": "walm","title": "WALDRON; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1628", "geometry": {"coordinates": [-100.8,35.43333],"type": "Point"}, "properties": {"siteid": "walt","title": "LEFORS; TEXAS WEATHER STATION","type": "weather"}},
+{"type": "Feature", "id": "1629", "geometry": {"coordinates": [-99.66805,35.62639],"type": "Point"}, "properties": {"siteid": "wasch","title": "WASHITA RIVER NEAR CHEYENNE; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "1630", "geometry": {"coordinates": [-99.42583,39.39139],"type": "Point"}, "properties": {"siteid": "wbks","title": "WEBSTER RESERVOIR NEAR STOCKTON; KANSAS","type": "reservoir"}},
+{"type": "Feature", "id": "1631", "geometry": {"coordinates": [-106.93333,41.16667],"type": "Point"}, "properties": {"siteid": "wbsy","title": "WEBBER SPRINGS; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1632", "geometry": {"coordinates": [-112.42777,47.54445],"type": "Point"}, "properties": {"siteid": "wcfm","title": "WILLOW CREEK FEEDER CANAL; MONTANA","type": "canal"}},
+{"type": "Feature", "id": "1633", "geometry": {"coordinates": [-103.53223,41.9575],"type": "Point"}, "properties": {"siteid": "wcne","title": "WINTERS CREEK RESERVOIR (SURFACE ELEV-INFLOW); NE","type": "reservoir"}},
+{"type": "Feature", "id": "1634", "geometry": {"coordinates": [-112.42916,47.54667],"type": "Point"}, "properties": {"siteid": "wcr","title": "WILLOW CREEK RESERVOIR; 6 MILES NW AUGUSTA; MONTANA","type": "reservoir"}},
+{"type": "Feature", "id": "1635", "geometry": {"coordinates": [-108.96667,43.22917],"type": "Point"}, "properties": {"siteid": "wddy","title": "WIND RIVER DIVERSION DAM; WYOMING","type": "diversion"}},
+{"type": "Feature", "id": "1636", "geometry": {"coordinates": [-109.02556,43.23167],"type": "Point"}, "properties": {"siteid": "wdwy","title": "WINCHESTER DITCH; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1637", "geometry": {"coordinates": [-111.2472,40.7372],"type": "Point"}, "properties": {"siteid": "weberrivernearoakley","title": "WEBER RIVER NEAR OAKLEY; UT","type": "stream"}},
+{"type": "Feature", "id": "1638", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "welltonmowhawkirrigationanddrainagedistrict","title": "Wellton Mowhawk Irrigation and Drainage District","type": "diversion"}},
+{"type": "Feature", "id": "1639", "geometry": {"coordinates": [-107.2325,37.4717],"type": "Point"}, "properties": {"siteid": "weminuchecnrbrdgerasta","title": "WEMINUCHE C NR BRDGE RA STA; NR PAGOSA SPGS;","type": "stream"}},
+{"type": "Feature", "id": "1640", "geometry": {"coordinates": [-105.5333,35.7667],"type": "Point"}, "properties": {"siteid": "wesnerspringsswe","title": "WESNER SPRINGS","type": "snotel"}},
+{"type": "Feature", "id": "1641", "geometry": {"coordinates": [-106.9067,37.3919],"type": "Point"}, "properties": {"siteid": "westforksanjuanrivernrpagosasprings","title": "WEST FORK SAN JUAN RIVER NR PAGOSA SPRINGS;","type": "stream"}},
+{"type": "Feature", "id": "1642", "geometry": {"coordinates": [-108.2575,37.3817],"type": "Point"}, "properties": {"siteid": "westmancosrivernearmancos","title": "WEST MANCOS RIVER NEAR MANCOS; CO.","type": "stream"}},
+{"type": "Feature", "id": "1643", "geometry": {"coordinates": [-107.7772,39.6306],"type": "Point"}, "properties": {"siteid": "westriflecreekaboveriflegap","title": "WEST RIFLE CREEK ABOVE RIFLE GAP","type": "stream"}},
+{"type": "Feature", "id": "1644", "geometry": {"coordinates": [-106.9111,37.4503],"type": "Point"}, "properties": {"siteid": "wfksanjuanratwfkcampgrnrpagosaspr","title": "W FK SAN JUAN R AT W FK CAMPGR NR PAGOSA SPR","type": "stream"}},
+{"type": "Feature", "id": "1645", "geometry": {"coordinates": [-106.9297,37.4856],"type": "Point"}, "properties": {"siteid": "wfsanjuanrabbornslake","title": "WF SAN JUAN R AB BORNS LAKE;NR PAGOSA SPGS;","type": "stream"}},
+{"type": "Feature", "id": "1646", "geometry": {"coordinates": [-104.96555,42.46889],"type": "Point"}, "properties": {"siteid": "wgwy","title": "WEATHER STATION; GLENDO DAM; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "1647", "geometry": {"coordinates": [-111.58334,44.53333],"type": "Point"}, "properties": {"siteid": "whei","title": "WHITE ELEPHANT; IDAHO","type": "snotel"}},
+{"type": "Feature", "id": "1648", "geometry": {"coordinates": [-122.537,40.598],"type": "Point"}, "properties": {"siteid": "whi","title": "Whiskeytown Dam; Lake; And Spring Creek Powerplant","type": "reservoir"}},
+{"type": "Feature", "id": "1649", "geometry": {"coordinates": [-105.1224,37.214],"type": "Point"}, "properties": {"siteid": "whiskeyckswe","title": "WHISKEY CK","type": "snotel"}},
+{"type": "Feature", "id": "1650", "geometry": {"coordinates": [-106.9,41],"type": "Point"}, "properties": {"siteid": "whiskeyparkswe","title": "WHISKEY PARK","type": "snotel"}},
+{"type": "Feature", "id": "1651", "geometry": {"coordinates": [-110.9833,39.9667],"type": "Point"}, "properties": {"siteid": "whiteriver1swe","title": "WHITE RIVER #1","type": "snotel"}},
+{"type": "Feature", "id": "1652", "geometry": {"coordinates": [-109.1781,39.9789],"type": "Point"}, "properties": {"siteid": "whiterivernearwatson","title": "WHITE RIVER NEAR WATSON; UT","type": "stream"}},
+{"type": "Feature", "id": "1653", "geometry": {"coordinates": [-109.9,45.05],"type": "Point"}, "properties": {"siteid": "whtm","title": "WHITE MILL; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1654", "geometry": {"coordinates": [-104.62695,42.24055],"type": "Point"}, "properties": {"siteid": "whwy","title": "NO. PLATTE RIVER BLW WHALEN DAM NR GUERNSEY; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1655", "geometry": {"coordinates": [-111.8833,37.8333],"type": "Point"}, "properties": {"siteid": "widtsoe3swe","title": "WIDTSOE #3","type": "snotel"}},
+{"type": "Feature", "id": "1656", "geometry": {"coordinates": [-105.90278,40.14417],"type": "Point"}, "properties": {"siteid": "wilcanco","title": "WILLOW CREEK PUMP CANAL; GRAND COUNTY; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "1657", "geometry": {"coordinates": [-105.94139,40.14778],"type": "Point"}, "properties": {"siteid": "wilcrkr","title": "WILLOW CREEK RESERVOIR; COLORADO (SCADA)","type": "reservoir"}},
+{"type": "Feature", "id": "1658", "geometry": {"coordinates": [-112.06,41.23],"type": "Point"}, "properties": {"siteid": "willardbay","title": "WILLARD BAY RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1659", "geometry": {"coordinates": [-107.1978,37.4617],"type": "Point"}, "properties": {"siteid": "williamscnrbridgerasta","title": "WILLIAMS C NR BRIDGE RA STA; NR PAGOSA SPGS;","type": "stream"}},
+{"type": "Feature", "id": "1660", "geometry": {"coordinates": [-106.1045,40.0001],"type": "Point"}, "properties": {"siteid": "williamsfork","title": "WILLIAMS FORK RESERVOIR","type": "reservoir"}},
+{"type": "Feature", "id": "1661", "geometry": {"coordinates": [-106.1803,40],"type": "Point"}, "properties": {"siteid": "williamsforknearparshall","title": "WILLIAMS FORK NEAR PARSHALL; CO","type": "stream"}},
+{"type": "Feature", "id": "1662", "geometry": {"coordinates": [-105.94,40.0075],"type": "Point"}, "properties": {"siteid": "willowcreek","title": "WILLOW CREEK RESERVOIR (operated by ECAO)","type": "reservoir"}},
+{"type": "Feature", "id": "1663", "geometry": {"coordinates": [-106.1,40.35],"type": "Point"}, "properties": {"siteid": "willowcreekpassswe","title": "WILLOW CREEK PASS","type": "snotel"}},
+{"type": "Feature", "id": "1664", "geometry": {"coordinates": [-105.94195,40.14778],"type": "Point"}, "properties": {"siteid": "wilresco","title": "WILLOW CREEK RESERVOIR; COLORADO","type": "reservoir"}},
+{"type": "Feature", "id": "1665", "geometry": {"coordinates": [-105.94,40.14584],"type": "Point"}, "properties": {"siteid": "wilwcrco","title": "WILLOW CREEK BELOW WILLOW CREEK RESERVOIR; CO (WCWC)","type": "stream"}},
+{"type": "Feature", "id": "1666", "geometry": {"coordinates": [-105.58139,40.32722],"type": "Point"}, "properties": {"siteid": "winbypco","title": "WIND RIVER BYPASS AT EAST PORTAL NR ESTES PARK; CO","type": "stream"}},
+{"type": "Feature", "id": "1667", "geometry": {"coordinates": [-105.58194,40.32722],"type": "Point"}, "properties": {"siteid": "windesco","title": "WIND RIVER NEAR ESTES PARK; CO","type": "stream"}},
+{"type": "Feature", "id": "1668", "geometry": {"coordinates": [-106.8794,37.4392],"type": "Point"}, "properties": {"siteid": "windypasscrnrpagosaspr","title": "WINDY PASS CR NR PAGOSA SPR; CO.","type": "stream"}},
+{"type": "Feature", "id": "1669", "geometry": {"coordinates": [-105.63028,39.88889],"type": "Point"}, "properties": {"siteid": "winparco","title": "WINTER PARK; CO (CLIMATOLOGY)","type": "weather"}},
+{"type": "Feature", "id": "1670", "geometry": {"coordinates": [-113.45694,45.61861],"type": "Point"}, "properties": {"siteid": "wism","title": "BIG HOLE RIVER BELOW BIG LAKE CREEK @ WISDOM; MT","type": "stream"}},
+{"type": "Feature", "id": "1671", "geometry": {"coordinates": [-105.56556,40.20889],"type": "Point"}, "properties": {"siteid": "wldbasco","title": "WILD BASIN; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1672", "geometry": {"coordinates": [-106.1,40.33333],"type": "Point"}, "properties": {"siteid": "wllc","title": "WILLOW CREEK PASS; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1673", "geometry": {"coordinates": [-109.65,44.8],"type": "Point"}, "properties": {"siteid": "wlvw","title": "WOLVERINE; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1674", "geometry": {"coordinates": [-103.48416,41.91778],"type": "Point"}, "properties": {"siteid": "wmne","title": "WEATHER STATION AT MINATARE DAM; NEBRASKA","type": "weather"}},
+{"type": "Feature", "id": "1675", "geometry": {"coordinates": [-105.58334,42.28333],"type": "Point"}, "properties": {"siteid": "wndy","title": "WINDY PEAK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1676", "geometry": {"coordinates": [-114.02723,43.42528],"type": "Point"}, "properties": {"siteid": "wod","title": "Little Wood Dam and Reservoir near Carey; ID","type": "reservoir"}},
+{"type": "Feature", "id": "1677", "geometry": {"coordinates": [-113.9996779,43.38995741],"type": "Point"}, "properties": {"siteid": "wodi","title": "Little Wood River near Carey; ID","type": "stream"}},
+{"type": "Feature", "id": "1678", "geometry": {"coordinates": [-112.81667,47.45],"type": "Point"}, "properties": {"siteid": "wodm","title": "WOOD CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1679", "geometry": {"coordinates": [-106.8864,37.4419],"type": "Point"}, "properties": {"siteid": "wolfcratwolfcrcampgrnrpagosaspr","title": "WOLF CR AT WOLF CR CAMPGR NR PAGOSA SPR; CO.","type": "stream"}},
+{"type": "Feature", "id": "1680", "geometry": {"coordinates": [-106.8833,37.4464],"type": "Point"}, "properties": {"siteid": "wolfcreeknearpagosasprings","title": "WOLF CREEK NEAR PAGOSA SPRINGS; CO.","type": "stream"}},
+{"type": "Feature", "id": "1681", "geometry": {"coordinates": [-106.8,37.4833],"type": "Point"}, "properties": {"siteid": "wolfcreeksummitswe","title": "WOLF CREEK SUMMIT","type": "snotel"}},
+{"type": "Feature", "id": "1682", "geometry": {"coordinates": [-105.53667,48.06583],"type": "Point"}, "properties": {"siteid": "wpmt","title": "MISSOURI RIVER NEAR WOLF POINT; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1683", "geometry": {"coordinates": [-106.85222,42.47167],"type": "Point"}, "properties": {"siteid": "wpwy","title": "WEATHER STATION; PATHFINDER DAM; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "1684", "geometry": {"coordinates": [-108.17833,43.425],"type": "Point"}, "properties": {"siteid": "wrbd","title": "WIND RIVER BELOW BOYSEN DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1685", "geometry": {"coordinates": [-109.00972,43.2425],"type": "Point"}, "properties": {"siteid": "wrch","title": "WIND RIVER NEAR CROWHEART; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1686", "geometry": {"coordinates": [-121.7875,42.0125],"type": "Point"}, "properties": {"siteid": "wrdo","title": "Worden; Oregon AgriMet Weather Station","type": "agrimet"}},
+{"type": "Feature", "id": "1687", "geometry": {"coordinates": [-109.45805,43.44167],"type": "Point"}, "properties": {"siteid": "wrdy","title": "WIND RIVER ABOVE RED CREEK NEAR DUBOIS; WY","type": "stream"}},
+{"type": "Feature", "id": "1688", "geometry": {"coordinates": [-99.86667,35.21667],"type": "Point"}, "properties": {"siteid": "wreh","title": "ERICK; OKLAHOMA","type": "weather"}},
+{"type": "Feature", "id": "1689", "geometry": {"coordinates": [-108.70889,43.14278],"type": "Point"}, "properties": {"siteid": "wrky","title": "WIND RIVER NEAR KINNEAR; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1690", "geometry": {"coordinates": [-109.75916,43.57861],"type": "Point"}, "properties": {"siteid": "wrnd","title": "WIND RIVER NEAR DUBOIS; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1691", "geometry": {"coordinates": [-103.50111,41.95806],"type": "Point"}, "properties": {"siteid": "wrne","title": "WINTERS CREEK RESERVOIR (OUTFLOW); NEBRASKA","type": "canal"}},
+{"type": "Feature", "id": "1692", "geometry": {"coordinates": [-105.73333,40.43333],"type": "Point"}, "properties": {"siteid": "wrpc","title": "WILLOW PARK; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1693", "geometry": {"coordinates": [-108.37556,43.01056],"type": "Point"}, "properties": {"siteid": "wrry","title": "WIND RIVER AT RIVERTON; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1694", "geometry": {"coordinates": [-99.96889,35.42222],"type": "Point"}, "properties": {"siteid": "wrsh","title": "SWEETWATER CREEK NEAR SWEETWATER; OKLAHOMA","type": "stream"}},
+{"type": "Feature", "id": "1695", "geometry": {"coordinates": [-108.22444,43.12861],"type": "Point"}, "properties": {"siteid": "wrsy","title": "WIND RIVER ABOVE BOYSEN NEAR SHOSHONI; WY","type": "stream"}},
+{"type": "Feature", "id": "1696", "geometry": {"coordinates": [-108.80833,43.19222],"type": "Point"}, "properties": {"siteid": "wrwd","title": "WIND RIVER BELOW WYOMING DIVERSION DAM; WYOMING","type": "stream"}},
+{"type": "Feature", "id": "1697", "geometry": {"coordinates": [-100.26667,35.43333],"type": "Point"}, "properties": {"siteid": "wrwt","title": "WHEELER; TEXAS","type": "weather"}},
+{"type": "Feature", "id": "1698", "geometry": {"coordinates": [-111.15,44.6],"type": "Point"}, "properties": {"siteid": "wskm","title": "WHISKEY CREEK; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1699", "geometry": {"coordinates": [-103.80112,41.98611],"type": "Point"}, "properties": {"siteid": "wsne","title": "WET SPOTTED TAIL DIVERSION INTO TRI-STATE CANAL; NE","type": "diversion"}},
+{"type": "Feature", "id": "1700", "geometry": {"coordinates": [-110.94667,46.55333],"type": "Point"}, "properties": {"siteid": "wssm","title": "WHITE SULPHUR SPRINGS WEATHER STATION; MONTANA","type": "agrimet"}},
+{"type": "Feature", "id": "1701", "geometry": {"coordinates": [-106.91417,42.15556],"type": "Point"}, "properties": {"siteid": "wswy","title": "WEATHER STATION; SEMINOE DAM; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "1702", "geometry": {"coordinates": [-106.3525,39.35416],"type": "Point"}, "properties": {"siteid": "wurditco","title": "WURTZ DITCH NEAR TENNESSEE PASS; COLORADO","type": "canal"}},
+{"type": "Feature", "id": "1703", "geometry": {"coordinates": [-114.5356,33.9206],"type": "Point"}, "properties": {"siteid": "wwlc","title": "Colorado River at Water Wheel","type": "stream"}},
+{"type": "Feature", "id": "1704", "geometry": {"coordinates": [-104.62778,42.24805],"type": "Point"}, "properties": {"siteid": "wwwy","title": "WEATHER STATION; WHALEN DAM; WYOMING","type": "weather"}},
+{"type": "Feature", "id": "1705", "geometry": {"coordinates": [-108.94833,43.23167],"type": "Point"}, "properties": {"siteid": "wycy","title": "WYOMING CANAL; 1/4 MILE BELOW DIVERSION DAM; WYOMING","type": "canal"}},
+{"type": "Feature", "id": "1706", "geometry": {"coordinates": [-111.1,44.66667],"type": "Point"}, "properties": {"siteid": "wysm","title": "WEST YELLOWSTONE; MONTANA","type": "snotel"}},
+{"type": "Feature", "id": "1707", "geometry": {"coordinates": [-108.425,40.4608],"type": "Point"}, "properties": {"siteid": "yampariverabvlittlesnakernrmaybellco","title": "YAMPA RIVER ABV. LITTLE SNAKE R. NR. MAYBELL CO.","type": "stream"}},
+{"type": "Feature", "id": "1708", "geometry": {"coordinates": [-108.5244,40.4517],"type": "Point"}, "properties": {"siteid": "yampariveratdeerlodgepark","title": "YAMPA RIVER AT DEERLODGE PARK; COLORADO","type": "stream"}},
+{"type": "Feature", "id": "1709", "geometry": {"coordinates": [-106.8317,40.4836],"type": "Point"}, "properties": {"siteid": "yampariveratsteamboatsprings","title": "YAMPA RIVER AT STEAMBOAT SPRINGS","type": "stream"}},
+{"type": "Feature", "id": "1710", "geometry": {"coordinates": [-108.3864,40.4808],"type": "Point"}, "properties": {"siteid": "yampariverbelowcraig","title": "YAMPA RIVER BELOW CRAIG; CO","type": "stream"}},
+{"type": "Feature", "id": "1711", "geometry": {"coordinates": [-108.0292,40.5028],"type": "Point"}, "properties": {"siteid": "yamparivernearmaybell","title": "YAMPA RIVER NEAR MAYBELL; CO","type": "stream"}},
+{"type": "Feature", "id": "1712", "geometry": {"coordinates": [-114.6325,32.7319],"type": "Point"}, "properties": {"siteid": "yglc","title": "Colorado River at Yuma Gage","type": "stream"}},
+{"type": "Feature", "id": "1713", "geometry": {"coordinates": [-109.86583,43.98222],"type": "Point"}, "properties": {"siteid": "youy","title": "YOUNTS PEAK; WYOMING","type": "snotel"}},
+{"type": "Feature", "id": "1714", "geometry": {"coordinates": [-110.79361,45.11194],"type": "Point"}, "properties": {"siteid": "yrcm","title": "YELLOWSTONE RIVER AT CORWIN SPRINGS; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1715", "geometry": {"coordinates": [-106.69,46.26611],"type": "Point"}, "properties": {"siteid": "yrfm","title": "YELLOWSTONE RIVER AT FORSYTH; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1716", "geometry": {"coordinates": [-104.71667,47.1],"type": "Point"}, "properties": {"siteid": "yrgm","title": "YELLOWSTONE RIVER AT GLENDIVE; MT","type": "stream"}},
+{"type": "Feature", "id": "1717", "geometry": {"coordinates": [-110.56528,45.59722],"type": "Point"}, "properties": {"siteid": "yrlm","title": "YELLOWSTONE RIVER NEAR LIVINGSTON; MONTANA","type": "stream"}},
+{"type": "Feature", "id": "1718", "geometry": {"coordinates": [-114.6,32.75],"type": "Point"}, "properties": {"siteid": "yumaareaoffice","title": "Yuma Area Office; USBR","type": "diversion"}},
+{"type": "Feature", "id": "1719", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "yumacountywaterusersassociation","title": "Yuma County Water Users Association","type": "diversion"}},
+{"type": "Feature", "id": "1720", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "yumairrigationdistrict","title": "Yuma Irrigation District","type": "diversion"}},
+{"type": "Feature", "id": "1721", "geometry": {"coordinates": [-114.5,32.75],"type": "Point"}, "properties": {"siteid": "yumamesadivision","title": "Yuma Mesa Division","type": "diversion"}},
+{"type": "Feature", "id": "1722", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "yumamesafruitgrowersassn","title": "Yuma Mesa Fruit Growers Assn.","type": "diversion"}},
+{"type": "Feature", "id": "1723", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "yumamesairrigationanddrainagedistrict","title": "Yuma Mesa Irrigation and Drainage District","type": "diversion"}},
+{"type": "Feature", "id": "1724", "geometry": {"coordinates": [-114.49,32.73],"type": "Point"}, "properties": {"siteid": "yumaprojectreservationdivision","title": "Yuma Project Reservation Division","type": "diversion"}},
+{"type": "Feature", "id": "1725", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "yumaprojectreservationdivisionbardunitsystem1","title": "Yuma Project Reservation Division - Bard Unit (System1)","type": "diversion"}},
+{"type": "Feature", "id": "1726", "geometry": {"coordinates": [-114.48,32.87],"type": "Point"}, "properties": {"siteid": "yumaprojectreservationdivisionindianunitsystem2","title": "Yuma Project Reservation Division - Indian Unit (System2)","type": "diversion"}},
+{"type": "Feature", "id": "1727", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "yumaprovingground","title": "Yuma Proving Ground; Wells W;X;Y;Z","type": "diversion"}},
+{"type": "Feature", "id": "1728", "geometry": {"coordinates": [-114.46,32.88],"type": "Point"}, "properties": {"siteid": "yumaunionhighschool","title": "Yuma Union High School","type": "diversion"}},
+{"type": "Feature", "id": "1729", "geometry": {"coordinates": [-114.4757,32.3573],"type": "Point"}, "properties": {"siteid": "yv151/2","title": "YV-15 1/2 Check Structure on Bypass Canal","type": "canal"}},
+{"type": "Feature", "id": "1730", "geometry": {"coordinates": [-106.6,40.8],"type": "Point"}, "properties": {"siteid": "zirc","title": "ZIRKEL; COLORADO","type": "snotel"}},
+{"type": "Feature", "id": "1731", "geometry": {"coordinates": [-109.16611,48.59889],"type": "Point"}, "properties": {"siteid": "zurichmt","title": "ZURICH MAIN DIVERSION; MONTANA","type": "canal"}}
+],  "type": "FeatureCollection"}
+
