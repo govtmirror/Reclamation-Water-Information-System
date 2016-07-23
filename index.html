@@ -174,8 +174,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <span class="LeftNav-title">RWIS</span>
   <ul class="LeftNav-list">
 	<li><a href="index.html">Home</a></li>
+	<li><a href="index.html">Query Tools & Apps</a></li>
 	<li><a href="index.html">Map</a></li>
-	<li><a href="index.html">Query</a></li>
 	<li><a href="index.html">About Us</a></li>
 	<li><a href="index.html">Contact Us</a></li>
   </ul>
@@ -195,7 +195,7 @@ Ius verear omittam ut, te eam perfecto necessitatibus. Ridens fabulas oporteat e
 <div class="Main-well">
 <br>
 
-<font color="red">Option 1: Use buttons with mouse-over text to switch between pages</font>                    
+<font color="red">Option 1: Use link buttons with mouse-over text to switch between pages. All links just refresh this page for now.</font>                    
 <br class="clear"/>
 <div class="wrapper">
 <ul class="gallery">
@@ -206,7 +206,7 @@ Ius verear omittam ut, te eam perfecto necessitatibus. Ridens fabulas oporteat e
 </ul></div>
 <br class="clear"/>		
 
-<font color="red">Option 2: Use a map to navigate to sites which lead to the query interface</font>
+<font color="red">Option 2: Use a map to navigate to sites which lead to the query interface. Clicking on a marker will display a pop-up with a link. All links just refresh this page for now.</font>
 <br>
 <div id="googleMap" style="width:100%;height:500px;"></div>
 				
@@ -316,8 +316,7 @@ Ius verear omittam ut, te eam perfecto necessitatibus. Ridens fabulas oporteat e
 		  // When the user clicks, open an infowindow
 		map.data.addListener('click', function(event) {
 			var geotitle = event.feature.getProperty("title");
-			var geotype = event.feature.getProperty("type");
-			infowindow.setContent("<div style='width:150px; text-align: center;'>"+geotitle+' - '+geotype+"</div>");
+			infowindow.setContent("<div style='width:150px; text-align: center;'><a href='index.html'>"+geotitle+"</a></div>");
 			infowindow.setPosition(event.feature.getGeometry().get());
 			infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
 			infowindow.open(map);
