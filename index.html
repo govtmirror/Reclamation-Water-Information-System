@@ -323,8 +323,8 @@ selected link.
 
         // Setup the click event listener
         controlUI.addEventListener('click', function() {
-			map.setCenter(centerLocation);			
-			map.setZoom(5);
+			map.setCenter(centerLocation);	
+			map.setZoom(5);			
         });
 		}
 		
@@ -333,9 +333,14 @@ selected link.
 		
 		// Create an array of styles.
 		var styles = [
-			{stylers: [{hue: "#244A9F"},{saturation: 0}]},
-			{featureType: "road", elementType: "geometry", stylers: [{lightness: 100},{visibility: "simplified"}]},
-			{featureType: "road",elementType: "labels",stylers: [{ visibility: "off" }]}
+			{featureType: "road", elementType: "geometry", stylers: [{color: "#FFFFF0"},{lightness: 50},{visibility: "simplified"}]},
+			{featureType: "road",elementType: "labels",stylers: [{ visibility: "on" }]},
+			{featureType: "water", elementType: "geometry.fill", stylers: [{lightness: 0},{color: "#244A9F"},{lightness: 40}]},
+			{featureType: 'landscape', elementType: 'all',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
+			{featureType: 'poi', elementType: 'all',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
+			{featureType: 'administrative', elementType: 'geometry.fill',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
+			{featureType: 'administrative', elementType: 'geometry.stroke',stylers: [{color: '#696969'},{lightness: 0}]},
+			{featureType: 'all', elementType: 'labels.text.fill',stylers: [{color: '#000000'},{lightness: 0}]}
 		];
 
 		// Create a new StyledMapType object, passing it the array of styles,
@@ -347,7 +352,7 @@ selected link.
 			zoom:5,
 			//mapTypeId: google.maps.MapTypeId.TERRAIN
 			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+				mapTypeIds: [google.maps.MapTypeId.HYBRID, 'map_style']
 			}
 		};
 		map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -377,7 +382,9 @@ selected link.
 			infowindow.setPosition(event.feature.getGeometry().get());
 			infowindow.setOptions({pixelOffset: new google.maps.Size(0,-15)});
 			infowindow.open(map);
-			map.setZoom(9);
+			if (map.getZoom() < 9){
+				map.setZoom(9);
+			}
 			map.setCenter(event.feature.getGeometry().get());
 		});    
 		
