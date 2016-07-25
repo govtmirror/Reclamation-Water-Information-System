@@ -174,7 +174,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <span class="LeftNav-title">RWIS</span>
   <ul class="LeftNav-list">
 	<li><a href="index.html">Home</a></li>
-	<li><a href="querytools.html">Query Tools & Apps</a></li>
+	<li><a href="querytools.html">Query Tool</a></li>
 	<li><a href="map.html">Map</a></li>
 	<li><a href="aboutus.html">About Us</a></li>
 	<li><a href="contactus.html">Contact Us</a></li>
@@ -185,39 +185,29 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   
 <div class="Main-well">
 <br>
-<font color="red"><strong>Place holder text: </strong></font>
-Lorem ipsum dolor sit amet, illud convenire per cu, eos suscipiantur interpretaris in. Qui aliquam corpora ad. Eos id inani argumentum, maiestatis concludaturque pro ea, eos graeco putant docendi ut. Vivendum efficiendi te vel, scaevola tractatos quo no, nec ut adhuc habemus delectus. An mel omnium deserunt intellegat, dictas torquatos vis et. Velit possim hendrerit ad usu. Duo alterum sensibus scripserit ad, laboramus conceptam id pri.
-<br><br>
-Ei dicta paulo consequuntur sit. Postea doctus vis et. Vocent qualisque eos eu, illum zril ridens vix in, probo sententiae et quo. Eu falli constituam vel. Id reque laoreet epicuri has. Eos feugiat placerat facilisi in, his te diam gubergren. Est civibus tincidunt ad, est ei possim latine hendrerit, ei malis iisque sanctus eum.
-<br><br>
-Ius verear omittam ut, te eam perfecto necessitatibus. Ridens fabulas oporteat et pri. Quis case voluptatibus nec an, id sumo novum numquam pri, ea qui alii dicat evertitur. An falli movet per. Elitr electram voluptatum et eam. Vix mutat omnes facete eu, te cum malis efficiantur.
-<br>
+To effectively deliver water and power, Reclamation collects time-series datasets that track river flows, reservoir operations, power deliveries, and more.
+<br><br> 
+The Reclamation Water Information System (RWIS) is the  portal for Reclamation’s water data.  Users can access current and historical data by honing in on locations 
+with maps and searching for specific information with the query tool. 
+<br><br> 
+RWIS is a Reclamation-wide web system to view, access, and download Reclamation's water data in widely used, machine-readable formats. This is a pilot effort, 
+serving representative data from each Reclamation region. Our vision is to:
+<ul> 
+<li>Provide all of Reclamation’s many data sets in consistent data</li>
+<li>Develop web services, to eventually allow automated access to data</li>
+<li>Work with other agencies and coordinate data</li>
+</ul>
 
-<br>
-<font color="red"><strong>Option 1</strong>: Use link buttons with mouse-over text to switch between pages. These links lead to place holder pages.</font>                    
 <br class="clear"/>
 <div class="wrapper">
 <ul class="gallery">
-<li><a href="querytools.html"><img src="images/box2.jpg" title="Select data by site and/or parameter and display charts, graphs, tables and URL for Web services"/></a></li>
-<li><a href="map.html"><img src="images/box3.jpg" title="Explore data by geographic location on a map"/></a></li>
-<li><a href="http://www.usbr.gov/research/"><img src="images/box1.jpg" title="Research Office"/></a></li>
-<li><a href="aboutus.html"><img src="images/box4.jpg" title="About Us"/></a></li>
+<li><a href="querytools.html"><img src="images/box2.jpg" title="Select data by site or parameter and display charts, graphs, tables, and URL for Web Services" alt="Query Tool Image"/></a></li>
+<li><a href="map.html"><img src="images/box3.jpg" title="Select or filter sites and display site information" alt="Map Image"/></a></li>
+<li><a href="http://www.usbr.gov/research/"><img src="images/box1.jpg" title="Research Office" alt="Research Office Page"/></a></li>
+<li><a href="aboutus.html"><img src="images/box4.jpg" title="About Us" alt="About Us"/></a></li>
 </ul></div>
 <br class="clear"/>		
-</div><!-- end Main-well -->
-<div class="Main-well">
-<br>
-<font color="red"><strong>Option 2</strong>: Use a map to navigate to sites which lead to the query interface. 
-Clicking on a marker will zoom and display a pop-up with a link. 
-All links just refresh this page for now. 
-The user may go to either the main site query page or to the site-parameter query page based on the 
-selected link.
-</font>
-<br>
-<div id="googleMap" style="width:100%;height:600px;"></div>
-</div><!-- end Main-well -->
-
-				
+</div><!-- end Main-well -->				
                     
                 
             </div><!-- end Main-wrap -->
@@ -284,145 +274,8 @@ selected link.
         <script src="http://www.usbr.gov/js/components/explore.js"></script>
 
         <!-- Left Navigation -->
-        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>
+        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>		
 		
-		<!-- JavaScript plug-in source codes -->
-		<script src="http://maps.googleapis.com/maps/api/js"></script>
-		<script src="src/markerclusterer.js"></script>
-		<!-- This contains a geojson dump of the sites in test.water.usbr.gov:rwis DB -->
-		<script src="sites.geojson.js"></script>
-		<script>
-		var map;
-		var infowindow = new google.maps.InfoWindow();
-		var centerLocation = {lat: 40.0, lng: -107.0};		
-				
-		// Function to generate the 'Center Map control
-		function CenterControl(controlDiv, map) {
-        // Set CSS for the control border.
-        var controlUI = document.createElement('div');
-        controlUI.style.backgroundColor = '#fff';
-        controlUI.style.border = '2px solid #fff';
-        controlUI.style.borderRadius = '3px';
-        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
-        controlUI.style.cursor = 'pointer';
-        controlUI.style.marginBottom = '22px';
-        controlUI.style.textAlign = 'center';
-        controlUI.title = 'Click to recenter the map';
-        controlDiv.appendChild(controlUI);
-
-        // Set CSS for the control interior.
-        var controlText = document.createElement('div');
-        controlText.style.color = 'rgb(25,25,25)';
-        controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
-        controlText.style.fontSize = '16px';
-        controlText.style.lineHeight = '38px';
-        controlText.style.paddingLeft = '5px';
-        controlText.style.paddingRight = '5px';
-        controlText.innerHTML = 'Center Map';
-        controlUI.appendChild(controlText);
-
-        // Setup the click event listener
-        controlUI.addEventListener('click', function() {
-			map.setCenter(centerLocation);	
-			map.setZoom(5);			
-        });
-		}
-		
-		// Main method to generate the Google map
-		function initialize() {
-		
-		// Create an array of styles.
-		var styles = [
-			{featureType: "road", elementType: "geometry", stylers: [{color: "#FFFFF0"},{lightness: 50},{visibility: "simplified"}]},
-			{featureType: "road",elementType: "labels",stylers: [{ visibility: "on" }]},
-			{featureType: "water", elementType: "geometry.fill", stylers: [{lightness: 0},{color: "#244A9F"},{lightness: 40}]},
-			{featureType: 'landscape', elementType: 'all',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
-			{featureType: 'poi', elementType: 'all',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
-			{featureType: 'administrative', elementType: 'geometry.fill',stylers: [{color: '#D3D3D3'},{lightness: 0}]},
-			{featureType: 'administrative', elementType: 'geometry.stroke',stylers: [{color: '#696969'},{lightness: 0}]},
-			{featureType: 'all', elementType: 'labels.text.fill',stylers: [{color: '#000000'},{lightness: 0}]}
-		];
-
-		// Create a new StyledMapType object, passing it the array of styles,
-		// as well as the name to be displayed on the map type control.
-		var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
-		
-		var mapProp = {
-			center:new google.maps.LatLng(centerLocation),
-			zoom:5,
-			//mapTypeId: google.maps.MapTypeId.TERRAIN
-			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.HYBRID, 'map_style']
-			}
-		};
-		map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-		
-		// function to close pop-up on click anywhere else
-		google.maps.event.addListener(map,'click',function() {
-			infowindow.close();
-		});		
-		
-		// When the user clicks, open an infowindow
-		map.data.addListener('click', function(event) {		
-			// Get the avaialable parameters for the site code here
-			var randomParCount = Math.floor((Math.random() * 5) + 1);// random numbers for now
-			var geotitle = event.feature.getProperty("title");
-			// Build the pop-up box content section here
-			var content = "<div style='width:150px; text-align: center;'><a href='index.html' title='Mouse-over text goes here'>" +
-				geotitle + 
-				"</a><br>----------------------------------<br>Available Parameters: " + 
-				"</div><div><ul>";
-			// Loop through all the available parameters and add them to the pop-up
-			for (i = 0; i < randomParCount; i++) {
-				content += "<li><a href='index.html' title='Mouse-over text goes here'>Par-" + (i+1) + "</a></li>";
-			}
-			content += "</ul>" + "</div>";
-			// Build the site pop-up window here
-			infowindow.setContent(content);
-			infowindow.setPosition(event.feature.getGeometry().get());
-			infowindow.setOptions({pixelOffset: new google.maps.Size(0,-15)});
-			infowindow.open(map);
-			if (map.getZoom() < 9){
-				map.setZoom(9);
-			}
-			map.setCenter(event.feature.getGeometry().get());
-		});    
-		
-		// Add GeoJSON data
-		map.data.addGeoJson(geojsondata); // generated by <script src="sites.geojson.js"></>
-		map.data.setStyle({
-			icon: 'images/tinyicon.png'
-		});
-		
-		// Test code to cluster icons depending on zoom level
-		//var markers = [];
-		//for (var i = 0; i < geojsondata.features.length; i++) {
-		//	var latLng = new google.maps.LatLng(geojsondata.features[i].geometry.coordinates[1],
-		//		geojsondata.features[i].geometry.coordinates[0]);
-		//	var marker = new google.maps.Marker({'position': latLng});
-		//	markers.push(marker);
-		//}
-		//var mcOptions = {gridSize: 50, maxZoom: 15, imagePath: 'images/m'};
-		//var mc = new MarkerClusterer(map, markers, mcOptions);
-		//map.data.setMap(null);
-		
-		// Add button on top right to re-center map
-		var centerControlDiv = document.createElement('div');
-        var centerControl = new CenterControl(centerControlDiv, map);
-        centerControlDiv.index = 1;
-        map.controls[google.maps.ControlPosition.TOP_RIGHT].push(centerControlDiv);
-		
-		map.mapTypes.set('map_style', styledMap);
-		map.setMapTypeId('map_style');
-		}
-		
-		// Generate the map once page is loaded
-		google.maps.event.addDomListener(window, 'load', initialize);
-		
-		
-		
-		
-		</script>
     </div>
 </body>
 </html>
