@@ -175,7 +175,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <span class="LeftNav-title">RWIS</span>
   <ul class="LeftNav-list">
 	<li><a href="index.html">Home</a></li>
-	<li><a href="querytools.html">Query Tools & Apps</a></li>
+	<li><a href="querytools.html">Query Tool</a></li>
 	<li><a href="index.html">Map</a></li>
 	<li><a href="aboutus.html">About Us</a></li>
 	<li><a href="contactus.html">Contact Us</a></li>
@@ -194,14 +194,44 @@ Ei dicta paulo consequuntur sit. Postea doctus vis et. Vocent qualisque eos eu, 
 <br><br>
 Ius verear omittam ut, te eam perfecto necessitatibus. Ridens fabulas oporteat et pri. Quis case voluptatibus nec an, id sumo novum numquam pri, ea qui alii dicat evertitur. An falli movet per. Elitr electram voluptatum et eam. Vix mutat omnes facete eu, te cum malis efficiantur.
 <br>
-<!--
-<h2>Statistics Web Service</h2>
-<p>Retrieve daily statistics for sites. Statistics include mean, minimum, maximum, mean and various percentiles. </p>
-<ul>
-  <li><a href="querytools.html">Learn more</a></li>
-  <li><a href="querytools.html">Test the service</a></li>
-</ul>
--->
+
+
+<FORM ACTION="" METHOD=POST name=CommentForm>
+<input type=hidden name=subject value="Comment for Reclamation" />
+<input type=hidden name=recipient value="rwis@usbr.gov" />
+			
+<input type=hidden name=redirect value="http://www.usbr.gov/main/thankyou.html" />
+
+<input type=hidden name=env_report value="REMOTE_HOST" />
+<input type=hidden name=required value=msgbody />
+
+<br>
+<strong>We Welcome Your Comments</strong>
+                
+<input type="hidden" name="mailer_token" value="9378D07C-0CF6-1E21-B7400D4942C78FCF">
+
+<textarea name=msgbody rows=9 cols=100 wrap=virtual></textarea>
+<br>
+<strong>Please enter your name:</strong><br />
+<input type=text name=realname value="" size=40 />
+<br>
+<strong>and e-mail address: </strong><br />
+<input type=text name=email value="" size=40 />
+
+<p align="left"> 
+<INPUT TYPE=hidden name=previous_page value="" />
+<INPUT TYPE=button NAME=Submit VALUE="Send" onClick="getreferringpage()" style="font-size:18px; font-weight:bold; color:#244A9F"/>
+<a href=http://www.usbr.gov/cgi-bin/formmail_val.cgi></a>
+</p>
+
+<p>Your email address and name are not mandatory, but we will <span style="color: #F00">not be
+            able to respond</span> to you regarding your comment or request without
+            at least your email address. </p>
+
+</FORM>
+
+</div>
+            
 
 </div><!-- end Main-well -->
 	
