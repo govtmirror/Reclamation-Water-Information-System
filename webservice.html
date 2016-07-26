@@ -186,94 +186,29 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   
 <div class="Main-well">
 <br>
-
-	<center><h2>RWIS Database Query</h2></center>
-	
-	<p>
-	The Bureau of Reclamation makes efforts to maintain the accuracy of data found in RWIS databases but the data is largely unverified and should be considered preliminary and subject to change.  
-	Data and services are provided with the express understanding that the United States Government makes no warranties, expressed or implied, concerning the accuracy, completeness, usability, 
-	or suitability for any particular purpose of the information or data obtained by access to this computer system. The United States shall be under no liability whatsoever to any individual 
-	or group entity by reason of any use made thereof.
-	</p>
-	
-<div style="border:5px solid #244A9F;">
-	
-	
-	<form action="" method="post" id="queryForm" target="_blank">
-	<blockquote>
-	<strong>Select your desired query type:</strong>
-	<blockquote>
-	<input type="radio" id="bySite" name="svr" value="lchdb2">Query by Site &nbsp;&nbsp;
-	<input type="radio" id="byParameter" name="svr" value="uchdb2">Query by Parameter &nbsp;&nbsp;
-	</blockquote>
-	</blockquote>
-	
-	<blockquote>
-	<strong>Select query value(s):</strong>
-	<blockquote>
-	
-	<select size='7' style="min-width:95%;" list="selectHere" id="selectList" name="sdi" style="display: none">
-	<datalist id="selectHere">
-	<option value=" " label="- User wil select an option from this dynamically generated list based on query type">	
-	<option value=" " label="- This will be a list of sites if query type is 'Query by Site'">
-	<option value=" " label="- This will be a list of parameter if query type is 'Query by Parameter'">
-	<option value=" " label="Option 4">
-	<option value=" " label="Option 5">
-	<option value=" " label="Option 6">
-	<option value=" " label="Option 7">
-	<option value=" " label="Option 8">
-	<option value=" " label="Option 9">
-	<option value=" " label="Option 10">
-	</datalist>
-	</select>
-	<br><br>
-	You may further filter your query given these available options that match your query value
-	<select size='7' style="min-width:95%;" list="dynamicListHere" id="dynamicList" name="sdi" style="display: none">
-	<datalist id="dynamicListHere">
-	<option value=" " label="- This list will be dynamically populated based on selection above">	
-	<option value=" " label="- If 'Query by Site', then this list will be populated by parameters">
-	<option value=" " label="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;available for the selected site">
-	<option value=" " label="- If 'Query by Parameter', then this list will be populated by sites">
-	<option value=" " label="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that have the selected parameter">
-	<option value=" " label="Option 6">
-	<option value=" " label="Option 7">
-	<option value=" " label="Option 8">
-	<option value=" " label="Option 9">
-	<option value=" " label="Option 10">
-	</datalist>
-	</select>
-	
-	<br>	
-	</blockquote>
-	
-	<strong>Select your desired date range (MM-DD-YYYY):</strong>
-	
-	<blockquote>
-	<strong>From</strong>
-	<input id="startDate" />
-	
-	<input type="hidden" name="t1" id="sDate">
-	<strong>To</strong>
-	<input id="endDate" />
-	
-	<input type="hidden" name="t2" id="eDate">
-	<br>
-	You may type in your own date but you have to click on the date in the calendar for the query to work
-	</blockquote>		
-	
-	<strong>Select your desired output format:</strong>
-	<blockquote>
-	<input type="radio" name="format" value="1">CSV&nbsp;&nbsp;
-	<input type="radio" name="format" value="2" checked >HTML Table&nbsp;&nbsp;
-	<input type="radio" name="format" value="9">Interactive Plot 
-	</blockquote>	
-	
-	</blockquote>
-	<center><h2>
-		<input type="submit" value="Submit Query" style="font-size:18px; font-weight:bold; color:#244A9F">
-	</h2></center>
-	</form>
-	</div>
+<h1><b>Available REST Web Services</b></h1>
+<font color="red">All links just refresh this page for now. </font>
+<br>
+<h2>Site Service</h2>
+<p>RWIS has information about several thousand sites: locations where hydrologic data is or has been collected. The site service allows you to find relevant sites of interest using a number of flexible filters, and provides key metadata about each site as well as optional information on the type of data collected at the site and the data collection period.</p>
+<ul>
+  <li><a href="querytools.html">Learn more</a></li>
+  <li><a href="querytools.html">Test the web service</a></li>
+</ul>
+<h2>Daily Data Web Service</h2>
+<p>Daily values are summarized data about weather stations, canals, streams, lakes, and dams derived from gaging equipment at these sites. Many sites have periods of record for a decade or more. This service allows you to find daily values for time-series sites, both current and historical, using a number of flexible filters.</p>
+<ul>
+  <li><a href="querytools.html">Learn more</a></li>
+  <li><a href="querytools.html">Test the web service</a></li>
+</ul>
+<!--
+<h2>Statistics Web Service</h2>
+<p>Retrieve daily statistics for sites. Statistics include mean, minimum, maximum, mean and various percentiles. </p>
+<ul>
+  <li><a href="querytools.html">Learn more</a></li>
+  <li><a href="querytools.html">Test the service</a></li>
+</ul>
+-->
 
 </div><!-- end Main-well -->
 	
@@ -343,23 +278,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
         <script src="http://www.usbr.gov/js/components/explore.js"></script>
 
         <!-- Left Navigation -->
-        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>	
-			
-		<!-- Date Picker Scripts -->
-		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-		<script>$(document).ready(function(){$("#startDate").datepicker({
-		dateFormat: 'mm-dd-yy', onSelect: function(dateText, inst) {
-			$('#sDate').val(dateText);
-		}});});
-		</script>
-		<script>$(document).ready(function(){$("#endDate").datepicker({
-		dateFormat: 'mm-dd-yy', onSelect: function(dateText, inst) {
-			$('#eDate').val(dateText);
-		}});});
-		</script>
-	
+        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>		
     </div>
 </body>
 </html>
