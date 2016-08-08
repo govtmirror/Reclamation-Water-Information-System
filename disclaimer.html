@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>USBR Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-    <!-- Styles -->
-    <link rel="stylesheet" href="http://www.usbr.gov/css/main.min.css" />
-    <!--<link href="styles/usbr.css" rel="stylesheet" type="text/css" />-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Head Content  -->
+<meta charset="utf-8">
+
+<!--[if gt IE 8 ]--><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><!--<![endif]-->
+<title>Reclamation Water Data | Bureau of Reclamation</title>
+<meta name="description" content="Water Data, Bureau of Reclamation - Managing water and power in the West" />
+<meta name="keywords" content="Water Data, Department of the Interior, Bureau of Reclamation, Water, Dams, Dam, Projects &amp; Facilties, Hydromet, Agrimet, hydropower" />
+<meta name="author" content="Bureau of Reclamation" />
+<meta name="publisher" content="Bureau of Reclamation" />
+<meta name="created" content="20150101" />
+<meta name="expires" content="Never" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="http://www.usbr.gov/img/favicon.ico">
+<script type="text/javascript"> 
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17251781-1']);
+_gaq.push(['_anonymizeIp']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript" src="http://www.usbr.gov/js/federated-analytics.js"></script>
+
+<!-- Styles -->
+<link rel="stylesheet" href="http://www.usbr.gov/css/main.min.css" />
+
+<link href="./css/main.pn.css" rel="stylesheet" type="text/css" />
+
+<!-- Modernizr -->
+<script src="http://www.usbr.gov/js/lib/modernizr.js"></script>
+ 
 </head>
 <body>
     <div class="Header" id="top" role="banner">
@@ -122,61 +151,56 @@
             <div class="Banner Banner--full">
                 <div class="Banner-content">
                     <div class="container">
-                        <h1>Bureau of Reclamation</h1>
+                        <h1><font color="red">DRAFT </font>Reclamation Water Information System (RWIS)</h1>
                     </div>
                 </div>
             </div><!-- end Banner -->
             <div class="Main-content container">
-                <div class="Main-well">
-                    <!-- 2 column layout -->
-                    <div class="Main-well-columns">
-                        <div class="Main-well-columns-content" style="width:100%">
-                        <div class="Explore-title" style="height: 37px; text-align: center; width: 100%;">Reclamation Water Information System</div>
-                            <div style="height: 212px">
-                                <div style="float: left; width: 50%; top: 60px; left: 10px; height: 200px;">
-                                    <div style="width: 28%; float: left; height: 75px; vertical-align: middle;">
-                                        <form action="querytool.html">
-                                            <input class="Button" type="submit" value="Query Tool" src="querytool.html" />
-                                        </form>
-                                    </div>
-                                    <div style="float: right; width: 70%; height: 75px;">
-                                        <p class="small-text">
-                                            Select data by site or parameter and display charts, graphs, tables and URL for 
-                                            Web services.</p>
-                                    </div>
-                                    <div style="width: 28%; float: left; height: 75px;">
-                                        <input type="button" value="Map Tool" class="Button" />
-                                    </div>
-                                    <div style="float: right; width: 70%; height: 75px;">
-                                        <p class="small-text">
-                                            Select data by site or parameter and display charts, graphs, tables and URL for 
-                                            Web services.</p>
-                                    </div>
-                                </div>
-                                <div style="position: relative; float: right">
-                                </div>
-                                <div style="float: right; width: 49%; height: 200px;">
-                                    <span class="Main">Introduction</span><br class="style1" />
-                                    <br class="style1" />
-                                    <span class="Main">The Reclamation Water Information System will allow query and 
-                                    map access to time series water data..</span></div>
-                            </div>
-                            <div style="height: 53px; width: 838px">
-                                <div style="float: left; width: 578px; height: 46px;">
-                                </div>
-                                <div style="float: right; width: 233px; height: 48px;">
-                                    <div style="float: left"><input id="Button3" type="button" value="Help" 
-                                            class="Button" /></div>
-                                    <div style="float: right"><input id="Button4" type="button" value="Contact Us" 
-                                            class="Button" /></div>
-                                </div>
-                                </div>
-                        </div><!-- end Main-well-columns -->
-                    </div><!-- end Main-well -->
-                </div><!-- end Main-content -->
-                <em>
-                    Last Updated: <!-- #BeginDate format:Am2 -->3/22/16<!-- #EndDate -->
-                </em>
+			          <!-- Breadcrumbs -->
+<div class="Breadcrumbs">
+  <div class="container">
+    <ul class="resetList">
+    <li><a href="http://www.usbr.gov">Reclamation Home</a></li>
+	<li><a href="index.html"><font color="red"><strong>DRAFT </strong></font>Reclamation Water Information System (RWIS)</a></li>
+	<li>About Us</li>
+    </ul>
+  </div>
+</div>
+
+      <!-- Left Navigation -->
+<div class="Main-nav">
+  <!-- Left Navigation --><!-- #BeginLibraryItem "/Library/lc-leftnav.lbi" -->			
+  <div class="Main-nav">
+  <div class="LeftNav" role="navigation">
+  <span class="LeftNav-title">RWIS</span>
+  <ul class="LeftNav-list">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="querytools.html">Query Tool</a></li>
+	<li><a href="map.html">Map</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="contactus.html">Contact Us</a></li>
+  </ul>
+  </div>
+  </div><!-- #EndLibraryItem -->
+  </div>
+  
+<div class="Main-well">
+<br>
+<h1><b>Provisional Data Disclaimer</b></h1>
+The Bureau of Reclamation makes efforts to maintain the accuracy of data found in the RWIS databases but the 
+data is largely unverified and should be considered preliminary and subject to change. Data and services are provided 
+with the express understanding that the United States Government makes no warranties, expressed or implied, concerning 
+the accuracy, completeness, usability, or suitability for any particular purpose of the information or data obtained 
+by access to this computer system. The United States shall be under no liability whatsoever to any individual or group 
+entity by reason of any use made thereof.
+<br><br>
+<a href="contactus.html">Contact us</a> for more information concerning the accuracy and appropriate uses of 
+these data or concerning other hydrologic data.
+<br>
+</div><!-- end Main-well -->
+	
+                    
+                
             </div><!-- end Main-wrap -->
         </div><!-- end Main -->
         <div>
@@ -241,7 +265,7 @@
         <script src="http://www.usbr.gov/js/components/explore.js"></script>
 
         <!-- Left Navigation -->
-        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>
+        <script src="http://www.usbr.gov/js/components/left-nav.js"></script>		
     </div>
 </body>
 </html>
